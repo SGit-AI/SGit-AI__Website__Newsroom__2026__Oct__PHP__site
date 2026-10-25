@@ -8,7 +8,7 @@
 
 # The risk graph: stakeholders, risks, weaknesses, vulnerabilities, code
 
-727 nodes and 1357 edges, built from the register on every release and joined to the graphs already on this site: the claims and their sources ([the story graph](https://refs.php.oct.2026.newsroom.sgit.ai/graph/)) and the fix and the code it changed ([the code review graph](https://refs.php.oct.2026.newsroom.sgit.ai/review/)). One graph, no copies: a claim, a source or a file is the same node here as there. The JSON is [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.9/grc-graph.json).
+727 nodes and 1357 edges, built from the register on every release and joined to the graphs already on this site: the claims and their sources ([the story graph](https://refs.php.oct.2026.newsroom.sgit.ai/graph/)) and the fix and the code it changed ([the code review graph](https://refs.php.oct.2026.newsroom.sgit.ai/review/)). One graph, no copies: a claim, a source or a file is the same node here as there. The JSON is [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.10/grc-graph.json).
 
 A line from a stakeholder group to a risk means someone in the group carries part of it or of a risk beneath it; a line from a risk to a weakness means the risk, or one beneath it, arises from it; the weaknesses on the two CVEs reach the fix and the code on [the code review graph](https://refs.php.oct.2026.newsroom.sgit.ai/review/). Each risk's own page draws its whole path.
 
@@ -161,4 +161,4 @@ Every edge says how it is known: read from a capture (with its slug), read from 
 
 
 ---
-site v0.22.13 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/graph/index.html
+site v0.22.14 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/graph/index.html
