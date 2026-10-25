@@ -37,9 +37,9 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [Edinburgh council's site went offline late on 21 October; the council called it 'essential maintenance' and did not confirm a link](../../../facts/edinburgh/index.html) | reported | **A3** Echoed●●●○○○ | [The Scotsman](../../../sources/scotsman-edinburgh-council-offline/index.html) |
-| [Oxford City Council: 'a precaution because of a worldwide issue with the underlying technology and is not a cyber incident'](../../../facts/oxford/index.html) | reported | **A2** Reported●●○○○○ | [Oxford Chronicle](../../../sources/oxfordchronicle-councils-offline/index.html) |
-| [Edinburgh and Oxford councils, the Met Police and the Office for Budget Responsibility were unavailable; Bristol, Lambeth and Barnet council sites showed errors](../../../facts/uk-list/index.html) | reported | **A3** Echoed●●●○○○ | [LBC](../../../sources/lbc-uk-websites-offline/index.html) [Insurance Business](../../../sources/insurancebusiness-uk-councils-met/index.html) |
+| [Edinburgh council's site went offline late on 21 October; the council called it 'essential maintenance' and did not confirm a link](https://refs.php.oct.2026.newsroom.sgit.ai/facts/edinburgh/) | reported | **A3** Echoed●●●○○○ | [The Scotsman](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scotsman-edinburgh-council-offline/) |
+| [Oxford City Council: 'a precaution because of a worldwide issue with the underlying technology and is not a cyber incident'](https://refs.php.oct.2026.newsroom.sgit.ai/facts/oxford/) | reported | **A2** Reported●●○○○○ | [Oxford Chronicle](https://refs.php.oct.2026.newsroom.sgit.ai/sources/oxfordchronicle-councils-offline/) |
+| [Edinburgh and Oxford councils, the Met Police and the Office for Budget Responsibility were unavailable; Bristol, Lambeth and Barnet council sites showed errors](https://refs.php.oct.2026.newsroom.sgit.ai/facts/uk-list/) | reported | **A3** Echoed●●●○○○ | [LBC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/lbc-uk-websites-offline/) [Insurance Business](https://refs.php.oct.2026.newsroom.sgit.ai/sources/insurancebusiness-uk-councils-met/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [Impact: taken offline versus compromised](../../../impact/index.h
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r04-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r04-2/index.html

@@ -10,7 +10,7 @@ The fractal risk register for Threat intelligence and detection: 4 risks assigne
 
 Amazon's honeypots, Huntress, watchTowr and the community authors of detection rules: the eyes that say whether exploitation is happening.
 
-**Kind** group · **Assigned here** 4 · **In its register** 4 · in the story as [Amazon](../../../actors/index.html#amazon), [Huntress](../../../actors/index.html#huntress), [watchTowr](../../../actors/index.html#watchtowr), [Community detection authors](../../../actors/index.html#detectors)
+**Kind** group · **Assigned here** 4 · **In its register** 4 · in the story as [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#amazon), [Huntress](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#huntress), [watchTowr](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#watchtowr), [Community detection authors](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#detectors)
 
 ## The register
 
@@ -43,4 +43,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/threat-intel/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/threat-intel/index.html

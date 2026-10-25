@@ -18,11 +18,11 @@ To paste back where it was asked: the paragraph above and `https://php.oct.2026.
 
 ## The answer, with its sources
 
-**No release for 8.1 and older.** php.net: *PHP 8.1 and older no longer receive updates from the PHP project.* Source-only backport branches exist for 7.4, 8.0 and 8.1. [php.net](../../sources/php-net-advisory/index.html) [php-src](../../sources/github-php-src-branch-7.4-backport/index.html)
+**No release for 8.1 and older.** php.net: *PHP 8.1 and older no longer receive updates from the PHP project.* Source-only backport branches exist for 7.4, 8.0 and 8.1. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-branch-7.4-backport/)
 
-**They are affected.** The CVE records list 8.2 to 8.5 only, but the backports imply at least 7.4 onward is affected, as Greenbone noted on oss-security. [oss-security](../../sources/openwall-oss-security-109619-thread/index.html) [CVE record](../../sources/cve-cve-2026-109618/index.html)
+**They are affected.** The CVE records list 8.2 to 8.5 only, but the backports imply at least 7.4 onward is affected, as Greenbone noted on oss-security. [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/)
 
-**CISA's advice** is that organisations running PHP 8.1 or older should take PHP-based systems offline. [CISA](../../sources/cisa-alert-php-20261021/index.html)
+**CISA's advice** is that organisations running PHP 8.1 or older should take PHP-based systems offline. [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/)
 
 ## The pages that carry it
 - [The two flaws: CVE-2026-109618 and CVE-2026-109619](../../flaws/index.html#versions)
@@ -33,4 +33,4 @@ Next question: [We are behind Cloudflare (or another firewall). Are we safe?](..
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/old-php/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/old-php/index.html

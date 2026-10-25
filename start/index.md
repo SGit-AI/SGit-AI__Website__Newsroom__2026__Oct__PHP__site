@@ -322,7 +322,7 @@ Patch internet-facing mod_php first, then FPM, then the rest; restart every work
 #### Reading path
 - [Your briefing](../briefings/cto/index.html) 4 min
 - [The two flaws](../flaws/index.html) 4 min
-- [The code](../code/index.html) 7 min
+- [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 - [If you run PHP](../playbook/index.html) 3 min
 - [Detection and defence](../defence/index.html) 3 min
 
@@ -512,7 +512,7 @@ Target 8.5.12, 8.4.27, 8.3.36 or 8.2.35; restart every worker and rebuild images
 - [The two flaws](../flaws/index.html) 4 min
 - [If you run PHP](../playbook/index.html) 3 min
 - [Affected systems](../affected/index.html) 1 min
-- [The code](../code/index.html) 7 min
+- [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 
 About 18 minutes in all. Choose *read as Drew* and the bar under the menu keeps your place on every page.
 
@@ -547,7 +547,7 @@ Your code is not the problem and cannot be the fix: the flaw is in the engine be
 #### Reading path
 - [Your briefing](../briefings/developer/index.html) 4 min
 - [The two flaws](../flaws/index.html) 4 min
-- [The code](../code/index.html) 7 min
+- [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 - [If you run PHP](../playbook/index.html) 3 min
 
 About 18 minutes in all. Choose *read as Lee* and the bar under the menu keeps your place on every page.
@@ -582,7 +582,7 @@ Two classes: an out-of-memory longjmp leaving request memory uninitialised, and 
 
 #### Reading path
 - [Your briefing](../briefings/researcher/index.html) 3 min
-- [The code](../code/index.html) 7 min
+- [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 - [The two flaws](../flaws/index.html) 4 min
 - [Who found it](../discovery/index.html) 2 min
 - [In context: 2008 to 2026](../context/index.html) 3 min
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/start/index.html

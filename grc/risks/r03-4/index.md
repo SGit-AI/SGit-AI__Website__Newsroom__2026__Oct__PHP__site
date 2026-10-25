@@ -37,7 +37,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [None of the public proof-of-concept exploits reviewed by VulnCheck has the correct mechanism; a lab reproduction of the leaked PoC's precondition produced a clean 200](../../../facts/pocs-wrong/index.html) | reported | **A1** Weak signal●○○○○○ | [rjmendez, GitHub](../../../sources/github-rjmendez-phpup-2026/index.html) [Huntress](../../../sources/huntress-php2shell-rapid-response/index.html) |
+| [None of the public proof-of-concept exploits reviewed by VulnCheck has the correct mechanism; a lab reproduction of the leaked PoC's precondition produced a clean 200](https://refs.php.oct.2026.newsroom.sgit.ai/facts/pocs-wrong/) | reported | **A1** Weak signal●○○○○○ | [rjmendez, GitHub](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-rjmendez-phpup-2026/) [Huntress](https://refs.php.oct.2026.newsroom.sgit.ai/sources/huntress-php2shell-rapid-response/) |
 
 ## Treatments
 
@@ -62,4 +62,4 @@ On this site: [Detection and defence: what blocks php2shell and what shows it](.
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-4/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-4/index.html

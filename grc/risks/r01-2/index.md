@@ -37,7 +37,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [Remote code execution is confirmed on PHP-FPM](../../../facts/rce-fpm/index.html) | disputed | **A6** Established●●●●●● | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [PHP](../../../sources/github-ghsa-6wmf-4rv5-p3rp/index.html) [PHP](../../../sources/github-ghsa-w8hw-w9fx-j79w/index.html) [oss-security](../../../sources/openwall-oss-security-2026-10-21-6/index.html) |
+| [Remote code execution is confirmed on PHP-FPM](https://refs.php.oct.2026.newsroom.sgit.ai/facts/rce-fpm/) | disputed | **A6** Established●●●●●● | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-2026-10-21-6/) |
 
 ## Treatments
 
@@ -60,4 +60,4 @@ On this site: [Affected systems: versions, deployments, applications, inventory]
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-2/index.html

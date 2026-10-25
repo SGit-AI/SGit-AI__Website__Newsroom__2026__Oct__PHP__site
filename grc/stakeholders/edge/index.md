@@ -10,7 +10,7 @@ The fractal risk register for Edge, WAF and detection vendors: 8 risks assigned 
 
 Cloudflare, Akamai, Fastly, Imperva and others who shipped filters before disclosure, and the threat-intelligence firms who reported what they saw.
 
-**Kind** group · **Assigned here** 2 · **In its register** 8 · in the story as [Cloudflare](../../../actors/index.html#cloudflare), [Akamai](../../../actors/index.html#akamai), [Fastly](../../../actors/index.html#fastly), [Imperva Threat Research](../../../actors/index.html#imperva)
+**Kind** group · **Assigned here** 2 · **In its register** 8 · in the story as [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#cloudflare), [Akamai](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#akamai), [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#fastly), [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#imperva)
 
 ## The register
 
@@ -51,4 +51,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/edge/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/edge/index.html

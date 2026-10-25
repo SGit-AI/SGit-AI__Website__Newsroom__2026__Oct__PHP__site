@@ -35,13 +35,13 @@ What it does not automatically reach- systems the server is not allowed to talk 
 - passwords that were never on that server
 - your own phone or computer
 
-In the jargon, this is *unauthenticated remote code execution*: no login needed, from anywhere, and the attacker's code runs. It is the most serious kind of flaw there is, which is why the response was so loud. The researchers proved it end to end against the most traditional way of running PHP, inside the Apache web server, before any of the website's own code had run. That last point matters: **it does not matter how well a website is written**; if PHP underneath it is unpatched, it is in scope. [php.net](../sources/php-net-advisory/index.html) [PHP](../sources/github-ghsa-w8hw-w9fx-j79w/index.html) [PHP](../sources/github-ghsa-6wmf-4rv5-p3rp/index.html)
+In the jargon, this is *unauthenticated remote code execution*: no login needed, from anywhere, and the attacker's code runs. It is the most serious kind of flaw there is, which is why the response was so loud. The researchers proved it end to end against the most traditional way of running PHP, inside the Apache web server, before any of the website's own code had run. That last point matters: **it does not matter how well a website is written**; if PHP underneath it is unpatched, it is in scope. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/)
 
-The technical version is on [the two flaws](../flaws/index.html), and the code itself on [the code](../code/index.html).
+The technical version is on [the two flaws](../flaws/index.html), and the code itself on [the code](https://refs.php.oct.2026.newsroom.sgit.ai/code/).
 
 ## 3. Why is it called php2shell?
 
-Serious flaws get nicknames so people can talk about them: Heartbleed, Shellshock, Log4Shell. **php2shell** reads as *PHP to shell*. A shell is the command line an administrator types into; getting a shell on a server means being able to run commands on it. So the name is the whole attack in one word: start with a PHP website, end with a command line on its server. The US NSA wrote it PHP2Shell. [NSA Cyber on X](../sources/nsa-x-2112903220209098897/index.html) [Calif](../sources/calif-php2shell/index.html)
+Serious flaws get nicknames so people can talk about them: Heartbleed, Shellshock, Log4Shell. **php2shell** reads as *PHP to shell*. A shell is the command line an administrator types into; getting a shell on a server means being able to run commands on it. So the name is the whole attack in one word: start with a PHP website, end with a command line on its server. The US NSA wrote it PHP2Shell. [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/)
 
 ## 4. What are CVE-2026-109618 and CVE-2026-109619?
 
@@ -55,17 +55,17 @@ PHP running out of memory mid-request can leave memory half set up, and the clea
 
 Leftover settings from one visitor's request can point at memory that has been released, and the next request on the same worker uses it. Severity 9.2 out of 10.
 
-Both are fixed in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, released on 21 October 2026. Older versions (8.1 and before) are past their support date and got no ready-made fix. [CVE record](../sources/cve-cve-2026-109618/index.html) [CVE record](../sources/cve-cve-2026-109619/index.html) [php.net](../sources/php-net-advisory/index.html)
+Both are fixed in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, released on 21 October 2026. Older versions (8.1 and before) are past their support date and got no ready-made fix. [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109619/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/)
 
 ## 5. Why did governments tell people to take websites offline?
 
-Because an unpatched website with this flaw can be taken over by anyone, and updating every server takes time. The US NSA and CISA said: if you cannot update, take the system offline until you can. The UK's NCSC put that fourth on its list, after updating and temporary fixes; several European agencies said isolate it; others did not mention it at all. Dutch government services, including the DigiD login many Dutch citizens use, were taken offline as a precaution. [NSA Cyber on X](../sources/nsa-x-2112903220209098897/index.html) [CISA](../sources/cisa-alert-php-20261021/index.html) [NCSC UK](../sources/ncsc-news-php/index.html) [Rijksoverheid / NCSC-NL](../sources/rijksoverheid-ncsc-php-news/index.html)
+Because an unpatched website with this flaw can be taken over by anyone, and updating every server takes time. The US NSA and CISA said: if you cannot update, take the system offline until you can. The UK's NCSC put that fourth on its list, after updating and temporary fixes; several European agencies said isolate it; others did not mention it at all. Dutch government services, including the DigiD login many Dutch citizens use, were taken offline as a precaution. [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [NCSC UK](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-news-php/) [Rijksoverheid / NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/rijksoverheid-ncsc-php-news/)
 
 Taking a site offline is a decision an organisation makes, not evidence it was attacked. The [agencies page](../agencies/index.html) sets the sixteen sets of advice side by side.
 
 ## 6. Was anyone actually hacked?
 
-Not that anyone has confirmed, as of the latest evidence this site holds. Attackers have certainly been trying: Cloudflare says it saw millions of attempts across its network, and Amazon says a decoy server was hit four days before the fix was public. But an attempt is not a success, no named organisation has said it was broken into, and the US list of flaws known to be exploited did not include either of these when last checked. That can change quickly, and this site will say so when the evidence does. [Matthew Prince, Cloudflare CEO on…](../sources/x-eastdakota-php2shell-stats/index.html) [THN](../sources/thehackernews-php2shell-4days/index.html) [CISA](../sources/cisa-kev-json/index.html)
+Not that anyone has confirmed, as of the latest evidence this site holds. Attackers have certainly been trying: Cloudflare says it saw millions of attempts across its network, and Amazon says a decoy server was hit four days before the fix was public. But an attempt is not a success, no named organisation has said it was broken into, and the US list of flaws known to be exploited did not include either of these when last checked. That can change quickly, and this site will say so when the evidence does. [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/)
 
 The details: [who went offline and who was compromised](../impact/index.html), and [every sign of exploitation, in order](../exploitation/index.html).
 
@@ -94,4 +94,4 @@ Every one of those statements links to the pages it comes from, and every one of
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/explained/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/explained/index.html

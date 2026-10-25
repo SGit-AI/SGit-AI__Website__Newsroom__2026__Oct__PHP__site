@@ -140,7 +140,7 @@ A fingerprint of a file: change one byte and the hash changes, so a published ha
 
 A SHA-256 hash is a 64-character fingerprint computed from a file's contents. Two different files practically never share one. Publishing the hash of every capture is how this site lets readers check its evidence without republishing other people's pages.
 
-[Where it matters in this story →](../sources/index.html)
+[Where it matters in this story →](https://refs.php.oct.2026.newsroom.sgit.ai/sources/)
 
 ### Honeypot
 
@@ -168,7 +168,7 @@ A C function that jumps out of the middle of running code without tidying up. PH
 
 longjmp is a low-level C mechanism for leaving a function in a hurry. It is fast and it skips cleanup, which is exactly the problem: PHP used it when a request ran out of memory, and the half-finished state it left behind is what the first flaw abuses.
 
-[Where it matters in this story →](../code/index.html)
+[Where it matters in this story →](https://refs.php.oct.2026.newsroom.sgit.ai/code/)
 
 ## M
 
@@ -214,7 +214,7 @@ What happens when a program tries to use more memory than it is allowed. One fla
 
 PHP sets a memory limit for each request. When a request hits it, PHP abandons the request. The first flaw (CVE-2026-109618) is that this abandonment could leave memory half set up, and the cleanup that follows could be steered by an attacker.
 
-[Where it matters in this story →](../code/index.html)
+[Where it matters in this story →](https://refs.php.oct.2026.newsroom.sgit.ai/code/)
 
 ## P
 
@@ -318,7 +318,7 @@ A memory bug where a program keeps using memory after releasing it, so an attack
 
 When a program frees memory it promises not to use it again. If it does anyway, whatever was put there since (possibly by an attacker's request) is read as if it were trusted. The second flaw (CVE-2026-109619) is of this kind, across two requests handled by the same worker.
 
-[Where it matters in this story →](../code/index.html)
+[Where it matters in this story →](https://refs.php.oct.2026.newsroom.sgit.ai/code/)
 
 ## V
 
@@ -364,8 +364,8 @@ The core of PHP, written in C, that runs PHP code. Both flaws are here, below ev
 
 The Zend engine is the part of PHP that reads PHP code and executes it, manages memory and handles errors. Because the flaws are in the engine, it does not matter how well the website's own code is written: any site on an unpatched PHP is in scope.
 
-[Where it matters in this story →](../code/index.html)
+[Where it matters in this story →](https://refs.php.oct.2026.newsroom.sgit.ai/code/)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/glossary/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/glossary/index.html

@@ -10,7 +10,7 @@ The fractal risk register for The PHP Foundation: 3 risks assigned to it or arri
 
 Funds core developers; published the account of discovery and the leak; the kind of body the Cyber Resilience Act calls an open-source steward.
 
-**Kind** organisation · **Assigned here** 3 · **In its register** 3 · in the story as [The PHP Foundation](../../../actors/index.html#php-foundation)
+**Kind** organisation · **Assigned here** 3 · **In its register** 3 · in the story as [The PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#php-foundation)
 
 ## The register
 
@@ -42,4 +42,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-foundation/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-foundation/index.html

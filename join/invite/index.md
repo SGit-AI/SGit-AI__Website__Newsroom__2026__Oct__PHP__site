@@ -4,7 +4,7 @@
 
 For the editor: make an invitation to give signed feedback on this site, as a QR code, a link and a share button, signed in the browser with an enrolled key.
 
-[Power users](../../collaborators/index.html) / [Join](../index.html) / Invite
+[Power users](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/) / [Join](../index.html) / Invite
 
 # Invite someone: a link and a QR code, signed on this device
 
@@ -18,4 +18,4 @@ An invitation enrols at most 3 devices and is a credential until it is used: sen
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/join/invite/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/join/invite/index.html

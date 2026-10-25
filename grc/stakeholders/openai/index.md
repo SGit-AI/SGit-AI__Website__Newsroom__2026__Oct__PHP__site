@@ -10,7 +10,7 @@ The fractal risk register for OpenAI (Patch the Planet): 1 risks assigned to it 
 
 Reported the same root cause on 11 August; ran the coordination coalition; a provider of a general-purpose model of the kind the EU AI Act regulates.
 
-**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [OpenAI](../../../actors/index.html#openai)
+**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [OpenAI](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#openai)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/openai/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/openai/index.html

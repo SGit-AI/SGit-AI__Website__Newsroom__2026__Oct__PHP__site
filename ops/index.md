@@ -50,7 +50,7 @@ frontv0.19.2 · 2026-10-25
 frontv0.19.2 · 2026-10-25
 ### [Front page: the core facts](../index.html#facts)
 factreportedv0.19.2 · 2026-10-25
-### [As of 09:35 UTC on 25 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](../facts/no-confirmed-compromise/index.html)
+### [As of 09:35 UTC on 25 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
 CISACISAHuntressAmazonfrontv0.17.0 · 2026-10-24
 ### [Front page: what nobody knows yet](../index.html#unknown)
 frontv0.17.0 · 2026-10-24
@@ -60,11 +60,11 @@ questionv0.14.8 · 2026-10-24
 storyv0.14.24 · 2026-10-24
 ### [The risk graph, before and after: what changed from one reader's five ideas](../articles/the-risk-graph-before-and-after/index.html)
 factreportedv0.12.1 · 2026-10-24
-### [In researchers' own tests, pre-authentication RCE was confirmed against WordPress, Drupal, Joomla, MediaWiki, Roundcube, Magento, phpMyAdmin, Nextcloud, Laravel, Symfony and WHMCS](../facts/wordpress-drupal/index.html)
+### [In researchers' own tests, pre-authentication RCE was confirmed against WordPress, Drupal, Joomla, MediaWiki, Roundcube, Magento, phpMyAdmin, Nextcloud, Laravel, Symfony and WHMCS](https://refs.php.oct.2026.newsroom.sgit.ai/facts/wordpress-drupal/)
 CalifWizfactreportedv0.12.1 · 2026-10-24
-### [PHP is used by almost 70% of websites whose server-side language is known](../facts/scale-70pc-websites/index.html)
+### [PHP is used by almost 70% of websites whose server-side language is known](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-70pc-websites/)
 CloudflareOpenAI on XWizfactunverifiedv0.12.1 · 2026-10-24
-### [70% of the Internet is affected](../facts/scale-70pc-internet/index.html)
+### [70% of the Internet is affected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-70pc-internet/)
 WizWiz on XBBC News
 
 Mark an item read with its circle: it fades, and leaves when you choose to hide read items. It comes back only if what it says changes.
@@ -96,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

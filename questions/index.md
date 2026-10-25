@@ -21,7 +21,7 @@ The questions people ask about php2shell when they see the headline, each with a
 | [Why is this such big news?](why-big-news/index.html) | Four things at once: the flaws are in PHP itself, which runs a large share of the web; they were found with AI help; the coordinated disclosure leaked a day early, so the fix shipped under pressure; and the NSA, CISA and NCSC told organisations that could not patch to take systems offline, which is why government, council and police sites went dark. | [PHP in October 2026: two critical security flaws, tracked as evidence](../index.html) [Who found php2shell, and what the AI did](../discovery/index.html) [How the coordinated disclosure broke](../leak/index.html) |
 | [We are on PHP 7.4, 8.0 or 8.1. Is there a patch?](old-php/index.html) | Not a release. PHP 8.1 and older are out of support; the project published source backport branches for 7.4, 8.0 and 8.1, which someone has to build. CISA says systems on 8.1 or older should be taken offline. Plan the migration to 8.2 or later now; in the meantime a distribution or vendor that backports, the temporary mitigations and isolation are the options. | [The two flaws: CVE-2026-109618 and CVE-2026-109619](../flaws/index.html#versions) [If you run PHP: the steps, in order, with their sources](../playbook/index.html) [Briefing for a CTO: What does this cost us in engineering time, what breaks when we patch, and what do we change so the next one is a non-event?](../briefings/cto/index.html) |
 | [We are behind Cloudflare (or another firewall). Are we safe?](waf-enough/index.html) | Safer, not safe. Cloudflare's rules were live about nine hours before disclosure, on every plan including Free, and Akamai, Fastly, Imperva and Fortinet followed. Every one of them calls it a stopgap and says patch anyway: attackers mutate payloads, and the rules only see traffic that goes through the firewall. | [Detection and defence: what blocks php2shell and what shows it](../defence/index.html) [Every claim, with its status and sources](../claims/index.html#waf) |
-| [Do our developers need to change our code?](change-code/index.html) | No. Both bugs are in the C engine that runs PHP, not in PHP code, and the demonstrated attack runs before any application code. The fix is updating the PHP runtime and restarting it. What developers can do is check the version on the machines they deploy to and rebuild container images. | [Briefing for a developer: Is my code the problem, what do I change, and how do I check the box I deployed to?](../briefings/developer/index.html) [The code: where php2shell lives and what the fix does](../code/index.html) [The fix, mapped to the code](../review/index.html) |
+| [Do our developers need to change our code?](change-code/index.html) | No. Both bugs are in the C engine that runs PHP, not in PHP code, and the demonstrated attack runs before any application code. The fix is updating the PHP runtime and restarting it. What developers can do is check the version on the machines they deploy to and rebuild container images. | [Briefing for a developer: Is my code the problem, what do I change, and how do I check the box I deployed to?](../briefings/developer/index.html) [The code: where php2shell lives and what the fix does](https://refs.php.oct.2026.newsroom.sgit.ai/code/) [The fix, mapped to the code](https://refs.php.oct.2026.newsroom.sgit.ai/review/) |
 
 ## Seen by readers, not yet in the vault
 
@@ -34,9 +34,9 @@ An article a reader has seen is listed here until a collector captures it into t
 ## The catalogue: every page, and what it answers
 
 ### Updates
-- [Every update, newest first](../updates/index.html):
-- [Daily: 22 Oct 20:03 UTC](../updates/2026-10-22T2003Z/index.html):
-- [How an update is written](../updates/readme/index.html):
+- [Every update, newest first](https://updates.php.oct.2026.newsroom.sgit.ai/updates/):
+- [Daily: 22 Oct 20:03 UTC](https://updates.php.oct.2026.newsroom.sgit.ai/updates/2026-10-22T2003Z/):
+- [How an update is written](https://updates.php.oct.2026.newsroom.sgit.ai/updates/readme/):
 
 ### Start here
 - [Who is reading? The readers of this site, mapped](../start/index.html): 16 kinds of reader, from someone who has never heard of PHP to the people who maintain it, mapped by what they need to do and how technical they want it, each with a thirty-second answer and a reading path.
@@ -64,30 +64,30 @@ An article a reader has seen is listed here until a collector captures it into t
 - [Briefing for a media and communications team: What can we say that is true, what should we not say, and what will we be asked?](../briefings/comms/index.html): The php2shell story for a media and communications team: a thirty-second answer, what to decide, a reading path, the claims it rests on with their status and sources, and what is still open.
 
 ### Yours
-- [Power users: start here](../collaborators/index.html): Where a power user of PHP October 2026 starts: the first fifteen minutes, the latest ask (what is new, what to do, the questions), the messages for the email list and the WhatsApp group, a form to join and a form for feedback, both encrypted in your browser.
+- [Power users: start here](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/): Where a power user of PHP October 2026 starts: the first fifteen minutes, the latest ask (what is new, what to do, the questions), the messages for the email list and the WhatsApp group, a form to join and a form for feedback, both encrypted in your browser.
 - [Join: a key for this device, in one tap](../join/index.html): Open the invitation the editor sent you and this page makes a key on your device, so the feedback you send from any page is signed as yours; the enrolled keys, as handles and fingerprints.
-- [Feedback from collaborators](../feedback/index.html):
+- [Feedback from collaborators](https://team.php.oct.2026.newsroom.sgit.ai/feedback/):
 - [Invite someone: a link and a QR code, signed on this device](../join/invite/index.html): For the editor: make an invitation to give signed feedback on this site, as a QR code, a link and a share button, signed in the browser with an enrolled key.
 - [Now: the phone app](../now/index.html):
 - [Your desk: what is new to you, and what changed](../you/index.html): What is new to you on this site and what changed since you read it, by part of the site; what you put aside; your notes; all kept in your browser, exportable.
 - [Your stack: what php2shell can reach in it](../stack/index.html): Describe what you run, the internet, the edge, the applications, the PHP and where it comes from, and what each can reach; see which runtimes the two flaws affect, the blast radius, what to do first and what on this site is about your stack. In your browser and your own vault.
 - [The feed viewer: this site, the records, and your own feeds](../reader/index.html): Read this site's feeds, the CVE records, NVD, OSV, CISA KEV, GitHub, Wikipedia, Hacker News and Mastodon, and any feed you add, in your browser, with what you have read marked and only what is new shown next time.
-- [Feeds: what is new and what changed](../feeds/index.html): RSS feeds for everything new and changed on this site and for each of its parts: an entry for every new item and every change, and where to read them.
+- [Feeds: what is new and what changed](https://updates.php.oct.2026.newsroom.sgit.ai/feeds/): RSS feeds for everything new and changed on this site and for each of its parts: an entry for every new item and every change, and where to read them.
 - [Subscribe: what changed, sent to you](../subscribe/index.html): Follow the PHP flaws story by email: everything or one part of the site, as it changes or as a digest; the address encrypted in your browser and confirmed before anything is sent.
 
 ### The incident
 - [PHP in October 2026: two critical security flaws, tracked as evidence](../index.html): PHP news for October 2026, led by the month's big story: two critical security flaws in PHP (CVE-2026-109618 and CVE-2026-109619, nicknamed php2shell). The current situation in plain words, the core facts with their evidence, what to do, and a briefing for every kind of reader.
-- [What's new: every change, release by release](../whatsnew/index.html): What changed on this site in each release: new facts, facts whose status changed, the briefings that moved for each reader and the sections that were rewritten.
+- [What's new: every change, release by release](https://updates.php.oct.2026.newsroom.sgit.ai/whatsnew/): What changed on this site in each release: new facts, facts whose status changed, the briefings that moved for each reader and the sections that were rewritten.
 - [The specialist summary: CVE-2026-109618 and CVE-2026-109619](../summary/index.html): The technical summary of the two PHP flaws of October 2026: what is established with its sources, the six scale figures, the open questions and the last 48 hours.
 - [The two flaws: CVE-2026-109618 and CVE-2026-109619](../flaws/index.html): What the CVE records, the GitHub advisories and the PHP security team say about php2shell: the bug classes, what was demonstrated, which deployments, which versions, the fix and the temporary mitigations, with the blast-radius questions.
-- [The code: where php2shell lives and what the fix does](../code/index.html): Read from a clone of php/php-src: the fix commit (389 files, authored 18 October, public 21 October 14:06 UTC), the engine mechanism it replaces, the hunks that matter, and the end-of-life backport.
+- [The code: where php2shell lives and what the fix does](https://refs.php.oct.2026.newsroom.sgit.ai/code/): Read from a clone of php/php-src: the fix commit (389 files, authored 18 October, public 21 October 14:06 UTC), the engine mechanism it replaces, the hunks that matter, and the end-of-life backport.
 - [The timeline, 2024 to the latest capture](../timeline/index.html): 68 dated events in the php2shell story, from the 2024 audit through discovery, coordinated disclosure, the leak, the release and the response, every one tied to a captured source.
 - [Who found php2shell, and what the AI did](../discovery/index.html): Calif, OpenAI and Wiz each claim the discovery of php2shell; their own timelines side by side, the 2024 audit that saw it first, the credits on the advisories, and what the sources do and do not say about the models.
 - [How the coordinated disclosure broke](../leak/index.html): Hour by hour from the first circulation of the CVE IDs on 20 October to the release on 21 October: the pre-announcement, the deleted video, the early WAF rules, the embargo break, the first attempts, and the three accounts that disagree on what leaked.
 - [Exploitation signals, in order](../exploitation/index.html): Every signal of php2shell exploitation in the captured sources, from an Amazon honeypot hit on 17 October to the KEV catalog, with what exploitation would look like on a host.
 - [No named organisation has said it was compromised through php2shell: the evidence](../compromise/index.html): The evidence behind one statement, as of 2026-10-25 09:35 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
-- [The fix, mapped to the code](../review/index.html): The php2shell fix as layered graphs: the two flaws, the design of the patch, and the php-src files and functions it changed, derived from the diff.
-- [Walk the graph: the fix and the code](../review/ui/index.html): A navigator over the php2shell review graph: the fix, the flaws it closes, and the files and functions it changed, each a link.
+- [The fix, mapped to the code](https://refs.php.oct.2026.newsroom.sgit.ai/review/): The php2shell fix as layered graphs: the two flaws, the design of the patch, and the php-src files and functions it changed, derived from the diff.
+- [Walk the graph: the fix and the code](https://refs.php.oct.2026.newsroom.sgit.ai/review/ui/): A navigator over the php2shell review graph: the fix, the flaws it closes, and the files and functions it changed, each a link.
 - [Impact: taken offline versus compromised](../impact/index.html): Two ledgers for php2shell: every system reported taken offline with who said so, and every claim of compromise with its basis. As of the latest capture, no named organisation has confirmed a compromise.
 - [Detection and defence: what blocks php2shell and what shows it](../defence/index.html): What Cloudflare, Akamai, Fastly, Imperva, AWS and Fortinet deployed and what each says it cannot do; the community Suricata, Sigma, Falco and ModSecurity rules; the host signals; and how hard the exploit is according to the vendors who tried.
 - [In context: php2shell against Kaminsky, Heartbleed, Shellshock, Log4Shell and the last PHP RCE](../context/index.html): Ten landmark vulnerabilities with their CVE records and KEV rows, the KEV catalog counted, and what the comparison says about severity, exposure, urgency and the discovery pipeline.
@@ -104,44 +104,44 @@ An article a reader has seen is listed here until a collector captures it into t
 - [The numbers: 70%, 30 million, 2.6 million, 6,000, 674](../numbers/index.html): Every scale figure in circulation about php2shell, with what it measures, who said it, whether anyone checked it, and why they differ by four orders of magnitude.
 - [What sixteen agencies actually advise](../agencies/index.html): The NSA, CISA, the UK NCSC, CERT-EU, ENISA, CERT-FR, Canada, Australia, New Zealand, the Netherlands, Italy, Switzerland, Latvia, Japan, Spain and Portugal on php2shell: who says take it offline, who says isolate, who says patch and nothing more, and who has seen exploitation.
 - [Affected systems: versions, deployments, applications, inventory](../affected/index.html): Which PHP versions and SAPIs php2shell affects, which applications had RCE demonstrated, and the NCSC-NL inventory of 674 products counted by status.
-- [Who says what: every party and its claims](../actors/index.html): 27 parties in the php2shell story, each with the claims this site attributes to it and the sources behind them.
-- [The story as a graph: who states what, who relays it, and what it rests on](../graph/index.html): 1482 nodes and 1857 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
-- [Every party on the story: who states, who relays, who publishes](../graph/parties/index.html): 384 parties resolved from 529 spellings, with the claims each one states and passes on.
-- [Wikipedia, as a graph](../wikipedia/index.html): Each Wikipedia article this site watches, read as a fractal semantic graph: statements classed as facts, attributions and quotes, references joined to the captures this site holds, and every edit as what it changed.
-- [Wikipedia's PHP2Shell article, as a graph](../wikipedia/php2shell/index.html): The English Wikipedia article on PHP2Shell read as a fractal semantic graph: 40 statements classed as facts, attributions and quotes, 45 references and which are captured here, 370 revisions, and where it meets this site's claims.
-- [Every statement in Wikipedia's PHP2Shell article, with its evidence](../wikipedia/php2shell/statements/index.html): All 40 statements of the article, classed as record, stated, attributed, quote or hedged by their wording, with their references, the captures this site holds and the claims that share them.
-- [Every reference in Wikipedia's PHP2Shell article](../wikipedia/php2shell/references/index.html): All 45 references of the article: which this site has captured, who publishes each, which statements cite it and which of this site's claims rest on the same page.
-- [Every edit of Wikipedia's PHP2Shell article, as what it changed](../wikipedia/php2shell/history/index.html): All 370 revisions of the article as the statements each one added, removed or reworded, with the editor, the size and the reverts.
-- [The evolution of Wikipedia's PHP2Shell article](../wikipedia/php2shell/evolution/index.html): Every statement ever written into the article as a lifeline from the edit that added it to the edit that removed it, with the size, references and statements over all 370 revisions, and the Wikidata item's own history.
-- [What Wikipedia's editors discuss about the PHP2Shell article](../wikipedia/php2shell/talk/index.html): The talk page of the article as threads: 8 discussions and 23 posts, including the edit requests outside parties made with a disclosed conflict of interest.
-- [Wikipedia's PHP2Shell article, read as one of its reviewers would](../wikipedia/php2shell/review/index.html): 15 findings on the article against this site's captured evidence, each with the Wikipedia policy it rests on and a change proposed for a human to put to the talk page; nothing is posted by an agent.
-- [For the editors of Wikipedia's articles on this story](../wikipedia/for-editors/index.html): What this site is in Wikipedia's terms, what it offers the article's editors (dated, hashed captures of the cited pages, a reviewer's reading, answers from the captures), and the rules it holds itself to: no agent edits Wikipedia, nothing written by a model is posted, no request to be cited.
-- [From a line of code to a stakeholder: the fractal graph](../fractal/index.html): One graph for php2shell: 359 changed lines of php-src, up through functions, files, the fix and the flaws, the claims and sources, the story arcs and the risks, to the fifteen kinds of reader who face them.
-- [Walk the whole graph: stakeholders to lines of code](../fractal/ui/index.html): A navigator over the php2shell fractal graph: stakeholders, risks, story arcs, claims, sources, the flaws, the fix, files, functions and changed lines, each node a link.
+- [Who says what: every party and its claims](https://refs.php.oct.2026.newsroom.sgit.ai/actors/): 27 parties in the php2shell story, each with the claims this site attributes to it and the sources behind them.
+- [The story as a graph: who states what, who relays it, and what it rests on](https://refs.php.oct.2026.newsroom.sgit.ai/graph/): 1482 nodes and 1857 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
+- [Every party on the story: who states, who relays, who publishes](https://refs.php.oct.2026.newsroom.sgit.ai/graph/parties/): 384 parties resolved from 529 spellings, with the claims each one states and passes on.
+- [Wikipedia, as a graph](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/): Each Wikipedia article this site watches, read as a fractal semantic graph: statements classed as facts, attributions and quotes, references joined to the captures this site holds, and every edit as what it changed.
+- [Wikipedia's PHP2Shell article, as a graph](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/): The English Wikipedia article on PHP2Shell read as a fractal semantic graph: 40 statements classed as facts, attributions and quotes, 45 references and which are captured here, 370 revisions, and where it meets this site's claims.
+- [Every statement in Wikipedia's PHP2Shell article, with its evidence](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/statements/): All 40 statements of the article, classed as record, stated, attributed, quote or hedged by their wording, with their references, the captures this site holds and the claims that share them.
+- [Every reference in Wikipedia's PHP2Shell article](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/references/): All 45 references of the article: which this site has captured, who publishes each, which statements cite it and which of this site's claims rest on the same page.
+- [Every edit of Wikipedia's PHP2Shell article, as what it changed](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/history/): All 370 revisions of the article as the statements each one added, removed or reworded, with the editor, the size and the reverts.
+- [The evolution of Wikipedia's PHP2Shell article](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/evolution/): Every statement ever written into the article as a lifeline from the edit that added it to the edit that removed it, with the size, references and statements over all 370 revisions, and the Wikidata item's own history.
+- [What Wikipedia's editors discuss about the PHP2Shell article](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/talk/): The talk page of the article as threads: 8 discussions and 23 posts, including the edit requests outside parties made with a disclosed conflict of interest.
+- [Wikipedia's PHP2Shell article, read as one of its reviewers would](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/review/): 15 findings on the article against this site's captured evidence, each with the Wikipedia policy it rests on and a change proposed for a human to put to the talk page; nothing is posted by an agent.
+- [For the editors of Wikipedia's articles on this story](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/for-editors/): What this site is in Wikipedia's terms, what it offers the article's editors (dated, hashed captures of the cited pages, a reviewer's reading, answers from the captures), and the rules it holds itself to: no agent edits Wikipedia, nothing written by a model is posted, no request to be cited.
+- [From a line of code to a stakeholder: the fractal graph](https://refs.php.oct.2026.newsroom.sgit.ai/fractal/): One graph for php2shell: 359 changed lines of php-src, up through functions, files, the fix and the flaws, the claims and sources, the story arcs and the risks, to the fifteen kinds of reader who face them.
+- [Walk the whole graph: stakeholders to lines of code](https://refs.php.oct.2026.newsroom.sgit.ai/fractal/ui/): A navigator over the php2shell fractal graph: stakeholders, risks, story arcs, claims, sources, the flaws, the fix, files, functions and changed lines, each node a link.
 - [From outside: other models and sites](../readings/index.html):
 - [Perplexity's notes, in full](../readings/perplexity-2026-10-22/index.html):
 
 ### The evidence
-- [Every source: 418 pages, 479 captures, 2814 hashes](../sources/index.html): The manifest of the php2shell evidence vault: every captured source with its publisher, kind, publication time, capture times, HTTP status and the SHA-256 of every captured file.
+- [Every source: 418 pages, 479 captures, 2814 hashes](https://refs.php.oct.2026.newsroom.sgit.ai/sources/): The manifest of the php2shell evidence vault: every captured source with its publisher, kind, publication time, capture times, HTTP status and the SHA-256 of every captured file.
 - [The NCSC-NL inventory: 674 products](../affected/software.html): Every row of the NCSC-NL php2shell software inventory at commit cca173c64ec5, with its status per CVE.
-- [The evidence vault, opened](../admin/vault/index.html): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
+- [The evidence vault, opened](https://team.php.oct.2026.newsroom.sgit.ai/admin/vault/): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
 - [Evidence, derived, authored](../layers/index.html):
 - [The fact pipeline: from a web page to a reader](../pipeline/index.html): How a source becomes a fact and a fact reaches a reader on this site: found, saved, read, cited, given a status, built into versioned sections and selected per reader, with counts at every stage and the facts by status in every release.
-- [How the story changed, release by release](../versions/index.html): Every section of the site, every reader's briefing and every fact, versioned across every release: what changed, when, and in which release.
-- [The vaults behind this site](../vaults/index.html): Every vault this site is built from: the evidence vault and the source watch, both public with their read keys, and the private telemetry vault with its write-only lane; what each holds, who writes to it and how to open it.
-- [The evidence vault, opened](../admin/vault/index.html): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
-- [The source watch: every outside source on php2shell, watched and snapshotted](../vaults/source-watch/index.html): The source-watch vault: 913 pages from 597 publishers in 59 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
-- [Who reads this site: anonymous telemetry over an append lane](../admin/telemetry/index.html): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Who reads this site: anonymous telemetry over an append lane](../admin/telemetry/index.html): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
+- [How the story changed, release by release](https://updates.php.oct.2026.newsroom.sgit.ai/versions/): Every section of the site, every reader's briefing and every fact, versioned across every release: what changed, when, and in which release.
+- [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/): Every vault this site is built from: the evidence vault and the source watch, both public with their read keys, and the private telemetry vault with its write-only lane; what each holds, who writes to it and how to open it.
+- [The evidence vault, opened](https://team.php.oct.2026.newsroom.sgit.ai/admin/vault/): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
+- [The source watch: every outside source on php2shell, watched and snapshotted](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/): The source-watch vault: 913 pages from 597 publishers in 59 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
+- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
+- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
 - [Subscribe: what changed, sent to you](../subscribe/index.html): Follow the PHP flaws story by email: everything or one part of the site, as it changes or as a digest; the address encrypted in your browser and confirmed before anything is sent.
-- [The vaults behind this site](../vaults/index.html#coverage):
-- [How the team talks: three vaults and one run](../team/channels/index.html#conductor):
-- [How the team talks: three vaults and one run](../team/channels/index.html#issues):
-- [How the team talks: three vaults and one run](../team/channels/index.html#mail):
-- [Who reads this site: anonymous telemetry over an append lane](../admin/telemetry/index.html): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Who reads this site: anonymous telemetry over an append lane](../admin/telemetry/index.html): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Power users: start here](../collaborators/index.html): Where a power user of PHP October 2026 starts: the first fifteen minutes, the latest ask (what is new, what to do, the questions), the messages for the email list and the WhatsApp group, a form to join and a form for feedback, both encrypted in your browser.
-- [Schedule: every agent that runs on its own](../team/schedule/index.html): Every scheduled agent on one day, its objective, its instructions, every run and the messages between agents, built from the repository.
+- [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/#coverage):
+- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#conductor):
+- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#issues):
+- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#mail):
+- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
+- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
+- [Power users: start here](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/): Where a power user of PHP October 2026 starts: the first fifteen minutes, the latest ask (what is new, what to do, the questions), the messages for the email list and the WhatsApp group, a form to join and a form for feedback, both encrypted in your browser.
+- [Schedule: every agent that runs on its own](https://team.php.oct.2026.newsroom.sgit.ai/team/schedule/): Every scheduled agent on one day, its objective, its instructions, every run and the messages between agents, built from the repository.
 
 ### GRC
 - [GRC: risks, owners, standards](../grc/index.html):
@@ -155,11 +155,11 @@ An article a reader has seen is listed here until a collector captures it into t
 - [From the sgit network](../grc/network/index.html):
 
 ### Views
-- [Views: the journalist's reading](../views/index.html):
-- [The state of affairs, now](../views/state/index.html):
-- [Every version, and what changed](../views/state/history/index.html):
-- [The journalist's desk: what is still stale](../views/desk/index.html):
-- [Every loop: researcher to correspondent](../views/loops/index.html):
+- [Views: the journalist's reading](https://updates.php.oct.2026.newsroom.sgit.ai/views/):
+- [The state of affairs, now](https://updates.php.oct.2026.newsroom.sgit.ai/views/state/):
+- [Every version, and what changed](https://updates.php.oct.2026.newsroom.sgit.ai/views/state/history/):
+- [The journalist's desk: what is still stale](https://updates.php.oct.2026.newsroom.sgit.ai/views/desk/):
+- [Every loop: researcher to correspondent](https://updates.php.oct.2026.newsroom.sgit.ai/views/loops/):
 
 ### Stories
 - [All stories, written here](../articles/index.html):
@@ -176,37 +176,37 @@ An article a reader has seen is listed here until a collector captures it into t
 
 ### About
 - [The method: capture, hash, claim, build, gate](../method/index.html): How this site keeps evidence: the private vault and its protocol, the five status words, the deterministic build, the gate, and how an agent adds a source or replicates the whole thing for the next incident.
-- [Design: the redesign, in mockups](../admin/design/index.html):
-- [The team: the people, the agents and how they work together](../team/index.html): Every member of the team that runs this site, 2 people and 19 agents and roles, with a page each: role, what they own, their tasks and what they shipped; how a run works, the pipeline and the 16 audiences.
+- [Design: the redesign, in mockups](https://team.php.oct.2026.newsroom.sgit.ai/admin/design/):
+- [The team: the people, the agents and how they work together](https://team.php.oct.2026.newsroom.sgit.ai/team/): Every member of the team that runs this site, 2 people and 19 agents and roles, with a page each: role, what they own, their tasks and what they shipped; how a run works, the pipeline and the 16 audiences.
 - [The billing model: what runs and what is designed](../billing/index.html): How this site is paid for: the reading meter that runs (pence per page, kept in your browser, never blocking), the provenance pricing that is designed (per claim, with a share for the fact creator), and a counted model of what the story cost to assemble.
 - [Your reading account](../account/index.html): The balance, history and receipts of your reading on this site, kept in your browser.
 - [The brief: a written request and two voice memos](../brief/index.html): The brief this site was built from, published in full: the editor's written request and two transcribed voice memos on mapping the PHP vulnerability as evidence.
 - [Corrections](../corrections/index.html): Where the brief or a page of this site was wrong, what was found and what was done instead.
-- [Release history](../admin/versions.html): Every release of this site, with what changed, why, the pages it changed and the vault commit it was built from.
-- [The pipeline: what is live, what is deploying](../status/index.html): Each newsroom site's deploy runs, read in your browser from GitHub's public API with no credential, beside the version the site serves now: what is live, what is deploying, what was superseded, what failed.
-- [Admin and engineering](../admin/index.html): How this site is built, the checks in its gate, where things are, the reality file and the honest column.
-- [How to work on this site: guidance for every agent](../admin/agents/index.html): Push to your own branch early and often and let dev@php.newsroom carry it into dev; quality from coding.sgit.ai, non-functional requirements from nfrs.sgit.ai, and the security requirements.
-- [The graph component: one way to draw every graph on this site](../graph/component/index.html): sg-graph, the web component every agent uses to put a graph on a page: the views, the data contract, the build helper, and the hashes of its files.
-- [status.json: the feed for other sites](../admin/status-json/index.html):
-- [The board](../admin/board/index.html): The work on this site and its vault, as rows: what is open, who owns it, what shipped it.
-- [Roles and responsibilities](../admin/roles/index.html): The roles on this site and its vault, who fills each, what it owns and the rules it enforces; how a new agent joins.
-- [Application security](../admin/appsec/index.html): The newsroom's application security: its threat model and data flows, every vulnerability found and fixed as an advisory with its root cause, who can do what, the incident runbooks, the bug bounty and the outside reviews.
-- [Briefs](../admin/briefs/index.html): Every build brief for this site, 66 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
-- [Pack mode, measured on the source watch](../admin/pack-mode/index.html): One vault as a normal sgit vault and as a pack vault: a fresh clone in 95 s against 13 min 47 s, the whole history pushed in 96 s, and why the normal vault has hit a wall.
-- [Who reads this site: anonymous telemetry over an append lane](../admin/telemetry/index.html): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Synthetic readers: six test readers who read the live site](../admin/synthetic/index.html): A board member, a CTO, a project manager, a security lead, a developer and a designer read the live site in a real browser and say what works, what does not and what to change; every review is published here and every run is kept in that reader's own vault.
-- [Every member: who owns what](../admin/agents/roles/index.html):
-- [Every round: what each member did](../admin/agents/rounds/index.html):
+- [Release history](https://team.php.oct.2026.newsroom.sgit.ai/admin/versions.html): Every release of this site, with what changed, why, the pages it changed and the vault commit it was built from.
+- [The pipeline: what is live, what is deploying](https://team.php.oct.2026.newsroom.sgit.ai/status/): Each newsroom site's deploy runs, read in your browser from GitHub's public API with no credential, beside the version the site serves now: what is live, what is deploying, what was superseded, what failed.
+- [Admin and engineering](https://team.php.oct.2026.newsroom.sgit.ai/admin/): How this site is built, the checks in its gate, where things are, the reality file and the honest column.
+- [How to work on this site: guidance for every agent](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/): Push to your own branch early and often and let dev@php.newsroom carry it into dev; quality from coding.sgit.ai, non-functional requirements from nfrs.sgit.ai, and the security requirements.
+- [The graph component: one way to draw every graph on this site](https://refs.php.oct.2026.newsroom.sgit.ai/graph/component/): sg-graph, the web component every agent uses to put a graph on a page: the views, the data contract, the build helper, and the hashes of its files.
+- [status.json: the feed for other sites](https://team.php.oct.2026.newsroom.sgit.ai/admin/status-json/):
+- [The board](https://team.php.oct.2026.newsroom.sgit.ai/admin/board/): The work on this site and its vault, as rows: what is open, who owns it, what shipped it.
+- [Roles and responsibilities](https://team.php.oct.2026.newsroom.sgit.ai/admin/roles/): The roles on this site and its vault, who fills each, what it owns and the rules it enforces; how a new agent joins.
+- [Application security](https://team.php.oct.2026.newsroom.sgit.ai/admin/appsec/): The newsroom's application security: its threat model and data flows, every vulnerability found and fixed as an advisory with its root cause, who can do what, the incident runbooks, the bug bounty and the outside reviews.
+- [Briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/): Every build brief for this site, 68 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
+- [Pack mode, measured on the source watch](https://team.php.oct.2026.newsroom.sgit.ai/admin/pack-mode/): One vault as a normal sgit vault and as a pack vault: a fresh clone in 95 s against 13 min 47 s, the whole history pushed in 96 s, and why the normal vault has hit a wall.
+- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
+- [Synthetic readers: six test readers who read the live site](https://team.php.oct.2026.newsroom.sgit.ai/admin/synthetic/): A board member, a CTO, a project manager, a security lead, a developer and a designer read the live site in a real browser and say what works, what does not and what to change; every review is published here and every run is kept in that reader's own vault.
+- [Every member: who owns what](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/roles/):
+- [Every round: what each member did](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/rounds/):
 
 ### Elsewhere
-- [What else is going on: Pulse](../pulse/index.html):
+- [What else is going on: Pulse](https://refs.php.oct.2026.newsroom.sgit.ai/pulse/):
 
-Every page also has a markdown twin, listed in [llms.txt](../llms.txt); the questions themselves are [data/questions.json](../data/questions.json).
+Every page also has a markdown twin, listed in [llms.txt](../llms.txt); the questions themselves are [data/questions.json](https://github.com/SGit-AI/sgit-ai__website__newsroom__2026__oct__php/blob/dev/data/questions.json).
 
 ## Asking a new question
 
-Answer a question with a page, not a paragraph. If no page answers it, the answer is written here with its sources, and the gap goes to the editor. A question that is asked twice gets a page. The librarian's role, rules and the mistake behind them are on [the team page](../team/index.html#librarian).
+Answer a question with a page, not a paragraph. If no page answers it, the answer is written here with its sources, and the gap goes to the editor. A question that is asked twice gets a page. The librarian's role, rules and the mistake behind them are on [the team page](https://team.php.oct.2026.newsroom.sgit.ai/team/#librarian).
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html

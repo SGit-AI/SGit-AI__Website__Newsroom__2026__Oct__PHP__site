@@ -8,13 +8,13 @@ Gaps in the php2shell risk graph, computed at every release from rules written a
 
 # What the risk graph is missing
 
-The graph shows what is joined; this page shows what is not. Each gap below is a rule, written as data in [data/grc-gaps.json](../../data/grc-gaps.json), computed over the 727 nodes and 1357 edges at every release: a control no test reaches, code nobody owns, a risk no story tells, a join an agent inferred that nobody has checked. Each names who could close it; each item opens in [the explorer](../explore/index.html).
+The graph shows what is joined; this page shows what is not. Each gap below is a rule, written as data in [data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.7/grc-gaps.json), computed over the 727 nodes and 1357 edges at every release: a control no test reaches, code nobody owns, a risk no story tells, a join an agent inferred that nobody has checked. Each names who could close it; each item opens in [the explorer](../explore/index.html).
 
 95controls joined to no code or test that implements them (of 95)16code with no owner one step away (of 16)9code no test reaches (of 16)14risks no story tells (of 34)0risks with no treatment (of 34)0risks with no owner (of 34)0vulnerabilities no test reaches (of 2)815edges inferred by an agent, not yet checked (of 1357)
 
 ## Controls joined to no code or test that implements them: 95 of 95
 
-A security requirement with nothing that implements or exercises it. Today every control is joined only through the risks it governs, so none is shown to be implemented or tested. Looks at every **control** for a path to test or code within 3 steps through tests, realised_in, located_in, implemented_by. Who could close it: [GRC desk](../../team/grc/index.html).
+A security requirement with nothing that implements or exercises it. Today every control is joined only through the risks it governs, so none is shown to be implemented or tested. Looks at every **control** for a path to test or code within 3 steps through tests, realised_in, located_in, implemented_by. Who could close it: [GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 The 95, each opening in the explorer- [CIS Controls 13.10: Perform application layer filtering](../explore/index.html#focus=control:cis:13.10)
 - [CIS Controls 16.4: Establish and manage an inventory of third-party software components](../explore/index.html#focus=control:cis:16.4)
 - [CIS Controls 2.2: Ensure authorised software is currently supported](../explore/index.html#focus=control:cis:2.2)
@@ -113,7 +113,7 @@ The 95, each opening in the explorer- [CIS Controls 13.10: Perform application l
 
 ## Code with no owner one step away: 16 of 16
 
-A file that matters to a risk with nobody named against it. Looks at every **code** for a path to stakeholder or member or role within 1 step. Who could close it: [GRC desk](../../team/grc/index.html).
+A file that matters to a risk with nobody named against it. Looks at every **code** for a path to stakeholder or member or role within 1 step. Who could close it: [GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 The 16, each opening in the explorer- [.github/workflows/pages.yml](../explore/index.html#focus=repo:.github/workflows/pages.yml)
 - [Zend/zend_alloc.c](../explore/index.html#focus=code:file:Zend/zend_alloc.c)
 - [Zend/zend_execute_API.c](../explore/index.html#focus=code:file:Zend/zend_execute_API.c)
@@ -133,7 +133,7 @@ The 16, each opening in the explorer- [.github/workflows/pages.yml](../explore/i
 
 ## Code no test reaches: 9 of 16
 
-Changed or named code with no test joined through its remediation. Looks at every **code** for a path to test within 2 steps through realised_in, tests. Who could close it: [dev@php.newsroom](../../team/dev/index.html).
+Changed or named code with no test joined through its remediation. Looks at every **code** for a path to test within 2 steps through realised_in, tests. Who could close it: [dev@php.newsroom](https://team.php.oct.2026.newsroom.sgit.ai/team/dev/).
 The 9, each opening in the explorer- [.github/workflows/pages.yml](../explore/index.html#focus=repo:.github/workflows/pages.yml)
 - [admin/build/release.sh](../explore/index.html#focus=repo:admin/build/release.sh)
 - [admin/build/security_check.py](../explore/index.html#focus=repo:admin/build/security_check.py)
@@ -146,7 +146,7 @@ The 9, each opening in the explorer- [.github/workflows/pages.yml](../explore/in
 
 ## Risks no story tells: 14 of 34
 
-A risk on the register that no story on the site explains to a reader. Looks at every **risk** for a path to story within 1 step. Who could close it: [Journalist](../../team/journalist/index.html).
+A risk on the register that no story on the site explains to a reader. Looks at every **risk** for a path to story within 1 step. Who could close it: [Journalist](https://team.php.oct.2026.newsroom.sgit.ai/team/journalist/).
 The 14, each opening in the explorer- [A compromise becomes a reportable breach](../explore/index.html#focus=risk:r06)
 - [A status word stronger than its evidence](../explore/index.html#focus=risk:r10-3)
 - [A vault key or token published](../explore/index.html#focus=risk:r10-2)
@@ -164,25 +164,25 @@ The 14, each opening in the explorer- [A compromise becomes a reportable breach]
 
 ## Risks with no treatment: 0 of 34
 
-A risk with nothing recorded that reduces it. Looks at every **risk** for a path to treatment within 1 step. Who could close it: [GRC desk](../../team/grc/index.html).
+A risk with nothing recorded that reduces it. Looks at every **risk** for a path to treatment within 1 step. Who could close it: [GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 
 None: every one reaches it.
 
 ## Risks with no owner: 0 of 34
 
-A risk nobody holds. Looks at every **risk** for a path to stakeholder or role within 1 step through owned_by. Who could close it: [GRC desk](../../team/grc/index.html).
+A risk nobody holds. Looks at every **risk** for a path to stakeholder or role within 1 step through owned_by. Who could close it: [GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 
 None: every one reaches it.
 
 ## Vulnerabilities no test reaches: 0 of 2
 
-A flaw whose fix nobody can show is tested. Looks at every **vulnerability** for a path to test within 2 steps. Who could close it: [dev@php.newsroom](../../team/dev/index.html).
+A flaw whose fix nobody can show is tested. Looks at every **vulnerability** for a path to test within 2 steps. Who could close it: [dev@php.newsroom](https://team.php.oct.2026.newsroom.sgit.ai/team/dev/).
 
 None: every one reaches it.
 
 ## Edges inferred by an agent, not yet checked: 815 of 1357
 
-A join an agent made that nobody has checked against a source, the code or a person. Who could close it: [GRC desk](../../team/grc/index.html).
+A join an agent made that nobody has checked against a source, the code or a person. Who could close it: [GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 
 | Verb | Edges | Example |
 |---|---|---|
@@ -208,4 +208,4 @@ A rule is a kind of node, what it should reach, within how many steps and throug
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/gaps/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/gaps/index.html

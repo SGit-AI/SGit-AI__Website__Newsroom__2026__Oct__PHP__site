@@ -18,9 +18,9 @@ To paste back where it was asked: the paragraph above and `https://php.oct.2026.
 
 ## The answer, with its sources
 
-**Rules exist.** Cloudflare at 03:02 UTC on 21 October for all plans; Akamai, Fastly and Imperva the same day; Fortinet signatures by 22 October, shipped in alert-only mode by default. [Cloudflare](../../sources/cloudflare-blog-php2shell-waf/index.html) [Akamai Security Research](../../sources/akamai-blog-php-core-rce/index.html) [Fastly](../../sources/fastly-blog-php2shell/index.html) [Imperva Threat Research](../../sources/imperva-blog-php2shell/index.html) [Fortinet Community](../../sources/fortinet-fortiweb-php2shell/index.html)
+**Rules exist.** Cloudflare at 03:02 UTC on 21 October for all plans; Akamai, Fastly and Imperva the same day; Fortinet signatures by 22 October, shipped in alert-only mode by default. [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Akamai Security Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/akamai-blog-php-core-rce/) [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fastly-blog-php2shell/) [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) [Fortinet Community](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fortinet-fortiweb-php2shell/)
 
-**Their own caveats.** Cloudflare's CTO: a stopgap only. Swiss BACS: not sufficient on its own. Tenable: Cloudflare's rules cover only traffic routed through Cloudflare, so a direct hit on the origin server is not covered. [Cloudflare](../../sources/cloudflare-blog-php2shell-waf/index.html) [BACS](../../sources/ch-bacs-warnung-php/index.html) [Tenable](../../sources/tenable-php2shell-faq/index.html)
+**Their own caveats.** Cloudflare's CTO: a stopgap only. Swiss BACS: not sufficient on its own. Tenable: Cloudflare's rules cover only traffic routed through Cloudflare, so a direct hit on the origin server is not covered. [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [BACS](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ch-bacs-warnung-php/) [Tenable](https://refs.php.oct.2026.newsroom.sgit.ai/sources/tenable-php2shell-faq/)
 
 ## The pages that carry it
 - [Detection and defence: what blocks php2shell and what shows it](../../defence/index.html)
@@ -30,4 +30,4 @@ Next question: [Do our developers need to change our code?](../change-code/index
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/waf-enough/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/waf-enough/index.html

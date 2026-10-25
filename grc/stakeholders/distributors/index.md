@@ -10,7 +10,7 @@ The fractal risk register for Distributors and packagers: 3 risks assigned to it
 
 Everyone between the PHP source and a running server: Linux distributions, container image builders, hosting panels. A fix reaches most servers through them, not from php.net.
 
-**Kind** group · **Assigned here** 2 · **In its register** 3 · in the story as [Chainguard](../../../actors/index.html#chainguard), [Dan Lorenc, Chainguard](../../../actors/index.html#chainguard-lorenc)
+**Kind** group · **Assigned here** 2 · **In its register** 3 · in the story as [Chainguard](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#chainguard), [Dan Lorenc, Chainguard](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#chainguard-lorenc)
 
 ## The register
 
@@ -47,4 +47,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/distributors/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/distributors/index.html

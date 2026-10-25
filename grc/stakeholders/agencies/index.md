@@ -10,7 +10,7 @@ The fractal risk register for Agencies and CERTs: 11 risks assigned to it or arr
 
 The national agencies that advised, and in some cases told their own governments to go offline.
 
-**Kind** group · **Assigned here** 3 · **In its register** 11 · in the story as [National agencies](../../../actors/index.html#agencies)
+**Kind** group · **Assigned here** 3 · **In its register** 11 · in the story as [National agencies](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#agencies)
 
 ## The register
 
@@ -55,4 +55,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/agencies/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/agencies/index.html

@@ -4,7 +4,7 @@
 
 Open the invitation the editor sent you and this page makes a key on your device, so the feedback you send from any page is signed as yours; the enrolled keys, as handles and fingerprints.
 
-[Power users](../collaborators/index.html) / Join
+[Power users](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/) / Join
 
 # Join: a key for this device, in one tap
 
@@ -16,7 +16,7 @@ Loading…
 
 ## How it works
 
-- **An invitation.** Ask Dinis, by email or on WhatsApp, or with [the join form](../collaborators/index.html#join). He makes it on his phone ([Invite](invite/index.html)) and sends you a link or a QR code meant for you alone.
+- **An invitation.** Ask Dinis, by email or on WhatsApp, or with [the join form](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/#join). He makes it on his phone ([Invite](invite/index.html)) and sends you a link or a QR code meant for you alone.
 
 - **One tap.** The link opens this page, which makes a key pair in your browser: one half signs, the other half is public. The signing half stays in this browser and cannot be copied out of it, by this site or anyone else.
 
@@ -41,8 +41,8 @@ Handles and fingerprints only, never a name. editor: The editor: his feedback an
 
 - A signature proves which key wrote a message, not who holds the key: that is what the editor's enrolment adds.
 
-Keys are in pki.sgit.ai's and sgit's format, so `sgit pki verify` checks every signature. The brief is on [briefs](../admin/briefs/index.html#2026-10-22__brief__feedback-keys-and-review).
+Keys are in pki.sgit.ai's and sgit's format, so `sgit pki verify` checks every signature. The brief is on [briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/#2026-10-22__brief__feedback-keys-and-review).
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/join/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/join/index.html

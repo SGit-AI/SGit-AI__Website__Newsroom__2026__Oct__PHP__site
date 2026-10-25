@@ -37,10 +37,10 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| ['Where immediate remediation is not feasible, organisations should consider taking the system offline until it can be fully mitigated'](../../../facts/offline-ncsc/index.html) | disputed | **A2** Reported●●○○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [NCSC UK](../../../sources/ncsc-news-php/index.html) [CCCS](../../../sources/cccs-al26-026/index.html) |
-| [The UK's NCSC, the NSA and their counterparts in the EU and Australia advise taking systems offline where patching is not feasible](../../../facts/offline-allies/index.html) | contradicted | **A1** Weak signal●○○○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [ACSC](../../../sources/acsc-alert-php/index.html) [CERT-EU](../../../sources/certeu-sa-2026-018/index.html) [NCSC-NL](../../../sources/ncsc-nl-php2shell/index.html) [ACN / CSIRT Italia](../../../sources/acn-it-php2shell/index.html) [JPCERT/CC](../../../sources/jpcert-at260033/index.html) |
-| [If an immediate update is not feasible, take the system offline until it can be fully mitigated](../../../facts/offline-nsa/index.html) | confirmed | **A6** Established●●●●●● | [NSA Cyber on X](../../../sources/nsa-x-2112903220209098897/index.html) [NSA](../../../sources/nsa-press-php-4630238/index.html) |
-| [Organisations that cannot update immediately, or that run PHP 8.1 or older, should take PHP-based systems offline](../../../facts/offline-cisa/index.html) | confirmed | **A6** Established●●●●●● | [CISA](../../../sources/cisa-alert-php-20261021/index.html) |
+| ['Where immediate remediation is not feasible, organisations should consider taking the system offline until it can be fully mitigated'](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-ncsc/) | disputed | **A2** Reported●●○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [NCSC UK](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-news-php/) [CCCS](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cccs-al26-026/) |
+| [The UK's NCSC, the NSA and their counterparts in the EU and Australia advise taking systems offline where patching is not feasible](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-allies/) | contradicted | **A1** Weak signal●○○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [ACSC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/acsc-alert-php/) [CERT-EU](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certeu-sa-2026-018/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell/) [ACN / CSIRT Italia](https://refs.php.oct.2026.newsroom.sgit.ai/sources/acn-it-php2shell/) [JPCERT/CC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/jpcert-at260033/) |
+| [If an immediate update is not feasible, take the system offline until it can be fully mitigated](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-nsa/) | confirmed | **A6** Established●●●●●● | [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) [NSA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-press-php-4630238/) |
+| [Organisations that cannot update immediately, or that run PHP 8.1 or older, should take PHP-based systems offline](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-cisa/) | confirmed | **A6** Established●●●●●● | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) |
 
 ## Treatments
 
@@ -64,4 +64,4 @@ On this site: [What sixteen agencies actually advise](../../../agencies/index.ht
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r04-3/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r04-3/index.html

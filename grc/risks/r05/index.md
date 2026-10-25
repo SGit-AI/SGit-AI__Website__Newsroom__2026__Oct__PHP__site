@@ -37,9 +37,9 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [A web application firewall may provide some protection until systems are patched](../../../facts/waf/index.html) | disputed | **A6** Established●●●●●● | [CISA](../../../sources/cisa-alert-php-20261021/index.html) [BACS](../../../sources/ch-bacs-warnung-php/index.html) [Cloudflare](../../../sources/cloudflare-blog-php2shell-waf/index.html) |
-| [Edge protections went live hours before disclosure: Cloudflare at 03:02 UTC; Imperva, Akamai and Fastly on 21 October; Fortinet signatures by 22 October](../../../facts/waf-nine-hours/index.html) | confirmed | **A2** Reported●●○○○○ | [Cloudflare](../../../sources/cloudflare-blog-php2shell-waf/index.html) [Imperva Threat Research](../../../sources/imperva-blog-php2shell/index.html) [Akamai Security Research](../../../sources/akamai-blog-php-core-rce/index.html) [Fastly](../../../sources/fastly-blog-php2shell/index.html) [Fortinet Community](../../../sources/fortinet-fortiweb-php2shell/index.html) |
-| [Updating is the only complete mitigation; the configuration measures reduce exposure to specific paths and do not make an installation safe](../../../facts/only-update/index.html) | confirmed | **A6** Established●●●●●● | [php.net](../../../sources/php-net-advisory/index.html) [oss-security](../../../sources/openwall-oss-security-2026-10-21-7/index.html) [PHP](../../../sources/github-ghsa-6wmf-4rv5-p3rp/index.html) |
+| [A web application firewall may provide some protection until systems are patched](https://refs.php.oct.2026.newsroom.sgit.ai/facts/waf/) | disputed | **A6** Established●●●●●● | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [BACS](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ch-bacs-warnung-php/) [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) |
+| [Edge protections went live hours before disclosure: Cloudflare at 03:02 UTC; Imperva, Akamai and Fastly on 21 October; Fortinet signatures by 22 October](https://refs.php.oct.2026.newsroom.sgit.ai/facts/waf-nine-hours/) | confirmed | **A2** Reported●●○○○○ | [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) [Akamai Security Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/akamai-blog-php-core-rce/) [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fastly-blog-php2shell/) [Fortinet Community](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fortinet-fortiweb-php2shell/) |
+| [Updating is the only complete mitigation; the configuration measures reduce exposure to specific paths and do not make an installation safe](https://refs.php.oct.2026.newsroom.sgit.ai/facts/only-update/) | confirmed | **A6** Established●●●●●● | [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-2026-10-21-7/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/) |
 
 ## Treatments
 
@@ -64,4 +64,4 @@ On this site: [Detection and defence: what blocks php2shell and what shows it](.
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r05/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r05/index.html

@@ -10,7 +10,7 @@ The fractal risk register for The fix authors: 1 risks assigned to it or arrivin
 
 Wrote and backported the engine fix (commit 3584a98bd).
 
-**Kind** team · **Assigned here** 1 · **In its register** 1 · in the story as [Arnaud Le Blanc and the PHP fix authors](../../../actors/index.html#leblanc)
+**Kind** team · **Assigned here** 1 · **In its register** 1 · in the story as [Arnaud Le Blanc and the PHP fix authors](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#leblanc)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-fix-authors/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-fix-authors/index.html

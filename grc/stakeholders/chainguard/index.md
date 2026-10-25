@@ -10,7 +10,7 @@ The fractal risk register for Chainguard: 1 risks assigned to it or arriving thr
 
 Published patched images before the embargo lifted, according to the PHP Foundation, which Chainguard disputes; found the same bugs with an AI harness.
 
-**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Chainguard](../../../actors/index.html#chainguard), [Dan Lorenc, Chainguard](../../../actors/index.html#chainguard-lorenc)
+**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Chainguard](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#chainguard), [Dan Lorenc, Chainguard](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#chainguard-lorenc)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/chainguard/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/chainguard/index.html

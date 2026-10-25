@@ -10,7 +10,7 @@ The fractal risk register for The PHP project: 11 risks assigned to it or arrivi
 
 The people who write, fix and release PHP: the PHP Group, the PHP Foundation, the security team and the fix authors.
 
-**Kind** group · **Assigned here** 3 · **In its register** 11 · in the story as [The PHP Group / php.net](../../../actors/index.html#php-group), [The PHP Foundation](../../../actors/index.html#php-foundation)
+**Kind** group · **Assigned here** 3 · **In its register** 11 · in the story as [The PHP Group / php.net](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#php-group), [The PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#php-foundation)
 
 ## The register
 
@@ -55,4 +55,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-project/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-project/index.html

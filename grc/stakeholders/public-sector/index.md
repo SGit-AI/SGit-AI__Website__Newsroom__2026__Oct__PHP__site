@@ -10,7 +10,7 @@ The fractal risk register for Governments and public services: 3 risks assigned 
 
 Ministries, agencies and councils: the Netherlands, Finland and Latvia took services offline; UK councils and the Met Police were unavailable.
 
-**Kind** group · **Assigned here** 1 · **In its register** 3 · in the story as [The Dutch government and NCSC-NL](../../../actors/index.html#rijksoverheid), [Valtori and NCSC-FI](../../../actors/index.html#valtori)
+**Kind** group · **Assigned here** 1 · **In its register** 3 · in the story as [The Dutch government and NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#rijksoverheid), [Valtori and NCSC-FI](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#valtori)
 
 ## The register
 
@@ -46,4 +46,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/public-sector/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/public-sector/index.html

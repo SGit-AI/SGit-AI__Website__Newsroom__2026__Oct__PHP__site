@@ -40,7 +40,7 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 
 | Treatment | Status | Where |
 |---|---|---|
-| Untrusted input fenced, flagged and never followed; the gate's injection check | in place | [How to work on this site: guidance for every agent](../../../admin/agents/index.html) |
+| Untrusted input fenced, flagged and never followed; the gate's injection check | in place | [How to work on this site: guidance for every agent](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/) |
 
 ## The standards that govern it
 
@@ -53,8 +53,8 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 ## The stories that tell it
 - No story on this site tells this risk yet.
 
-On this site: [How to work on this site: guidance for every agent](../../../admin/agents/index.html)
+On this site: [How to work on this site: guidance for every agent](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-1/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-1/index.html

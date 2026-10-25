@@ -10,7 +10,7 @@ The fractal risk register for The press: 6 risks assigned to it or arriving thro
 
 The outlets that told the story first, and the newsrooms that check it.
 
-**Kind** group · **Assigned here** 2 · **In its register** 6 · in the story as [BBC News](../../../actors/index.html#bbc), [The Hacker News](../../../actors/index.html#thn), [Alan Woodward, Surrey Centre for Cyber Security](../../../actors/index.html#woodward)
+**Kind** group · **Assigned here** 2 · **In its register** 6 · in the story as [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#bbc), [The Hacker News](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#thn), [Alan Woodward, Surrey Centre for Cyber Security](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#woodward)
 
 ## The register
 
@@ -48,4 +48,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/media/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/media/index.html

@@ -6,7 +6,7 @@ Follow the PHP flaws story by email: everything or one part of the site, as it c
 
 # Subscribe: what changed, sent to you
 
-The cheapest way to follow this story is to be told only what changed. Pick what to follow and how often, and the agent at [agent@diniscruz.ai](mailto:agent@diniscruz.ai) sends it: a message per release that changes what you follow, or a digest. No account; one address. Or skip email entirely: the [feeds](../feeds/index.html) carry the same changes.
+The cheapest way to follow this story is to be told only what changed. Pick what to follow and how often, and the agent at [agent@diniscruz.ai](mailto:agent@diniscruz.ai) sends it: a message per release that changes what you follow, or a digest. No account; one address. Or skip email entirely: the [feeds](https://updates.php.oct.2026.newsroom.sgit.ai/feeds/) carry the same changes.
 
 Your email address
 
@@ -33,4 +33,4 @@ Rather write? [Email agent@diniscruz.ai](mailto:agent@diniscruz.ai?subject=Subsc
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/subscribe/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/subscribe/index.html

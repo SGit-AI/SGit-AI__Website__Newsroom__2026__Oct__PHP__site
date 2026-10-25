@@ -37,8 +37,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [674 products in the NCSC-NL inventory: 206 vulnerable, 46 fixed, 418 under investigation, 3 not vulnerable](../../../facts/scale-ncsc-nl/index.html) | confirmed | **A1** Weak signal●○○○○○ | [NCSC-NL](../../../sources/ncsc-nl-php2shell-software-list/index.html) |
-| [VulnCheck counts about 2.6 million internet-facing hosts exposing PHP; Censys, of the 2.58 million hosts it saw, could read a version on 1.58 million, and 1.57 million of those were unpatched on 21 October](../../../facts/scale-2.6m-hosts/index.html) | reported | **A2** Reported●●○○○○ | [THN](../../../sources/thehackernews-php2shell-4days/index.html) [SecurityWeek](../../../sources/securityweek-exploitation-days-before/index.html) |
+| [674 products in the NCSC-NL inventory: 206 vulnerable, 46 fixed, 418 under investigation, 3 not vulnerable](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-ncsc-nl/) | confirmed | **A1** Weak signal●○○○○○ | [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/) |
+| [VulnCheck counts about 2.6 million internet-facing hosts exposing PHP; Censys, of the 2.58 million hosts it saw, could read a version on 1.58 million, and 1.57 million of those were unpatched on 21 October](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-2.6m-hosts/) | reported | **A2** Reported●●○○○○ | [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) [SecurityWeek](https://refs.php.oct.2026.newsroom.sgit.ai/sources/securityweek-exploitation-days-before/) |
 
 ## Treatments
 
@@ -64,4 +64,4 @@ On this site: [If you run PHP: the steps, in order, with their sources](../../..
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r09/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r09/index.html

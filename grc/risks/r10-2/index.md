@@ -41,7 +41,7 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 
 | Treatment | Status | Where |
 |---|---|---|
-| Credential-shape and vault-file checks in the gate and on the staged diff | in place | [The vaults behind this site](../../../vaults/index.html) |
+| Credential-shape and vault-file checks in the gate and on the staged diff | in place | [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/) |
 
 ## The standards that govern it
 
@@ -54,8 +54,8 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 ## The stories that tell it
 - No story on this site tells this risk yet.
 
-On this site: [The vaults behind this site](../../../vaults/index.html)
+On this site: [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-2/index.html

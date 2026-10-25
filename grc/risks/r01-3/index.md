@@ -39,8 +39,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [All PHP versions from 5 onwards are affected by at least one of the flaws](../../../facts/versions-old/index.html) | disputed | **A3** Echoed●●●○○○ | [NCSC-NL](../../../sources/ncsc-nl-advisories/index.html) [Wiz on X](../../../sources/x-wiz-io-php2shell/index.html) [CERT-FR](../../../sources/certfr-2026-ale-014/index.html) [oss-security](../../../sources/openwall-oss-security-109619-thread/index.html) |
-| [Organisations that cannot update immediately, or that run PHP 8.1 or older, should take PHP-based systems offline](../../../facts/offline-cisa/index.html) | confirmed | **A6** Established●●●●●● | [CISA](../../../sources/cisa-alert-php-20261021/index.html) |
+| [All PHP versions from 5 onwards are affected by at least one of the flaws](https://refs.php.oct.2026.newsroom.sgit.ai/facts/versions-old/) | disputed | **A3** Echoed●●●○○○ | [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-advisories/) [Wiz on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-wiz-io-php2shell/) [CERT-FR](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certfr-2026-ale-014/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/) |
+| [Organisations that cannot update immediately, or that run PHP 8.1 or older, should take PHP-based systems offline](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-cisa/) | confirmed | **A6** Established●●●●●● | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) |
 
 ## Treatments
 
@@ -68,4 +68,4 @@ On this site: [Patching: which versions get a fix, and from whom](../../../patch
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-3/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-3/index.html

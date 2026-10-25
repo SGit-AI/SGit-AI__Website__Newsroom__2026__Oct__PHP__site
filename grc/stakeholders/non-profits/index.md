@@ -10,7 +10,7 @@ The fractal risk register for Wikis, universities and non-profits: 0 risks assig
 
 The Wikimedia Foundation, Weird Gloop, the University of Geneva: large PHP estates, small budgets, and the one measured outage.
 
-**Kind** group · **Assigned here** 0 · **In its register** 0 · in the story as [Weird Gloop](../../../actors/index.html#weirdgloop)
+**Kind** group · **Assigned here** 0 · **In its register** 0 · in the story as [Weird Gloop](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#weirdgloop)
 
 ## The register
 
@@ -20,4 +20,4 @@ No risk is assigned here or below.
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/non-profits/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/non-profits/index.html

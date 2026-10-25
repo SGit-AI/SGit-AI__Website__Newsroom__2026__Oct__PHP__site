@@ -10,7 +10,7 @@ The fractal risk register for Wiz Research: 1 risks assigned to it or arriving t
 
 Independent discovery on 19 August; source of the '70% of the Internet' headline.
 
-**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Wiz Research](../../../actors/index.html#wiz)
+**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Wiz Research](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#wiz)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/wiz/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/wiz/index.html

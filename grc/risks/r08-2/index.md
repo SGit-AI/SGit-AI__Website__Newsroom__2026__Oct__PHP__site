@@ -37,10 +37,10 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [The GitHub advisories credit four reporters: lcfr-hax (Calif), sagitzadik-wiz (Wiz), amyb-oai (OpenAI) and tomash-areion](../../../facts/four-reporters/index.html) | confirmed | **A6** Established●●●●●● | [PHP](../../../sources/github-ghsa-w8hw-w9fx-j79w/index.html) [PHP](../../../sources/github-ghsa-6wmf-4rv5-p3rp/index.html) [Daubois](../../../sources/daubois-blog-php2shell-rumors/index.html) |
-| [Calif found the flaws first: discovery 1 August, hash commitment 5 August, report to PHP 11 August](../../../facts/who-first/index.html) | confirmed | **A3** Echoed●●●○○○ | [Calif](../../../sources/calif-php2shell/index.html) [Ryan Austin, Calif on X](../../../sources/x-lcfr-hax-hash-tweet/index.html) [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) |
-| [OpenAI independently reported the same root cause on 11 August, with further vectors on 18 September](../../../facts/openai-same-day/index.html) | reported | **A2** Reported●●○○○○ | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [PHP](../../../sources/github-ghsa-w8hw-w9fx-j79w/index.html) |
-| [Wiz Research independently discovered the first flaw on 19 August and reported on 24 August](../../../facts/wiz-independent/index.html) | reported | **A2** Reported●●○○○○ | [Wiz](../../../sources/wiz-blog-php2shell/index.html) [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) |
+| [The GitHub advisories credit four reporters: lcfr-hax (Calif), sagitzadik-wiz (Wiz), amyb-oai (OpenAI) and tomash-areion](https://refs.php.oct.2026.newsroom.sgit.ai/facts/four-reporters/) | confirmed | **A6** Established●●●●●● | [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/) [Daubois](https://refs.php.oct.2026.newsroom.sgit.ai/sources/daubois-blog-php2shell-rumors/) |
+| [Calif found the flaws first: discovery 1 August, hash commitment 5 August, report to PHP 11 August](https://refs.php.oct.2026.newsroom.sgit.ai/facts/who-first/) | confirmed | **A3** Echoed●●●○○○ | [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/) [Ryan Austin, Calif on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-lcfr-hax-hash-tweet/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) |
+| [OpenAI independently reported the same root cause on 11 August, with further vectors on 18 September](https://refs.php.oct.2026.newsroom.sgit.ai/facts/openai-same-day/) | reported | **A2** Reported●●○○○○ | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) |
+| [Wiz Research independently discovered the first flaw on 19 August and reported on 24 August](https://refs.php.oct.2026.newsroom.sgit.ai/facts/wiz-independent/) | reported | **A2** Reported●●○○○○ | [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [Who found php2shell, and what the AI did](../../../discovery/inde
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-2/index.html

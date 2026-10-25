@@ -14,14 +14,14 @@ Each layer is a smaller population than the one above, until the evidence runs o
 
 | Layer | How many |  | Signal | Status | Sources |
 |---|---|---|---|---|---|
-| **Websites that use PHP**of websites whose server-side language a survey can identify | **about 69 to 70%** |  | [exposure](#f-exposure) | reported | [Feross Aboukhadijeh on X on X](../sources/x-feross-chainguard/index.html) [Cloudflare](../sources/cloudflare-blog-php2shell-waf/index.html) [OpenAI on X](../sources/x-openai-php2shell/index.html) |
-| **Internet-facing hosts that expose PHP**hosts, one scanner's count (VulnCheck) | **2,608,039** |  | [exposure](#f-exposure) | reported | [THN](../sources/thehackernews-php2shell-4days/index.html) |
-| **Still unpatched on 21 October**hosts, Censys's count on the day of the release | **1.57 million** |  | [Patching](#f-patching) | reported | [SecurityWeek](../sources/securityweek-exploitation-days-before/index.html) |
-| **On a deployment where code execution has been shown**mod_php with default settings is demonstrated; PHP-FPM is disputed; nobody has counted either | **not measured** |  | [Internal vulnerability](#f-internal) | disputed | [PHP](../sources/github-ghsa-w8hw-w9fx-j79w/index.html) [PHP Foundation](../sources/php-foundation-blog-security-release/index.html) |
-| **Not behind an edge that blocks the request**Cloudflare, Akamai, Fastly and Imperva had rules live on 21 October; how many exposed hosts sit behind one is not published | **not measured** |  | [Network protection](#f-network) | reported | [Cloudflare](../sources/cloudflare-blog-php2shell-waf/index.html) [Akamai Security Research](../sources/akamai-blog-php-core-rce/index.html) [Imperva Threat Research](../sources/imperva-blog-php2shell/index.html) |
-| **Attempted**requests at one CDN by 01:25 UTC on 22 October; attempts, not sites | **millions of attempts** |  | [Exploitation](#f-exploitation) | reported | [Matthew Prince, Cloudflare CEO on…](../sources/x-eastdakota-php2shell-stats/index.html) |
-| **Exploited**named organisations confirming a compromise, in every captured source | **0 confirmed** |  | [Exploitation](#f-exploitation) | confirmed | [CISA](../sources/cisa-kev-json/index.html) [Huntress](../sources/huntress-php2shell-rapid-response/index.html) |
-| **Exploited, and holding something worth reaching**the number that matters: a compromised worker with credentials, data or a path inward | **not measured** |  | [Internal vulnerability](#f-internal) | unverified | [Weird Gloop](../sources/weirdgloop-blog-php2shell/index.html) |
+| **Websites that use PHP**of websites whose server-side language a survey can identify | **about 69 to 70%** |  | [exposure](#f-exposure) | reported | [Feross Aboukhadijeh on X on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-feross-chainguard/) [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [OpenAI on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-openai-php2shell/) |
+| **Internet-facing hosts that expose PHP**hosts, one scanner's count (VulnCheck) | **2,608,039** |  | [exposure](#f-exposure) | reported | [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) |
+| **Still unpatched on 21 October**hosts, Censys's count on the day of the release | **1.57 million** |  | [Patching](#f-patching) | reported | [SecurityWeek](https://refs.php.oct.2026.newsroom.sgit.ai/sources/securityweek-exploitation-days-before/) |
+| **On a deployment where code execution has been shown**mod_php with default settings is demonstrated; PHP-FPM is disputed; nobody has counted either | **not measured** |  | [Internal vulnerability](#f-internal) | disputed | [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) |
+| **Not behind an edge that blocks the request**Cloudflare, Akamai, Fastly and Imperva had rules live on 21 October; how many exposed hosts sit behind one is not published | **not measured** |  | [Network protection](#f-network) | reported | [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Akamai Security Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/akamai-blog-php-core-rce/) [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) |
+| **Attempted**requests at one CDN by 01:25 UTC on 22 October; attempts, not sites | **millions of attempts** |  | [Exploitation](#f-exploitation) | reported | [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) |
+| **Exploited**named organisations confirming a compromise, in every captured source | **0 confirmed** |  | [Exploitation](#f-exploitation) | confirmed | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [Huntress](https://refs.php.oct.2026.newsroom.sgit.ai/sources/huntress-php2shell-rapid-response/) |
+| **Exploited, and holding something worth reaching**the number that matters: a compromised worker with credentials, data or a path inward | **not measured** |  | [Internal vulnerability](#f-internal) | unverified | [Weird Gloop](https://refs.php.oct.2026.newsroom.sgit.ai/sources/weirdgloop-blog-php2shell/) |
 
 ## The four kinds of signal
 
@@ -31,7 +31,7 @@ The editor's four families: what each would show, what it shows now, and what wo
 
 *Who is trying, at what scale, and does anything land?*
 
-**Now.** Attempts at scale from the parties positioned to see them; one honeypot hit four days before release; no confirmed compromise; not in CISA's Known Exploited Vulnerabilities catalog. [Matthew Prince, Cloudflare CEO on…](../sources/x-eastdakota-php2shell-stats/index.html) [Amazon](../sources/aws-security-blog-madpot/index.html) [CISA](../sources/cisa-kev-json/index.html)
+**Now.** Attempts at scale from the parties positioned to see them; one honeypot hit four days before release; no confirmed compromise; not in CISA's Known Exploited Vulnerabilities catalog. [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/)
 
 **What would change it.** The KEV listing; a named victim; a gap between the date a site was compromised and the date it says so.
 
@@ -41,7 +41,7 @@ The editor's four families: what each would show, what it shows now, and what wo
 
 *How fast does the fix reach the servers, and who is left behind?*
 
-**Now.** Releases for 8.2 to 8.5 within the hour, distributions recorded fixed in the NCSC-NL inventory from 15:30 UTC on 21 October, and a long tail: 440 of 724 inventory rows still under investigation at 15:28 UTC on 22 October, about 25 hours after release, and 1.57 million unpatched hosts on the first day. [SecurityWeek](../sources/securityweek-exploitation-days-before/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell-software-list/index.html)
+**Now.** Releases for 8.2 to 8.5 within the hour, distributions recorded fixed in the NCSC-NL inventory from 15:30 UTC on 21 October, and a long tail: 440 of 724 inventory rows still under investigation at 15:28 UTC on 22 October, about 25 hours after release, and 1.57 million unpatched hosts on the first day. [SecurityWeek](https://refs.php.oct.2026.newsroom.sgit.ai/sources/securityweek-exploitation-days-before/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/)
 
 **What would change it.** Censys or VulnCheck recounting unpatched hosts; the inventory's investigation rows resolving; the end-of-life tail.
 
@@ -51,7 +51,7 @@ The editor's four families: what each would show, what it shows now, and what wo
 
 *What stood in front of the server, and did it hold?*
 
-**Now.** Edge rules live from 03:02 UTC on 21 October at Cloudflare and the same day at Akamai, Fastly and Imperva; Cloudflare saw attackers mutating payloads to get past them; Fortinet's signatures ship in alert-only mode. Some of the devices in front of servers run PHP themselves: Palo Alto lists every PAN-OS and Panorama version as affected, and the inventory has Check Point's firewall web interfaces and NetScaler ADC as vulnerable. [Cloudflare](../sources/cloudflare-blog-php2shell-waf/index.html) [Fortinet Community](../sources/fortinet-fortiweb-php2shell/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell-software-list/index.html)
+**Now.** Edge rules live from 03:02 UTC on 21 October at Cloudflare and the same day at Akamai, Fastly and Imperva; Cloudflare saw attackers mutating payloads to get past them; Fortinet's signatures ship in alert-only mode. Some of the devices in front of servers run PHP themselves: Palo Alto lists every PAN-OS and Panorama version as affected, and the inventory has Check Point's firewall web interfaces and NetScaler ADC as vulnerable. [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Fortinet Community](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fortinet-fortiweb-php2shell/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/)
 
 **What would change it.** A vendor reporting a bypass of its rule; a security appliance compromised through its own PHP.
 
@@ -61,7 +61,7 @@ The editor's four families: what each would show, what it shows now, and what wo
 
 *Once code runs as the web worker, what can it reach?*
 
-**Now.** No captured source describes what was behind a compromised server, because no compromise is confirmed. What exists are the signals defenders were told to look for: a PHP worker spawning a shell or downloading tools, new outbound connections from workers, and the warning that a clean log proves little. [CISA](../sources/cisa-alert-php-20261021/index.html) [Blevene](../sources/gist-blevene-detection-guide/index.html) [JPCERT/CC](../sources/jpcert-at260033/index.html)
+**Now.** No captured source describes what was behind a compromised server, because no compromise is confirmed. What exists are the signals defenders were told to look for: a PHP worker spawning a shell or downloading tools, new outbound connections from workers, and the warning that a clean log proves little. [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [Blevene](https://refs.php.oct.2026.newsroom.sgit.ai/sources/gist-blevene-detection-guide/) [JPCERT/CC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/jpcert-at260033/)
 
 **What would change it.** The first incident report that says what the attacker reached: credentials on the host, the database, the internal network, a cloud role.
 
@@ -73,13 +73,13 @@ The barriers between this bug and a breach, with the moment each became availabl
 
 | Barrier | Available | 21 Oct 00:00 → 22 Oct 16:00 UTC | A compromise after it says the organisation had | Sources |
 |---|---|---|---|---|
-| **Edge rules at the big WAF providers** | 21 October 2026, 03:02 UTC | Cloudflare, about nine hours before disclosure by its own account; Akamai, Fastly and Imperva the same day | No edge protection, or rules not switched on | [Cloudflare](../sources/cloudflare-blog-php2shell-waf/index.html) [Akamai Security Research](../sources/akamai-blog-php-core-rce/index.html) [Fastly](../sources/fastly-blog-php2shell/index.html) [Imperva Threat Research](../sources/imperva-blog-php2shell/index.html) |
-| **The first official advice to be ready to take systems offline** | 21 October 2026, 13:45 UTC | the NSA on X, before the CVE records were published | No way to pull a system quickly, or nobody with the authority to decide | [NSA Cyber on X](../sources/nsa-x-2112903220209098897/index.html) |
-| **Fixed PHP releases for every supported branch** | 21 October 2026, 14:00 UTC | tags at 13:35 UTC; the advisory at 14:00 | No patch pipeline: the organisation could not rebuild and redeploy PHP in time, or did not know where it ran | [php-src](../sources/github-php-src-tags/index.html) [php.net](../sources/php-net-advisory/index.html) |
-| **Configuration mitigations for those who could not patch** | 21 October 2026, 14:00 UTC | in the same advisory | No configuration management: settings could not be pushed to every server | [php.net](../sources/php-net-advisory/index.html) [PHP](../sources/github-ghsa-6wmf-4rv5-p3rp/index.html) |
-| **Fixed packages from the operating systems** | 21 October 2026, 15:30 UTC | the first one recorded in the NCSC-NL inventory (Red Hat); Ubuntu, Debian and the Docker image by 16:03 | Routine updates not applied, or the server on a distribution nobody maintains | [NCSC-NL](../sources/ncsc-nl-php2shell-software-list/index.html) |
-| **Host and log signals to look for** | 21 October 2026 | CISA's alert, dated 21 October with no time; community Sigma, Suricata and Falco rules followed | No monitoring that would see a worker spawn a shell or call out | [CISA](../sources/cisa-alert-php-20261021/index.html) [Blevene](../sources/gist-blevene-detection-guide/index.html) |
-| **Defence in depth behind the worker** | *not a release* | not a release: either it was built before 21 October or it was not there | Credentials the worker can use, a database it can read, an internal network it can call: the reach that turns code execution into a breach | [CISA](../sources/cisa-alert-php-20261021/index.html) [Blevene](../sources/gist-blevene-detection-guide/index.html) |
+| **Edge rules at the big WAF providers** | 21 October 2026, 03:02 UTC | Cloudflare, about nine hours before disclosure by its own account; Akamai, Fastly and Imperva the same day | No edge protection, or rules not switched on | [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Akamai Security Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/akamai-blog-php-core-rce/) [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fastly-blog-php2shell/) [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) |
+| **The first official advice to be ready to take systems offline** | 21 October 2026, 13:45 UTC | the NSA on X, before the CVE records were published | No way to pull a system quickly, or nobody with the authority to decide | [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) |
+| **Fixed PHP releases for every supported branch** | 21 October 2026, 14:00 UTC | tags at 13:35 UTC; the advisory at 14:00 | No patch pipeline: the organisation could not rebuild and redeploy PHP in time, or did not know where it ran | [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-tags/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) |
+| **Configuration mitigations for those who could not patch** | 21 October 2026, 14:00 UTC | in the same advisory | No configuration management: settings could not be pushed to every server | [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/) |
+| **Fixed packages from the operating systems** | 21 October 2026, 15:30 UTC | the first one recorded in the NCSC-NL inventory (Red Hat); Ubuntu, Debian and the Docker image by 16:03 | Routine updates not applied, or the server on a distribution nobody maintains | [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/) |
+| **Host and log signals to look for** | 21 October 2026 | CISA's alert, dated 21 October with no time; community Sigma, Suricata and Falco rules followed | No monitoring that would see a worker spawn a shell or call out | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [Blevene](https://refs.php.oct.2026.newsroom.sgit.ai/sources/gist-blevene-detection-guide/) |
+| **Defence in depth behind the worker** | *not a release* | not a release: either it was built before 21 October or it was not there | Credentials the worker can use, a database it can read, an internal network it can call: the reach that turns code execution into a breach | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [Blevene](https://refs.php.oct.2026.newsroom.sgit.ai/sources/gist-blevene-detection-guide/) |
 
 ## The reading
 - A site that was exposed and not exploited is evidence too. Attempts ran in the millions and confirmed compromises stayed at zero; the difference is the population this page is about, and nobody has counted it.
@@ -90,4 +90,4 @@ This page is the site's analysis, marked as research because every row rests on 
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/signals/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/signals/index.html

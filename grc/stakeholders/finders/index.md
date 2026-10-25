@@ -10,7 +10,7 @@ The fractal risk register for The finders: 7 risks assigned to it or arriving th
 
 The researchers and companies that found the flaws, several of them with frontier AI, and the audit that surfaced the first bug two years earlier.
 
-**Kind** group · **Assigned here** 4 · **In its register** 7 · in the story as [Calif](../../../actors/index.html#calif), [OpenAI](../../../actors/index.html#openai), [Wiz Research](../../../actors/index.html#wiz), [Quarkslab, OSTIF](../../../actors/index.html#quarkslab)
+**Kind** group · **Assigned here** 4 · **In its register** 7 · in the story as [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#calif), [OpenAI](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#openai), [Wiz Research](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#wiz), [Quarkslab, OSTIF](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#quarkslab)
 
 ## The register
 
@@ -52,4 +52,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/finders/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/finders/index.html

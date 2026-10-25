@@ -18,13 +18,13 @@ To paste back where it was asked: the paragraph above and `https://php.oct.2026.
 
 ## The answer, with its sources
 
-**Where the flaw is.** In the PHP engine, so it affects any PHP site regardless of the application on top, rated 9.2 out of 10. [CVE record](../../sources/cve-cve-2026-109618/index.html) [php.net](../../sources/php-net-advisory/index.html)
+**Where the flaw is.** In the PHP engine, so it affects any PHP site regardless of the application on top, rated 9.2 out of 10. [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/)
 
-**How it was found.** Calif, OpenAI and Wiz each found it with frontier AI models in August; the same root cause had been seen in a 2024 audit and left unfixed. [Calif](../../sources/calif-php2shell/index.html) [PHP Foundation](../../sources/php-foundation-blog-security-release/index.html) [Wiz](../../sources/wiz-blog-php2shell/index.html)
+**How it was found.** Calif, OpenAI and Wiz each found it with frontier AI models in August; the same root cause had been seen in a 2024 audit and left unfixed. [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/)
 
-**How disclosure broke.** The CVE IDs leaked on 20 October with a wrong 10.0 score, a demonstration video was published and deleted, and the release was brought forward a day. [PHP Foundation](../../sources/php-foundation-blog-security-release/index.html) [Daubois](../../sources/daubois-blog-php2shell-rumors/index.html)
+**How disclosure broke.** The CVE IDs leaked on 20 October with a wrong 10.0 score, a demonstration video was published and deleted, and the release was brought forward a day. [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [Daubois](https://refs.php.oct.2026.newsroom.sgit.ai/sources/daubois-blog-php2shell-rumors/)
 
-**What the agencies said.** The NSA's post was viewed 10.1 million times at capture; councils, the Met Police, the OBR and government sites in the Netherlands, Finland, France and Latvia went offline as a precaution. [NSA Cyber on X](../../sources/nsa-x-2112903220209098897/index.html) [LBC](../../sources/lbc-uk-websites-offline/index.html) [Rijksoverheid / NCSC-NL](../../sources/rijksoverheid-ncsc-php-news/index.html) [CERT.LV](../../sources/certlv-php-preventive/index.html)
+**What the agencies said.** The NSA's post was viewed 10.1 million times at capture; councils, the Met Police, the OBR and government sites in the Netherlands, Finland, France and Latvia went offline as a precaution. [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) [LBC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/lbc-uk-websites-offline/) [Rijksoverheid / NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/rijksoverheid-ncsc-php-news/) [CERT.LV](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certlv-php-preventive/)
 
 ## The pages that carry it
 - [PHP in October 2026: two critical security flaws, tracked as evidence](../../index.html)
@@ -37,4 +37,4 @@ Next question: [We are on PHP 7.4, 8.0 or 8.1. Is there a patch?](../old-php/ind
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/why-big-news/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/why-big-news/index.html

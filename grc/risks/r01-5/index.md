@@ -38,7 +38,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [In researchers' own tests, pre-authentication RCE was confirmed against WordPress, Drupal, Joomla, MediaWiki, Roundcube, Magento, phpMyAdmin, Nextcloud, Laravel, Symfony and WHMCS](../../../facts/wordpress-drupal/index.html) | reported | **A2** Reported●●○○○○ | [Calif](../../../sources/calif-php2shell/index.html) [Wiz](../../../sources/wiz-blog-php2shell/index.html) |
+| [In researchers' own tests, pre-authentication RCE was confirmed against WordPress, Drupal, Joomla, MediaWiki, Roundcube, Magento, phpMyAdmin, Nextcloud, Laravel, Symfony and WHMCS](https://refs.php.oct.2026.newsroom.sgit.ai/facts/wordpress-drupal/) | reported | **A2** Reported●●○○○○ | [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) |
 
 ## Treatments
 
@@ -62,4 +62,4 @@ On this site: [Affected systems: versions, deployments, applications, inventory]
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-5/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-5/index.html

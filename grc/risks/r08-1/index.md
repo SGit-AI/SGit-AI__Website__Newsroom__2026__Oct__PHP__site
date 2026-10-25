@@ -38,8 +38,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [The out-of-memory issue was found in a 2024 audit by Quarkslab (funded through OSTIF and the Sovereign Tech Agency) but exploitation was not proven, so it was not fixed](../../../facts/quarkslab-2024/index.html) | confirmed | **A2** Reported●●○○○○ | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [Calif](../../../sources/calif-php2shell/index.html) |
-| [Quarkslab's published audit summary lists 27 findings, two redacted because their fixes were complex and in progress; it does not describe an out-of-memory finding](../../../facts/quarkslab-redacted/index.html) | reported | **A6** Established●●●●●● | [Quarkslab](../../../sources/quarkslab-blog-php-src-audit/index.html) [David Lopez-Kurtz](../../../sources/substack-lopezkurtz-patch-is-the-exploit/index.html) |
+| [The out-of-memory issue was found in a 2024 audit by Quarkslab (funded through OSTIF and the Sovereign Tech Agency) but exploitation was not proven, so it was not fixed](https://refs.php.oct.2026.newsroom.sgit.ai/facts/quarkslab-2024/) | confirmed | **A2** Reported●●○○○○ | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/) |
+| [Quarkslab's published audit summary lists 27 findings, two redacted because their fixes were complex and in progress; it does not describe an out-of-memory finding](https://refs.php.oct.2026.newsroom.sgit.ai/facts/quarkslab-redacted/) | reported | **A6** Established●●●●●● | [Quarkslab](https://refs.php.oct.2026.newsroom.sgit.ai/sources/quarkslab-blog-php-src-audit/) [David Lopez-Kurtz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/substack-lopezkurtz-patch-is-the-exploit/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [Who found php2shell, and what the AI did](../../../discovery/inde
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-1/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-1/index.html

@@ -10,7 +10,7 @@ The fractal risk register for Calif: 1 risks assigned to it or arriving through 
 
 First reporter; published the write-up and, by mistake, a video of its proof of concept on 20 October.
 
-**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Calif](../../../actors/index.html#calif)
+**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#calif)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/calif/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/calif/index.html

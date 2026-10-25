@@ -36,9 +36,9 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [Exploit attempts across Cloudflare's network: thousands in the ten hours before announcement, tens of thousands within 45 minutes after, hundreds of thousands within two hours, millions by 22 October 01:25 UTC](../../../facts/cf-millions/index.html) | reported | **A2** Reported●●○○○○ | [Matthew Prince, Cloudflare CEO on…](../../../sources/x-eastdakota-php2shell-stats/index.html) |
-| [Cloudflare observed attack traffic targeting its customers after the leak, with attackers mutating payloads](../../../facts/cloudflare-traffic/index.html) | reported | **A2** Reported●●○○○○ | [Cloudflare](../../../sources/cloudflare-blog-php2shell-waf/index.html) |
-| [Amazon and Cloudflare saw sites being probed for the flaw](../../../facts/probing/index.html) | confirmed | **A5** Confirmed●●●●●○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [Cloudflare](../../../sources/cloudflare-blog-php2shell-waf/index.html) [Amazon](../../../sources/aws-security-blog-madpot/index.html) |
+| [Exploit attempts across Cloudflare's network: thousands in the ten hours before announcement, tens of thousands within 45 minutes after, hundreds of thousands within two hours, millions by 22 October 01:25 UTC](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cf-millions/) | reported | **A2** Reported●●○○○○ | [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) |
+| [Cloudflare observed attack traffic targeting its customers after the leak, with attackers mutating payloads](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cloudflare-traffic/) | reported | **A2** Reported●●○○○○ | [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) |
+| [Amazon and Cloudflare saw sites being probed for the flaw](https://refs.php.oct.2026.newsroom.sgit.ai/facts/probing/) | confirmed | **A5** Confirmed●●●●●○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [Exploitation signals, in order](../../../exploitation/index.html)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-2/index.html

@@ -10,7 +10,7 @@ The fractal risk register for Quarkslab and OSTIF: 1 risks assigned to it or arr
 
 The 2024 audit, funded through OSTIF and the Sovereign Tech Agency, that found the out-of-memory issue without its exploitation.
 
-**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Quarkslab, OSTIF](../../../actors/index.html#quarkslab)
+**Kind** organisation · **Assigned here** 1 · **In its register** 1 · in the story as [Quarkslab, OSTIF](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#quarkslab)
 
 ## The register
 
@@ -40,4 +40,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/quarkslab/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/quarkslab/index.html

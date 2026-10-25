@@ -37,7 +37,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [Mitigation advice given to a few critical-infrastructure providers from about 23:00 UTC on 20 October may have leaked](../../../facts/leak-mitigations/index.html) | reported | **A2** Reported●●○○○○ | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) |
+| [Mitigation advice given to a few critical-infrastructure providers from about 23:00 UTC on 20 October may have leaked](https://refs.php.oct.2026.newsroom.sgit.ai/facts/leak-mitigations/) | reported | **A2** Reported●●○○○○ | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) |
 
 ## Treatments
 
@@ -61,4 +61,4 @@ On this site: [How the coordinated disclosure broke](../../../leak/index.html)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r02-2/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r02-2/index.html

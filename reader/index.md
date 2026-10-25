@@ -6,7 +6,7 @@ Read this site's feeds, the CVE records, NVD, OSV, CISA KEV, GitHub, Wikipedia, 
 
 # The feed viewer: this site, the records, and your own feeds
 
-Every feed here is read by your browser, directly from its publisher, and what you have read in each is kept with the rest of [your desk](../you/index.html): the next time you come, a feed shows you only what is new or changed. This site's own [feeds](../feeds/index.html) are first; then the outside sources a browser is allowed to read (the CVE records, NVD, OSV, CISA's catalog of exploited flaws, GitHub, Wikipedia, Hacker News, Mastodon); then the ones that do not allow it, and why. Add any feed you like below the list.
+Every feed here is read by your browser, directly from its publisher, and what you have read in each is kept with the rest of [your desk](../you/index.html): the next time you come, a feed shows you only what is new or changed. This site's own [feeds](https://updates.php.oct.2026.newsroom.sgit.ai/feeds/) are first; then the outside sources a browser is allowed to read (the CVE records, NVD, OSV, CISA's catalog of exploited flaws, GitHub, Wikipedia, Hacker News, Mastodon); then the ones that do not allow it, and why. Add any feed you like below the list.
 
 The viewer needs JavaScript.
 
@@ -22,4 +22,4 @@ The viewer needs JavaScript.
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/reader/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/reader/index.html

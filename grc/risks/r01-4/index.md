@@ -39,15 +39,15 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [The 8.5.12 fix may be incomplete, or there is a third, different bug](../../../facts/fix-incomplete/index.html) | unverified | **A1** Weak signal●○○○○○ | [oss-security](../../../sources/openwall-oss-security-109619-thread/index.html) |
-| [Patching the demonstrated paths does not make the bailout mechanism safe; more paths should be expected](../../../facts/more-paths/index.html) | reported | **A2** Reported●●○○○○ | [Fastly](../../../sources/fastly-blog-php2shell/index.html) [oss-security](../../../sources/openwall-oss-security-109619-thread/index.html) |
-| [The fix removes longjmp() for out-of-memory errors in favour of a delayed soft OOM at the next VM safe point and a hard OOM via _exit(); the changelog line is 'Avoid state corruption via bailout'](../../../facts/fix-bailout/index.html) | confirmed | **A6** Established●●●●●● | [PHP](../../../sources/github-ghsa-w8hw-w9fx-j79w/index.html) [php.net](../../../sources/php-net-changelog-8/index.html) [php-src](../../../sources/github-php-src-branch-7.4-backport/index.html) |
+| [The 8.5.12 fix may be incomplete, or there is a third, different bug](https://refs.php.oct.2026.newsroom.sgit.ai/facts/fix-incomplete/) | unverified | **A1** Weak signal●○○○○○ | [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/) |
+| [Patching the demonstrated paths does not make the bailout mechanism safe; more paths should be expected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/more-paths/) | reported | **A2** Reported●●○○○○ | [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fastly-blog-php2shell/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/) |
+| [The fix removes longjmp() for out-of-memory errors in favour of a delayed soft OOM at the next VM safe point and a hard OOM via _exit(); the changelog line is 'Avoid state corruption via bailout'](https://refs.php.oct.2026.newsroom.sgit.ai/facts/fix-bailout/) | confirmed | **A6** Established●●●●●● | [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-changelog-8/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-branch-7.4-backport/) |
 
 ## Treatments
 
 | Treatment | Status | Where |
 |---|---|---|
-| The fix replaces the longjmp bailout with a delayed soft limit and a clean hard exit | partial | [The fix, mapped to the code](../../../review/index.html#remediation) |
+| The fix replaces the longjmp bailout with a delayed soft limit and a clean hard exit | partial | [The fix, mapped to the code](https://refs.php.oct.2026.newsroom.sgit.ai/review/#remediation) |
 | Keep detection and filters after patching | partial | [Detection and defence: what blocks php2shell and what shows it](../../../defence/index.html) |
 
 ## The standards that govern it
@@ -63,8 +63,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 - [Patch at the speed of Metasploit: where php2shell sits on the weaponisation ladder, and the attacks that come second and third](../../../articles/patch-at-the-speed-of-metasploit/index.html)
 - [Where php2shell stands: many sites dark, millions of attempts, no confirmed breach](../../../articles/where-php2shell-stands/index.html) (through Remote code execution on internet-facing PHP servers)
 
-On this site: [The fix, mapped to the code](../../../review/index.html) · [The code: where php2shell lives and what the fix does](../../../code/index.html)
+On this site: [The fix, mapped to the code](https://refs.php.oct.2026.newsroom.sgit.ai/review/) · [The code: where php2shell lives and what the fix does](https://refs.php.oct.2026.newsroom.sgit.ai/code/)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-4/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r01-4/index.html

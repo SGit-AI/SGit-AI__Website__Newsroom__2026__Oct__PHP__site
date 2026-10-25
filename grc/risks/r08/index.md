@@ -47,12 +47,12 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [The flaws were found by researchers using frontier AI under OpenAI's Patch the Planet initiative](../../../facts/ai-found/index.html) | reported | **A3** Echoed●●●○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [OpenAI on X](../../../sources/x-openai-php2shell/index.html) [Calif](../../../sources/calif-php2shell/index.html) [Wiz](../../../sources/wiz-blog-php2shell/index.html) |
-| [Frontier AI found the flaw ahead of attackers, giving defenders time to prepare](../../../facts/ahead-of-attackers/index.html) | disputed | **A2** Reported●●○○○○ | [OpenAI on X](../../../sources/x-openai-php2shell/index.html) [THN](../../../sources/thehackernews-php2shell-4days/index.html) |
-| [Chainguard's team found the same bugs independently with an AI harness and a frontier model after a researcher warned them on the Friday before](../../../facts/lorenc-ai-found/index.html) | reported | **A2** Reported●●○○○○ | [The Register](../../../sources/theregister-php-blames-chainguard/index.html) |
-| [Criminals are using AI to 'vibe code' an attack method](../../../facts/vibe-code/index.html) | unverified | **A1** Weak signal●○○○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) |
-| [OpenAI independently reported the same root cause on 11 August, with further vectors on 18 September](../../../facts/openai-same-day/index.html) | reported | **A2** Reported●●○○○○ | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [PHP](../../../sources/github-ghsa-w8hw-w9fx-j79w/index.html) |
-| [Wiz Research independently discovered the first flaw on 19 August and reported on 24 August](../../../facts/wiz-independent/index.html) | reported | **A2** Reported●●○○○○ | [Wiz](../../../sources/wiz-blog-php2shell/index.html) [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) |
+| [The flaws were found by researchers using frontier AI under OpenAI's Patch the Planet initiative](https://refs.php.oct.2026.newsroom.sgit.ai/facts/ai-found/) | reported | **A3** Echoed●●●○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [OpenAI on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-openai-php2shell/) [Calif](https://refs.php.oct.2026.newsroom.sgit.ai/sources/calif-php2shell/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) |
+| [Frontier AI found the flaw ahead of attackers, giving defenders time to prepare](https://refs.php.oct.2026.newsroom.sgit.ai/facts/ahead-of-attackers/) | disputed | **A2** Reported●●○○○○ | [OpenAI on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-openai-php2shell/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) |
+| [Chainguard's team found the same bugs independently with an AI harness and a frontier model after a researcher warned them on the Friday before](https://refs.php.oct.2026.newsroom.sgit.ai/facts/lorenc-ai-found/) | reported | **A2** Reported●●○○○○ | [The Register](https://refs.php.oct.2026.newsroom.sgit.ai/sources/theregister-php-blames-chainguard/) |
+| [Criminals are using AI to 'vibe code' an attack method](https://refs.php.oct.2026.newsroom.sgit.ai/facts/vibe-code/) | unverified | **A1** Weak signal●○○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) |
+| [OpenAI independently reported the same root cause on 11 August, with further vectors on 18 September](https://refs.php.oct.2026.newsroom.sgit.ai/facts/openai-same-day/) | reported | **A2** Reported●●○○○○ | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) |
+| [Wiz Research independently discovered the first flaw on 19 August and reported on 24 August](https://refs.php.oct.2026.newsroom.sgit.ai/facts/wiz-independent/) | reported | **A2** Reported●●○○○○ | [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) |
 
 ## Treatments
 
@@ -76,4 +76,4 @@ On this site: [Who found php2shell, and what the AI did](../../../discovery/inde
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08/index.html

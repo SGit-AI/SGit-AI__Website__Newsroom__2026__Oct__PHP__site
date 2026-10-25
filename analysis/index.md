@@ -35,16 +35,16 @@ Not readable from this capture environment: CCN-CERT, CNCS.
 [Agency by agency, with their own words →](../agencies/index.html)
 
 ## Contested: disputed, contradicted, unverified
-15 facts- contradicted [The flaws are CVSS 10.0](../facts/cvss-10/index.html)who says it: social posts on 20 October, relayed by a vendor and a news site
-- disputed [Remote code execution is confirmed on PHP-FPM](../facts/rce-fpm/index.html)who says it: PHP Foundation blog; GHSA-6wmf for the session path
-- unverified [The 8.5.12 fix may be incomplete, or there is a third, different bug](../facts/fix-incomplete/index.html)who says it: Fediverse posts relayed to oss-security by Aaron Rainbolt and Yves-Alexis Perez
-- disputed [All PHP versions from 5 onwards are affected by at least one of the flaws](../facts/versions-old/index.html)who says it: NCSC-NL; Wiz ('>= 5.4'); CERT-FR (5.x, 6.x, 7.x, 8.0, 8.1)
-- disputed [A web application firewall may provide some protection until systems are patched](../facts/waf/index.html)who says it: CISA
-- unverified [70% of the Internet is affected](../facts/scale-70pc-internet/index.html)who says it: Wiz (headline, X post); the BBC, which reports it as Wiz's 'roughly 70%'
-- disputed [Frontier AI found the flaw ahead of attackers, giving defenders time to prepare](../facts/ahead-of-attackers/index.html)who says it: OpenAI
-- disputed [Chainguard unilaterally broke the embargo on 21 October at 07:41 UTC by publishing built images containing the fix](../facts/chainguard/index.html)who says it: PHP Foundation; Chainguard's CEO accepts the time and denies leaking
-- contradicted [The flaws were disclosed on 22 October 2026](../facts/disclosure-22oct/index.html)who says it: BBC framing (UK morning coverage)
-- disputed [The fixes were released at 14:00 UTC on 21 October](../facts/release-time/index.html)who says it: php.net pre-announcement; Daubois; CERT-FR (16:00 Paris)
+15 facts- contradicted [The flaws are CVSS 10.0](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cvss-10/)who says it: social posts on 20 October, relayed by a vendor and a news site
+- disputed [Remote code execution is confirmed on PHP-FPM](https://refs.php.oct.2026.newsroom.sgit.ai/facts/rce-fpm/)who says it: PHP Foundation blog; GHSA-6wmf for the session path
+- unverified [The 8.5.12 fix may be incomplete, or there is a third, different bug](https://refs.php.oct.2026.newsroom.sgit.ai/facts/fix-incomplete/)who says it: Fediverse posts relayed to oss-security by Aaron Rainbolt and Yves-Alexis Perez
+- disputed [All PHP versions from 5 onwards are affected by at least one of the flaws](https://refs.php.oct.2026.newsroom.sgit.ai/facts/versions-old/)who says it: NCSC-NL; Wiz ('>= 5.4'); CERT-FR (5.x, 6.x, 7.x, 8.0, 8.1)
+- disputed [A web application firewall may provide some protection until systems are patched](https://refs.php.oct.2026.newsroom.sgit.ai/facts/waf/)who says it: CISA
+- unverified [70% of the Internet is affected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-70pc-internet/)who says it: Wiz (headline, X post); the BBC, which reports it as Wiz's 'roughly 70%'
+- disputed [Frontier AI found the flaw ahead of attackers, giving defenders time to prepare](https://refs.php.oct.2026.newsroom.sgit.ai/facts/ahead-of-attackers/)who says it: OpenAI
+- disputed [Chainguard unilaterally broke the embargo on 21 October at 07:41 UTC by publishing built images containing the fix](https://refs.php.oct.2026.newsroom.sgit.ai/facts/chainguard/)who says it: PHP Foundation; Chainguard's CEO accepts the time and denies leaking
+- contradicted [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/)who says it: BBC framing (UK morning coverage)
+- disputed [The fixes were released at 14:00 UTC on 21 October](https://refs.php.oct.2026.newsroom.sgit.ai/facts/release-time/)who says it: php.net pre-announcement; Daubois; CERT-FR (16:00 Paris)
 
 ### As a graph
 
@@ -64,4 +64,4 @@ Signed and dated analysis, written here and kept as written.
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html

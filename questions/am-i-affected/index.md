@@ -18,13 +18,13 @@ To paste back where it was asked: the paragraph above and `https://php.oct.2026.
 
 ## The answer, with its sources
 
-**Every PHP installation serving web requests is in scope**, says php.net: mod_php, PHP-FPM, php-cgi, FrankenPHP and LiteSpeed, with mod_php at highest risk. The flaw runs before any application code, so your own code is not the question. [php.net](../../sources/php-net-advisory/index.html) [PHP](../../sources/github-ghsa-w8hw-w9fx-j79w/index.html)
+**Every PHP installation serving web requests is in scope**, says php.net: mod_php, PHP-FPM, php-cgi, FrankenPHP and LiteSpeed, with mod_php at highest risk. The flaw runs before any application code, so your own code is not the question. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/)
 
-**Fixed in** 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Versions 7.4 to 8.1 are affected too and get no release from PHP. [php.net](../../sources/php-net-advisory/index.html) [php-src](../../sources/github-php-src-branch-7.4-backport/index.html) [oss-security](../../sources/openwall-oss-security-109619-thread/index.html)
+**Fixed in** 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Versions 7.4 to 8.1 are affected too and get no release from PHP. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-branch-7.4-backport/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/)
 
-**Check the running version** (`php -v` inside the container, or `phpinfo()` on the box) after restarting, and check vendors that bundle PHP. [NCSC-NL](../../sources/ncsc-nl-php2shell/index.html) [BACS](../../sources/ch-bacs-warnung-php/index.html)
+**Check the running version** (`php -v` inside the container, or `phpinfo()` on the box) after restarting, and check vendors that bundle PHP. [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell/) [BACS](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ch-bacs-warnung-php/)
 
-**For products you did not build**, the NCSC-NL inventory lists 674 products: 206 vulnerable, 46 fixed, 418 under investigation and 3 not vulnerable when it was counted. [NCSC-NL](../../sources/ncsc-nl-php2shell-software-list/index.html)
+**For products you did not build**, the NCSC-NL inventory lists 674 products: 206 vulnerable, 46 fixed, 418 under investigation and 3 not vulnerable when it was counted. [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/)
 
 ## The pages that carry it
 - [Affected systems: versions, deployments, applications, inventory](../../affected/index.html)
@@ -36,4 +36,4 @@ Next question: [Should we take our site offline?](../take-offline/index.html) ·
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/am-i-affected/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/am-i-affected/index.html

@@ -8,7 +8,7 @@ Every row of the NCSC-NL php2shell software inventory at commit cca173c64ec5, wi
 
 In plain English The Dutch government's list of software products and whether each is affected. A reference table.
 
-All 674 rows of NCSC-NL's php2shell inventory at commit `cca173c64ec5`, as parsed into the vault. Status is NCSC-NL's per CVE; the note is the first line of theirs. Licence EUPL-1.2. This page is generated from the parsed file and changes only when the vault does. [NCSC-NL](../sources/ncsc-nl-php2shell-software-list/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell/index.html)
+All 674 rows of NCSC-NL's php2shell inventory at commit `cca173c64ec5`, as parsed into the vault. Status is NCSC-NL's per CVE; the note is the first line of theirs. Licence EUPL-1.2. This page is generated from the parsed file and changes only when the vault does. [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell/)
 
 | Supplier | Product | Version | 109618 | 109619 | NCSC-NL note | Links |
 |---|---|---|---|---|---|---|
@@ -533,4 +533,4 @@ All 674 rows of NCSC-NL's php2shell inventory at commit `cca173c64ec5`, as parse
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/affected/software.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/affected/software.html

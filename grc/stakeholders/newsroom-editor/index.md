@@ -10,7 +10,7 @@ The fractal risk register for The editor: 4 risks assigned to it or arriving thr
 
 Dinis Cruz: every editorial call, the root key, the only person who instructs the agents.
 
-**Kind** role · **Assigned here** 4 · **In its register** 4 · [their team page](../../../team/dinis/index.html)
+**Kind** role · **Assigned here** 4 · **In its register** 4 · [their team page](https://team.php.oct.2026.newsroom.sgit.ai/team/dinis/)
 
 ## The register
 
@@ -43,4 +43,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/newsroom-editor/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/newsroom-editor/index.html

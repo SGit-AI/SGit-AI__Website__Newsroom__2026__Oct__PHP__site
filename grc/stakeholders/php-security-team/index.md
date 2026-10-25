@@ -10,7 +10,7 @@ The fractal risk register for The PHP security team: 7 risks assigned to it or a
 
 Received the reports, ran the embargo, published the advisories and the oss-security announcements.
 
-**Kind** team · **Assigned here** 7 · **In its register** 7 · in the story as [Jakub Zelenka](../../../actors/index.html#zelenka), [Alexandre Daubois, PHP security team](../../../actors/index.html#daubois)
+**Kind** team · **Assigned here** 7 · **In its register** 7 · in the story as [Jakub Zelenka](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#zelenka), [Alexandre Daubois, PHP security team](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#daubois)
 
 ## The register
 
@@ -46,4 +46,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-security-team/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/php-security-team/index.html

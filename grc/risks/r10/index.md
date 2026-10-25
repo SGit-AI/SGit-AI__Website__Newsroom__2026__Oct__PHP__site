@@ -51,8 +51,8 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 
 | Treatment | Status | Where |
 |---|---|---|
-| The security requirements, the gate and the release tripwire | in place | [How to work on this site: guidance for every agent](../../../admin/agents/index.html) |
-| Rulesets on dev and main restricting the gate's own files | missing | [Admin and engineering](../../../admin/index.html) |
+| The security requirements, the gate and the release tripwire | in place | [How to work on this site: guidance for every agent](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/) |
+| Rulesets on dev and main restricting the gate's own files | missing | [Admin and engineering](https://team.php.oct.2026.newsroom.sgit.ai/admin/) |
 
 ## The standards that govern it
 
@@ -66,8 +66,8 @@ No claim on this site carries this risk: it rests on how this newsroom works, se
 ## The stories that tell it
 - No story on this site tells this risk yet.
 
-On this site: [How to work on this site: guidance for every agent](../../../admin/agents/index.html) · [The team: the people, the agents and how they work together](../../../team/index.html)
+On this site: [How to work on this site: guidance for every agent](https://team.php.oct.2026.newsroom.sgit.ai/admin/agents/) · [The team: the people, the agents and how they work together](https://team.php.oct.2026.newsroom.sgit.ai/team/)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10/index.html

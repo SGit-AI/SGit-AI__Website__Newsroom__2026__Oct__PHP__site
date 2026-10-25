@@ -37,8 +37,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [Chainguard unilaterally broke the embargo on 21 October at 07:41 UTC by publishing built images containing the fix](../../../facts/chainguard/index.html) | disputed | **A2** Reported●●○○○○ | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [The Register](../../../sources/theregister-php-blames-chainguard/index.html) [Feross Aboukhadijeh on X on X](../../../sources/x-feross-chainguard/index.html) |
-| [Chainguard's team found the same bugs independently with an AI harness and a frontier model after a researcher warned them on the Friday before](../../../facts/lorenc-ai-found/index.html) | reported | **A2** Reported●●○○○○ | [The Register](../../../sources/theregister-php-blames-chainguard/index.html) |
+| [Chainguard unilaterally broke the embargo on 21 October at 07:41 UTC by publishing built images containing the fix](https://refs.php.oct.2026.newsroom.sgit.ai/facts/chainguard/) | disputed | **A2** Reported●●○○○○ | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [The Register](https://refs.php.oct.2026.newsroom.sgit.ai/sources/theregister-php-blames-chainguard/) [Feross Aboukhadijeh on X on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-feross-chainguard/) |
+| [Chainguard's team found the same bugs independently with an AI harness and a frontier model after a researcher warned them on the Friday before](https://refs.php.oct.2026.newsroom.sgit.ai/facts/lorenc-ai-found/) | reported | **A2** Reported●●○○○○ | [The Register](https://refs.php.oct.2026.newsroom.sgit.ai/sources/theregister-php-blames-chainguard/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [How the coordinated disclosure broke](../../../leak/index.html)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r02-3/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r02-3/index.html

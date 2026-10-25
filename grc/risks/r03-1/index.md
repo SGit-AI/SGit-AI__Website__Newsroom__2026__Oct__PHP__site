@@ -36,8 +36,8 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [An exploit attempt hit an Amazon honeypot on 17 October from an anonymisation network; proof-of-concept attempts began about 02:00 UTC on 21 October from multiple actors; after release 'PHP2Shell is now being broadly exploited in the wild'](../../../facts/amazon-honeypot/index.html) | reported | **A2** Reported●●○○○○ | [Amazon](../../../sources/aws-security-blog-madpot/index.html) [THN](../../../sources/thehackernews-php2shell-4days/index.html) |
-| [No traffic matching the php2shell exploit patterns was seen during Imperva's pre-disclosure monitoring](../../../facts/imperva-none/index.html) | reported | **A2** Reported●●○○○○ | [Imperva Threat Research](../../../sources/imperva-blog-php2shell/index.html) |
+| [An exploit attempt hit an Amazon honeypot on 17 October from an anonymisation network; proof-of-concept attempts began about 02:00 UTC on 21 October from multiple actors; after release 'PHP2Shell is now being broadly exploited in the wild'](https://refs.php.oct.2026.newsroom.sgit.ai/facts/amazon-honeypot/) | reported | **A2** Reported●●○○○○ | [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) |
+| [No traffic matching the php2shell exploit patterns was seen during Imperva's pre-disclosure monitoring](https://refs.php.oct.2026.newsroom.sgit.ai/facts/imperva-none/) | reported | **A2** Reported●●○○○○ | [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) |
 
 ## Treatments
 
@@ -63,4 +63,4 @@ On this site: [Exploitation signals, in order](../../../exploitation/index.html)
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-1/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-1/index.html

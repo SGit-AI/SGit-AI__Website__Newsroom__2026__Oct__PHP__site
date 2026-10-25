@@ -38,12 +38,12 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 
 | Claim | Status | Fact-check | Sources |
 |---|---|---|---|
-| [70% of the Internet is affected](../../../facts/scale-70pc-internet/index.html) | unverified | **A1** Weak signal●○○○○○ | [Wiz](../../../sources/wiz-blog-php2shell/index.html) [Wiz on X](../../../sources/x-wiz-io-php2shell/index.html) [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) |
-| [PHP is used by almost 70% of websites whose server-side language is known](../../../facts/scale-70pc-websites/index.html) | reported | **A2** Reported●●○○○○ | [Cloudflare](../../../sources/cloudflare-blog-php2shell-waf/index.html) [OpenAI on X](../../../sources/x-openai-php2shell/index.html) [Wiz](../../../sources/wiz-blog-php2shell/index.html) |
-| [The flaws are CVSS 10.0](../../../facts/cvss-10/index.html) | contradicted | refuted | [PHP Foundation](../../../sources/php-foundation-blog-security-release/index.html) [Daubois](../../../sources/daubois-blog-php2shell-rumors/index.html) |
-| [Something like 30 million websites could be affected](../../../facts/scale-30m/index.html) | reported | **A2** Reported●●○○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) |
-| [The most severe flaws ever detected by AI](../../../facts/most-severe/index.html) | reported | **A2** Reported●●○○○○ | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [Wiz](../../../sources/wiz-blog-php2shell/index.html) |
-| [The flaws were disclosed on 22 October 2026](../../../facts/disclosure-22oct/index.html) | contradicted | refuted | [BBC News](../../../sources/bbc-live-ckgel5xp2xv9t/index.html) [php.net](../../../sources/php-net-advisory/index.html) [php-src](../../../sources/github-php-src-tag-php-8.5.12/index.html) |
+| [70% of the Internet is affected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-70pc-internet/) | unverified | **A1** Weak signal●○○○○○ | [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) [Wiz on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-wiz-io-php2shell/) [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) |
+| [PHP is used by almost 70% of websites whose server-side language is known](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-70pc-websites/) | reported | **A2** Reported●●○○○○ | [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cloudflare-blog-php2shell-waf/) [OpenAI on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-openai-php2shell/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) |
+| [The flaws are CVSS 10.0](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cvss-10/) | contradicted | refuted | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [Daubois](https://refs.php.oct.2026.newsroom.sgit.ai/sources/daubois-blog-php2shell-rumors/) |
+| [Something like 30 million websites could be affected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-30m/) | reported | **A2** Reported●●○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) |
+| [The most severe flaws ever detected by AI](https://refs.php.oct.2026.newsroom.sgit.ai/facts/most-severe/) | reported | **A2** Reported●●○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) |
+| [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/) | contradicted | refuted | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-tag-php-8.5.12/) |
 
 ## Treatments
 
@@ -67,4 +67,4 @@ On this site: [The numbers: 70%, 30 million, 2.6 million, 6,000, 674](../../../n
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html

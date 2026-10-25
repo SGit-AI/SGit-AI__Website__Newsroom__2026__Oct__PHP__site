@@ -10,7 +10,7 @@ The fractal risk register for WAF vendors: 2 risks assigned to it or arriving th
 
 Rules live hours before disclosure, each vendor saying in its own words that a rule is not a patch.
 
-**Kind** group · **Assigned here** 2 · **In its register** 2 · in the story as [Cloudflare](../../../actors/index.html#cloudflare), [Akamai](../../../actors/index.html#akamai), [Fastly](../../../actors/index.html#fastly), [Imperva Threat Research](../../../actors/index.html#imperva)
+**Kind** group · **Assigned here** 2 · **In its register** 2 · in the story as [Cloudflare](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#cloudflare), [Akamai](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#akamai), [Fastly](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#fastly), [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/actors/#imperva)
 
 ## The register
 
@@ -41,4 +41,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/waf-vendors/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/waf-vendors/index.html

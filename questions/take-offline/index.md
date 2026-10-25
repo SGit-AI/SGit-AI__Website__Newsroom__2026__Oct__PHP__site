@@ -18,11 +18,11 @@ To paste back where it was asked: the paragraph above and `https://php.oct.2026.
 
 ## The answer, with its sources
 
-**The agencies' order** is: patch; if you cannot, apply the temporary mitigations; if you cannot do that in time, consider taking the system offline until it is fully mitigated. [NCSC UK](../../sources/ncsc-news-php/index.html) [NSA Cyber on X](../../sources/nsa-x-2112903220209098897/index.html) [CISA](../../sources/cisa-alert-php-20261021/index.html)
+**The agencies' order** is: patch; if you cannot, apply the temporary mitigations; if you cannot do that in time, consider taking the system offline until it is fully mitigated. [NCSC UK](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-news-php/) [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/)
 
-**Not every agency said offline.** Italy's CSIRT advises update only; the UK NCSC puts offline fourth; CERT-EU, Canada and France say isolate from public networks. [ACN / CSIRT Italia](../../sources/acn-it-php2shell/index.html) [NCSC UK](../../sources/ncsc-news-php/index.html) [CERT-EU](../../sources/certeu-sa-2026-018/index.html) [CCCS](../../sources/cccs-al26-026/index.html)
+**Not every agency said offline.** Italy's CSIRT advises update only; the UK NCSC puts offline fourth; CERT-EU, Canada and France say isolate from public networks. [ACN / CSIRT Italia](https://refs.php.oct.2026.newsroom.sgit.ai/sources/acn-it-php2shell/) [NCSC UK](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-news-php/) [CERT-EU](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certeu-sa-2026-018/) [CCCS](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cccs-al26-026/)
 
-**What offline costs** can be small if planned: Weird Gloop turned off its wiki servers for 13 hours and still served about 94% of page views from cache. [Weird Gloop](../../sources/weirdgloop-blog-php2shell/index.html)
+**What offline costs** can be small if planned: Weird Gloop turned off its wiki servers for 13 hours and still served about 94% of page views from cache. [Weird Gloop](https://refs.php.oct.2026.newsroom.sgit.ai/sources/weirdgloop-blog-php2shell/)
 
 ## The pages that carry it
 - [If you run PHP: the steps, in order, with their sources](../../playbook/index.html)
@@ -34,4 +34,4 @@ Next question: [Why is this such big news?](../why-big-news/index.html) · [ever
 
 
 ---
-site v0.22.7 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/take-offline/index.html
+site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/questions/take-offline/index.html
