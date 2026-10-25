@@ -1,0 +1,31 @@
+# If you run PHP: the steps, in order, with their sources
+
+> Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
+
+Inventory, patch, mitigate, shield, isolate or take offline, look for compromise, verify: every agency's php2shell advice merged into one ordered list with the sentence each step comes from.
+
+# If you run PHP
+
+In plain English What an organisation that runs PHP should do, step by step, merged from every agency's advice.
+
+Every agency's advice, merged into one ordered list, with the sentence each step comes from. This is a guide to what the sources say, assembled by agents and not reviewed by your security team; the php.net advisory is the authority and your national agency is the one that applies to you. Taking a system offline is the last step on every list, and the one list where it comes earlier is the one that says *isolate, then migrate*.
+
+To do step 0 and see what steps 1 to 4 mean for your own systems, describe them in [your stack](../stack/index.html): it checks each PHP runtime against both flaws and shows what an attacker who reaches one could touch.
+
+- 0 ### Know what you run Inventory every system with PHP serving web requests, including the ones you did not build: appliances, vendor products, hosting panels, the thing marketing bought. Do not limit discovery to old versions. Note the SAPI (mod_php, FPM, cgi, FrankenPHP, LiteSpeed) and the PHP branch.[NCSC UK](../sources/ncsc-news-php/index.html) [CISA](../sources/cisa-alert-php-20261021/index.html) [NSA](../sources/nsa-press-php-4630238/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell-software-list/index.html)
+- 1 ### Patch, internet-facing first Update to 8.5.12, 8.4.27, 8.3.36 or 8.2.35, or your distribution's backported package. Restart every worker; rebuild containers. For 7.4, 8.0 and 8.1 there is a source backport branch and no release: plan the migration now. Some third-party repositories (remirepo) had no packages on release day.[php.net](../sources/php-net-advisory/index.html) [BACS](../sources/ch-bacs-warnung-php/index.html) [php-src](../sources/github-php-src-branch-7.4-backport/index.html) [CERT-EU](../sources/certeu-sa-2026-018/index.html)
+- 2 ### If you cannot patch today, apply the temporary mitigations memory_limit=-1 where applications cannot override it; low post_max_size with proxy-level request limits; a cgroup memory limit instead of RLIMIT; session.upload_progress.enabled=0 then restart every worker; on 8.5 fatal_error_backtraces=0; pm.max_requests=1 on FPM. Each blocks a known path and none makes the installation safe.[php.net](../sources/php-net-advisory/index.html) [PHP](../sources/github-ghsa-6wmf-4rv5-p3rp/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell/index.html)
+- 3 ### Put something in front A WAF may provide some protection (CISA); it is not sufficient on its own (Swiss BACS); it blocked what Cloudflare saw while attackers mutated payloads. CERT-FR's edge workaround is to block or monitor multipart Content-Type requests. Restrict access to the people and systems that need it.[CISA](../sources/cisa-alert-php-20261021/index.html) [BACS](../sources/ch-bacs-warnung-php/index.html) [Cloudflare](../sources/cloudflare-blog-php2shell-waf/index.html) [CERT-FR](../sources/certfr-2026-ale-014/index.html)
+- 4 ### Isolate or take offline Where none of the above is feasible in time: CERT-EU, Canada and France say isolate internet-facing applications from public networks; the NSA and CISA say take the system offline until fully mitigated; the UK NCSC puts this fourth; Latvia geo-blocked state services from abroad for days. Decide who can make that call and how fast it can be executed, and write it down before you need it.[CERT-EU](../sources/certeu-sa-2026-018/index.html) [CCCS](../sources/cccs-al26-026/index.html) [CERT-FR](../sources/certfr-2026-ale-014/index.html) [NSA Cyber on X](../sources/nsa-x-2112903220209098897/index.html) [CISA](../sources/cisa-alert-php-20261021/index.html) [NCSC UK](../sources/ncsc-news-php/index.html) [CERT.LV](../sources/certlv-php-preventive/index.html)
+- 5 ### Look for compromise PHP workers launching shells or downloading tools; unexpected files under the web root; outbound connections from the web tier; anomalous multipart or oversized requests. A clean log does not prove a clean system (JPCERT); a system that could not be patched or disabled promptly should be assessed for backdoors (NCSC UK).[CISA](../sources/cisa-alert-php-20261021/index.html) [JPCERT/CC](../sources/jpcert-at260033/index.html) [NCSC UK](../sources/ncsc-news-php/index.html) [NCSC New Zealand](../sources/ncsc-nz-alert-php/index.html)
+- 6 ### Verify, then keep watching Confirm the running version after the restart, not the package version before it. Check vendors that bundle PHP for their own fixes. Watch for a follow-up release: a report that the 8.5.12 fix may be incomplete reached oss-security within two hours and has not been answered on-list.[BACS](../sources/ch-bacs-warnung-php/index.html) [NCSC-NL](../sources/ncsc-nl-php2shell/index.html) [oss-security](../sources/openwall-oss-security-109619-thread/index.html)
+
+## Pulling the plug, as a capability
+
+Four agencies told organisations to be ready to take systems offline within hours. How long it takes you to do that for one system, cleanly, with a holding page and a way back, is a measurable property of your stack, and it is the property this incident tested. A system that can be removed from the internet in minutes without data loss is one you can afford to leave running until the patch is tested; a system that cannot is one you take offline early, because you will not be able to later. The site's own position is that the decision belongs to a named person and the execution belongs to a rehearsed runbook, and that the inventory in step 0 is where both start.
+
+The technical detail behind each step is on [the two flaws](../flaws/index.html); which versions and products are in scope is on [affected systems](../affected/index.html); what the agencies said, agency by agency, is on [the agencies](../agencies/index.html).
+
+
+---
+site v0.22.0 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/playbook/index.html
