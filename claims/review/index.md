@@ -8,7 +8,7 @@
 
 152 claims recorded in the evidence vault by its agents are not in the site's [claim table](../index.html) yet: 147 from curator@php.newsroom, 5 from claude-newsroom-lead. They are listed here so that they can be reviewed, not because they are established. Each is the agent's reading of a captured page, in the agent's words; for a page in another language the English is the agent's translation. The status beside each is the agent's, not the site's.
 
-The journalist has reviewed 152 of them: 34 held back, 21 used, 49 agrees, 48 noted. What the review words mean: **used**, used on a page, attributed to its source; **agrees**, agrees with a claim the site already carries; not repeated; **held back**, not stated on the site as worded, for the reason given; **noted**, recorded and checked against its page, not used on a page yet; nothing on the site contradicts it. A claim with no review is marked so, and a new export of the vault adds new claims here without anyone editing this page. The rows are [data/vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.7/vault-claims.json); the reviews are [data/claim-review.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.7/claim-review.json).
+The journalist has reviewed 152 of them: 34 held back, 21 used, 49 agrees, 48 noted. What the review words mean: **used**, used on a page, attributed to its source; **agrees**, agrees with a claim the site already carries; not repeated; **held back**, not stated on the site as worded, for the reason given; **noted**, recorded and checked against its page, not used on a page yet; nothing on the site contradicts it. A claim with no review is marked so, and a new export of the vault adds new claims here without anyone editing this page. The rows are [data/vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/vault-claims.json); the reviews are [data/claim-review.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/claim-review.json).
 
 ## Held back (34)
 
@@ -184,4 +184,4 @@ The journalist has reviewed 152 of them: 34 held back, 21 used, 49 agrees, 48 no
 
 
 ---
-site v0.22.10 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html
+site v0.22.12 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html
