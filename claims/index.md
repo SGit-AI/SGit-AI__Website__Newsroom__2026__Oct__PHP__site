@@ -127,8 +127,8 @@ In plain English Every statement made about the story, who made it, and how far 
 | Oxford City Council: 'a precaution because of a worldwide issue with the underlying technology and is not a cyber incident' [fact timeline →](https://refs.php.oct.2026.newsroom.sgit.ai/facts/oxford/) | the council's social post, via Oxford Chronicle | reported | **A2** Reported●●○○○○ | 0/1 | [Oxford Chronicle](https://refs.php.oct.2026.newsroom.sgit.ai/sources/oxfordchronicle-councils-offline/) |
 | Edinburgh and Oxford councils, the Met Police and the Office for Budget Responsibility were unavailable; Bristol, Lambeth and Barnet council sites showed errors [fact timeline →](https://refs.php.oct.2026.newsroom.sgit.ai/facts/uk-list/) | LBC; Insurance Business | reported | **A3** Echoed●●●○○○ | 0/2 | [LBC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/lbc-uk-websites-offline/) [Insurance Business](https://refs.php.oct.2026.newsroom.sgit.ai/sources/insurancebusiness-uk-councils-met/) |
 
-The newsroom's own twelve claims, seeded from the BBC live page on the morning of 22 October, are in the vault as `claims/claude-newsroom-lead.json` and are superseded by the rows above, which trace each of them to primary sources. The raw rows are in [data/claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/claims.json).
+The newsroom's own twelve claims, seeded from the BBC live page on the morning of 22 October, are in the vault as `claims/claude-newsroom-lead.json` and are superseded by the rows above, which trace each of them to primary sources. The raw rows are in [data/claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.9/claims.json).
 
 
 ---
-site v0.22.12 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/claims/index.html
+site v0.22.13 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/claims/index.html

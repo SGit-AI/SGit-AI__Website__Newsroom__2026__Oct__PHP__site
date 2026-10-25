@@ -25,11 +25,11 @@ Every picture below is the real site. **Before** is v0.10.12, served from that r
 Before, the graph page drew every layer at once: stakeholders, the top risks, the weaknesses and the two CVEs. After, there is a second way in, [explore](../../grc/explore/index.html): start from one node and see only what touches it, grouped by how; open one neighbour to go a step further; the way back to the start is always shown.
 
 Before
-![Before: The risk graph as it was: every stakeholder group, top risk, weakness and CVE in one drawing.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/explore-before.png)
+![Before: The risk graph as it was: every stakeholder group, top risk, weakness and CVE in one drawing.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/explore-before.png)
 
 The risk graph as it was: every stakeholder group, top risk, weakness and CVE in one drawing.
 After
-![After: The same graph, started from CVE-2026-109618 and opened one step, to the fix that adds a soft memory limit. Faint on the right: what that fix touches next.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/explore-after.png)
+![After: The same graph, started from CVE-2026-109618 and opened one step, to the fix that adds a soft memory limit. Faint on the right: what that fix touches next.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/explore-after.png)
 
 The same graph, started from CVE-2026-109618 and opened one step, to the fix that adds a soft memory limit. Faint on the right: what that fix touches next.
 
@@ -44,18 +44,18 @@ Before, an edge read from the fix commit and an edge an agent inferred looked th
 - {"from": "vulnerability:cve-109618", "rel": "fixed_by", "to": "remediation:fix-soft-limit"}+ {"from": "vulnerability:cve-109618", "rel": "fixed_by", "to": "remediation:fix-soft-limit",+ "basis": {"kind": "code", "ref": "3584a98bd"}}- {"from": "risk:r01", "rel": "arises_from", "to": "weakness:w-alloc-bailout"}+ {"from": "risk:r01", "rel": "arises_from", "to": "weakness:w-alloc-bailout",+ "basis": {"kind": "inferred", "ref": "grc"}} On the graph page, the same place in the page before and after: the verbs are as they were, and a new section counts how each edge is known.
 
 Before
-![Before: The end of the graph page's list of verbs, and what follows it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/basis-before.png)
+![Before: The end of the graph page's list of verbs, and what follows it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/basis-before.png)
 After
-![After: The end of the graph page's list of verbs, and what follows it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/basis-after.png)
+![After: The end of the graph page's list of verbs, and what follows it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/basis-after.png)
 
 Slide to the right: a new verb, tests, with 502 edges, and below the verbs a new section, How each edge is known.316 edges are read from a capture (a claim citing its source), 287 from the fix commit (what the fix changes and where), and 815 are the GRC desk's own inferences: who carries a risk, what a risk arises from, which control governs it.None is confirmed yet. That is the honest starting point, and data/grc-basis.json is where a person who checks an edge records it.
 
 In the explorer, inferred edges are dashed, and one switch hides them. Here is the same view with every edge, and then with only what was read from a source or the code:
 
 Every edge
-![Every edge: The top risk, opened to the weakness behind it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/inferred-shown.png)
+![Every edge: The top risk, opened to the weakness behind it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/inferred-shown.png)
 Inferred hidden
-![Inferred hidden: The top risk, opened to the weakness behind it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/inferred-hidden.png)
+![Inferred hidden: The top risk, opened to the weakness behind it](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/inferred-hidden.png)
 
 This pair is not old and new: it is one switch in the new explorer, Hide what an agent inferred.With it on, the top risk keeps only what is backed by evidence: the five claims it rests on, each citing its sources. Who carries it, what it arises from and which controls govern it are all the GRC desk's judgement, and they go.That is the gap between the register as written and the register as evidenced, made visible.
 
@@ -66,11 +66,11 @@ This pair is not old and new: it is one switch in the new explorer, Hide what an
 Before, the tests were one box among the code areas the fix touched: "tests/, 34 files changed". After, every test file of the fix commit is a node: 270 of them, read from the commit's file list in the evidence vault, each joined to the commit and, where its name says which fix it exercises, to that fix. The second join is marked inferred, because it is read from the test's name, not its body.
 
 Before
-![Before: The code review graph: the fix commit's areas, with the tests as one count.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/tests-before.png)
+![Before: The code review graph: the fix commit's areas, with the tests as one count.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/tests-before.png)
 
 The code review graph: the fix commit's areas, with the tests as one count.
 After
-![After: The soft-limit fix in the explorer: tested by three named tests, realised in Zend/zend_alloc.c, fixing CVE-2026-109618.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/tests-after.png)
+![After: The soft-limit fix in the explorer: tested by three named tests, realised in Zend/zend_alloc.c, fixing CVE-2026-109618.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/tests-after.png)
 
 The soft-limit fix in the explorer: tested by three named tests, realised in Zend/zend_alloc.c, fixing CVE-2026-109618.
 
@@ -83,11 +83,11 @@ The soft-limit fix in the explorer: tested by three named tests, realised in Zen
 Before, every view ran from a risk downwards: a risk's page drew its path to the weaknesses, the CVEs, the fix and the code. After, the explorer climbs the other way. Pick a file, a test or a fix and ask what it puts at stake: the fixes it realises, the flaws they fix, the weaknesses those give rise to, the risks above them, and each risk's controls, stakeholders, treatments and stories, every one with the path that reaches it.
 
 Before
-![Before: A risk's page: the path drawn from the risk down to the code.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/impact-before.png)
+![Before: A risk's page: the path drawn from the risk down to the code.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/impact-before.png)
 
 A risk's page: the path drawn from the risk down to the code.
 After
-![After: From the file Zend/zend_alloc.c upwards: 1 fix, 1 CVE, 3 weaknesses, 16 risks, 68 controls, 35 stakeholders, each reached by a named path.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/impact-after.png)
+![After: From the file Zend/zend_alloc.c upwards: 1 fix, 1 CVE, 3 weaknesses, 16 risks, 68 controls, 35 stakeholders, each reached by a named path.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/impact-after.png)
 
 From the file Zend/zend_alloc.c upwards: 1 fix, 1 CVE, 3 weaknesses, 16 risks, 68 controls, 35 stakeholders, each reached by a named path.
 
@@ -100,11 +100,11 @@ Try it from the file: [what Zend/zend_alloc.c puts at stake](../../grc/explore/i
 Before, the GRC page listed coverage by hand, risk by risk. After, [the gaps page](../../grc/gaps/index.html) is computed at every release from rules written as data, each with its count, its list and who could close it.
 
 Before
-![Before: The GRC page's coverage table: written per risk, read by eye.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/gaps-before.png)
+![Before: The GRC page's coverage table: written per risk, read by eye.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/gaps-before.png)
 
 The GRC page's coverage table: written per risk, read by eye.
 After
-![After: The gaps page: eight rules, each a count and a list, every item opening in the explorer.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/gaps-after.png)
+![After: The gaps page: eight rules, each a count and a list, every item opening in the explorer.](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/gaps-after.png)
 
 The gaps page: eight rules, each a count and a list, every item opening in the explorer.
 
@@ -126,9 +126,9 @@ The first line is his example exactly: security requirements without tests. Ever
 Every risk's page now links into the explorer and the gaps, and the GRC section's navigation has both:
 
 Before
-![Before: The top of a risk's page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/riskpage-before.png)
+![Before: The top of a risk's page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/riskpage-before.png)
 After
-![After: The top of a risk's page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.8/assets/articles/the-risk-graph-before-and-after/riskpage-after.png)
+![After: The top of a risk's page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.9/assets/articles/the-risk-graph-before-and-after/riskpage-after.png)
 
 Slide right: the risk's page gains a line under its statement, Explore the graph from this risk and What the graph is missing.The page is otherwise as it was. The register, its ratings and its owners are the GRC desk's, and nothing in this change touched them.
 
@@ -146,7 +146,7 @@ Three of his points wait for the editor, because they are choices rather than ga
 
 ## The method, briefly
 
-Everything here is built from data the site already had, plus the fix commit's file list from the evidence vault. The explorer and the gaps run in the reader's browser and at build time respectively, and both read [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/grc-graph.json), so they cannot disagree with the graph. The rules for the gaps are in [data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/grc-gaps.json), the test joins in [data/grc-tests.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.8/grc-tests.json); the brief this work followed is [the risk graph as a tool](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/#2026-10-23__brief__the-risk-graph-as-a-tool). His next comments, if he has them, become CI-003.
+Everything here is built from data the site already had, plus the fix commit's file list from the evidence vault. The explorer and the gaps run in the reader's browser and at build time respectively, and both read [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.9/grc-graph.json), so they cannot disagree with the graph. The rules for the gaps are in [data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.9/grc-gaps.json), the test joins in [data/grc-tests.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.9/grc-tests.json); the brief this work followed is [the risk graph as a tool](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/#2026-10-23__brief__the-risk-graph-as-a-tool). His next comments, if he has them, become CI-003.
 
 ## Sources cited
 
@@ -166,4 +166,4 @@ Source file: `admin/content/articles/2026-10-23__dev__the-risk-graph-before-and-
 
 
 ---
-site v0.22.12 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/articles/the-risk-graph-before-and-after/index.html
+site v0.22.13 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/articles/the-risk-graph-before-and-after/index.html
