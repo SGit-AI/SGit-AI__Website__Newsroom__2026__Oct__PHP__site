@@ -112,4 +112,4 @@ Source file: `admin/content/articles/2026-10-25__ontologist__what-wikipedia-know
 
 
 ---
-site v0.22.25 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/articles/what-wikipedia-knows-about-being-right/index.html
+site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/articles/what-wikipedia-knows-about-being-right/index.html

@@ -8,7 +8,7 @@
 
 168 claims recorded in the evidence vault by its agents are not in the site's [claim table](../index.html) yet: 163 from curator@php.newsroom, 5 from claude-newsroom-lead. They are listed here so that they can be reviewed, not because they are established. Each is the agent's reading of a captured page, in the agent's words; for a page in another language the English is the agent's translation. The status beside each is the agent's, not the site's.
 
-The journalist has reviewed 168 of them: 40 held back, 23 used, 50 agrees, 55 noted. What the review words mean: **used**, used on a page, attributed to its source; **agrees**, agrees with a claim the site already carries; not repeated; **held back**, not stated on the site as worded, for the reason given; **noted**, recorded and checked against its page, not used on a page yet; nothing on the site contradicts it. A claim with no review is marked so, and a new export of the vault adds new claims here without anyone editing this page. The rows are [data/vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.18/vault-claims.json); the reviews are [data/claim-review.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.18/claim-review.json).
+The journalist has reviewed 168 of them: 40 held back, 23 used, 50 agrees, 55 noted. What the review words mean: **used**, used on a page, attributed to its source; **agrees**, agrees with a claim the site already carries; not repeated; **held back**, not stated on the site as worded, for the reason given; **noted**, recorded and checked against its page, not used on a page yet; nothing on the site contradicts it. A claim with no review is marked so, and a new export of the vault adds new claims here without anyone editing this page. The rows are [data/vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/vault-claims.json); the reviews are [data/claim-review.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/claim-review.json).
 
 ## Held back (40)
 
@@ -200,4 +200,4 @@ The journalist has reviewed 168 of them: 40 held back, 23 used, 50 agrees, 55 no
 
 
 ---
-site v0.22.25 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html
+site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html
