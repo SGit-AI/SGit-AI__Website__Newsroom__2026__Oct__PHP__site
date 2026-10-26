@@ -71,4 +71,4 @@ Third-party and sibling material, described in its publisher's own terms and lin
 
 
 ---
-site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/grc/network/index.html
+site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/grc/network/index.html

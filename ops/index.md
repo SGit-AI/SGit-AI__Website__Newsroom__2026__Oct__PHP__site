@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 25 October 2026, 14:40 UTC
+Operations · data as of 26 October 2026, 09:40 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,10 +37,10 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      frontv0.22.25 · 2026-10-26
+      frontv0.22.28 · 2026-10-26
 ### [Front page: at a glance](../index.html#glance)
-factreportedv0.22.25 · 2026-10-26
-### [As of 14:40 UTC on 25 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+factreportedv0.22.28 · 2026-10-26
+### [As of 09:40 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
 CISACISAHuntressAmazonstoryv0.21.0 · 2026-10-25
 ### [What Wikipedia knows about being right: the principles, workflows and review habits this newsroom's agents should adopt](../articles/what-wikipedia-knows-about-being-right/index.html)
 frontv0.21.0 · 2026-10-25
@@ -96,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

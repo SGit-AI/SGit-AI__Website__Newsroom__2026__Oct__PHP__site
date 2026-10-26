@@ -93,8 +93,8 @@ The reason an operator hesitates: the fix is not invisible.
 - What the new settings break in practice. No captured source reports a regression yet; the Fediverse report of an incomplete fix is about security, not compatibility.
 - What extended support costs. The inventory shows who sells it, not the price.
 
-The story behind this page is [Why can't every version of PHP just be patched?](../articles/why-not-patch-every-version/index.html), with the editor's argument on who should own patching. The data is [data/patching.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/patching.json); the gate checks that every downstream row names a product in the inventory with the status shown.
+The story behind this page is [Why can't every version of PHP just be patched?](../articles/why-not-patch-every-version/index.html), with the editor's argument on who should own patching. The data is [data/patching.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/patching.json); the gate checks that every downstream row names a product in the inventory with the status shown.
 
 
 ---
-site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/patching/index.html
+site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/patching/index.html

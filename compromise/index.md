@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-25 14:40 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-26 09:40 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-25 14:40 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-26 09:40 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-454The evidence vault: sourceshead 94352a55fbaa; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+507The evidence vault: sourceshead a7ab84771dfc; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -19,11 +19,11 @@ Not to scale. Each layer is a different kind of statement, and a statement in on
 
 ## The evidence, by kind
 
-44 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
+46 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
 
 Each dot is one statement on this page, placed at the time the source gives (noon where it gives only a date). Hover a dot for who said it.
 
-## Attempts seen (11)
+## Attempts seen (12)
 
 This kind of statement can show that someone tried. It cannot show that anyone succeeded.
 
@@ -40,6 +40,7 @@ This kind of statement can show that someone tried. It cannot show that anyone s
 | 2026-10-22 | **A Tencent News analyst, with ThreatBook sensors (China)** | Captured scanning requests with the User-Agent php2shell-scan/1.0; no evidence of successful code execution. | source watch: `translations/hk/news/news-qq/rain-a-20261021a0eq4p00.json` |
 | 2026-10-22 | **Sophos (via Cyber Security News)** | An exploitation attempt tried to deploy Potassium, a likely Mirai botnet variant; security controls blocked it and the malware was not delivered. | [Cyber Security News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cybersecuritynews-critical-php2shell-exploit-code/) |
 | 2026-10-23 | **RainForest (via VOIX, Japan)** | RainForest's honeypot network matched 3 of 11 public IP addresses from VulnCheck and Amazon threat information and recorded 21 PHP2Shell-related HTTP POST requests, from 14 different source IPs. | [voix](https://refs.php.oct.2026.newsroom.sgit.ai/sources/voix-business-cards-rainforest-ip-activity-an/) |
+| 2026-10-26 | **Amazon Threat Intelligence (via ZDNET Japan, translating ZDNET)** | Threat actors in PHP2Shell attack chains are trying to deploy Mirai-family botnets. | [ZDNET Japan](https://refs.php.oct.2026.newsroom.sgit.ai/sources/japan-zdnet-article-35253966/) |
 
 ## Exploitation reported, no victim named (4)
 
@@ -52,7 +53,7 @@ This kind of statement can show that a party says exploitation happened. It cann
 | 2026-10-21 07:34 UTC | **Patchstack (via Recorded Future)** | "Received reports of multiple active exploitation incidents from hosting partners." No victim named. | [Recorded Future](https://refs.php.oct.2026.newsroom.sgit.ai/sources/recordedfuture-php2shell/) |
 | 2026-10-21 20:15 UTC | **NCSC New Zealand** | "The NCSC is aware of reports of active exploitation." Whose reports is not said. | [NCSC New Zealand](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/) |
 
-## No successful exploitation known (18)
+## No successful exploitation known (19)
 
 This kind of statement can show what a party with visibility has not seen. It cannot show that nothing happened outside its view.
 
@@ -71,6 +72,7 @@ This kind of statement can show what a party with visibility has not seen. It ca
 | 2026-10-22 | **Cloudflare (to USA Today)** | Its observations "describe attack attempts; they do not, by themselves, establish successful compromises." | [USA Today](https://refs.php.oct.2026.newsroom.sgit.ai/sources/usa-today-php2shell-live/) source watch: `raw/us/news/usa-today/php2shell-live/` |
 | 2026-10-22 | **Crypto exchanges and payment providers (via BTC-ECHO)** | No evidence so far that large crypto trading platforms or payment providers were compromised through php2shell. | [BTC-ECHO](https://refs.php.oct.2026.newsroom.sgit.ai/sources/btc-echo-news-krypto-boersen-akut-bedroht-kritisc/) |
 | 2026-10-22 | **Turkey's Presidency Cybersecurity Directorate (via Haber and three other Turkish outlets)** | Said the e-Devlet Kapisi government portal, with more than 69 million users, had no security problem from PHP2Shell and that services continued uninterrupted. | [Haber.com](https://refs.php.oct.2026.newsroom.sgit.ai/sources/haber-teknoloji-siber-guvenlik-baskanligi-ndan/) [Haber 7](https://refs.php.oct.2026.newsroom.sgit.ai/sources/haber7-teknoloji-haber-3670492-php-guvenlik-aci/) [DonanımHaber](https://refs.php.oct.2026.newsroom.sgit.ai/sources/donanimhaber-php-acigindan-etkilenen-ulkeler-ve-sitel/) [İndigo Dergisi](https://refs.php.oct.2026.newsroom.sgit.ai/sources/indigodergisi-2026-10-php-guvenlik-acigi-php2shell/) |
+| 2026-10-22 | **ScaleCommerce (Germany, a hosting provider, in its own press release)** | Its log review found only isolated attack attempts on customer shops and no indications of a broad compromise. | [PresseBox](https://refs.php.oct.2026.newsroom.sgit.ai/sources/pressebox-pressemitteilung-scalecommerce-gmbh-krit/) |
 | 2026-10-22 21:21 UTC | **Sophos (via Cyber Security News)** | In a correction issued at 21:21 UTC on 22 October, Sophos said its customer data showed scanning and a small number of failed exploit attempts, and no evidence of a successful compromise; an earlier success claim was withdrawn. | [Cyber Security News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cybersecuritynews-critical-php2shell-exploit-code/) |
 | 2026-10-23 | **Luxembourg (via Paperjam)** | No Luxembourg financial institution, public service or operator had announced it had actually been infiltrated through php2shell; the state announced no confirmed compromise, and the authorities asked operators to search back for traces of compromise and to keep the evidence. | [Paperjam](https://refs.php.oct.2026.newsroom.sgit.ai/sources/paperjam-article-php2shell-des-milliers-de-sites/) |
 | 2026-10-23 | **US banks and credit unions (via American Banker)** | "Attackers have fired millions of attempts at the PHP2Shell flaws, but no U.S. bank or credit union has publicly reported a compromise." | [American Banker](https://refs.php.oct.2026.newsroom.sgit.ai/sources/americanbanker-news-banks-dodge-early-damage-from-php2s/) |
@@ -124,8 +126,8 @@ Where sources disagree, the disagreement is a record of its own in the source wa
 
 ## How this page is made
 
-Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
+Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
 
 
 ---
-site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html

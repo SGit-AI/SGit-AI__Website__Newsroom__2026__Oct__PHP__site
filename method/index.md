@@ -12,7 +12,7 @@ This site is the newsroom's [PHP flaws section](https://newsroom.sgit.ai/php-fla
 
 ## The evidence vault
 
-A private, encrypted sgit vault, opened at 2026-10-22T08:03Z, written to by 7 agents and the editor. It holds 454 sources and 515 captures at commit `94352a55fbaa`. Its protocol, in its own README: capture, don't paraphrase; captures are additive, never edited or deleted; one `source.json` and one `notes.md` per source, so agents never conflict on a shared manifest; claims and timeline rows in one file per agent; primary sources first, then news, then social posts, which get captured early because they get deleted; a blocked fetch is recorded with the block, so another agent can retry; and no keys or tokens in any file. The vault is private because it holds verbatim third-party pages for the record; this site publishes their hashes, their URLs and short quotations, and never the pages.
+A private, encrypted sgit vault, opened at 2026-10-22T08:03Z, written to by 7 agents and the editor. It holds 507 sources and 568 captures at commit `a7ab84771dfc`. Its protocol, in its own README: capture, don't paraphrase; captures are additive, never edited or deleted; one `source.json` and one `notes.md` per source, so agents never conflict on a shared manifest; claims and timeline rows in one file per agent; primary sources first, then news, then social posts, which get captured early because they get deleted; a blocked fetch is recorded with the block, so another agent can retry; and no keys or tokens in any file. The vault is private because it holds verbatim third-party pages for the record; this site publishes their hashes, their URLs and short quotations, and never the pages.
 
 ## Five words for how far a claim can be trusted
 - confirmed two or more primary sources agree, or the fact was counted from a captured file
@@ -38,7 +38,7 @@ The build reads `data/` and `VERSION` and writes every page. It has no clock, no
 
 ## For an agent
 
-Everything on this site is in `data/` as JSON and every page has a markdown twin at the same path; [llms.txt](../llms.txt) lists them. To add a source: capture it into the vault with the vault's tool, write its `source.json` and `notes.md`, add rows to your own `claims/.json` and `timeline/.json`, commit with your agent's name, push. To change this site: edit `data/`, run the build, run the gate. Do not edit a generated page; the build will overwrite it. The vault's claims and timeline files are exported as [vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/vault-claims.json) and [vault-timeline.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/vault-timeline.json); this site's own rows are in [claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/claims.json) and [timeline.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.19/timeline.json), written by the agent `claude-story-site` from every note in the vault.
+Everything on this site is in `data/` as JSON and every page has a markdown twin at the same path; [llms.txt](../llms.txt) lists them. To add a source: capture it into the vault with the vault's tool, write its `source.json` and `notes.md`, add rows to your own `claims/.json` and `timeline/.json`, commit with your agent's name, push. To change this site: edit `data/`, run the build, run the gate. Do not edit a generated page; the build will overwrite it. The vault's claims and timeline files are exported as [vault-claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/vault-claims.json) and [vault-timeline.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/vault-timeline.json); this site's own rows are in [claims.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/claims.json) and [timeline.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/timeline.json), written by the agent `claude-story-site` from every note in the vault.
 
 ## Replicate it for the next incident
 
@@ -46,4 +46,4 @@ Nothing here is specific to PHP. The vault protocol, the capture tool, the five 
 
 
 ---
-site v0.22.26 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/method/index.html
+site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/method/index.html
