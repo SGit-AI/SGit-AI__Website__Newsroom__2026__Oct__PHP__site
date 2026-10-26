@@ -33,6 +33,7 @@ Two ledgers. The first is systems taken offline, which is a decision an operator
 | **Switzerland: the EPFL, the Basel-Stadt administration, the University of Geneva, the insurer La Mobilière** CH | Websites temporarily unavailable from 21 October, 'according to several media'; La Mobilière says it suspended access to its site itself; Basel-Stadt took servers and services offline to patch | 2026-10-21 | 24 Heures | reported | [24 Heures](https://refs.php.oct.2026.newsroom.sgit.ai/sources/24heures-php2shell-qui-est-affecte-par-la-faille/) |
 | **Japan: Shizuoka Bank (website and banking app)** JP | Announced a precautionary, temporary shutdown of its website and banking app over the PHP flaws; a precaution, not a compromise | 2026-10-22 | IT Finanzmagazin; The Next Web, citing Bloomberg | reported | [IT Finanzmagazin](https://refs.php.oct.2026.newsroom.sgit.ai/sources/it-finanzmagazin-php2shell-sicherheitsluecken-bedrohen-we/) [The Next Web](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-next-web-php2shell-no-confirmed-breaches/) |
 | **Nepal: government portals, the Nepal Rastra Bank's website and web services, the Department of Revenue Investigation's freight-tracking system** NP | Taken offline or suspended as a precaution over the PHP flaws; the Department said it suspended its service because of the risk of exploitation; restoration in stages after patching and testing. The page's headline says 'thousands' of websites but gives no count | 2026-10-25 | The Kathmandu Post | reported | [The Kathmandu Post](https://refs.php.oct.2026.newsroom.sgit.ai/sources/kathmandupost-science-technology-2026-10-25-php2shell/) |
+| **Italy: GARR, the research and education network (some of its platforms)** IT | GARR announced on 21 October that it had isolated some of its platforms to apply the fixes, as a precaution against remote access; patching and a gradual restoration of services followed. As Macitynet reports GARR's notice | 2026-10-21 | Macitynet, relaying GARR's notice | reported | [macitynet.it](https://refs.php.oct.2026.newsroom.sgit.ai/sources/macitynet-php2shell-vulnerabilita-php-siti-offline/) |
 
 ## Compromised
 
@@ -62,4 +63,4 @@ What a compromise of one system would reach is on [the blast-radius section](../
 
 
 ---
-site v0.22.23 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/impact/index.html
+site v0.22.25 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/impact/index.html

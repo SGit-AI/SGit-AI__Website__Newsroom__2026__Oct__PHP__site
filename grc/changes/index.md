@@ -8,15 +8,15 @@ The php2shell risk graph compared between any two releases: nodes and edges adde
 
 # What changed in the risk graph, release by release
 
-The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 163 releases carry a graph; 7 of them changed it. Pick any two below; the default is the latest change.
+The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 165 releases carry a graph; 8 of them changed it. Pick any two below; the default is the latest change.
 
-## v0.19.2 → v0.19.3
+## v0.22.24 → v0.22.25
 
-| Measure | v0.19.2 | v0.19.3 | Change |
+| Measure | v0.22.24 | v0.22.25 | Change |
 |---|---|---|---|
-| Nodes | 726 | 727 | +1 |
-| Edges | 1,356 | 1,357 | +1 |
-| Edges known as source | 254 | 255 | +1 |
+| Nodes | 727 | 728 | +1 |
+| Edges | 1,357 | 1,358 | +1 |
+| Edges known as source | 255 | 256 | +1 |
 | Edges known as code | 287 | 287 | same |
 | Edges known as inferred | 815 | 815 | same |
 | Gap: Controls joined to no code or test that implements them | 95 | 95 | same |
@@ -31,17 +31,18 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 ### Nodes added: 1
 
 1 source
-- [Haber.com](../../grc/explore/index.html#focus=source:haber-teknoloji-siber-guvenlik-baskanligi-ndan) source
+- [La Razón](../../grc/explore/index.html#focus=source:larazon-tecnologia-consumo-php-nuevo-fallo-segur) source
 
 ### Edges added: 1
 
 1 *cites*
-- As of 09:35 UTC on 25 October, no named organisation has sai *cites* Haber.com source
+- As of 14:40 UTC on 25 October, no named organisation has sai *cites* La Razón source
 
 ## Every release that changed the graph
 
 | Release | Against | Nodes | Edges | Bases | Gaps | Nodes / edges after |
 |---|---|---|---|---|---|---|
+| [v0.22.25](#from=0.22.24&to=0.22.25) 2026-10-26 | v0.22.24 | +1 −0 | +1 −0 | 0 | +0 −0 | 728 / 1,358 |
 | [v0.19.3](#from=0.19.2&to=0.19.3) 2026-10-25 | v0.19.2 | +1 −0 | +1 −0 | 0 | +0 −0 | 727 / 1,357 |
 | [v0.15.19](#from=0.15.18&to=0.15.19) 2026-10-24 | v0.15.18 | +2 −0 | +2 −0 | 0 | +0 −0 | 726 / 1,356 |
 | [v0.14.30](#from=0.14.29&to=0.14.30) 2026-10-24 | v0.14.29 | +3 −0 | +3 −0 | 0 | +0 −0 | 724 / 1,354 |
@@ -50,8 +51,8 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 | [v0.10.13](#from=0.10.12&to=0.10.13) 2026-10-23 | v0.10.12 | +271 −0 | +504 −0 | 839 | +0 −9 | 713 / 1,343 |
 | [v0.6.0](#from=&to=0.6.0) 2026-10-22 | the first graph | +442 −0 | +839 −0 | 0 | +143 −0 | 442 / 839 |
 
-How it is made: every release commits the graph the build wrote ([data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.15/grc-graph.json)). `admin/build/grc_history.py` compares each release's graph with the one before and keeps what changed in [data/grc-history.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.15/grc-history.json), written once per release, at its own build. The gaps are counted with today's rules ([data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.15/grc-gaps.json)) over each release's graph, so every pair is measured the same way. An edge is the same edge when its start, verb and end are the same. Graphs before v0.10.13 recorded no basis on an edge. Comparing two releases that are not next to each other replays the changes between them in your browser.
+How it is made: every release commits the graph the build wrote ([data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.18/grc-graph.json)). `admin/build/grc_history.py` compares each release's graph with the one before and keeps what changed in [data/grc-history.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.18/grc-history.json), written once per release, at its own build. The gaps are counted with today's rules ([data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.18/grc-gaps.json)) over each release's graph, so every pair is measured the same way. An edge is the same edge when its start, verb and end are the same. Graphs before v0.10.13 recorded no basis on an edge. Comparing two releases that are not next to each other replays the changes between them in your browser.
 
 
 ---
-site v0.22.23 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
+site v0.22.25 · data as of 2026-10-25T14:40Z · vault commit 94352a55fbaa · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
