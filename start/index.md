@@ -51,7 +51,7 @@ I want to understand it · ******Plain English
 
 The answer in thirty seconds
 
-Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. As of 12:14 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
+Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
 
 #### Reading path
 - [Your briefing](../briefings/everyone/index.html) 4 min
@@ -63,7 +63,7 @@ About 14 minutes in all. Choose *read as Alex* and the bar under the menu keeps 
 
 #### Words they will meet
 
-[PHP](../glossary/index.html#php)[php2shell](../glossary/index.html#php2shell)[Evidence vault](../glossary/index.html#vault)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[Exploit, exploitation](../glossary/index.html#exploit)[Remote code execution (RCE)](../glossary/index.html#rce)[Honeypot](../glossary/index.html#honeypot)[NCSC](../glossary/index.html#ncsc)[Patch](../glossary/index.html#patch)
+[PHP](../glossary/index.html#php)[php2shell](../glossary/index.html#php2shell)[Evidence vault](../glossary/index.html#vault)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[Exploit, exploitation](../glossary/index.html#exploit)[Remote code execution (RCE)](../glossary/index.html#rce)[Patch](../glossary/index.html#patch)[Honeypot](../glossary/index.html#honeypot)[NCSC](../glossary/index.html#ncsc)
 
 [Read as Alex →](../briefings/everyone/index.html)
 
@@ -127,7 +127,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. As of 12:14 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
+A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
 
 #### Reading path
 - [Your briefing](../briefings/board/index.html) 4 min
@@ -203,7 +203,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. As of 12:14 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
+The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
 
 #### Reading path
 - [Your briefing](../briefings/cfo/index.html) 4 min
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/start/index.html

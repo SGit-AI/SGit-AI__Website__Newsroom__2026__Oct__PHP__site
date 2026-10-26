@@ -9,12 +9,12 @@
   "CVE-2026-109619"
  ],
  "status": "developing",
- "version": "0.22.33",
- "data_as_of": "2026-10-26T14:42Z",
- "vault_commit": "2fc7e432584b",
+ "version": "0.22.34",
+ "data_as_of": "2026-10-26T17:09Z",
+ "vault_commit": "1dceaa1dfa7f",
  "counts": {
-  "sources": 543,
-  "captures": 605,
+  "sources": 561,
+  "captures": 623,
   "claims": 70,
   "claims_by_status": {
    "confirmed": 20,
@@ -44,7 +44,7 @@
   },
   {
    "id": "no-confirmed-compromise",
-   "text": "As of 12:14 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
+   "text": "As of 14:42 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
    "status": "reported",
    "url": "https://php.oct.2026.newsroom.sgit.ai/claims/index.html#no-confirmed-compromise",
    "sources": [
@@ -71,7 +71,9 @@
     "diepresse-41383717-die-php-sicherheitsluecke-ist-a",
     "voix-business-cards-rainforest-ip-activity-an",
     "haber-teknoloji-siber-guvenlik-baskanligi-ndan",
-    "larazon-tecnologia-consumo-php-nuevo-fallo-segur"
+    "larazon-tecnologia-consumo-php-nuevo-fallo-segur",
+    "techgaming-internet-sotto-attacco-php2shell-vulnera",
+    "bitpage-php2shell-php-sicherheitsluecke-webseite"
    ]
   },
   {

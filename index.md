@@ -4,7 +4,7 @@
 
 PHP news for October 2026, led by the month's big story: two critical security flaws in PHP (CVE-2026-109618 and CVE-2026-109619, nicknamed php2shell). The current situation in plain words, the core facts with their evidence, what to do, and a briefing for every kind of reader.
 
-Developing  ·  PHP news, October 2026  ·  [latest evidence 26 October 2026, 15:10 UTC](#checked)  ·  [last agent run 26 October 2026, 17:20 UTC](https://updates.php.oct.2026.newsroom.sgit.ai/views/loops/)
+Developing  ·  PHP news, October 2026  ·  [latest evidence 26 October 2026, 17:40 UTC](#checked)  ·  [last agent run 26 October 2026, 19:16 UTC](https://updates.php.oct.2026.newsroom.sgit.ai/views/loops/)
 
 # Two serious security flaws in PHP, the software behind many of the world's websites
 
@@ -15,7 +15,7 @@ PHP is the software that WordPress and millions of other websites run on. A fix 
 You may also see this called php2shell, or by its two official reference numbers, CVE-2026-109618 and CVE-2026-109619.
 
   JYour answer in thirty secondsfor Jordan, board member or executive
-A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. As of 12:14 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
+A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
 
 Choose who you are in the bar above and this answer changes to fit.
 
@@ -23,7 +23,7 @@ Is there a fix?Yesinstall PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35How serious?Critic
 This section v10 written in site [v0.22.30](https://team.php.oct.2026.newsroom.sgit.ai/admin/versions.html#v0.22.30) on 26 October 2026 · [history and changes, 9 earlier](https://updates.php.oct.2026.newsroom.sgit.ai/versions/front-glance/)
 
 ## Right now
-as of 26 October 2026, 14:42 UTC, the latest page this site saved- A fix has been available since 21 October. Organisations that run websites on PHP are installing it. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/)
+as of 26 October 2026, 17:09 UTC, the latest page this site saved- A fix has been available since 21 October. Organisations that run websites on PHP are installing it. [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/)
 - Every government cyber agency says: install the fix now. If you cannot, the US agencies say take the website offline; the UK puts that after temporary mitigations, and several European agencies say cut it off from the public internet first. [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [NCSC UK](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-news-php/) [CERT-EU](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certeu-sa-2026-018/) [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2112903220209098897/)
 - Attackers are trying to use the flaws, in large numbers: millions of attempts by one internet security company's count. As of 09:35 UTC on 25 October, no named organisation has said it was broken into through this flaw. The one security company that had claimed a successful break-in, Sophos, withdrew it; US banks and the large crypto platforms report none. [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [Paperjam](https://refs.php.oct.2026.newsroom.sgit.ai/sources/paperjam-article-php2shell-des-milliers-de-sites/) [Cyber Security News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cybersecuritynews-critical-php2shell-exploit-code/) [American Banker](https://refs.php.oct.2026.newsroom.sgit.ai/sources/americanbanker-news-banks-dodge-early-damage-from-php2s/) [BTC-ECHO](https://refs.php.oct.2026.newsroom.sgit.ai/sources/btc-echo-news-krypto-boersen-akut-bedroht-kritisc/)
 - The advice is moving from 'install the fix' to 'and check whether you were already broken into'. Singapore's and Luxembourg's authorities now say so. [CNA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/channelnewsasia-singapore-php-vulnerabilities-csa-singapore-firms-cybersecur/) [Paperjam](https://refs.php.oct.2026.newsroom.sgit.ai/sources/paperjam-article-php2shell-des-milliers-de-sites/)
@@ -131,11 +131,11 @@ signed, dated and kept as written; everything above is researchSomeone stole the
 What else is going on Other vulnerabilities in the news this month, with the evidence that each is exploited beside the attention it gets: the SGit newsroom's Pulse, in a separate section, not about PHP. Pulse →
 
 ## How this site knows
-543web pages saved as evidence, each with the time it was saved70statements checked: 20 confirmed, 10 disputed, 4 unverified68dated events, from 2024 to today16government agencies' advice compared
+561web pages saved as evidence, each with the time it was saved70statements checked: 20 confirmed, 10 disputed, 4 unverified68dated events, from 2024 to today16government agencies' advice compared
 Every page this site relies on was saved at the moment it was read, with a fingerprint that proves it has not been altered since, so a fact can be checked even if the original page changes or disappears. Nothing here is advice for your own systems; for that, read [the PHP project's announcement](https://www.php.net/archive/2026.php#2026-10-21-5) and your national cyber agency. The site is put together by software agents working for one editor, Dinis Cruz; [how it works](method/index.html).
 
-Latest evidence: [the evidence vault](https://refs.php.oct.2026.newsroom.sgit.ai/sources/), latest capture 26 October 2026, 14:42 UTC · [the source watch](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/), latest run 26 October 2026, 15:10 UTC · [the NCSC-NL inventory](patching/inventory/index.html), latest change read 23 October 2026, 12:50 UTC. Last agent run: 26 October 2026, 17:20 UTC (factcheck); [how the site is kept current, loop by loop](https://updates.php.oct.2026.newsroom.sgit.ai/views/loops/). Already know the vocabulary? [The specialist summary](summary/index.html) has the technical version of this page.
+Latest evidence: [the evidence vault](https://refs.php.oct.2026.newsroom.sgit.ai/sources/), latest capture 26 October 2026, 17:09 UTC · [the source watch](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/), latest run 26 October 2026, 17:40 UTC · [the NCSC-NL inventory](patching/inventory/index.html), latest change read 23 October 2026, 12:50 UTC. Last agent run: 26 October 2026, 19:16 UTC (conductor); [how the site is kept current, loop by loop](https://updates.php.oct.2026.newsroom.sgit.ai/views/loops/). Already know the vocabulary? [The specialist summary](summary/index.html) has the technical version of this page.
 
 
 ---
-site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/index.html
+site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/index.html

@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 26 October 2026, 14:42 UTC
+Operations · data as of 26 October 2026, 17:09 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,19 +37,19 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      storyv0.22.31 · 2026-10-26
+      storyv0.22.34 · 2026-10-26
 ### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
-frontv0.22.31 · 2026-10-26
-### [Stories: written here](../index.html#stories)
-storyv0.22.30 · 2026-10-26
+storyv0.22.34 · 2026-10-26
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
+factreportedv0.22.34 · 2026-10-26
+### [As of 14:42 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+CISACISAHuntressAmazonfrontv0.22.31 · 2026-10-26
+### [Stories: written here](../index.html#stories)
 frontv0.22.30 · 2026-10-26
 ### [Front page: at a glance](../index.html#glance)
 factconfirmedv0.22.29 · 2026-10-26
 ### [The fixes were scheduled for 14:00 UTC on 21 October and were published between 13:31 and 13:35 UTC](https://refs.php.oct.2026.newsroom.sgit.ai/facts/release-time/)
-oss-securityDauboisCERT-FRCERT-EUfactreportedv0.22.29 · 2026-10-26
-### [As of 12:14 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
-CISACISAHuntressAmazonstoryv0.21.0 · 2026-10-25
+oss-securityDauboisCERT-FRCERT-EUstoryv0.21.0 · 2026-10-25
 ### [What Wikipedia knows about being right: the principles, workflows and review habits this newsroom's agents should adopt](../articles/what-wikipedia-knows-about-being-right/index.html)
 questionv0.19.2 · 2026-10-25
 ### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
@@ -95,4 +95,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

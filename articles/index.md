@@ -22,7 +22,7 @@ House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.
 
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](has-anyone-been-hacked/index.html)
 
-A reader's question, answered from the evidence. Millions of attack attempts, several vendors saying "exploited in the wild", hundreds of websites pulled offline as a precaution, and, as of 12:14 UTC on 26 October, not one organisation that has said it was broken into through these flaws. Here is the record, rung by rung, and what would change the answer.
+A reader's question, answered from the evidence. Millions of attack attempts, several vendors saying "exploited in the wild", hundreds of websites pulled offline as a precaution, and, as of 12:14 UTC on 26 October, not one organisation that has said it was broken into through these flaws. Here is the record, level by level, and what would change the answer.
 
 House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.22.29 · vault commit `22a0c2920b88` · data as of 2026-10-26T12:14Z · 25 sources cited
 
@@ -94,4 +94,4 @@ None yet. A guest writer or interviewer sends a piece to the editor; it is publi
 
 
 ---
-site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/articles/index.html
+site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/index.html

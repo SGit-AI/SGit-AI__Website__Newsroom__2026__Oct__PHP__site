@@ -1,14 +1,17 @@
 {
  "from": {
-  "commit": "bfcc288fa00a0babdafc11e6c71367ca13126a29",
-  "site_version": "0.22.33"
+  "commit": "94ff64b5b73e6eb61a6240d9a6b10f29c9a84402",
+  "site_version": "0.22.34"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
- "kept": [],
+ "kept": [
+  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md",
+  "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md"
+ ],
  "files": {
   "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
   "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",
@@ -19,8 +22,8 @@
   "content/articles/2026-10-23__dev__the-telemetry-tools.md": "322bbf39ab6957da85a2337bcc0d0e73449584a2cacb1e4269a98225fd852c5c",
   "content/articles/2026-10-23__journalist__what-changed-in-a-day.md": "1a5284a2a4f193eeb2807086fb0148ae9bd4f7253b20069687784a9917298a1b",
   "content/articles/2026-10-25__ontologist__what-wikipedia-knows-about-being-right.md": "a850357d34d7a30c5680f552a7663114803c0e4f6e0cd43ae6a9f513c577aabe",
-  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md": "649474a741539c34dbd6408601399941a40d15df723c02f7daf96f349c00e50a",
-  "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md": "d15764aac55505a722114b105fb87d8732a9866f685b35e1019907e1ed8786bb",
+  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md": "2394ec7c4e9a8d30f075caa7cc847b036cd77606d8fc01a93e522aa4e3bf2152",
+  "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md": "fa832b25e7634408563aa546eab5ef57c37e9555d42e6c5f605854a4ffa006fc",
   "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
   "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"
  }
