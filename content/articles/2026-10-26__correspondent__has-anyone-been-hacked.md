@@ -1,7 +1,7 @@
 ---
 slug: has-anyone-been-hacked
 title: Has anyone actually been hacked through php2shell? What 525 sources say, five days on
-dek: A reader's question, answered from the evidence. Millions of attack attempts, several vendors saying "exploited in the wild", hundreds of websites pulled offline as a precaution, and, as of 12:14 UTC on 26 October, not one organisation that has said it was broken into through these flaws. Here is the record, rung by rung, and what would change the answer.
+dek: A reader's question, answered from the evidence. Millions of attack attempts, several vendors saying "exploited in the wild", hundreds of websites pulled offline as a precaution, and, as of 12:14 UTC on 26 October, not one organisation that has said it was broken into through these flaws. Here is the record, level by level, and what would change the answer.
 role: correspondent
 origin: house
 author: correspondent@php.newsroom
@@ -21,15 +21,15 @@ That answer is time-bounded on purpose. It is true as of a stated capture and wi
 
 ## The ladder of evidence
 
-"Exploited" is used for very different things. It helps to separate them into rungs, each a stronger kind of proof than the one below.
+"Exploited" is used for very different things. It helps to separate them into levels, each a stronger kind of proof than the one below.
 
-![Five rungs of evidence, from attack attempts to a CISA listing; the top two are empty](/assets/articles/has-anyone-been-hacked/ladder.png "The ladder of evidence, as of 12:14 UTC on 26 October 2026. The bottom two rungs are reached; the third has candidates; the top two are empty.")
+![Five levels of evidence, from attack attempts to a CISA listing; the top two are empty](/assets/articles/has-anyone-been-hacked/ladder.png "The ladder of evidence, as of 12:14 UTC on 26 October 2026. The bottom two levels are reached; the third has candidates; the top two are empty.")
 
-**Rung 1: attempts. Reached, massively.** Cloudflare's chief executive counted thousands of attempts in the ten hours before the announcement and "millions now" a day later. [[x-eastdakota-php2shell-stats]] Amazon says one of its decoy servers was hit on 17 October, four days before the fix, and that it is "unclear if any of these attempts would have succeeded". [[aws-security-blog-madpot]] Amazon also reports attackers trying to install Mirai-family botnets; Sophos says the botnet payloads it saw failed. [[japan-zdnet-article-35253966, cybersecuritynews-critical-php2shell-exploit-code]]
+**Level 1: attempts. Reached, massively.** Cloudflare's chief executive counted thousands of attempts in the ten hours before the announcement and "millions now" a day later. [[x-eastdakota-php2shell-stats]] Amazon says one of its decoy servers was hit on 17 October, four days before the fix, and that it is "unclear if any of these attempts would have succeeded". [[aws-security-blog-madpot]] Amazon also reports attackers trying to install Mirai-family botnets; Sophos says the botnet payloads it saw failed. [[japan-zdnet-article-35253966, cybersecuritynews-critical-php2shell-exploit-code]]
 
-**Rung 2: a vendor says "exploited in the wild". Reached, but with no victim.** Four statements in the record say so: Hadrian ("exploited in the wild at scale"), Patchstack (reports from hosting partners), Amazon (against its own sensors) and New Zealand's NCSC ("aware of reports"). [[securityweek-first-attempts-sensors, recordedfuture-php2shell, aws-security-blog-madpot, ncsc-nz-alert-php]] None names an organisation that was broken into. One blog wrote that "Palo Alto Networks and Trail of Bits later reported confirmed compromises"; it names no victim, no such report is captured, and Palo Alto's own advisory says it is "not aware of any malicious exploitation". This site holds that sentence back. [[wersm-php2shell-legacy-infrastructure-web-risk, paloalto-psirt-cve-2026-109618]]
+**Level 2: a vendor says "exploited in the wild". Reached, but with no victim.** Four statements in the record say so: Hadrian ("exploited in the wild at scale"), Patchstack (reports from hosting partners), Amazon (against its own sensors) and New Zealand's NCSC ("aware of reports"). [[securityweek-first-attempts-sensors, recordedfuture-php2shell, aws-security-blog-madpot, ncsc-nz-alert-php]] None names an organisation that was broken into. One blog wrote that "Palo Alto Networks and Trail of Bits later reported confirmed compromises"; it names no victim, no such report is captured, and Palo Alto's own advisory says it is "not aware of any malicious exploitation". This site holds that sentence back. [[wersm-php2shell-legacy-infrastructure-web-risk, paloalto-psirt-cve-2026-109618]]
 
-**Rung 3: a named organisation investigating an incident. Candidates, none tied to php2shell.** Four names have come up, and each has been tested against its own words:
+**Level 3: a named organisation investigating an incident. Candidates, none tied to php2shell.** Four names have come up, and each has been tested against its own words:
 
 | Organisation | What it said | What that proves |
 | --- | --- | --- |
@@ -40,9 +40,9 @@ That answer is time-bounded on purpose. It is true as of a stated capture and wi
 
 [[yahoo-jp-gmo-fx-login-leak, lupa-cvut-cyber-attack, sankei-dmm-service-halt, impress-watch-valtec]]
 
-**Rung 4: a named organisation says it was breached through php2shell. Empty.** Not in any of the 525 captured sources, read in their own languages.
+**Level 4: a named organisation says it was breached through php2shell. Empty.** Not in any of the 525 captured sources, read in their own languages.
 
-**Rung 5: CISA lists the flaws as known exploited. Empty at the last check.** Neither CVE was in the Known Exploited Vulnerabilities catalogue when it was last checked, at 05:53 UTC on 24 October, and CISA's own assessment on the CVE records reads "Exploitation: none". [[cisa-kev-json, cve-cve-2026-109618, cve-cve-2026-109619]] This is the measure most worth re-checking; a listing would move the answer on its own.
+**Level 5: CISA lists the flaws as known exploited. Empty at the last check.** Neither CVE was in the Known Exploited Vulnerabilities catalogue when it was last checked, at 05:53 UTC on 24 October, and CISA's own assessment on the CVE records reads "Exploitation: none". [[cisa-kev-json, cve-cve-2026-109618, cve-cve-2026-109619]] This is the measure most worth re-checking; a listing would move the answer on its own.
 
 ## Every statement about compromise, counted
 
