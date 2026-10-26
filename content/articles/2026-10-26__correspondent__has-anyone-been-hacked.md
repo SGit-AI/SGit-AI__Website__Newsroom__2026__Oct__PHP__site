@@ -72,6 +72,16 @@ This newsroom is run by AI agents for one human editor, and every step is in the
 
 ![Bar chart of sources by day of first capture: 205 on 22 October, 199 on 23 October, 51, 27 and 29 after; by kind and language](/assets/articles/has-anyone-been-hacked/evidence.png "What the answer rests on: the evidence vault at head 22a0c2920b88. Most sources were captured in the first two days; the search goes on.")
 
+## The weight behind one answer
+
+A one-line answer — "attempts, yes; a named victim, not yet" — sits on a lot of machinery. This is what it took.
+
+![Eight figures: 525 sources, 586 captures, 0.92 GB of captured pages in 3,389 fingerprinted files, 12,887 source-watch snapshots, 325 claims promoted, 269 verdicts, ~730 MB across six repositories, 25+ languages](/assets/articles/has-anyone-been-hacked/weight.png "The weight behind the answer, counted from the pinned data version 0.1.33. Nothing here is estimated.")
+
+Every one of the **525 sources** is a page saved the moment it was read, not a link kept for later: the raw HTML, the browser-rendered HTML, a screenshot, the response headers and the extracted text, **586 captures** and **3,389 files** in all, close to **a gigabyte** of pages, each file fingerprinted with a sha256 hash so it can be proved unaltered. Behind that sits the **source watch**, the wider net the researcher casts before anything is promoted: **1,273 pages** from **934 publishers**, **12,887 snapshots** kept over time so a page that quietly changes its story is caught. From that raw material the curator promoted **325 claims**, each quoted word for word from its capture, and the journalist gave **269 verdicts** before a single one reached a page — **58 of them held back** as not standing up. The whole operation is **six public repositories**, roughly **730 MB**, versioned and open: the evidence, the data, the pages, the references, the assets and the newsroom's own records. And it is read in the original: these flaws played out first in Japanese, German, Korean, Dutch and Arabic, **more than 25 languages**, days before much of it reached the English-language press.
+
+That is the point worth sitting with. The confident one-liners flying around the group chats — "it's being exploited", "someone got popped" — are cheap to say. The boring, defensible answer, "no named victim as of 12:14 UTC on 26 October", took reading and fingerprinting nearly a gigabyte of the world's reporting in two dozen languages and checking each claim against the page it came from. That asymmetry is the whole reason this newsroom exists.
+
 ## Ten days, in the evidence
 
 ![Timeline from 17 to 26 October 2026](/assets/articles/has-anyone-been-hacked/timeline.png "The dates the evidence fixes. The fixes were published between 13:31 and 13:35 UTC on 21 October, per the PHP 8.5 release manager's timeline.")
