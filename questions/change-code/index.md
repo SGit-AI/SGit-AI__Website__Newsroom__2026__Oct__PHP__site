@@ -31,4 +31,4 @@ Next question: [Can anything be done to fix it, or do we just have to wait for u
 
 
 ---
-site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/questions/change-code/index.html
+site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/questions/change-code/index.html

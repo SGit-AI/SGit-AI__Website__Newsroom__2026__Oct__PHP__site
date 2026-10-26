@@ -9,23 +9,23 @@
   "CVE-2026-109619"
  ],
  "status": "developing",
- "version": "0.22.28",
- "data_as_of": "2026-10-26T09:40Z",
- "vault_commit": "a7ab84771dfc",
+ "version": "0.22.29",
+ "data_as_of": "2026-10-26T12:14Z",
+ "vault_commit": "22a0c2920b88",
  "counts": {
-  "sources": 507,
-  "captures": 568,
+  "sources": 525,
+  "captures": 586,
   "claims": 70,
   "claims_by_status": {
-   "confirmed": 19,
+   "confirmed": 20,
    "reported": 36,
-   "disputed": 8,
+   "disputed": 7,
    "contradicted": 3,
    "unverified": 4
   },
   "events": 68,
   "agencies": 16,
-  "offline_reported": 22,
+  "offline_reported": 25,
   "compromises_confirmed": 0
  },
  "headline_facts": [
@@ -44,7 +44,7 @@
   },
   {
    "id": "no-confirmed-compromise",
-   "text": "As of 09:40 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
+   "text": "As of 12:14 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
    "status": "reported",
    "url": "https://php.oct.2026.newsroom.sgit.ai/claims/index.html#no-confirmed-compromise",
    "sources": [

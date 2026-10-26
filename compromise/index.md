@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-26 09:40 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-26 12:14 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-26 09:40 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-26 12:14 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-507The evidence vault: sourceshead a7ab84771dfc; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+525The evidence vault: sourceshead 22a0c2920b88; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -126,8 +126,8 @@ Where sources disagree, the disagreement is a record of its own in the source wa
 
 ## How this page is made
 
-Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.26/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
+Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.33/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
 
 
 ---
-site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html

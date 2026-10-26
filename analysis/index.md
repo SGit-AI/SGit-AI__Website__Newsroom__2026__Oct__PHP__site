@@ -4,9 +4,9 @@
 
 The home for people who weigh the evidence: every fact by status and topic, the numbers in the news with how far each holds, where governments disagree, and what is still contested, each linked to its saved sources.
 
-Analysis · data as of 26 October 2026, 09:40 UTC
+Analysis · data as of 26 October 2026, 12:14 UTC
 
-# 70 facts. 19 confirmed. 15 still contested.
+# 70 facts. 20 confirmed. 14 still contested.
 
 Every fact on this site carries one of five words for how far it can be trusted, and links to the saved pages it rests on. This is the view for weighing them: the numbers and what each measures, where governments disagree, and what is contested.
 
@@ -14,9 +14,9 @@ Every fact on this site carries one of five words for how far it can be trusted,
 The 70% figure is a share of websites that use PHP, restated as a share of the Internet. The release was 21 October, not 22. Three parties claim the discovery; their dates do not conflict, their framing does. No agency has confirmed a successful compromise, and CISA has not listed either flaw as exploited.
 
 ## How sure are we?
-- 19 confirmed
+- 20 confirmed
 - 36 reported
-- 8 disputed
+- 7 disputed
 - 3 contradicted
 - 4 unverified
 
@@ -35,7 +35,7 @@ Not readable from this capture environment: CCN-CERT, CNCS.
 [Agency by agency, with their own words →](../agencies/index.html)
 
 ## Contested: disputed, contradicted, unverified
-15 facts- contradicted [The flaws are CVSS 10.0](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cvss-10/)who says it: social posts on 20 October, relayed by a vendor and a news site
+14 facts- contradicted [The flaws are CVSS 10.0](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cvss-10/)who says it: social posts on 20 October, relayed by a vendor and a news site
 - disputed [Remote code execution is confirmed on PHP-FPM](https://refs.php.oct.2026.newsroom.sgit.ai/facts/rce-fpm/)who says it: PHP Foundation blog; GHSA-6wmf for the session path
 - unverified [The 8.5.12 fix may be incomplete, or there is a third, different bug](https://refs.php.oct.2026.newsroom.sgit.ai/facts/fix-incomplete/)who says it: Fediverse posts relayed to oss-security by Aaron Rainbolt and Yves-Alexis Perez
 - disputed [All PHP versions from 5 onwards are affected by at least one of the flaws](https://refs.php.oct.2026.newsroom.sgit.ai/facts/versions-old/)who says it: NCSC-NL; Wiz ('>= 5.4'); CERT-FR (5.x, 6.x, 7.x, 8.0, 8.1)
@@ -44,7 +44,7 @@ Not readable from this capture environment: CCN-CERT, CNCS.
 - disputed [Frontier AI found the flaw ahead of attackers, giving defenders time to prepare](https://refs.php.oct.2026.newsroom.sgit.ai/facts/ahead-of-attackers/)who says it: OpenAI
 - disputed [Chainguard unilaterally broke the embargo on 21 October at 07:41 UTC by publishing built images containing the fix](https://refs.php.oct.2026.newsroom.sgit.ai/facts/chainguard/)who says it: PHP Foundation; Chainguard's CEO accepts the time and denies leaking
 - contradicted [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/)who says it: BBC framing (UK morning coverage)
-- disputed [The fixes were released at 14:00 UTC on 21 October](https://refs.php.oct.2026.newsroom.sgit.ai/facts/release-time/)who says it: php.net pre-announcement; Daubois; CERT-FR (16:00 Paris)
+- disputed [The pre-announcement was published at 19:30 UTC on 20 October](https://refs.php.oct.2026.newsroom.sgit.ai/facts/preannounce-time/)who says it: PHP Foundation
 
 ### As a graph
 
@@ -56,7 +56,7 @@ Every party quoted, with the claims each one makes.
 
 ### Every source
 
-507 pages, saved and fingerprinted at the minute they were read.
+525 pages, saved and fingerprinted at the minute they were read.
 
 ### Stories
 
@@ -64,4 +64,4 @@ Signed and dated analysis, written here and kept as written.
 
 
 ---
-site v0.22.28 · data as of 2026-10-26T09:40Z · vault commit a7ab84771dfc · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html
+site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html
