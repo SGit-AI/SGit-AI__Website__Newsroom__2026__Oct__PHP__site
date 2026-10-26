@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-26 12:14 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-26 14:42 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-26 12:14 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-26 14:42 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-525The evidence vault: sourceshead 22a0c2920b88; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+543The evidence vault: sourceshead 2fc7e432584b; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -19,7 +19,7 @@ Not to scale. Each layer is a different kind of statement, and a statement in on
 
 ## The evidence, by kind
 
-46 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
+47 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
 
 Each dot is one statement on this page, placed at the time the source gives (noon where it gives only a date). Hover a dot for who said it.
 
@@ -79,7 +79,7 @@ This kind of statement can show what a party with visibility has not seen. It ca
 | 2026-10-23 | **La Razón (Spain), on the investigations it cites** | As of 23 October 2026 attempts against PHP2Shell were real and in the millions, but no successful code execution had been established in the investigations cited. | [La Razón](https://refs.php.oct.2026.newsroom.sgit.ai/sources/larazon-tecnologia-consumo-php-nuevo-fallo-segur/) |
 | 2026-10-23 10:03 UTC | **Austria (via Die Presse)** | As of 12:03 Vienna time (10:03 UTC) on 23 October 2026 no successful attacks via PHP2Shell were known in Austria. | [Die Presse](https://refs.php.oct.2026.newsroom.sgit.ai/sources/diepresse-41383717-die-php-sicherheitsluecke-ist-a/) |
 
-## Named organisations (7)
+## Named organisations (8)
 
 This kind of statement can show what the organisation itself said. It cannot show a cause the organisation did not state.
 
@@ -92,6 +92,7 @@ This kind of statement can show what the organisation itself said. It cannot sho
 | 2026-10-22 | **Germany's Interior Ministry (to Bild)** | Its site "was not hacked", only taken down "for a repair". | Precaution, stated not compromised | source watch: `translations/de/news/bild/leben-wissen-digital-php-sicherheitsluecken-behoerden-nehmen.json` |
 | 2026-10-22 | **Anexia (Austria)** | Confirmed attack attempts on websites it operates; bank data not affected (via ORF). | Attempts, stated not compromised | [ORF](https://refs.php.oct.2026.newsroom.sgit.ai/sources/orf-stories-3445806/) source watch: `translations/at/news/orf/stories-3445806.json` |
 | 2026-10-22 | **Ahold Delhaize** | No reason to believe its recent cyberattack is linked to the PHP flaws (via Accountant.nl). | A separate incident, link denied | source watch: `translations/nl/news/accountant/nieuws-2026-10-europese-cybersecuritydienst-waarschuwt-voor.json` |
+| 2026-10-22 | **Square Enix (Japan), as TechGaming.it reports it, citing Kotaku** | Square Enix 'confirmed episodes of unauthorised access to its systems' in the same week as PHP2Shell. | Unverified, second-hand: the outlet does not say the access came through the PHP flaws, and Kotaku's text and Square Enix's own words are not captured. Bitpage, the other page that names Square Enix, says it closed new Final Fantasy XIV logins and took patch servers offline, with the cause 'not an attack' but the PHP flaws | [TechGaming.it](https://refs.php.oct.2026.newsroom.sgit.ai/sources/techgaming-internet-sotto-attacco-php2shell-vulnera/) [Bitpage.de](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bitpage-php2shell-php-sicherheitsluecke-webseite/) |
 
 ## Unnamed allegations (1)
 
@@ -126,8 +127,8 @@ Where sources disagree, the disagreement is a record of its own in the source wa
 
 ## How this page is made
 
-Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.33/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
+Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/compromise.json). Rows with sources cite captures in the evidence vault, which the build checks. Rows marked *source watch* cite a dated snapshot folder in the source-watch vault ([7r83qic5](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/)); they move into the evidence vault as the evidence curator promotes them. Statements read in another language carry the reader’s English translation beside the verbatim original in the watch’s `translations/` files. The charts are drawn from the same rows when the site is built.
 
 
 ---
-site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html

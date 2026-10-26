@@ -24,4 +24,4 @@ The report SaaS and hosting providers hand their customers; the criteria they wi
 
 
 ---
-site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/soc2/index.html
+site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/soc2/index.html

@@ -9,12 +9,12 @@
   "CVE-2026-109619"
  ],
  "status": "developing",
- "version": "0.22.29",
- "data_as_of": "2026-10-26T12:14Z",
- "vault_commit": "22a0c2920b88",
+ "version": "0.22.32",
+ "data_as_of": "2026-10-26T14:42Z",
+ "vault_commit": "2fc7e432584b",
  "counts": {
-  "sources": 525,
-  "captures": 586,
+  "sources": 543,
+  "captures": 605,
   "claims": 70,
   "claims_by_status": {
    "confirmed": 20,
@@ -25,7 +25,7 @@
   },
   "events": 68,
   "agencies": 16,
-  "offline_reported": 25,
+  "offline_reported": 28,
   "compromises_confirmed": 0
  },
  "headline_facts": [
@@ -87,9 +87,9 @@
   }
  ],
  "latest_story": {
-  "title": "What Wikipedia knows about being right: the principles, workflows and review habits this newsroom's agents should adopt",
-  "url": "https://php.oct.2026.newsroom.sgit.ai/articles/what-wikipedia-knows-about-being-right/index.html",
-  "written": "2026-10-25",
+  "title": "Someone stole the bitcoin. What that does, and does not, tell us about php2shell",
+  "url": "https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html",
+  "written": "2026-10-26",
   "origin": "house"
  },
  "links": {

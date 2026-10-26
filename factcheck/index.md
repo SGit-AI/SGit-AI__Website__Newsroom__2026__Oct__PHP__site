@@ -369,8 +369,8 @@ Each run is checked against a stated site version and vault commit, so its grade
 
 ## How the desk works
 
-The desk is `factcheck@php.newsroom`. Its role, the full model and the runbook a scheduled run follows are in [admin/factcheck/README.md](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__2026__Oct__PHP/blob/dev/admin/factcheck/README.md); its tickets are an [Issues-FS](https://issues-fs.sgit.ai/) graph in `admin/factcheck/.issues/`, typed nodes and typed edges in plain JSON files; its grades are [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.33/factcheck.json). Mode one checks every claim against the evidence vault. Mode two goes outside for the weak and the contested, and records what it finds as a request to capture, never as a citation.
+The desk is `factcheck@php.newsroom`. Its role, the full model and the runbook a scheduled run follows are in [admin/factcheck/README.md](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__2026__Oct__PHP/blob/dev/admin/factcheck/README.md); its tickets are an [Issues-FS](https://issues-fs.sgit.ai/) graph in `admin/factcheck/.issues/`, typed nodes and typed edges in plain JSON files; its grades are [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/factcheck.json). Mode one checks every claim against the evidence vault. Mode two goes outside for the weak and the contested, and records what it finds as a request to capture, never as a citation.
 
 
 ---
-site v0.22.29 · data as of 2026-10-26T12:14Z · vault commit 22a0c2920b88 · https://php.oct.2026.newsroom.sgit.ai/factcheck/index.html
+site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/factcheck/index.html
