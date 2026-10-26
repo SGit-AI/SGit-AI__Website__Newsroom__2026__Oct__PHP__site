@@ -11,9 +11,9 @@ never force-push, never push to `main`.
 
 This repository holds its own sources: the articles, the external pieces and the reviews (`content/articles/`, `content/external/`, `content/reviews/`: v1's `admin/content/` of the same names). Write them here, as your policy says, and release with
 `tools/pages_release.sh`. What is written here wins: `tools/pages_sync.py import` (v1 to here) never overwrites a change
-made here, and `tools/pages_sync.py export` carries it into v1, where the pages are still built until the build moves;
-dev's chain (`tools/chain.sh` in the press) runs both around every v1 release, and the page appears here at the next
-cut. `sources.json` records what the last import wrote.
+made here, and `tools/pages_sync.py export` carries it into the chain's build box (since step B, 26 October, a clone of
+v1 as frozen that is never pushed: nothing depends on v1's repository); dev's chain (`tools/chain.sh` in the press)
+runs both every round, and the page appears here at the next cut. `sources.json` records what the last import wrote.
 
 ## The pages: never edited here
 
@@ -22,8 +22,8 @@ Every page (everything outside `content/`, `tools/`, `README.md`, `CLAUDE.md`) i
 partition, and the gate refuses it. Change the page at its source in v1, release v1, then partition again:
 
 ```
-python3 ../sgit-ai__website__newsroom__2026__oct__php__press/tools/partition.py --site site --v1 ../sgit-ai__website__newsroom__2026__oct__php \
-    --data ../sgit-ai__website__newsroom__2026__oct__php__data --into .
+python3 ../sgit-ai__website__newsroom__2026__oct__php__press/tools/partition.py --site site --v1 ../sgit-ai__website__newsroom__2026__oct__php__box \
+    --data ../sgit-ai__website__newsroom__2026__oct__php__data --into .   # dev's chain does this
 RELEASE_TRAILER="Agent: <you>" tools/pages_release.sh "what changed and why"
 ```
 
