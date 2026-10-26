@@ -94,4 +94,4 @@ Source file: `admin/content/articles/2026-10-22__journalist__why-not-patch-every
 
 
 ---
-site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/why-not-patch-every-version/index.html
+site v0.22.35 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/why-not-patch-every-version/index.html

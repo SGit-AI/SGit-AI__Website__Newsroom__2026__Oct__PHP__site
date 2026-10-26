@@ -63,4 +63,4 @@ On this site: [Who found php2shell, and what the AI did](../../../discovery/inde
 
 
 ---
-site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-1/index.html
+site v0.22.35 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r08-1/index.html

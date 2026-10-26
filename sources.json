@@ -1,17 +1,14 @@
 {
  "from": {
-  "commit": "94ff64b5b73e6eb61a6240d9a6b10f29c9a84402",
-  "site_version": "0.22.34"
+  "commit": "97c8f1099258ad907f44604d43eb1a4e2c69c4ec",
+  "site_version": "0.22.35"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
- "kept": [
-  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md",
-  "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md"
- ],
+ "kept": [],
  "files": {
   "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
   "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",

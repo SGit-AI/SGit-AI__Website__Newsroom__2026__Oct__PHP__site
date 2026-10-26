@@ -271,8 +271,8 @@ Where other publishers quote or cite this site. Empty until a collector captures
 
 ## How the liaison works
 
-The desk is `liaison@php.newsroom`; its rules, the runbook and the message it prepares are in [admin/liaison/README.md](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__2026__Oct__PHP/blob/dev/admin/liaison/README.md), its data is [data/outreach.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.45/outreach.json). It opens a request only from a [fact-check](../factcheck/index.html) record, asks a publisher only through its own published corrections route, sends one follow-up at most, and records every answer, including no answer. Corrections to this site itself are on [the corrections page](../corrections/index.html).
+The desk is `liaison@php.newsroom`; its rules, the runbook and the message it prepares are in [admin/liaison/README.md](https://github.com/SGit-AI/SGit-AI__Website__Newsroom__2026__Oct__PHP/blob/dev/admin/liaison/README.md), its data is [data/outreach.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.46/outreach.json). It opens a request only from a [fact-check](../factcheck/index.html) record, asks a publisher only through its own published corrections route, sends one follow-up at most, and records every answer, including no answer. Corrections to this site itself are on [the corrections page](../corrections/index.html).
 
 
 ---
-site v0.22.34 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/outreach/index.html
+site v0.22.35 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/outreach/index.html
