@@ -8,7 +8,7 @@ Gaps in the php2shell risk graph, computed at every release from rules written a
 
 # What the risk graph is missing
 
-The graph shows what is joined; this page shows what is not. Each gap below is a rule, written as data in [data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.46/grc-gaps.json), computed over the 730 nodes and 1360 edges at every release: a control no test reaches, code nobody owns, a risk no story tells, a join an agent inferred that nobody has checked. Each names who could close it; each item opens in [the explorer](../explore/index.html).
+The graph shows what is joined; this page shows what is not. Each gap below is a rule, written as data in [data/grc-gaps.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.48/grc-gaps.json), computed over the 730 nodes and 1360 edges at every release: a control no test reaches, code nobody owns, a risk no story tells, a join an agent inferred that nobody has checked. Each names who could close it; each item opens in [the explorer](../explore/index.html).
 
 95controls joined to no code or test that implements them (of 95)16code with no owner one step away (of 16)9code no test reaches (of 16)14risks no story tells (of 34)0risks with no treatment (of 34)0risks with no owner (of 34)0vulnerabilities no test reaches (of 2)815edges inferred by an agent, not yet checked (of 1360)
 
@@ -208,4 +208,4 @@ A rule is a kind of node, what it should reach, within how many steps and throug
 
 
 ---
-site v0.22.35 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/gaps/index.html
+site v0.22.36 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/gaps/index.html
