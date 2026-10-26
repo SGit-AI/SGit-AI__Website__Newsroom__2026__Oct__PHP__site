@@ -16,8 +16,8 @@ About 69% of the websites whose server-side language W3Techs can identify, and f
 
 Opened 2026-10-24, as of 2026-10-24T01:50Z; 29 measures, 127 statements traced.
 
-The data behind each investigation is in `admin/factcheck/investigations/` and in [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.10/factcheck.json). Pages the desk fetched from outside the evidence vault are shown with their address, time and sha256, and are labelled as the desk's own fetches: they are not evidence of the story until a collector captures them.
+The data behind each investigation is in `admin/factcheck/investigations/` and in [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.11/factcheck.json). Pages the desk fetched from outside the evidence vault are shown with their address, time and sha256, and are labelled as the desk's own fetches: they are not evidence of the story until a collector captures them.
 
 
 ---
-site v0.22.14 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html
+site v0.22.20 · data as of 2026-10-25T09:35Z · vault commit 87795d121200 · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html

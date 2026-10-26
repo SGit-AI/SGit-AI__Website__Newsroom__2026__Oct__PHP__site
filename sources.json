@@ -1,0 +1,25 @@
+{
+ "from": {
+  "commit": "c64a82ea3a8d7666726a9c34783f3745727a75a8",
+  "site_version": "0.22.20"
+ },
+ "sources": {
+  "content/articles/": "admin/content/articles/",
+  "content/external/": "admin/content/external/",
+  "content/reviews/": "admin/content/reviews/"
+ },
+ "kept": [],
+ "files": {
+  "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
+  "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",
+  "content/articles/2026-10-22__journalist-historian__exposed-is-not-exploited.md": "62a623ef743fcd9c0fbedf43eca54fad2869206d5ff0f460b5853376f74d9f40",
+  "content/articles/2026-10-22__journalist__where-php2shell-stands.md": "dc5bba2565f3d02728ee5e1fa400c030baa50c505f6d7e80786f44918492e1dd",
+  "content/articles/2026-10-22__journalist__why-not-patch-every-version.md": "06fb2267ecbddb1769b02eaf2dc2457cf1b6608b779d935c550601a4ab858631",
+  "content/articles/2026-10-23__dev__the-risk-graph-before-and-after.md": "09b036803c04fbe2dd68b2a8d04a1b3df7d8fe82ff9475b8132b8fe929471c12",
+  "content/articles/2026-10-23__dev__the-telemetry-tools.md": "322bbf39ab6957da85a2337bcc0d0e73449584a2cacb1e4269a98225fd852c5c",
+  "content/articles/2026-10-23__journalist__what-changed-in-a-day.md": "1a5284a2a4f193eeb2807086fb0148ae9bd4f7253b20069687784a9917298a1b",
+  "content/articles/2026-10-25__ontologist__what-wikipedia-knows-about-being-right.md": "a850357d34d7a30c5680f552a7663114803c0e4f6e0cd43ae6a9f513c577aabe",
+  "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
+  "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"
+ }
+}
