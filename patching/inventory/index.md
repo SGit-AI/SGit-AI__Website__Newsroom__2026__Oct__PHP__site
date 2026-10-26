@@ -111,7 +111,7 @@ Between consecutive commits, per row. A row added already fixed counts as added.
 | Only a requirement or an SBOM says it uses PHP | 10 |  |  |  | 10 |
 | No rule matched | 4 |  | 1 | 2 | 1 |
 
-Read from each row's own *CVE assessment* line by 11 rules, applied in order; the rules are in `admin/build/inventory_history.py` and in [the data](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/inventory-history.json). The words matched are the inventory's; the grouping is this site's.
+Read from each row's own *CVE assessment* line by 11 rules, applied in order; the rules are in `admin/build/inventory_history.py` and in [the data](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.42/inventory-history.json). The words matched are the inventory's; the grouping is this site's.
 
 ## When each supplier was first recorded fixed
 
@@ -152,4 +152,4 @@ The patching ladder, version by version, is on [Patching](../index.html); the si
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/patching/inventory/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/patching/inventory/index.html

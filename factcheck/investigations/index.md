@@ -14,10 +14,10 @@ The claims ledger grades sentences. An investigation takes one question and chas
 
 About 69% of the websites whose server-side language W3Techs can identify, and falling: it was 80.6% in 2015. On every site the HTTP Archive crawls, PHP is detected on about half (48%). WordPress alone, which needs PHP, is on 39.6% of all websites. On the internet, the scanners count PHP on about 2 to 3 million hosts. No one measures a share of 'the Internet'. '70% of the Internet' is a website figure, restated in Wiz's own post, then copied.
 
-Opened 2026-10-24, as of 2026-10-24T01:50Z; 29 measures, 127 statements traced.
+Opened 2026-10-24, as of 2026-10-24T01:50Z; 29 measures, 128 statements traced.
 
-The data behind each investigation is in `admin/factcheck/investigations/` and in [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/factcheck.json). Pages the desk fetched from outside the evidence vault are shown with their address, time and sha256, and are labelled as the desk's own fetches: they are not evidence of the story until a collector captures them.
+The data behind each investigation is in `admin/factcheck/investigations/` and in [data/factcheck.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.42/factcheck.json). Pages the desk fetched from outside the evidence vault are shown with their address, time and sha256, and are labelled as the desk's own fetches: they are not evidence of the story until a collector captures them.
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html

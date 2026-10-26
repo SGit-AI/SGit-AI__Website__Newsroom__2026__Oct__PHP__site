@@ -44,4 +44,4 @@ Assigned here, or arriving through a part of this stakeholder. The part played i
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/board/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/board/index.html

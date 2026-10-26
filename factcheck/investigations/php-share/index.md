@@ -142,14 +142,14 @@ Censys's 54.9 million 'web properties' counts names, not machines, and reaches t
 
 ## Every statement of the share, by time and wording
 Websites whose language is knownAll websites'The Internet' or 'the web'Servers or hostsWeb applicationsNo denominator given
-Each dot is one statement in the evidence vault, placed at its publication time where the page gives one (otherwise its first capture; each statement says which). A ringed dot is the family's origin; the dashed line is Wiz's X post at 13:32 UTC on 21 October. 14 statements fall outside 21 to 23 October and are in the table. Hover a dot for its words; click it for its row.
+Each dot is one statement in the evidence vault, placed at its publication time where the page gives one (otherwise its first capture; each statement says which). A ringed dot is the family's origin; the dashed line is Wiz's X post at 13:32 UTC on 21 October. 15 statements fall outside 21 to 23 October and are in the table. Hover a dot for its words; click it for its row.
 
 ## What the statements say they measure
 
 | Family | Statements | Measures | Origin |
 |---|---|---|---|
 | **70% of the Internet / the web (Wiz headline and X post)** | 28 | 'The Internet' or 'the web' | [S-008](#S-008) |
-| **70% of (all) websites (in the world) (Wiz blog executive summary)** | 32 | All websites | [S-015](#S-015) |
+| **70% of (all) websites (in the world) (Wiz blog executive summary)** | 33 | All websites | [S-015](#S-015) |
 | **an estimated 70% of websites (OpenAI)** | 4 | No denominator given | [S-017](#S-017) |
 | **almost 70% of websites (Cloudflare, linked to W3Techs)** | 3 | No denominator given | [S-013](#S-013) |
 | **69.3% / about 70% of websites whose server-side language is known (W3Techs measurement)** | 25 | Websites whose language is known | [S-004](#S-004) |
@@ -168,7 +168,7 @@ Start at Wiz's X post and walk: which statements belong to which wording, which 
 
 The graph needs JavaScript. The same lineage, by family:
 - [70% of the Internet / the web (Wiz headline and X post)](#S-008): 28 statements
-- [70% of (all) websites (in the world) (Wiz blog executive summary)](#S-015): 32 statements
+- [70% of (all) websites (in the world) (Wiz blog executive summary)](#S-015): 33 statements
 - [an estimated 70% of websites (OpenAI)](#S-017): 4 statements
 - [almost 70% of websites (Cloudflare, linked to W3Techs)](#S-013): 3 statements
 - [69.3% / about 70% of websites whose server-side language is known (W3Techs measurement)](#S-004): 25 statements
@@ -216,7 +216,7 @@ Every page in the vault that uses the figure, and every page the corrections lia
 | 20 minutes (20min.ch) | headline | *Panne mondiale des sites web: la Suisse romande touchée*2026-10-22T08:14:21Z (vault capture) | *Panne mondiale: la Suisse romande fortement impactée*2026-10-22T18:16:08Z (vault capture) and live 2026-10-24 |
 | The Record | correction-note | *not there*vault capture | *Correction: A previous version of this article used an incorrect pronoun for Detectify researcher Joviane Jardim.*fetched 2026-10-24 |
 
-## All 127 statements
+## All 128 statements
 The full table
 | # | When (UTC) | Who | The words | Measures | Credits | Role | sha256 |
 |---|---|---|---|---|---|---|---|
@@ -347,6 +347,7 @@ The full table
 | S-122 | 2026-10-22 | [The Hacker News (Ravie Lakshmanan)](https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html) [capture](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thehackernews-php2shell-4days/) | *With PHP powering a majority of the websites in the world, the vast attack surface* | All websitesa majority | Wiz (by hyperlink only) | restates [S-015](#S-015) | c1cb63141287 |
 | S-123 | 2026-10-22 | [JPCERT/CC (Japan)](https://www.jpcert.or.jp/at/2026/at260033.html) [capture](https://refs.php.oct.2026.newsroom.sgit.ai/sources/jpcert-at260033/) | *PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet* | 'The Internet' or 'the web'none | Wiz (cited title) | restates [S-014](#S-014) | 1fea87241b30 |
 | S-124 |  | [Security.NL](https://www.security.nl/posting/958424/Misbruik+van+PHP2Shell-lek+gemeld%2C+DigiD+en+andere+sites+weer+online) [capture](https://refs.php.oct.2026.newsroom.sgit.ai/sources/securitynl-misbruik-gemeld/) | *En toch hangt ruim 70 procent van het internet aan elkaar van PHP oplossingen*And yet over 70 percent of the internet is held together by PHP solutions | 'The Internet' or 'the web'over | none (anonymous reader comment) | restates [S-014](#S-014) | 95d1565c5959 |
+| S-128 | 2026-10-26 | [YugaTech](https://www.yugatech.com/news/ai-helps-uncover-php2shell-flaws-that-put-websites-worldwide-at-risk/) [capture](https://refs.php.oct.2026.newsroom.sgit.ai/sources/yugatech-news-ai-helps-uncover-php2shell-flaws-th/) | *PHP is used by roughly 70% of websites worldwide, according to figures cited by researchers.* | All websitesroughly | figures cited by researchers (unnamed) | restates [S-015](#S-015) | ea3e1134c601 |
 
 ## What this does not show
 - W3Techs does not publish what share of sites have a known server-side language, so its 69.3% cannot be turned into a share of all websites.
@@ -357,4 +358,4 @@ The full table
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/php-share/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/php-share/index.html

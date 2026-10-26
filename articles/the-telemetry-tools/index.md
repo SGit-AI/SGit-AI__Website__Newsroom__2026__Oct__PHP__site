@@ -28,13 +28,13 @@ The first drain looked like a busy night: 356 events from one session. It was Go
 
 From now on the browser says so itself, in two optional fields: whether it is automated (a crawler by name, `webdriver`, a headless browser) and, if it holds a key from [/join/](../../join/index.html) or was set on the telemetry page, its role. Never who. Before that, and for browsers that declare nothing, the group is inferred from the time zone, the place, the language and the first page, by rules written down in `admin/build/telemetry_classes.py` and run identically in the dashboard.
 
-![Five cards: 233 page views by readers in 168 sessions, 110 by the editor, 9 by power users and the team, 176 synthetic, 565 by crawlers](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/who.png)
+![Five cards: 233 page views by readers in 168 sessions, 110 by the editor, 9 by power users and the team, 176 synthetic, 565 by crawlers](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/who.png)
 
 All 1,093 events by group. Crawlers are more than half; readers are a fifth.
 
 Readers are 233 of the 1,093 page views. Crawlers are 565. Without the groups, every chart on this site would have been mostly Google.
 
-![Page views per hour from 13:00 on 22 October to 20:00 on 23 October, stacked in five colours by group](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/timeline-by-who.png)
+![Page views per hour from 13:00 on 22 October to 20:00 on 23 October, stacked in five colours by group](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/timeline-by-who.png)
 
 Per hour, by group. The pink is the crawler working through the night; the blue is readers, steadiest in the UK morning and afternoon.
 
@@ -46,7 +46,7 @@ The counts are also published, in a vault of their own whose read key is on [who
 
 The telemetry vault opens as its own dashboard. The application lives in another vault, versioned there, which the data vault links inside itself, so the data never leaves its vault and every version is a commit. Version 0.4.0, released today, works the way Kibana's dashboards do: click any bar, segment, country, table cell or node to keep only that; shift-click to leave it out. The filters sit as pills above the charts; click one to flip it between include and exclude. Drag across the timeline to keep a window of time.
 
-![The dashboard's query bar with three pills (who: Readers, country: United Kingdom, and NOT device: phone, struck through in red) above tiles reading 75 page views, 36 sessions, 56% read one page only](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/filters.png)
+![The dashboard's query bar with three pills (who: Readers, country: United Kingdom, and NOT device: phone, struck through in red) above tiles reading 75 page views, 36 sessions, 56% read one page only](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/filters.png)
 
 Readers in the United Kingdom, phones left out: three clicks, three pills. Every number below them follows.
 
@@ -56,13 +56,13 @@ Every chart can be coloured by who, by the site's section, by device, by country
 
 The journeys view follows sessions page by page. Each column is where readers were at that step of their visit; the grey block marked (left) is where they stopped.
 
-![A Sankey diagram: a tall orange block for the front page at the entry, most of its flow running into a grey (left) block at page 2, thinner ribbons to briefings, claims and sources, fading by page 5](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/sankey.png)
+![A Sankey diagram: a tall orange block for the front page at the entry, most of its flow running into a grey (left) block at page 2, thinner ribbons to briefings, claims and sources, fading by page 5](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/sankey.png)
 
 Readers, step by step. Most visits start on the front page, and most of those end there.
 
 The same moves as a network: each page a node sized by the sessions that saw it, each move an arrow.
 
-![A network of pages: the front page as a large orange hub with arrows out to briefings, the team page, sources and the explainer; a separate chain from a source page to the claims page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/network.png)
+![A network of pages: the front page as a large orange hub with arrows out to briefings, the team page, sources and the explainer; a separate chain from a source page to the claims page](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/network.png)
 
 The front page is the hub. The one route that does not pass through it runs from a source page to the claims.
 
@@ -70,19 +70,19 @@ The front page is the hub. The one route that does not pass through it runs from
 
 Every page is measured by what it does for the people who see it: how many arrived there, how many of those read nothing else, how many went on to another page, how many left from it, and the median time before the next page. The dashboard turns those into plain verdicts where there is enough to say one: a front door that holds, a front door that leaks, a connector, a dead end.
 
-![A scatter of pages by page views (log scale) and the share of readers who go on: the front page far right, low, at about 20%; a few small briefing and team pages high up](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/what-works-scatter.png)
+![A scatter of pages by page views (log scale) and the share of readers who go on: the front page far right, low, at about 20%; a few small briefing and team pages high up](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/what-works-scatter.png)
 
 Right is read more; up is where readers go on. The front page is read most and sends fewest on.
 
 So far it says one thing clearly. **The front page is a front door that leaks.** 113 reader visits started there, and 81% of them read nothing else; of every view of it, one in five leads to a second page. It is the page to work on first: what it offers as a next step is not what readers take. The source page that comes second as a way in (Calif's write-up, 15 arrivals) does better but not well: two in three read nothing else, and the ones who stay go to the claims.
 
-![A table of referring sites: no referrer 115 sessions 17% read on; linkedin.com 14, 21%; kode24.no 14, 36%; this site 11, 9%; newsroom.sgit.ai 6, 50%; google.com 5, 40%](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/sources.png)
+![A table of referring sites: no referrer 115 sessions 17% read on; linkedin.com 14, 21%; kode24.no 14, 36%; this site 11, 9%; newsroom.sgit.ai 6, 50%; google.com 5, 40%](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/sources.png)
 
 What each referring site brings. The sessions are few; the order is worth watching.
 
 Where readers come from matters as much. Most arrive with no referrer: typed, bookmarked or shared in a message. Of the sites that send them, kode24.no, a Norwegian site for developers, sends readers who stay: more than a third read a second page, against one in five from LinkedIn. That is also why Norway is third on the map.
 
-![A world map in one blue hue, darkest for the United Kingdom, then the United States and Norway, lighter for the Netherlands, Ireland and Germany](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.40/assets/articles/the-telemetry-tools/map.png)
+![A world map in one blue hue, darkest for the United Kingdom, then the United States and Norway, lighter for the Netherlands, Ireland and Germany](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.42/assets/articles/the-telemetry-tools/map.png)
 
 Readers by country, on a log scale. Eighteen countries; the United Kingdom first by far.
 
@@ -114,4 +114,4 @@ Source file: `admin/content/articles/2026-10-23__dev__the-telemetry-tools.md`, i
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/articles/the-telemetry-tools/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/articles/the-telemetry-tools/index.html

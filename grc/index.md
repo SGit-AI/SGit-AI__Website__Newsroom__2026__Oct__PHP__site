@@ -81,8 +81,8 @@ No risk on this register is **accepted**. An acceptance is an act by the holder 
 
 ## The data
 
-Authored: [data/grc.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/grc.json) (53 stakeholders, 14 weaknesses, 34 risks) and [data/grc-frameworks.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/grc-frameworks.json) (20 frameworks, 120 controls). Generated on every build: [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.39/grc-graph.json), 728 nodes and 1358 edges. The build refuses a risk that points at a claim, source, story, page, member, code node or control that does not exist, and a risk with no owner. Kept by [the GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
+Authored: [data/grc.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.42/grc.json) (53 stakeholders, 14 weaknesses, 34 risks) and [data/grc-frameworks.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.42/grc-frameworks.json) (20 frameworks, 120 controls). Generated on every build: [data/grc-graph.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.42/grc-graph.json), 728 nodes and 1358 edges. The build refuses a risk that points at a claim, source, story, page, member, code node or control that does not exist, and a risk with no owner. Kept by [the GRC desk](https://team.php.oct.2026.newsroom.sgit.ai/team/grc/).
 
 
 ---
-site v0.22.32 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/grc/index.html
+site v0.22.33 · data as of 2026-10-26T14:42Z · vault commit 2fc7e432584b · https://php.oct.2026.newsroom.sgit.ai/grc/index.html
