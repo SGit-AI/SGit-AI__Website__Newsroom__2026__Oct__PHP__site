@@ -51,7 +51,7 @@ I want to understand it · ******Plain English
 
 The answer in thirty seconds
 
-Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
+Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. On 26 October the US cyber agency CISA listed both flaws as known to be exploited, so update now if you run a site. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
 
 #### Reading path
 - [Your briefing](../briefings/everyone/index.html) 4 min
@@ -63,7 +63,7 @@ About 14 minutes in all. Choose *read as Alex* and the bar under the menu keeps 
 
 #### Words they will meet
 
-[PHP](../glossary/index.html#php)[php2shell](../glossary/index.html#php2shell)[Evidence vault](../glossary/index.html#vault)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[CVE](../glossary/index.html#cve)[Exploit, exploitation](../glossary/index.html#exploit)[KEV](../glossary/index.html#kev)[CISA](../glossary/index.html#cisa)[Remote code execution (RCE)](../glossary/index.html#rce)
+[PHP](../glossary/index.html#php)[php2shell](../glossary/index.html#php2shell)[Exploit, exploitation](../glossary/index.html#exploit)[CISA](../glossary/index.html#cisa)[Evidence vault](../glossary/index.html#vault)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[CVE](../glossary/index.html#cve)[KEV](../glossary/index.html#kev)[Remote code execution (RCE)](../glossary/index.html#rce)
 
 [Read as Alex →](../briefings/everyone/index.html)
 
@@ -127,7 +127,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
+A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. On 26 October CISA added both flaws to its Known Exploited Vulnerabilities catalog: it holds evidence of exploitation, and names no victim. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread and a researcher's decoy servers were broken into. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
 
 #### Reading path
 - [Your briefing](../briefings/board/index.html) 4 min
@@ -140,7 +140,7 @@ About 18 minutes in all. Choose *read as Jordan* and the bar under the menu keep
 
 #### Words they will meet
 
-[PHP](../glossary/index.html#php)[Evidence vault](../glossary/index.html#vault)[Patch](../glossary/index.html#patch)[Exploit, exploitation](../glossary/index.html#exploit)[SAPI](../glossary/index.html#sapi)[Primary source](../glossary/index.html#primary)[CVE](../glossary/index.html#cve)[KEV](../glossary/index.html#kev)[CISA](../glossary/index.html#cisa)[NCSC](../glossary/index.html#ncsc)
+[PHP](../glossary/index.html#php)[Exploit, exploitation](../glossary/index.html#exploit)[KEV](../glossary/index.html#kev)[CISA](../glossary/index.html#cisa)[Evidence vault](../glossary/index.html#vault)[Patch](../glossary/index.html#patch)[SAPI](../glossary/index.html#sapi)[Primary source](../glossary/index.html#primary)[CVE](../glossary/index.html#cve)[NCSC](../glossary/index.html#ncsc)
 
 [Read as Jordan →](../briefings/board/index.html)
 
@@ -203,7 +203,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. As of 14:42 UTC on 26 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
+The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. CISA listed both flaws as known exploited on 26 October, which raises the bar for 'we had not patched'. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
 
 #### Reading path
 - [Your briefing](../briefings/cfo/index.html) 4 min
@@ -216,7 +216,7 @@ About 17 minutes in all. Choose *read as Quinn* and the bar under the menu keeps
 
 #### Words they will meet
 
-[Evidence vault](../glossary/index.html#vault)[Patch](../glossary/index.html#patch)[Unauthenticated](../glossary/index.html#unauthenticated)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[php2shell](../glossary/index.html#php2shell)[CVE](../glossary/index.html#cve)[Exploit, exploitation](../glossary/index.html#exploit)[KEV](../glossary/index.html#kev)[CISA](../glossary/index.html#cisa)
+[Exploit, exploitation](../glossary/index.html#exploit)[Patch](../glossary/index.html#patch)[CISA](../glossary/index.html#cisa)[Evidence vault](../glossary/index.html#vault)[Unauthenticated](../glossary/index.html#unauthenticated)[Primary source](../glossary/index.html#primary)[Web server](../glossary/index.html#web-server)[php2shell](../glossary/index.html#php2shell)[CVE](../glossary/index.html#cve)[KEV](../glossary/index.html#kev)
 
 [Read as Quinn →](../briefings/cfo/index.html)
 
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/start/index.html

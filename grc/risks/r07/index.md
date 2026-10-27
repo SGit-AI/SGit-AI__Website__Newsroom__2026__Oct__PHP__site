@@ -67,4 +67,4 @@ On this site: [The numbers: 70%, 30 million, 2.6 million, 6,000, 674](../../../n
 
 
 ---
-site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html
+site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html

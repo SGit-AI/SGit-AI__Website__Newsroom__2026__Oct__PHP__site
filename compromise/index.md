@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-27 00:45 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-27 09:43 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-27 00:45 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-27 09:43 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-562The evidence vault: sourceshead 24f0b0e22666 (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+598The evidence vault: sourceshead 55b47c4d6af1 (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -19,11 +19,11 @@ Not to scale. Each layer is a different kind of statement, and a statement in on
 
 ## The evidence, by kind
 
-48 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
+53 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
 
 Each dot is one statement on this page, placed at the time the source gives (noon where it gives only a date). Hover a dot for who said it.
 
-## Attempts seen (12)
+## Attempts seen (13)
 
 This kind of statement can show that someone tried. It cannot show that anyone succeeded.
 
@@ -41,8 +41,9 @@ This kind of statement can show that someone tried. It cannot show that anyone s
 | 2026-10-22 | **Sophos (via Cyber Security News)** | An exploitation attempt tried to deploy Potassium, a likely Mirai botnet variant; security controls blocked it and the malware was not delivered. | [Cyber Security News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cybersecuritynews-critical-php2shell-exploit-code/) |
 | 2026-10-23 | **RainForest (via VOIX, Japan)** | RainForest's honeypot network matched 3 of 11 public IP addresses from VulnCheck and Amazon threat information and recorded 21 PHP2Shell-related HTTP POST requests, from 14 different source IPs. | [voix](https://refs.php.oct.2026.newsroom.sgit.ai/sources/voix-business-cards-rainforest-ip-activity-an/) |
 | 2026-10-26 | **Amazon Threat Intelligence (via ZDNET Japan, translating ZDNET)** | Threat actors in PHP2Shell attack chains are trying to deploy Mirai-family botnets. | [ZDNET Japan](https://refs.php.oct.2026.newsroom.sgit.ai/sources/japan-zdnet-article-35253966/) |
+| 2026-10-26 | **Delft Threat Intelligence Lab, as Suzu Labs' Denis Calderone gives it to SC Media** | Honeypots and a network telescope recorded more than 50,000 PHP2Shell exploitation requests from more than 600 addresses in 70 countries as of the morning of 26 October; the busiest hour so far brought more than 5,100 requests; 171 of the addresses had moved past probing to sending code or droppers. | [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
 
-## Exploitation reported, no victim named (4)
+## Exploitation reported, no victim named (5)
 
 This kind of statement can show that a party says exploitation happened. It cannot show who was hit, or whether it was confirmed by the victim.
 
@@ -52,8 +53,9 @@ This kind of statement can show that a party says exploitation happened. It cann
 | 2026-10-21 | **Amazon (AWS Threat Intelligence)** | "PHP2Shell is now being broadly exploited in the wild." Against its sensors; no victim named. | [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) |
 | 2026-10-21 07:34 UTC | **Patchstack (via Recorded Future)** | "Received reports of multiple active exploitation incidents from hosting partners." No victim named. | [Recorded Future](https://refs.php.oct.2026.newsroom.sgit.ai/sources/recordedfuture-php2shell/) |
 | 2026-10-21 20:15 UTC | **NCSC New Zealand** | "The NCSC is aware of reports of active exploitation." Whose reports is not said. | [NCSC New Zealand](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/) |
+| 2026-10-26 | **Adel Karimi (Perplexity), with honeypots; Marcus Hutchins (Expel) on it (via ENTER.CO, citing BleepingComputer)** | Honeypots recorded a successful remote code execution against Apache with mod_php and PHP 8.4.26: the attacker obtained server memory and then ran a command. Hutchins called it the best-quality confirmation of exploitation he had seen. | [ENTER.CO](https://refs.php.oct.2026.newsroom.sgit.ai/sources/enter-chips-bits-fallas-criticas-php2shell-exp/) [europe-infos](https://refs.php.oct.2026.newsroom.sgit.ai/sources/europe-infos-actualites-11979-php2shell-decryptage-d/) [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
 
-## No successful exploitation known (19)
+## No successful exploitation known (22)
 
 This kind of statement can show what a party with visibility has not seen. It cannot show that nothing happened outside its view.
 
@@ -78,6 +80,9 @@ This kind of statement can show what a party with visibility has not seen. It ca
 | 2026-10-23 | **US banks and credit unions (via American Banker)** | "Attackers have fired millions of attempts at the PHP2Shell flaws, but no U.S. bank or credit union has publicly reported a compromise." | [American Banker](https://refs.php.oct.2026.newsroom.sgit.ai/sources/americanbanker-news-banks-dodge-early-damage-from-php2s/) |
 | 2026-10-23 | **La Razón (Spain), on the investigations it cites** | As of 23 October 2026 attempts against PHP2Shell were real and in the millions, but no successful code execution had been established in the investigations cited. | [La Razón](https://refs.php.oct.2026.newsroom.sgit.ai/sources/larazon-tecnologia-consumo-php-nuevo-fallo-segur/) |
 | 2026-10-23 10:03 UTC | **Austria (via Die Presse)** | As of 12:03 Vienna time (10:03 UTC) on 23 October 2026 no successful attacks via PHP2Shell were known in Austria. | [Die Presse](https://refs.php.oct.2026.newsroom.sgit.ai/sources/diepresse-41383717-die-php-sicherheitsluecke-ist-a/) |
+| 2026-10-25 | **Palo Alto Networks Unit 42 (via SC Media)** | In an Oct. 25 blog Unit 42 retracted its Oct. 23 statement that an attack against a European government agency was related to a vulnerable PHP2Shell application, saying it was unable to confirm that initial access was associated with either of the two bugs. | [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
+| 2026-10-26 | **Sophos (via SC Media)** | In an Oct. 26 blog Sophos said that, as of its reporting, PHP2Shell had yet to become the mass exploitation event many in the industry braced for. | [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
+| 2026-10-26 | **watchTowr's head of threat intelligence, Jake Knott (via SC Media)** | Whether reliable, indiscriminate exploitation is happening in the wild: 'for now, the answer is a firm No'. SC Media adds that as of the afternoon of 26 October there were no known public reports of successful exploitation and no widespread exploitation. | [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
 
 ## Named organisations (8)
 
@@ -132,4 +137,4 @@ Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.a
 
 
 ---
-site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html

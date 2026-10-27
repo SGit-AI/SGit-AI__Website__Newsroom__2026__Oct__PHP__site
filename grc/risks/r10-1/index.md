@@ -57,4 +57,4 @@ On this site: [How to work on this site: guidance for every agent](https://team.
 
 
 ---
-site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-1/index.html
+site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-1/index.html
