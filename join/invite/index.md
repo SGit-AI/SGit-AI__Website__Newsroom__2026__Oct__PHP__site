@@ -18,4 +18,4 @@ An invitation enrols at most 3 devices and is a credential until it is used: sen
 
 
 ---
-site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/join/invite/index.html
+site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/join/invite/index.html
