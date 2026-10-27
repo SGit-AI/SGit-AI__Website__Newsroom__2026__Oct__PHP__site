@@ -11,6 +11,7 @@ vault_commit: 22a0c2920b88
 data_as_of: 2026-10-26T12:14Z
 series: reader-questions
 question: Did the stealmybitcoin site get popped with a PHP vuln, and is that a real-world exploitation of these CVEs?
+correction1: 2026-10-27T09:50Z | An update. Since this was written, CISA added both CVEs to its Known Exploited Vulnerabilities catalog (26 October), and a researcher's honeypots on PHP 8.4.26 recorded a successful remote code execution against Apache with mod_php (Adel Karimi of Perplexity, via ENTER.CO). Both strengthen what this piece says the challenge proves: the flaw works in practice, on more than one server mode. Neither names a victim: as of 07:15 UTC on 27 October no organisation has said it was breached through php2shell, so the funnel's bottom step is still unmet. The text below is as written at 12:14 UTC on 26 October.
 ---
 
 **26 October 2026.** The same group chat that asked whether anyone had actually been hacked through php2shell ([our answer here](/articles/has-anyone-been-hacked/index.html)) came back with a link: a site called *Steal My Bitcoin* now reads **"Challenge won"**, and a researcher has published a step-by-step account of how they did it. The obvious question: was this a real php2shell break-in at last? This piece answers it, starting plain and ending technical, so you can stop wherever you have what you need. We do not reproduce the exploit; we explain what it is.
