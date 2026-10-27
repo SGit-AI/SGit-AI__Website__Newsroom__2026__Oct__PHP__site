@@ -92,6 +92,8 @@ Interview · the editor's own words, quoted verbatim
 
 None yet. A guest writer or interviewer sends a piece to the editor; it is published here under their own name, marked **Guest** on every page, with the same rule as everything else: a fact names its source. Opinion is theirs and says so.
 
+An article released since this page was built is at its own address at once: [the article view](view/index.html) draws it from its file in the site repository until the next build lists it here.
+
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/index.html

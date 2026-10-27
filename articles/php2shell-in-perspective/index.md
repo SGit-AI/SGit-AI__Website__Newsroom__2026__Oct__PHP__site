@@ -76,8 +76,8 @@ Written by the historian role against site v0.2.5, evidence vault commit 200d089
 - [Exposed is not exploited: the sites php2shell did not hit, and what a hit will admit](../exposed-is-not-exploited/index.html) Journalist and historian, 2026-10-22
 - [Patch at the speed of Metasploit: where php2shell sits on the weaponisation ladder, and the attacks that come second and third](../patch-at-the-speed-of-metasploit/index.html) Cyber desk, 2026-10-22
 
-Source file: `admin/content/articles/2026-10-22__historian__php2shell-in-perspective.md`, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
+Source file: `content/articles/2026-10-22__historian__php2shell-in-perspective.md` in the site repository, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/php2shell-in-perspective/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/php2shell-in-perspective/index.html

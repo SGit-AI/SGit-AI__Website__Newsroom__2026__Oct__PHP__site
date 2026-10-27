@@ -37,4 +37,4 @@ Next question: [We are on PHP 7.4, 8.0 or 8.1. Is there a patch?](../old-php/ind
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/why-big-news/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/why-big-news/index.html

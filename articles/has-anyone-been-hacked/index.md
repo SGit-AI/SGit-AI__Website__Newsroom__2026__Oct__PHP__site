@@ -137,8 +137,8 @@ Until then, the honest answer to "has anyone been hacked through php2shell?" is:
 - [php2shell in perspective: an old embargo model, a Log4Shell shape, and the shrinking gap between theory and proof](../php2shell-in-perspective/index.html) Historian, 2026-10-22
 - [Patch at the speed of Metasploit: where php2shell sits on the weaponisation ladder, and the attacks that come second and third](../patch-at-the-speed-of-metasploit/index.html) Cyber desk, 2026-10-22
 
-Source file: `admin/content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md`, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
+Source file: `content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md` in the site repository, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/has-anyone-been-hacked/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/has-anyone-been-hacked/index.html

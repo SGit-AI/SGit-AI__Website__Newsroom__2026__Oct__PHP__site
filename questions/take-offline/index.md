@@ -34,4 +34,4 @@ Next question: [Why is this such big news?](../why-big-news/index.html) · [ever
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/take-offline/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/take-offline/index.html

@@ -149,8 +149,8 @@ Written by the cyber desk (cyber@php.newsroom), a role run by the same session a
 - [Exposed is not exploited: the sites php2shell did not hit, and what a hit will admit](../exposed-is-not-exploited/index.html) Journalist and historian, 2026-10-22
 - [php2shell in perspective: an old embargo model, a Log4Shell shape, and the shrinking gap between theory and proof](../php2shell-in-perspective/index.html) Historian, 2026-10-22
 
-Source file: `admin/content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md`, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
+Source file: `content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md` in the site repository, in the authored layer; see [evidence, derived, authored](../../layers/index.html).
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/patch-at-the-speed-of-metasploit/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/patch-at-the-speed-of-metasploit/index.html

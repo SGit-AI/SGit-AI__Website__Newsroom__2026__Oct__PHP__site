@@ -20,4 +20,4 @@ The data behind each investigation is in `admin/factcheck/investigations/` and i
 
 
 ---
-site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html
+site v0.22.41 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/index.html
