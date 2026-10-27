@@ -5,8 +5,9 @@
 <link href="https://php.oct.2026.newsroom.sgit.ai/feed.xml" rel="self"/>
 <link href="https://php.oct.2026.newsroom.sgit.ai/"/>
 <id>https://php.oct.2026.newsroom.sgit.ai/</id>
-<updated>2026-10-26T00:00:00Z</updated>
+<updated>2026-10-27T00:00:00Z</updated>
 <author><name>Dinis Cruz</name></author>
+<entry><title>v0.22.37: the briefs read live; telemetry capped at 40 events a tab, with five lanes</title><id>https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.37</id><link href="https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.37"/><updated>2026-10-27T00:00:00Z</updated><summary>the briefs read live; telemetry capped at 40 events a tab, with five lanes</summary></entry>
 <entry><title>v0.22.36: the rest of the team site reads its records when it opens: member status and rounds, tasks, status, runs</title><id>https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.36</id><link href="https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.36"/><updated>2026-10-26T00:00:00Z</updated><summary>the rest of the team site reads its records when it opens: member status and rounds, tasks, status, runs</summary></entry>
 <entry><title>v0.22.35: the schedule pages and the vault register read the team&#x27;s records when they open</title><id>https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.35</id><link href="https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.35"/><updated>2026-10-26T00:00:00Z</updated><summary>the schedule pages and the vault register read the team&#x27;s records when they open</summary></entry>
 <entry><title>v0.22.34: the board reads its rows when it opens (phase 2, the first page)</title><id>https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.34</id><link href="https://php.oct.2026.newsroom.sgit.ai/whatsnew/index.html#v0.22.34"/><updated>2026-10-26T00:00:00Z</updated><summary>the board reads its rows when it opens (phase 2, the first page)</summary></entry>
