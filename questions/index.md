@@ -193,7 +193,7 @@ An article a reader has seen is listed here until a collector captures it into t
 - [The board](https://team.php.oct.2026.newsroom.sgit.ai/admin/board/): The work on this site and its vault, as rows: what is open, who owns it, what shipped it.
 - [Roles and responsibilities](https://team.php.oct.2026.newsroom.sgit.ai/admin/roles/): The roles on this site and its vault, who fills each, what it owns and the rules it enforces; how a new agent joins.
 - [Application security](https://team.php.oct.2026.newsroom.sgit.ai/admin/appsec/): The newsroom's application security: its threat model and data flows, every vulnerability found and fixed as an advisory with its root cause, who can do what, the incident runbooks, the bug bounty and the outside reviews.
-- [Briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/): Every build brief for this site, 79 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
+- [Briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/): Every build brief for this site, 81 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
 - [Pack mode, measured on the source watch](https://team.php.oct.2026.newsroom.sgit.ai/admin/pack-mode/): One vault as a normal sgit vault and as a pack vault: a fresh clone in 95 s against 13 min 47 s, the whole history pushed in 96 s, and why the normal vault has hit a wall.
 - [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
 - [Synthetic readers: six test readers who read the live site](https://team.php.oct.2026.newsroom.sgit.ai/admin/synthetic/): A board member, a CTO, a project manager, a security lead, a developer and a designer read the live site in a real browser and say what works, what does not and what to change; every review is published here and every run is kept in that reader's own vault.
@@ -211,4 +211,4 @@ Answer a question with a page, not a paragraph. If no page answers it, the answe
 
 
 ---
-site v0.22.37 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/index.html
+site v0.22.38 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/questions/index.html
