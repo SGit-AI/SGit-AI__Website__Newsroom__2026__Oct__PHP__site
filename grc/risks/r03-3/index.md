@@ -66,4 +66,4 @@ On this site: [No named organisation has said it was compromised through php2she
 
 
 ---
-site v0.22.39 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-3/index.html
+site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-3/index.html

@@ -1,10 +1,16 @@
 {
  "from": {
-  "commit": "854639a5cab857b470500ba7f3b79bdc83bc1b03",
-  "site_version": "0.22.39"
+  "commit": "14bb9d64372660573ba48e0b2e191e972ef9a3a0",
+  "site_version": "0.22.40"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
+  "content/data/billing.json": "data/billing.json",
+  "content/data/glossary.json": "data/glossary.json",
+  "content/data/interview.json": "data/interview.json",
+  "content/data/plain.json": "data/plain.json",
+  "content/data/questions.json": "data/questions.json",
+  "content/data/seo.json": "data/seo.json",
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
@@ -21,6 +27,12 @@
   "content/articles/2026-10-25__ontologist__what-wikipedia-knows-about-being-right.md": "a850357d34d7a30c5680f552a7663114803c0e4f6e0cd43ae6a9f513c577aabe",
   "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md": "2394ec7c4e9a8d30f075caa7cc847b036cd77606d8fc01a93e522aa4e3bf2152",
   "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md": "fa832b25e7634408563aa546eab5ef57c37e9555d42e6c5f605854a4ffa006fc",
+  "content/data/billing.json": "d6d3d53ff9f908327c2c5b543fa6e926f3915ae978bce55cf57cd5b530256ae1",
+  "content/data/glossary.json": "739b8c330b1a3caa90dd58c1491dbc485b16785a781dbe89aba8f467ef8caf19",
+  "content/data/interview.json": "7de370f93232feef92ce771a3c49813d3d37e1ff04c7f90d91b95d49e965b081",
+  "content/data/plain.json": "a05d28787721cebccfb3864c871f0f50060206b4c94d3759ce1461611c08fd51",
+  "content/data/questions.json": "be06273ff39487072c57feece262fb3b2034b0ab144a42a05609e8eb209953f1",
+  "content/data/seo.json": "eeb9707fd7504b7ea9ed1739113937f3b9d8e7024f9cca8694025dbd386bdab6",
   "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
   "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"
  }

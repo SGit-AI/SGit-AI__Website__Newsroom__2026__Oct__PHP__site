@@ -142,8 +142,8 @@ How the site runs: roles, release history, billing, admin and telemetry. Not evi
 | `data/grc-history.json` | dev@php.newsroom | admin/build/grc_history.py: for every release whose risk graph changed, the nodes and edges added and removed, the bases changed and the gaps opened and closed against the release before, from the graph each release committed; written once per release, at its own build | [grc/changes/index.html](../grc/changes/index.html) |
 | `data/briefs-published.json` | claude-story-site, for the editor | admin/build/build.py (build_briefs): the UTC minute each brief in admin/content/briefs/ was first published; seeded once from git on 25 October 2026, then each new brief stamped by the first build that includes it; an entry is never changed | [admin/briefs/index.html](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/) |
 
-The classification is [data/layers.json](https://github.com/SGit-AI/sgit-ai__website__newsroom__2026__oct__php/blob/dev/data/layers.json); the gate fails a release if a file in `data/` is missing from it.
+The classification is [data/layers.json](https://data.php.oct.2026.newsroom.sgit.ai/latest/layers.json); the gate fails a release if a file in `data/` is missing from it.
 
 
 ---
-site v0.22.39 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/layers/index.html
+site v0.22.40 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/layers/index.html
