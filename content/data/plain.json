@@ -24,13 +24,15 @@
   },
   {
    "q": "Has anyone been hacked?",
-   "a": "Attackers have been trying: Cloudflare reports millions of attempts and Amazon a honeypot hit four days before disclosure. But as of 09:43 UTC on 27 October no named organisation has said it was broken into through this flaw. CISA listed both flaws as exploited on 26 October, which means it has evidence they are being exploited, but it names no victim. One company in Japan is investigating a break-in without saying how it happened, and a Czech university says it stopped an attack. A researcher's decoy servers, left on an unpatched version on purpose, were broken into on 24 to 26 October: proof the attack works, not a victim.",
+   "a": "Attackers have been trying: Cloudflare reports millions of attempts and Amazon a honeypot hit four days before disclosure. But as of 19:13 UTC on 27 October no named organisation has said it was broken into through this flaw. CISA listed both flaws as exploited on 26 October, which means it has evidence they are being exploited, but it names no victim. Two companies in Japan are named in reports of a break-in without saying how it happened: GMO is investigating one, and an Italian site reports that Square Enix confirmed unauthorised access to its systems. A Czech university says it stopped an attack. A researcher's decoy servers, left on an unpatched version on purpose, were broken into on 24 to 26 October: proof the attack works, not a victim.",
    "href": "impact/index.html",
    "sources": [
     "x-eastdakota-php2shell-stats",
     "thehackernews-php2shell-4days",
     "cisa-kev-json",
-    "cisa-alert-kev-20261026"
+    "cisa-alert-kev-20261026",
+    "yahoo-jp-gmo-fx-login-leak",
+    "techgaming-internet-sotto-attacco-php2shell-vulnera"
    ]
   },
   {
@@ -148,13 +150,14 @@
    ]
   },
   {
-   "text": "Attackers are trying to use the flaws, in large numbers: millions of attempts by one internet security company's count. On 26 October CISA, the US cyber agency, added both flaws to its list of flaws known to be exploited: it has evidence of exploitation, and names no victim. As of 09:43 UTC on 27 October, no named organisation has said it was broken into through this flaw. The one security company that had claimed a successful break-in, Sophos, withdrew it; US banks and the large crypto platforms report none.",
+   "text": "Attackers are trying to use the flaws, in large numbers: millions of attempts by one internet security company's count. On 26 October CISA, the US cyber agency, added both flaws to its list of flaws known to be exploited: it has evidence of exploitation, and names no victim. As of 19:13 UTC on 27 October, no named organisation has said it was broken into through this flaw. Two security companies withdrew what they had said: Sophos a claimed successful break-in, and Palo Alto Networks' Unit 42, on 25 October, a statement tying an attack on a European government agency to the flaws. US banks and the large crypto platforms report none.",
    "sources": [
     "x-eastdakota-php2shell-stats",
     "cisa-kev-json",
     "cisa-alert-kev-20261026",
     "paperjam-article-php2shell-des-milliers-de-sites",
     "cybersecuritynews-critical-php2shell-exploit-code",
+    "scworld-news-php2shell-exploitation-confirmed-bu",
     "americanbanker-news-banks-dodge-early-damage-from-php2s",
     "btc-echo-news-krypto-boersen-akut-bedroht-kritisc"
    ]
@@ -285,7 +288,7 @@
  "latest": [
   {
    "when": "27 Oct",
-   "text": "CISA adds a different flaw to the same catalog: CVE-2026-111497, in Google's Brotli decoder (due date for US federal civilian agencies 10 November; no victim named). It is not php2shell, but PHP's official Windows builds bundle Brotli: The Hacker News reports they were repackaged on 26 October (8.5.12-1, 8.4.27-1, 8.3.36-1, 8.2.35-1) and quotes the PHP Foundation: the flaw is reached there only when cURL's automatic response decompression is turned on, which is off by default.",
+   "text": "CISA adds a different flaw to the same catalog: CVE-2026-111497, in Google's Brotli decoder (due date for US federal civilian agencies 10 November; no victim named). It is not php2shell, but PHP's official Windows builds bundle Brotli: The Hacker News reports new Windows builds released on 26 October (8.5.12-1, 8.4.27-1, 8.3.36-1, 8.2.35-1) and quotes the PHP Foundation: the flaw can be reached there through the cURL extension when automatic response decompression is turned on, which is off by default in cURL but which applications and HTTP client libraries can turn on.",
    "sources": [
     "cisa-kev-kev-catalog-page",
     "the-hacker-news-cisa-confirms-php2shell-exploitation"
