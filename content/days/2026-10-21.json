@@ -1,0 +1,104 @@
+{
+ "date": "2026-10-21",
+ "n": 1,
+ "label": "The fix",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 135,
+ "headline": {
+  "_": "Two critical flaws in PHP are fixed. Governments say install it now, or take sites offline if you cannot.",
+  "exec": "Fixed today. Every agency says update first; the US says take systems offline if you cannot. Decide who makes that call.",
+  "general": "A fix for websites, not for your phone or laptop. Sites you use may go offline for a while.",
+  "security": "Patch internet-facing mod_php first, then FPM. The US says take unpatchable systems offline.",
+  "engineer": "Target 8.5.12, 8.4.27, 8.3.36 or 8.2.35, and restart every worker.",
+  "journalist": "Fix released 21 October, 14:06 UTC. \"70% of the Internet\" is a share of websites, not of the Internet.",
+  "researcher": "Two CVEs, CVSS 4.0 9.2 from the CNA; two bug classes in the engine; the fix is public in php-src."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "Not listed",
+  "hacked": "None",
+  "offline": "Governments in Latvia, the Netherlands, France",
+  "unpatched": "Most of 1.6 million hosts"
+ },
+ "items": [
+  {
+   "t": "14:06",
+   "tag": "New",
+   "text": "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 released: both flaws fixed.",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "engineer",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "php.net, GitHub",
+   "big": true
+  },
+  {
+   "t": "14:17",
+   "tag": "New",
+   "text": "NVD publishes CVE-2026-109618 and CVE-2026-109619 with the CNA's score, 9.2; no NIST score yet.",
+   "roles": [
+    "security",
+    "engineer",
+    "researcher",
+    "everything"
+   ],
+   "src": "NVD"
+  },
+  {
+   "t": "14:34",
+   "tag": "New",
+   "text": "CISA, NSA and the UK NCSC: install the fix now; if you cannot, take the system offline.",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "CISA, NSA, NCSC",
+   "big": true
+  },
+  {
+   "t": "15:24",
+   "tag": "New",
+   "text": "A report on oss-security says the 8.5.12 fix may be incomplete; unconfirmed.",
+   "roles": [
+    "security",
+    "engineer",
+    "researcher",
+    "everything"
+   ],
+   "src": "oss-security"
+  },
+  {
+   "t": "18:20",
+   "tag": "New",
+   "text": "Latvia restricts state websites from abroad; Dutch and French government sites go offline as a precaution.",
+   "roles": [
+    "exec",
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "CERT.LV, NCSC-NL, ANSSI"
+  },
+  {
+   "t": "20:15",
+   "tag": "New",
+   "text": "New Zealand's NCSC is \"aware of reports of active exploitation\"; Huntress sees none on its partners' systems.",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "NCSC NZ, Huntress"
+  }
+ ]
+}

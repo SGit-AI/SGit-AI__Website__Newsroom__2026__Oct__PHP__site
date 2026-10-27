@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-22",
+ "n": 2,
+ "label": "The world notices",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 143,
+ "headline": {
+  "_": "The story goes worldwide: 143 articles, sites dark in a dozen countries, millions of attack attempts, and still no confirmed break-in.",
+  "exec": "Millions of attempts, no confirmed break-in. Your three questions: do we know every PHP system, is it patched and restarted, who can pull it offline?",
+  "security": "Cloudflare counts millions of attempts after disclosure; 586 public proof-of-concept repositories by evening.",
+  "engineer": "Backports imply versions down to 7.4 are affected, whatever the subject line says.",
+  "journalist": "Coverage peaks (143 articles). \"Millions\" are attempts, not intrusions; no organisation says it was breached."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "Not listed",
+  "hacked": "None",
+  "offline": "10 operators reported",
+  "unpatched": "Most of 1.6 million hosts"
+ },
+ "items": [
+  {
+   "t": "01:25",
+   "tag": "New",
+   "text": "Cloudflare's CEO: thousands of attempts before disclosure, millions after.",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "Cloudflare"
+  },
+  {
+   "t": "06:16",
+   "tag": "New",
+   "text": "BBC opens a live page: \"Global scramble to fix critical cyber-security flaws as many websites taken offline\".",
+   "roles": [
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "BBC"
+  },
+  {
+   "t": "06:45",
+   "tag": "New",
+   "text": "Greenbone: the backports imply versions down to 7.4 are affected.",
+   "roles": [
+    "engineer",
+    "security",
+    "researcher",
+    "everything"
+   ],
+   "src": "oss-security"
+  },
+  {
+   "t": "08:40",
+   "tag": "New",
+   "text": "The Dutch NCSC's inventory lists 674 products: 46 known affected, 418 not yet assessed.",
+   "roles": [
+    "security",
+    "engineer",
+    "exec",
+    "everything"
+   ],
+   "src": "NCSC-NL"
+  },
+  {
+   "t": "11:34",
+   "tag": "New",
+   "text": "This site opens: 391 pages by evening, every fact linked to a saved copy of its source.",
+   "roles": [
+    "everything"
+   ],
+   "src": "the newsroom"
+  },
+  {
+   "t": "17:51",
+   "tag": "New",
+   "text": "586 public php2shell repositories on GitHub; most are scanners, some are working exploits.",
+   "roles": [
+    "security",
+    "researcher",
+    "everything"
+   ],
+   "src": "GitHub search"
+  }
+ ]
+}

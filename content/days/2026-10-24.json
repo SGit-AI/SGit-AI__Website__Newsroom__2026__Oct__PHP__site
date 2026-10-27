@@ -1,0 +1,57 @@
+{
+ "date": "2026-10-24",
+ "n": 4,
+ "label": "Saturday",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 13,
+ "headline": {
+  "_": "A quiet Saturday. One agency joins those seeing no exploitation; a report of state-linked preparation is not confirmed.",
+  "exec": "Nothing changes what you should decide today.",
+  "security": "Korean press reports a North Korea-linked group preparing attacks; no indicators published, not confirmed.",
+  "journalist": "The Lazarus angle (Korean press) has no named source; NPR runs the \"AI found it, hackers found the leak\" story."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "Not listed",
+  "hacked": "None (3 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Switzerland: 3.5% a day after"
+ },
+ "items": [
+  {
+   "t": "08:37",
+   "tag": "New",
+   "text": "The Netherlands joins the agencies that have seen no exploitation: six now.",
+   "roles": [
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "NCSC-NL"
+  },
+  {
+   "t": "09:10",
+   "tag": "New",
+   "text": "Korean newspapers report a North Korea-linked group preparing attacks on government and finance; no indicators, no named source.",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Hankyung, Money Today"
+  },
+  {
+   "t": "14:00",
+   "tag": "New",
+   "text": "NPR: \"AI found the flaw. Hackers found the leak.\"",
+   "roles": [
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "NPR"
+  }
+ ]
+}

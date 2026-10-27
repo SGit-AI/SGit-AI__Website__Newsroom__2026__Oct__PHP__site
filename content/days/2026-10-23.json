@@ -1,0 +1,102 @@
+{
+ "date": "2026-10-23",
+ "n": 3,
+ "label": "The count",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 55,
+ "headline": {
+  "_": "NIST rates it 9.8; sites come back online; one claimed break-in is withdrawn.",
+  "exec": "One claimed break-in was withdrawn. Still no organisation says it was hit. 50 of 51 sites that went dark are back.",
+  "security": "NVD: CVSS 3.1 9.8. 735 public repositories. Vendors: 10 of their products vulnerable, 26 not, 16 still being checked.",
+  "engineer": "The inventory grows to 751 products; 389 not yet assessed. Check bought-in software, not only your own servers.",
+  "journalist": "Sophos withdraws its claimed compromise: don't report a confirmed break-in. 3 candidate incidents, none linked yet.",
+  "general": "Most websites that went offline are back. Nothing has been taken from people that anyone knows of."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "Not listed",
+  "hacked": "None (3 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Switzerland: 3.5% a day after"
+ },
+ "items": [
+  {
+   "t": "01:20",
+   "tag": "Changed",
+   "text": "Sites taken offline: 10 reported becomes 51 listed, 50 back online, 1 still dark.",
+   "before": "10 operators reported",
+   "after": "51 listed, 50 back",
+   "roles": [
+    "exec",
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "phpocalypse tracker"
+  },
+  {
+   "t": "01:20",
+   "tag": "New",
+   "text": "Three incidents are named as possibly linked (Czech university, two Japanese firms); none confirmed.",
+   "roles": [
+    "exec",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Lupa, Yahoo Japan, Sankei"
+  },
+  {
+   "t": "08:03",
+   "tag": "Changed",
+   "text": "NIST scores both flaws CVSS 3.1 9.8, beside the CNA's 9.2.",
+   "before": "no NIST score",
+   "after": "9.8",
+   "roles": [
+    "security",
+    "engineer",
+    "researcher",
+    "everything"
+   ],
+   "src": "NVD"
+  },
+  {
+   "t": "12:50",
+   "tag": "Changed",
+   "text": "The Dutch inventory: 109 of 751 products known affected.",
+   "before": "46 of 674",
+   "after": "109 of 751",
+   "roles": [
+    "security",
+    "engineer",
+    "everything"
+   ],
+   "src": "NCSC-NL"
+  },
+  {
+   "t": "16:04",
+   "tag": "Corrected",
+   "text": "Sophos withdraws its claim of a successful compromise.",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "Sophos, via Cybersecurity News",
+   "big": true
+  },
+  {
+   "t": "16:04",
+   "tag": "New",
+   "text": "Switzerland: just over 23,000 of nearly 690,000 servers still affected a day after the fix.",
+   "roles": [
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "ICTjournal"
+  }
+ ]
+}

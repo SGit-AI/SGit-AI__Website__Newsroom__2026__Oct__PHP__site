@@ -1,0 +1,58 @@
+{
+ "date": "2026-10-20",
+ "n": 0,
+ "label": "The warning",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 4,
+ "headline": {
+  "_": "PHP warns of two emergency fixes for tomorrow, and the details leak a day early.",
+  "engineer": "Two critical PHP fixes announced for tomorrow; no versions or patches yet.",
+  "journalist": "The disclosure leaks: The Hacker News names \"PHP2Shell\" before any fix exists."
+ },
+ "state": {
+  "fix": "Not yet",
+  "exploited": "Not listed",
+  "hacked": "None",
+  "offline": "None",
+  "unpatched": "Everyone"
+ },
+ "items": [
+  {
+   "t": "15:00",
+   "tag": "New",
+   "text": "PHP announces two critical security releases for the next day, on the oss-security list.",
+   "roles": [
+    "security",
+    "engineer",
+    "researcher",
+    "everything"
+   ],
+   "src": "oss-security"
+  },
+  {
+   "t": "20:22",
+   "tag": "New",
+   "text": "The Hacker News publishes \"Two unpatched critical PHP RCE flaws\", a day before the fix: the coordinated disclosure has broken.",
+   "roles": [
+    "journalist",
+    "researcher",
+    "security",
+    "everything"
+   ],
+   "src": "The Hacker News"
+  },
+  {
+   "t": "23:00",
+   "tag": "New",
+   "text": "Ars Technica: PHP warns it plans two emergency patches imminently.",
+   "roles": [
+    "exec",
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "Ars Technica"
+  }
+ ]
+}

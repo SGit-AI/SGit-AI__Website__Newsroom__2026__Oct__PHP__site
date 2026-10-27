@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-25",
+ "n": 5,
+ "label": "Sunday",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 11,
+ "headline": {
+  "_": "Quiet. Italy's agency says only 18% of its PHP services are updated.",
+  "exec": "Nothing new for you. Italy's figure is a reminder: most systems out there are still unpatched.",
+  "security": "Italy's ACN: 81.9% of PHP services still vulnerable. India: 14% impact rate, above the global average."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "Not listed",
+  "hacked": "None (3 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": [
+  {
+   "t": "10:00",
+   "tag": "Changed",
+   "text": "Italy's ACN: only 18% of PHP services updated; 81.9% still vulnerable.",
+   "before": "Switzerland: 3.5% a day after",
+   "after": "Italy: 81.9% of services",
+   "roles": [
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "ACN, via Matrice Digitale"
+  },
+  {
+   "t": "12:00",
+   "tag": "New",
+   "text": "India records a 14% impact rate, above the global average.",
+   "roles": [
+    "security",
+    "everything"
+   ],
+   "src": "CIOL"
+  }
+ ]
+}

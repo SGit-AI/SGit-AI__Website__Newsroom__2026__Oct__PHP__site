@@ -1,0 +1,27 @@
+{
+ "about": "The story as days (brief records/briefs/2026-10-27__brief__the-story-as-days.md in team, the editor's decisions of 27 October). One file per calendar day in UTC, content/days/<date>.json; a day is closed by the desk at its first wake after midnight UTC. assets/design/days/days-live.js draws them: the front page (the last 24 hours, with the strip of days) and /on/<date>/.",
+ "start": "2026-10-20",
+ "day1": "2026-10-21",
+ "measures": [
+  {
+   "id": "fix",
+   "q": "Is there a fix?"
+  },
+  {
+   "id": "exploited",
+   "q": "Exploited, per CISA?"
+  },
+  {
+   "id": "hacked",
+   "q": "Anyone confirmed hacked?"
+  },
+  {
+   "id": "offline",
+   "q": "Sites taken offline"
+  },
+  {
+   "id": "unpatched",
+   "q": "Still unpatched"
+  }
+ ]
+}

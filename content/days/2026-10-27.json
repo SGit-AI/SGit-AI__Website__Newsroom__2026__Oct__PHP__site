@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-27",
+ "n": 7,
+ "label": "Today",
+ "closed": false,
+ "closed_by": null,
+ "coverage": null,
+ "headline": {
+  "_": "So far today: the newsroom carries CISA's listing through every page that said \"not exploited\", and keeps \"no confirmed break-in\" as its own line.",
+  "exec": "Nothing new since last night's listing. The deadline to ask your team: 29 October.",
+  "journalist": "Our pages that said \"not on CISA's list\" are corrected, each with the date it changed; \"Has anyone been hacked?\" gets a dated update."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (3 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": [
+  {
+   "t": "01:30",
+   "tag": "New",
+   "text": "The newsroom opens BREAKING-001: every page and record that CISA's listing touches is checked and dated.",
+   "roles": [
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "the newsroom"
+  },
+  {
+   "t": "03:31",
+   "tag": "Changed",
+   "text": "The readers' answers move to 00:45 UTC on 27 October, with CISA's listing: \"Is it being exploited?\" now answers yes, per CISA, from 26 October.",
+   "before": "No exploitation confirmed by CISA",
+   "after": "Exploited, per CISA, from 26 October",
+   "roles": [
+    "exec",
+    "general",
+    "journalist",
+    "everything"
+   ],
+   "src": "the journalist (site plain.json, questions.json)"
+  },
+  {
+   "t": "03:45",
+   "tag": "Still",
+   "text": "\"Has anyone actually been hacked through php2shell?\" gets a dated update: CISA's listing names no victim; still no organisation confirms a compromise.",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "the correspondent (article update)"
+  }
+ ]
+}

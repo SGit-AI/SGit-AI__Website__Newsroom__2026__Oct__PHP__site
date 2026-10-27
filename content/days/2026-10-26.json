@@ -1,0 +1,79 @@
+{
+ "date": "2026-10-26",
+ "n": 6,
+ "label": "CISA lists it",
+ "closed": true,
+ "closed_by": "story-site, seeded on 27 October from the newsroom's records (state.json v0 to v3, sources.json by published date, the timeline, the compromise and impact ledgers, BREAKING-001); from Day 7 on, the desk",
+ "coverage": 21,
+ "headline": {
+  "_": "Late in the day, CISA adds both flaws to its list of vulnerabilities known to be exploited. No victim is named.",
+  "exec": "CISA now says both flaws are exploited. No organisation says it was hit. US agencies must patch by 29 October; so should you.",
+  "general": "The US government now says criminals are using these flaws. If someone runs your website, ask them if it is updated.",
+  "security": "KEV: both CVEs added 26 October, due 29 October, ransomware use \"Unknown\". Treat as exploited; hunt as well as patch.",
+  "engineer": "Nothing new to install. Exploited is now official: confirm the fixed version is what is running, after the restart.",
+  "journalist": "\"Exploited\" is now CISA's word, from 26 October. \"Hacked\" is not: no named victim. Keep the two apart.",
+  "researcher": "KEV catalogue 2026.10.26 lists both; the evidence behind the listing is not public."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (3 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": [
+  {
+   "t": "09:00",
+   "tag": "New",
+   "text": "Extended support vendors ship the fix for out-of-support PHP 5.3 to 8.1.",
+   "roles": [
+    "engineer",
+    "security",
+    "everything"
+   ],
+   "src": "PR TIMES, @Press"
+  },
+  {
+   "t": "11:00",
+   "tag": "New",
+   "text": "CPO Magazine: a threat actor targeted PHP flaws days before the disclosure.",
+   "roles": [
+    "security",
+    "researcher",
+    "journalist",
+    "everything"
+   ],
+   "src": "CPO Magazine"
+  },
+  {
+   "t": "14:00",
+   "tag": "Still",
+   "text": "A newspaper reports attempts in the millions but no successful code execution in the investigations it cites.",
+   "roles": [
+    "exec",
+    "journalist",
+    "everything"
+   ],
+   "src": "compromise ledger"
+  },
+  {
+   "t": "22:24",
+   "tag": "Changed",
+   "text": "CISA adds both CVEs to its Known Exploited Vulnerabilities catalogue: added 26 October, due 29 October, ransomware use unknown.",
+   "before": "Not listed",
+   "after": "2 of 2",
+   "learned": "2026-10-27T00:45Z",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "engineer",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "CISA KEV 2026.10.26",
+   "big": true
+  }
+ ]
+}
