@@ -12,6 +12,7 @@ data_as_of: 2026-10-26T12:14Z
 series: reader-questions
 question: Did the stealmybitcoin site get popped with a PHP vuln, and is that a real-world exploitation of these CVEs?
 correction1: 2026-10-27T09:50Z | An update. Since this was written, CISA added both CVEs to its Known Exploited Vulnerabilities catalog (26 October), and a researcher's honeypots on PHP 8.4.26 recorded a successful remote code execution against Apache with mod_php (Adel Karimi of Perplexity, via ENTER.CO). Both strengthen what this piece says the challenge proves: the flaw works in practice, on more than one server mode. Neither names a victim: as of 07:15 UTC on 27 October no organisation has said it was breached through php2shell, so the funnel's bottom step is still unmet. The text below is as written at 12:14 UTC on 26 October.
+correction2: 2026-10-27T15:10Z | Sources added. The challenge is now cited from the evidence vault: Sixactualités (26 October: won in 19.28 hours, on PHP 8.4.26, a chain that leaks memory addresses and turns them into command execution) and CNET France (27 October: more than 2,000 dollars, a server deliberately left unpatched, taken about 20 hours after launch). Both agree with what this piece said; nothing in its reading changes.
 ---
 
 **26 October 2026.** The same group chat that asked whether anyone had actually been hacked through php2shell ([our answer here](/articles/has-anyone-been-hacked/index.html)) came back with a link: a site called *Steal My Bitcoin* now reads **"Challenge won"**, and a researcher has published a step-by-step account of how they did it. The obvious question: was this a real php2shell break-in at last? This piece answers it, starting plain and ending technical, so you can stop wherever you have what you need. We do not reproduce the exploit; we explain what it is.
@@ -25,12 +26,12 @@ correction1: 2026-10-27T09:50Z | An update. Since this was written, CISA added b
 When a bounty like this is won, three separate facts get collapsed into one scary headline. Keep them apart:
 
 1. **The flaw is real.** php2shell (CVE-2026-109618 and CVE-2026-109619) is a genuine, critical remote-code-execution bug, fixed on 21 October. That it can, in principle, give full control of an unpatched server has never been in doubt. [[php-net-advisory, github-ghsa-w8hw-w9fx-j79w, openwall-oss-security-2026-10-21-6]]
-2. **The challenge is a game.** *Steal My Bitcoin* is a server its owner deliberately left vulnerable, advertised, and baited with bitcoin. A researcher won the pot. That is a *consenting* target.
+2. **The challenge is a game.** *Steal My Bitcoin* is a server its owner deliberately left vulnerable, advertised, and baited with bitcoin. A researcher won the pot, in about 19 hours. That is a *consenting* target. [[sixactualites-securite-stealmybitcoin-compromis-en-19, fr-cnet-cybersecurite-6121-php2shell-une-premier]]
 3. **A real-world breach is still unproven.** No organisation has said it was broken into through php2shell. As of 12:14 UTC on 26 October, across 525 captured sources, that holds. This challenge does not touch it. [[cisa-kev-json, huntress-php2shell-rapid-response]]
 
 ## Was it the same bug as php2shell?
 
-Yes. The published write-up targets **PHP 8.4.26**, one version below the 8.4.27 that carries the fix, and abuses the same mechanism the PHP advisory names: PHP's **session upload-progress** feature, the memory disclosure that leaks server memory, and the memory-corruption flaws behind the two CVEs. [[php-net-advisory, github-ghsa-w8hw-w9fx-j79w]] So this is not a new vulnerability. It is the known php2shell family, demonstrated end to end on an unpatched build.
+Yes. The published write-up targets **PHP 8.4.26**, one version below the 8.4.27 that carries the fix, and abuses the same mechanism the PHP advisory names: PHP's **session upload-progress** feature, the memory disclosure that leaks server memory, and the memory-corruption flaws behind the two CVEs. [[php-net-advisory, github-ghsa-w8hw-w9fx-j79w]] Sixactualités, which has the challenge in the evidence vault, gives the same build and the same chain: PHP 8.4.26, memory addresses leaked, then turned into command execution. [[sixactualites-securite-stealmybitcoin-compromis-en-19]] So this is not a new vulnerability. It is the known php2shell family, demonstrated end to end on an unpatched build.
 
 ## How the chain works, without the recipe
 
@@ -66,4 +67,4 @@ No, and that distinction is the whole point of this site. A *real-world* comprom
 - **Assume memory disclosure beats ASLR.** The leak-then-corrupt pattern means "randomised memory layout" is not a backstop against this flaw.
 - **Keep the proportion.** One consenting honeypot fell to a specialist in 19 hours. That is a reason to patch, not evidence that the web is being quietly emptied. The real-world count of named victims is still zero.
 
-*Sources on this page marked with a hashed link are in the evidence vault. The challenge site (stealmybitcoin.com) and the researcher's write-up are external and have been referred to the researcher for capture into the vault, so a later version of this article can cite them with their hashes like everything else. This is the second in a series answering questions readers ask, each from the evidence and dated.*
+*Sources on this page marked with a hashed link are in the evidence vault. Since 27 October the challenge is cited from two captured reports of it (Sixactualités and CNET France); the challenge site itself is watched by the researcher's source watch, and the researcher's write-up, a repository of exploit code, is not captured. This is the second in a series answering questions readers ask, each from the evidence and dated.*
