@@ -168,4 +168,4 @@ Source file: `content/articles/2026-10-23__dev__the-risk-graph-before-and-after.
 
 
 ---
-site v0.22.46 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/articles/the-risk-graph-before-and-after/index.html
+site v0.22.49 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/articles/the-risk-graph-before-and-after/index.html
