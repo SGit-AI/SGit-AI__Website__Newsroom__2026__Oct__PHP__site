@@ -43,7 +43,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 | [The flaws are CVSS 10.0](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cvss-10/) | contradicted | refuted | [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [Daubois](https://refs.php.oct.2026.newsroom.sgit.ai/sources/daubois-blog-php2shell-rumors/) |
 | [Something like 30 million websites could be affected](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-30m/) | reported | **A2** Reported●●○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) |
 | [The most severe flaws ever detected by AI](https://refs.php.oct.2026.newsroom.sgit.ai/facts/most-severe/) | reported | **A2** Reported●●○○○○ | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [Wiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/) |
-| [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/) | contradicted | refuted | [BBC News](https://refs.php.oct.2026.newsroom.sgit.ai/sources/bbc-live-ckgel5xp2xv9t/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-tag-php-8.5.12/) |
+| [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/) | contradicted | refuted | [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-tag-php-8.5.12/) |
 
 ## Treatments
 
@@ -67,4 +67,4 @@ On this site: [The numbers: 70%, 30 million, 2.6 million, 6,000, 674](../../../n
 
 
 ---
-site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html
+site v0.22.46 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r07/index.html

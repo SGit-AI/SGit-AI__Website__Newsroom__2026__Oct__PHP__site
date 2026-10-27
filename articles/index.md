@@ -18,7 +18,7 @@ Written by this site's own roles: the **journalist** reports and follows the sec
 
 A researcher won a public "steal my bitcoin" bounty by breaking into a deliberately vulnerable server with the php2shell flaw, and published how. It is the clearest proof yet that the bug gives full control of a machine. It is also a game, not a victim. Here is the difference, in plain terms and then in detail.
 
-House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.22.29 · vault commit `22a0c2920b88` · data as of 2026-10-26T12:14Z · 9 sources cited
+House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.22.29 · vault commit `22a0c2920b88` · data as of 2026-10-26T12:14Z · 11 sources cited
 
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](has-anyone-been-hacked/index.html)
 
@@ -96,4 +96,4 @@ An article released since this page was built is at its own address at once: [th
 
 
 ---
-site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/articles/index.html
+site v0.22.46 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/articles/index.html

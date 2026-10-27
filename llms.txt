@@ -2,7 +2,7 @@
 
 > PHP news for October 2026, led by the month's big story: two critical security flaws in PHP (CVE-2026-109618 and CVE-2026-109619, nicknamed php2shell). The current situation in plain words, the core facts with their evidence, what to do, and a briefing for every kind of reader.
 
-Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence vault, commit 55b47c4d6af1). Every page below has a markdown twin at the same path with .md; the data behind every page is in data/*.json. The evidence vault is private; its manifest with every hash is data/sources.json.
+Site v0.22.46. Data as of 2026-10-27T19:13Z (the latest capture in the evidence vault, commit 6f0d5c50bf12). Every page below has a markdown twin at the same path with .md; the data behind every page is in data/*.json. The evidence vault is private; its manifest with every hash is data/sources.json.
 
 ## Updates
 - [Every update, newest first](https://php.oct.2026.newsroom.sgit.ai/updates/index.md): Dated briefings on what was added to this site, what is new in the php2shell story, what the team did and what is waiting on the editor: hourly, daily and flash.
@@ -20,7 +20,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Questions readers ask](https://php.oct.2026.newsroom.sgit.ai/questions/index.md): Can anything be done or do we wait for updates? Has anyone been hacked? Is it really most websites? Short answers to paste back, the sources behind them, and the pages that carry each one.
 - [Can anything be done to fix it, or do we just have to wait for updates?](https://php.oct.2026.newsroom.sgit.ai/questions/fix-or-wait/index.md): The updates already exist: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 were released on 21 October and fix both flaws. Nobody is waiting on PHP; the wait is for whoever runs each server to install them and restart. If that is you, update now; if you cannot today, there are temporary settings and, as a last resort, taking the site offline. If a hosting company runs your site, ask them whether it is patched.
 - [Is PHP really the software behind most websites?](https://php.oct.2026.newsroom.sgit.ai/questions/most-websites/index.md): Roughly, if you count websites, not the Internet. About 69% of the websites whose server-side language can be identified run PHP, and the share is falling; on every site the HTTP Archive crawls, PHP is detected on about half (the fact-check desk's investigation). Wiz's '70% of the Internet' is that website figure restated: nobody measures a share of 'the Internet'. Internet-facing PHP hosts number in the low millions: VulnCheck counts about 2.6 million, and Censys counted 1.57 million unpatched on 21 October among the 1.58 million whose version it could read.
-- [Has anyone actually been hacked?](https://php.oct.2026.newsroom.sgit.ai/questions/been-hacked/index.md): Not that any named organisation has said, as of 00:45 UTC on 27 October, the latest capture in the evidence vault. Attack attempts are real and in the millions at Cloudflare alone, Amazon saw one on a honeypot four days before disclosure, and two security vendors are reported as saying it is being exploited, without naming any victim (other reports of the same vendors describe attempts). CISA added both flaws to its exploited-vulnerabilities list on 26 October, which means it has evidence of exploitation, but it names no victim. The sites that went offline say they did it as a precaution.
+- [Has anyone actually been hacked?](https://php.oct.2026.newsroom.sgit.ai/questions/been-hacked/index.md): Not that any named organisation has said, as of 19:13 UTC on 27 October, the latest capture in the evidence vault. Attack attempts are real and in the millions at Cloudflare alone, Amazon saw one on a honeypot four days before disclosure, and two security vendors are reported as saying it is being exploited, without naming any victim (other reports of the same vendors describe attempts). CISA added both flaws to its exploited-vulnerabilities list on 26 October, which means it has evidence of exploitation, but it names no victim. A researcher's deliberately vulnerable decoys were broken into, which proves the attack works but names no victim. The sites that went offline say they did it as a precaution.
 - [Do I need to change my passwords?](https://php.oct.2026.newsroom.sgit.ai/questions/passwords/index.md): Not because of this, as things stand. The flaw is on web servers, not on your devices, and no named site has announced a breach through it, as of the latest check. If a site you use announces one, follow its instructions. Using a different password on every site is the protection that holds whatever the next flaw is.
 - [How do I know whether my site is affected?](https://php.oct.2026.newsroom.sgit.ai/questions/am-i-affected/index.md): If the site runs on PHP (WordPress, Drupal, Joomla, Magento, MediaWiki, and Laravel all do) and the running PHP version is older than 8.5.12, 8.4.27, 8.3.36 or 8.2.35 without a distribution backport, it is affected. Check the version where the code runs, after the restart, not the package list. For bought-in products, the Dutch NCSC keeps an inventory of 674 products and their status.
 - [Should we take our site offline?](https://php.oct.2026.newsroom.sgit.ai/questions/take-offline/index.md): Only if you cannot patch or apply the temporary mitigations in time. That is the advice from the NSA, CISA and the UK NCSC, and it is the last step on every agency's list. If the site is patched and the workers restarted, the advice is to keep it up and watch it.
@@ -69,7 +69,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Who found it](https://php.oct.2026.newsroom.sgit.ai/discovery/index.md): Calif, OpenAI and Wiz each claim the discovery of php2shell; their own timelines side by side, the 2024 audit that saw it first, the credits on the advisories, and what the sources do and do not say about the models.
 - [How disclosure broke](https://php.oct.2026.newsroom.sgit.ai/leak/index.md): Hour by hour from the first circulation of the CVE IDs on 20 October to the release on 21 October: the pre-announcement, the deleted video, the early WAF rules, the embargo break, the first attempts, and the three accounts that disagree on what leaked.
 - [Exploitation signals](https://php.oct.2026.newsroom.sgit.ai/exploitation/index.md): Every signal of php2shell exploitation in the captured sources, from an Amazon honeypot hit on 17 October to the KEV catalog, with what exploitation would look like on a host.
-- [No named compromise: the evidence](https://php.oct.2026.newsroom.sgit.ai/compromise/index.md): The evidence behind one statement, as of 2026-10-27 09:43 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+- [No named compromise: the evidence](https://php.oct.2026.newsroom.sgit.ai/compromise/index.md): The evidence behind one statement, as of 2026-10-27 19:13 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 - [The fix, mapped to the code](https://php.oct.2026.newsroom.sgit.ai/review/index.md): The php2shell fix as layered graphs: the two flaws, the design of the patch, and the php-src files and functions it changed, derived from the diff.
 - [Walk the graph](https://php.oct.2026.newsroom.sgit.ai/review/ui/index.md): A navigator over the php2shell review graph: the fix, the flaws it closes, and the files and functions it changed, each a link.
 - [Impact: offline vs compromised](https://php.oct.2026.newsroom.sgit.ai/impact/index.md): Two ledgers for php2shell: every system reported taken offline with who said so, and every claim of compromise with its basis. As of the latest capture, no named organisation has confirmed a compromise.
@@ -82,15 +82,15 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 
 ## The analysis
 - [Every claim](https://php.oct.2026.newsroom.sgit.ai/claims/index.md): 70 claims about php2shell, each with who makes it, a status (confirmed, reported, disputed, contradicted or unverified) and the captured sources behind it.
-- [Claims waiting for review](https://php.oct.2026.newsroom.sgit.ai/claims/review/index.md): 337 claims from the evidence vault that are not in the site claim table yet, each with the agent that recorded it, its sources, and the journalist's verdict or "not yet reviewed".
+- [Claims waiting for review](https://php.oct.2026.newsroom.sgit.ai/claims/review/index.md): 396 claims from the evidence vault that are not in the site claim table yet, each with the agent that recorded it, its sources, and the journalist's verdict or "not yet reviewed".
 - [Fact-check: how sure we are](https://php.oct.2026.newsroom.sgit.ai/factcheck/index.md): Every claim on the PHP flaws site graded independently by the fact-check desk on a spectrum of evidence from A0 to A6, with a filter for only what can be relied on, the contradiction ledger, and the open tickets.
 - [Corrections we have asked for](https://php.oct.2026.newsroom.sgit.ai/outreach/index.md): The corrections this site has asked other publishers to make about the PHP flaws, each with the publisher's words from a dated capture, the fact-check evidence, a suggested wording and where the request stands.
 - [The numbers](https://php.oct.2026.newsroom.sgit.ai/numbers/index.md): Every scale figure in circulation about php2shell, with what it measures, who said it, whether anyone checked it, and why they differ by four orders of magnitude.
 - [The agencies](https://php.oct.2026.newsroom.sgit.ai/agencies/index.md): The NSA, CISA, the UK NCSC, CERT-EU, ENISA, CERT-FR, Canada, Australia, New Zealand, the Netherlands, Italy, Switzerland, Latvia, Japan, Spain and Portugal on php2shell: who says take it offline, who says isolate, who says patch and nothing more, and who has seen exploitation.
 - [Affected systems](https://php.oct.2026.newsroom.sgit.ai/affected/index.md): Which PHP versions and SAPIs php2shell affects, which applications had RCE demonstrated, and the NCSC-NL inventory of 674 products counted by status.
 - [Who says what](https://php.oct.2026.newsroom.sgit.ai/actors/index.md): 27 parties in the php2shell story, each with the claims this site attributes to it and the sources behind them.
-- [As a graph](https://php.oct.2026.newsroom.sgit.ai/graph/index.md): 1991 nodes and 2230 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
-- [Every party](https://php.oct.2026.newsroom.sgit.ai/graph/parties/index.md): 525 parties resolved from 822 spellings, with the claims each one states and passes on.
+- [As a graph](https://php.oct.2026.newsroom.sgit.ai/graph/index.md): 2119 nodes and 2329 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
+- [Every party](https://php.oct.2026.newsroom.sgit.ai/graph/parties/index.md): 556 parties resolved from 887 spellings, with the claims each one states and passes on.
 - [Wikipedia, as a graph](https://php.oct.2026.newsroom.sgit.ai/wikipedia/index.md): Each Wikipedia article this site watches, read as a fractal semantic graph: statements classed as facts, attributions and quotes, references joined to the captures this site holds, and every edit as what it changed.
 - [Wikipedia: the PHP2Shell article](https://php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/index.md): The English Wikipedia article on PHP2Shell read as a fractal semantic graph: 40 statements classed as facts, attributions and quotes, 45 references and which are captured here, 402 revisions, and where it meets this site’s claims.
 - [Wikipedia: every statement](https://php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/statements/index.md): All 40 statements of the article, classed as record, stated, attributed, quote or hedged by their wording, with their references, the captures this site holds and the claims that share them.
@@ -111,14 +111,14 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Evidence, derived, authored](https://php.oct.2026.newsroom.sgit.ai/layers/index.md): Every file this site is built from, sorted into evidence captured from the vault, transformations derived by agents, signed and dated articles, and the files that run the site.
 - [The fact pipeline](https://php.oct.2026.newsroom.sgit.ai/pipeline/index.md): How a source becomes a fact and a fact reaches a reader on this site: found, saved, read, cited, given a status, built into versioned sections and selected per reader, with counts at every stage and the facts by status in every release.
 - [How the story changed](https://php.oct.2026.newsroom.sgit.ai/versions/index.md): Every section of the site, every reader's briefing and every fact, versioned across every release: what changed, when, and in which release.
-- [The source watch](https://php.oct.2026.newsroom.sgit.ai/vaults/source-watch/index.md): The source-watch vault: 1317 pages from 976 publishers in 61 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
+- [The source watch](https://php.oct.2026.newsroom.sgit.ai/vaults/source-watch/index.md): The source-watch vault: 1365 pages from 995 publishers in 61 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
 
 ## GRC
 - [GRC: risks, owners, standards](https://php.oct.2026.newsroom.sgit.ai/grc/index.md): 34 risks in a fractal register assigned to 53 stakeholders, each joined to the weakness, vulnerability, fix, code, stories and roles behind it, and mapped to 95 controls in 20 frameworks including GDPR, NIS2, the Cyber Resilience Act, DORA, the EU AI Act, ISO 27001 and NIST CSF.
 - [The risk register](https://php.oct.2026.newsroom.sgit.ai/grc/risks/index.md): All 34 risks in the fractal register, with their rating, kind, owner and the number of stakeholders and controls each touches.
 - [Stakeholders and their registers](https://php.oct.2026.newsroom.sgit.ai/grc/stakeholders/index.md): 53 stakeholders in one tree, each with its own risk register, and the risks that connect them.
 - [Frameworks: GDPR, NIS2, CRA, ISO, NIST](https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/index.md): 20 frameworks and 120 controls, and which php2shell risks map to each.
-- [The risk graph](https://php.oct.2026.newsroom.sgit.ai/grc/graph/index.md): 732 nodes and 1366 typed edges joining every php2shell risk to its stakeholders, weaknesses, vulnerabilities, fixes, code, claims, stories, roles and controls.
+- [The risk graph](https://php.oct.2026.newsroom.sgit.ai/grc/graph/index.md): 740 nodes and 1375 typed edges joining every php2shell risk to its stakeholders, weaknesses, vulnerabilities, fixes, code, claims, stories, roles and controls.
 - [Explore the graph: from any node](https://php.oct.2026.newsroom.sgit.ai/grc/explore/index.md): Start from a CVE, a risk, a stakeholder, a file, a test or a control and see only what touches it, grouped by verb, one step at a time; or climb from code to the risks, controls and stakeholders above it. Every edge says how it is known.
 - [What the graph is missing](https://php.oct.2026.newsroom.sgit.ai/grc/gaps/index.md): Gaps in the php2shell risk graph, computed at every release from rules written as data: controls no test reaches, code with no owner, risks with no story or treatment, edges an agent inferred and nobody checked; each with its count, its list and who could close it.
 - [What changed in the graph](https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.md): The php2shell risk graph compared between any two releases: nodes and edges added and removed, bases changed, gaps opened and closed; computed from git at every release.
@@ -126,9 +126,9 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 
 ## Views
 - [Views: the journalist's reading](https://php.oct.2026.newsroom.sgit.ai/views/index.md): The journalist's living state of affairs, versioned with every change visible, and the dated analyses behind it.
-- [The state of affairs, now](https://php.oct.2026.newsroom.sgit.ai/views/state/index.md): On 26 October CISA added both php2shell CVEs to its Known Exploited Vulnerabilities catalog, the measure this desk has watched since the first day: it holds evidence the flaws are exploited. The listing names no victim, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 00:45 UTC on 27 October. Exploited and compromised are now two different answers.
-- [Every version, and what changed](https://php.oct.2026.newsroom.sgit.ai/views/state/history/index.md): 5 versions of the journalist's state of affairs, newest first, each with what changed from the one before.
-- [The journalist's desk: what is still stale](https://php.oct.2026.newsroom.sgit.ai/views/desk/index.md): The cycle every evidence export goes through, the journalist's full pass over the site and where it stands, and what is still older than the latest capture: 38 dated phrases on 16 pages, 17 files, 0 claims.
+- [The state of affairs, now](https://php.oct.2026.newsroom.sgit.ai/views/state/index.md): Both security vendors that said php2shell had been used in a successful attack have withdrawn it, Sophos on 22 October and Palo Alto Networks' Unit 42 on 25 October. A fourth named incident without a stated cause, Square Enix, is now counted as open. CISA's listing stands, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 19:13 UTC on 27 October.
+- [Every version, and what changed](https://php.oct.2026.newsroom.sgit.ai/views/state/history/index.md): 6 versions of the journalist's state of affairs, newest first, each with what changed from the one before.
+- [The journalist's desk: what is still stale](https://php.oct.2026.newsroom.sgit.ai/views/desk/index.md): The cycle every evidence export goes through, the journalist's full pass over the site and where it stands, and what is still older than the latest capture: 35 dated phrases on 12 pages, 18 files, 0 claims.
 - [Every loop: researcher to correspondent](https://php.oct.2026.newsroom.sgit.ai/views/loops/index.md): The pipeline that keeps this site current, loop by loop: 4 loops, the last full one at 24 Oct 23:21 UTC, the next one due, and what the record cannot see.
 
 ## Stories
@@ -163,7 +163,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [The board](https://php.oct.2026.newsroom.sgit.ai/admin/board/index.md): The work on this site and its vault, as rows: what is open, who owns it, what shipped it.
 - [Roles](https://php.oct.2026.newsroom.sgit.ai/admin/roles/index.md): The roles on this site and its vault, who fills each, what it owns and the rules it enforces; how a new agent joins.
 - [Application security](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/index.md): The newsroom's application security: its threat model and data flows, every vulnerability found and fixed as an advisory with its root cause, who can do what, the incident runbooks, the bug bounty and the outside reviews.
-- [Briefs](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/index.md): Every build brief for this site, 89 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
+- [Briefs](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/index.md): Every build brief for this site, 95 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
 - [Pack mode, measured](https://php.oct.2026.newsroom.sgit.ai/admin/pack-mode/index.md): One vault as a normal sgit vault and as a pack vault: a fresh clone in 95 s against 13 min 47 s, the whole history pushed in 96 s, and why the normal vault has hit a wall.
 - [Who reads this site](https://php.oct.2026.newsroom.sgit.ai/admin/telemetry/index.md): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
 - [Synthetic readers](https://php.oct.2026.newsroom.sgit.ai/admin/synthetic/index.md): A board member, a CTO, a project manager, a security lead, a developer and a designer read the live site in a real browser and say what works, what does not and what to change; every review is published here and every run is kept in that reader's own vault.
@@ -225,7 +225,8 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [SA-2026-040: Repository code runs automatically in every agent session (the Stop hook)](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-040/index.md): medium, open
 - [SA-2026-041: The security check printed part of every secret it found](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-041/index.md): medium, fixed
 - [SA-2026-042: Reader answers were inserted into pages as raw HTML](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-042/index.md): medium, fixed
-- [SA-2026-043: The round's write token is readable by every piece of code the round runs](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-043/index.md): high, open
+- [SA-2026-043: The round's write token is readable by every piece of code the round runs](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-043/index.md): high, fixed
+- [SA-2026-044: An edition's patch can change the gate that judges it](https://php.oct.2026.newsroom.sgit.ai/admin/appsec/advisories/SA-2026-044/index.md): medium, open
 
 ## Sources, one page each
 - [Failles PHP : pourquoi c'est un vrai casse-tête pour l'Internet mondial](https://php.oct.2026.newsroom.sgit.ai/sources/01net-actualites-failles-php-pourquoi-cest-vra/index.md): 01net
@@ -262,6 +263,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [ثغرات PHP2Shell حول العالم... أين توقّفت المواقع والخدمات الإلكترونيّة؟](https://php.oct.2026.newsroom.sgit.ai/sources/annahar-technology-359743-d8-ab-d8-ba-d8-b1-d8-a/index.md): AnNahar
 - [Finding, Prioritizing, and Patching PHP2Shell Exposure | Arctic Wolf](https://php.oct.2026.newsroom.sgit.ai/sources/arcticwolf-php2shell-exposure/index.md): Arctic Wolf Labs
 - [PHP2Shell: vulnerabilidad en PHP amenaza empresas con IA](https://php.oct.2026.newsroom.sgit.ai/sources/areacucuta-php2shell-log4shell-a-la-velocidad-de-la/index.md): areacucuta.com
+- [Security Advisory 0200 - Arista](https://php.oct.2026.newsroom.sgit.ai/sources/arista-security-advisory-0200/index.md): Arista Networks
 - [Just a moment...](https://php.oct.2026.newsroom.sgit.ai/sources/armis-php2shell-find-patch/index.md): Armis
 - [PHP warns it plans to release 2 emergency patches imminently - Ars Technica](https://php.oct.2026.newsroom.sgit.ai/sources/arstechnica-security-2026-10-php-maintainers-tell-web-devs-to-prepare-th/index.md): Ars Technica
 - [「キャンつく」「ヨミトル」PHP重大脆弱性（php2shell）への対応完了のお知らせ | 朝日新聞デジタルマガジン＆[and]](https://php.oct.2026.newsroom.sgit.ai/sources/asahi-and-pressrelease-16986349/index.md): 朝日新聞デジタル
@@ -287,7 +289,9 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [[PHP 파장] “개인정보 유출 우려... DB 접근권한 최소화 시급” < 긴급경보 < 공공·정책 < 기사본문 - 보안뉴스](https://php.oct.2026.newsroom.sgit.ai/sources/boannews-news-articleview-html/index.md): boannews
 - [php2shell: PHP-Schwachstellen CVE-2026-109618 und CVE-2026-109619Borns IT- und Windows-Blog](https://php.oct.2026.newsroom.sgit.ai/sources/borncity-blog-2026-10-21-php2shell-php-schwachste/index.md): BornCity
 - [Des sites gouvernementaux hors service sur fond de failles dans PHP, un correctif critique attendu - 21/10/2026 à 16:44 - Boursorama](https://php.oct.2026.newsroom.sgit.ai/sources/boursorama-reuters-sites-gouv/index.md): boursorama.com
+- [Broadcom Response to PHP2shell Vulnerability](https://php.oct.2026.newsroom.sgit.ai/sources/broadcom-security-broadcom-php2shell-response/index.md): Broadcom (Symantec) Security
 - [PHP2Shell: Two Critical PHP Flaws Allow Unauthenticated Remote Code Execution | SECURITY.COM](https://php.oct.2026.newsroom.sgit.ai/sources/broadcom-security-php2shell/index.md): Broadcom (Symantec) Security
+- [Broccoli2Shell: Brotli decoder RCE (CVE-2026-111497) in Node.js, Python and more](https://php.oct.2026.newsroom.sgit.ai/sources/broccoli2shell-com/index.md): broccoli2shell.com
 - [Akute Warnung: PHP-Schwachstelle gefährdet Krypto-Dienste](https://php.oct.2026.newsroom.sgit.ai/sources/btc-echo-news-krypto-boersen-akut-bedroht-kritisc/index.md): BTC-ECHO
 - [[object Object]](https://php.oct.2026.newsroom.sgit.ai/sources/bursadabugun-haber-php-nedir-php2shell-guvenlik-acigi/index.md): Bursada Bugün
 - [PHP’deki kritik güvenlik açığı alarmı! Dünya genelinde çok sayıda site erişime kapatıldı - Bursa Hakimiyet](https://php.oct.2026.newsroom.sgit.ai/sources/bursahakimiyet-teknoloji-php-deki-kritik-guvenlik-acigi-alar/index.md): Bursa Hakimiyet
@@ -297,6 +301,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [AL26-026 - Critical vulnerabilities impacting PHP - CVE-2026-109618 and CVE-2026-109619](https://php.oct.2026.newsroom.sgit.ai/sources/cccs-al26-026/index.md): Canadian Centre for Cyber Security (CCCS)
 - [Alerts and advisories - Canadian Centre for Cyber Security](https://php.oct.2026.newsroom.sgit.ai/sources/cccs-alerts/index.md): CCCS
 - [CCN-CERT AL 11/26: Actualización inmediata de vulnerabilidad crítica en PHP](https://php.oct.2026.newsroom.sgit.ai/sources/ccn-cert-al-11-26/index.md): CCN-CERT (Spain)
+- [Censys PHP2Shell Exposure Tracker](https://php.oct.2026.newsroom.sgit.ai/sources/censys-php2shell-exposure/index.md): Censys
 - [[핫이슈] PHP 취약점에 전 세계 비상…한국 정부·기업도 긴급 대응](https://php.oct.2026.newsroom.sgit.ai/sources/ceomagazine-ko-kr-articles-35216/index.md): CEONEWS
 - [Security Advisory 2026-018: Critical Vulnerabilities in PHP](https://php.oct.2026.newsroom.sgit.ai/sources/certeu-sa-2026-018/index.md): CERT-EU
 - [[Màj] Multiples vulnérabilités dans PHP (CERTFR-2026-ALE-014)](https://php.oct.2026.newsroom.sgit.ai/sources/certfr-2026-ale-014/index.md): CERT-FR (ANSSI)
@@ -316,6 +321,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Home Page | CISA](https://php.oct.2026.newsroom.sgit.ai/sources/cisa-home/index.md): CISA
 - [Known Exploited Vulnerabilities Catalog (JSON feed)](https://php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-catalog/index.md): CISA
 - [CISA Known Exploited Vulnerabilities catalog (JSON feed)](https://php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/index.md): CISA
+- [Known Exploited Vulnerabilities Catalog | CISA](https://php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-kev-catalog-page/index.md): CISA KEV
 - [Vulnerabilities in PHP Affecting Cisco Products: October 2026](https://php.oct.2026.newsroom.sgit.ai/sources/cisco-sa-php-october26/index.md): Cisco
 - [PHP security vulnerabilities: How AI uncovered a massive 14-year-old flaw threatening 70% of the internet](https://php.oct.2026.newsroom.sgit.ai/sources/clarin-us-news-php-security-vulnerabilities-how-ai-uncovered-massiv/index.md): Clarin (English edition)
 - [Des failles PHP critiques menacent les sites web du monde entier : DPG Media et les pouvoirs publics mettent leurs sites hors ligne | Clickx](https://php.oct.2026.newsroom.sgit.ai/sources/clickx-fr-actualites-200877-des-failles-php-critiques-menace/index.md): www.clickx.be
@@ -342,6 +348,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP rushes out emergency fixes for critical flaws threatening millions of websites](https://php.oct.2026.newsroom.sgit.ai/sources/computing-news-2026-security-php-emergency-patches/index.md): Computing
 - [PHP: Mais vulnerabilidades críticas estão por vir e vão ser fortes – ConvergenciaDigital](https://php.oct.2026.newsroom.sgit.ai/sources/convergenciadigital-seguranca-php-mais-vulnerabilidades-crit/index.md): ConvergenciaDigital
 - [Threat Actor Targeted PHP Vulnerabilities Days Before PHP2Shell Disclosure - CPO Magazine](https://php.oct.2026.newsroom.sgit.ai/sources/cpomagazine-cyber-security-threat-actor-targeted-php/index.md): CPO Magazine
+- [Craft Cloud and php2shell | Craft CMS](https://php.oct.2026.newsroom.sgit.ai/sources/craft-cms-craft-cloud-and-php2shell/index.md): Craft CMS (Pixel & Tonic)
 - [PHP2Shell | Panică mondială și ghidul complet de patch](https://php.oct.2026.newsroom.sgit.ai/sources/criticarad-php2shell-cve-2026-109618-ghid-patch/index.md): Critic Arad
 - [5 Things To Know About ‘Critical’ PHP Vulnerabilities Exploitation](https://php.oct.2026.newsroom.sgit.ai/sources/crn-news-security-2026-5-things-to-know-about-critical-php-vulne/index.md): CRN
 - [Faille php : 60% des sites impactés et la France en première ligne, que faire et faut-il s’inquiéter ?](https://php.oct.2026.newsroom.sgit.ai/sources/cryptoast-failles-critiques-php-php2shell-france-f/index.md): Cryptoast
@@ -389,6 +396,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP : des failles critiques mettent des milliers de sites sous pression - Distributique](https://php.oct.2026.newsroom.sgit.ai/sources/distributique-actualites-lire-php-des-failles-critique/index.md): Distributique
 - [PHP açığından etkilenen ülkeler ve siteler açıklandı: İşte liste | DonanımHaber](https://php.oct.2026.newsroom.sgit.ai/sources/donanimhaber-php-acigindan-etkilenen-ulkeler-ve-sitel/index.md): DonanımHaber
 - [PHP曝出代号PHP2Shell高危漏洞- DoNews快讯](https://php.oct.2026.newsroom.sgit.ai/sources/donews-news-detail-8-6750596-html/index.md): DoNews
+- [Critical PHP update on Wednesday, October 21, 2026 (14:00 UTC) - PSA-2026-10-20 | Drupal.org](https://php.oct.2026.newsroom.sgit.ai/sources/drupal-psa-2026-10-20/index.md): Drupal Security Team
 - [Just a moment...](https://php.oct.2026.newsroom.sgit.ai/sources/dutchitleaders-websites-offline/index.md): Dutch IT Leaders
 - [PHP2Shell: как одна дыра в PHP напугала полмира — и что это значит для нас — EADaily, 27 октября 2026 — Технологии, Новости России](https://php.oct.2026.newsroom.sgit.ai/sources/eadaily-ru-news-2026-10-27-php2shell-kak-odna-dy/index.md): EADaily
 - [No breach of Budget security after critical flaw found in PHP, minister says | East Anglian Daily Times](https://php.oct.2026.newsroom.sgit.ai/sources/eadt-minister-budget-no-breach/index.md): East Anglian Daily Times (PA)
@@ -413,7 +421,9 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [엔키화이트햇, 'PHP2Shell' 취약점 무료 진단 도구 공개 - 전자신문](https://php.oct.2026.newsroom.sgit.ai/sources/etnews-20261023000089/index.md): 전자신문
 - [Amazon detectó intentos de explotación de PHP2Shell días antes de que se divulgaran las vulnerabilidades y su parche](https://php.oct.2026.newsroom.sgit.ai/sources/europapress-portaltic-ciberseguridad-noticia-amazon/index.md): Europa Press
 - [PHP2Shell : décryptage d’une double faille critique dans le moteur PHP | Europe Infos](https://php.oct.2026.newsroom.sgit.ai/sources/europe-infos-actualites-11979-php2shell-decryptage-d/index.md): europe-infos
+- [PHP2Shell ve ‘Kara Çarşamba’nın gösterdikleri - İsmail Gökhan Bayram - Evrensel](https://php.oct.2026.newsroom.sgit.ai/sources/evrensel-yazi-100236-php2shell-ve-kara-carsamba-n/index.md): Evrensel
 - [Understanding PHP2Shell vulnerabilities and reducing risk while you patch - Express Computer](https://php.oct.2026.newsroom.sgit.ai/sources/expresscomputer-guest-blogs-understanding-php2shell-vuln/index.md): expresscomputer
+- [PHP Vulnerabilities and the ExpressionEngine Community | Blog | ExpressionEngine](https://php.oct.2026.newsroom.sgit.ai/sources/expressionengine-php-vulnerabilities/index.md): ExpressionEngine (Packet Tide)
 - [Fastly’s Proactive Protection for PHP2Shell, Critical PHP RCE CVE-2026-109618 and CVE-2026-109619 | Fastly](https://php.oct.2026.newsroom.sgit.ai/sources/fastly-blog-php2shell/index.md): Fastly
 - [PHP-Sicherheitslücken: Die wichtigsten Fragen und Antworten | FAZ](https://php.oct.2026.newsroom.sgit.ai/sources/faz-aktuell-wirtschaft-mehr-wirtschaft-php-s/index.md): FAZ
 - [PHP2Shell: DFV warnt Feuerwehren vor kritischen PHP-Sicherheitslücken](https://php.oct.2026.newsroom.sgit.ai/sources/feuerwehrmagazin-nachrichten-dfv-warnt-vor-kritischen-php/index.md): Feuerwehr-Magazin
@@ -428,8 +438,10 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [How to block PHP2Shell (CVE-2026-109618, CVE-2026-109619) on FortiWeb | Community](https://php.oct.2026.newsroom.sgit.ai/sources/fortinet-fortiweb-php2shell/index.md): Fortinet Community (FortiWeb knowledge base)
 - [AI helped discover the PHP vulnerability that could take down 70% of the internet | Fortune](https://php.oct.2026.newsroom.sgit.ai/sources/fortune-ai-tools-php-vulnerability/index.md): Fortune
 - [Apa Itu PHP? Celah Keamanannya Membuat Situs Web Terganggu | FORTUNE Indonesia](https://php.oct.2026.newsroom.sgit.ai/sources/fortuneidn-tech-apa-itu-php-celah-keamanan-buat-sit/index.md): Fortune Indonesia
+- [How AI and PHP2Shell Are Redefining Cybersecurity Challenges for Indian Enterprises](https://php.oct.2026.newsroom.sgit.ai/sources/fortuneindia-technology-php2shell-shows-how-ai-is-shr/index.md): Fortune India
 - [PHP2Shell, il bug che poteva mandare in tilt il 70% dei siti mondiali. Ecco cosa è successo - Fortune Italia](https://php.oct.2026.newsroom.sgit.ai/sources/fortuneita-2026-10-22-php2shell-il-bug-che-poteva-m/index.md): Fortune Italia
 - [Accueil - France Titres (ANTS)](https://php.oct.2026.newsroom.sgit.ai/sources/fr-ants-down/index.md): ants.gouv.fr
+- [PHP2Shell : une première cyberattaque réussie fait craindre une vague d’intrusions](https://php.oct.2026.newsroom.sgit.ai/sources/fr-cnet-cybersecurite-6121-php2shell-une-premier/index.md): fr.cnet
 - [fr-interieur-down](https://php.oct.2026.newsroom.sgit.ai/sources/fr-interieur-down/index.md): interieur.gouv.fr
 - [fr-ppolice-down](https://php.oct.2026.newsroom.sgit.ai/sources/fr-ppolice-down/index.md): prefecturedepolice.interieur.gouv.fr
 - [Site en maintenance | Les Services de l'État](https://php.oct.2026.newsroom.sgit.ai/sources/fr-prefecture-nord-down/index.md): nord.gouv.fr
@@ -465,11 +477,15 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Kritikus PHP-sebezhetőségek távoli kódfuttatást tesznek lehetővé, sürgősségi javítások érkeztek](https://php.oct.2026.newsroom.sgit.ai/sources/hirstart-hk-20261023-php2shell-teendok-nas-okon-t/index.md): Hírstart
 - [Luka w PHP. Myślisz - nie ma strony, jestem bezpieczny. To mit!](https://php.oct.2026.newsroom.sgit.ai/sources/homodigital-luka-w-php-myslisz-nie-mam-strony-jestem/index.md): HomoDigital
 - [Your favorite websites are down due to an internet-breaking PHP security flaw](https://php.oct.2026.newsroom.sgit.ai/sources/howtogeek-sites-down/index.md): howtogeek.com
+- [HPESBGN05174 rev.1 - Certain HPE Products Impacted by Multiple PHP Vulnerabilities (PHP2Shell)](https://php.oct.2026.newsroom.sgit.ai/sources/hpe-hpesbgn05174/index.md): Hewlett Packard Enterprise
+- [PSA: Make sure your website patches these PHP vulnerabilities - Hypertext](https://php.oct.2026.newsroom.sgit.ai/sources/htxt-2026-10-psa-make-sure-your-website-patch/index.md): htxt.co.za
+- [Security Notice - Statement on PHP2Shell Use-After-Free Vulnerabilities (CVE-2026-109619, CVE-2026-109618) - Huawei](https://php.oct.2026.newsroom.sgit.ai/sources/huawei-sn-02583971/index.md): Huawei PSIRT
 - [Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities (CVE-2026-109618 & CVE-2026-109619) | Huntress](https://php.oct.2026.newsroom.sgit.ai/sources/huntress-php2shell-rapid-response/index.md): Huntress
 - [PHP-säkerhetshålen 2026 – Så skyddar du din webbplats](https://php.oct.2026.newsroom.sgit.ai/sources/hurbra-php-sakerhetshal-2026-guide/index.md): hurbra
 - [Dünya genelinde siber güvenlik açığı: PHP programlama dilinde sorunlar tespit edildi! Küresel çapta devlet siteleri geçici olarak kapatıldı - Hürriyet Son Dakika Güncel Haberler](https://php.oct.2026.newsroom.sgit.ai/sources/hurriyet-dunya-dunya-genelinde-siber-guvenlik-aci/index.md): Hürriyet
 - [Falle PHP già sotto attacco: l'IA le ha scoperte e ora scrive gli exploit | Hardware Upgrade](https://php.oct.2026.newsroom.sgit.ai/sources/hwupgrade-news-sicurezza-software-falle-php-gia-so/index.md): Hardware Upgrade
 - [Govt sites go down after AI finds 'critical' PHP vulnerabilities | Information Age | ACS](https://php.oct.2026.newsroom.sgit.ai/sources/ia-acs-article-2026-govt-sites-go-down-after-ai-finds-critical-php/index.md): Information Age (ACS)
+- [Security Bulletin: IBM App Connect Enterprise Toolkit is vulnerable to remote code execution (CVE-2026-109618, CVE-2026-109619)](https://php.oct.2026.newsroom.sgit.ai/sources/ibm-node-7294053/index.md): IBM
 - [PHP2Shell: des milliers de serveurs vulnérables, des attaques déjà tentées (update) | ICTjournal](https://php.oct.2026.newsroom.sgit.ai/sources/ictjournal-news-2026-10-22-deux-failles-critiques-d/index.md): ICTjournal
 - [Jutaan Situs Terancam usai AI Temukan Celah pada Bahasa Pemrograman PHP](https://php.oct.2026.newsroom.sgit.ai/sources/idxchannel-playlists-jutaan-situs-terancam-usai-ai/index.md): IDX Channel
 - [全球互联网“今夜惊雷”：AI发现的PHP高危漏洞“PHP2Shell”引发多国政企网站紧急关站](https://php.oct.2026.newsroom.sgit.ai/sources/ijiwei-n-1122779/index.md): ijiwei
@@ -506,10 +522,12 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP2Shell alarm a major cyber security wake-up call | ITWeb](https://php.oct.2026.newsroom.sgit.ai/sources/itweb-article-php2shell-alarm-a-major-cyber-se/index.md): ITWeb
 - [PHP2Shell: the 14-year-old bugs that pulled cyber.gov.au and government sites worldwide offline | iTWire](https://php.oct.2026.newsroom.sgit.ai/sources/itwire-business-it-news-security-php2shell-the/index.md): itwire
 - [「PHP2Shell」のリスク低減に向けて直ちに実行すべき手順は - ZDNET Japan](https://php.oct.2026.newsroom.sgit.ai/sources/japan-zdnet-article-35253966/index.md): ZDNET Japan
+- [Atklāta jauna un ļoti specifiskos apstākļos izmantojama PHP ievainojamība, brīdina "Cert.lv"](https://php.oct.2026.newsroom.sgit.ai/sources/jauns-raksts-zinas-735243-atklata-jauna-un-lot/index.md): Jauns.lv
 - [Celah PHP2Shell Ancam Server, Peretas Bisa Ambil Alih Sistem Tanpa Login](https://php.oct.2026.newsroom.sgit.ai/sources/jawapos-teknologi-2610230446-celah-php2shell-anc/index.md): Jawa Pos
 - [Une faille critique dans PHP fait trembler la moitié du web mondial - JVTECH by jeuxvideo.com](https://php.oct.2026.newsroom.sgit.ai/sources/jeuxvideo-news-2110338-une-faille-critique-dans-ph/index.md): JeuxVideo.com
 - [PHPに深刻度9.2の緊急脆弱性「php2shell」発覚、WordPressサイト運営企業向けの対策チェックリストをTorchUpが無料公開：時事ドットコム](https://php.oct.2026.newsroom.sgit.ai/sources/jiji-jc-article/index.md): 時事ドットコム
 - [Erro crítico em PHP obriga desligação de vários sites](https://php.oct.2026.newsroom.sgit.ai/sources/jn-pt-sites-desligados/index.md): jn.pt
+- [JCI-PSA-2026-24-v2-1.pdf](https://php.oct.2026.newsroom.sgit.ai/sources/johnson-controls-jci-psa-2026-24/index.md): Johnson Controls
 - [PHP2Shell : des serveurs exposés à une cybermenace mondiale](https://php.oct.2026.newsroom.sgit.ai/sources/journalducanada-php2shell-des-serveurs-exposes-a-une-cyb/index.md): Journal Du Canada
 - [PHP2Shell : préfectures, impôts, Bercy et Météo-France coupés sur demande de l'ANSSI - Journal du Coin](https://php.oct.2026.newsroom.sgit.ai/sources/journalducoin-technologies-php2shell-prefectures-impots-berc/index.md): Journal Du Coin
 - [PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (JPCERT-AT-2026-0033)](https://php.oct.2026.newsroom.sgit.ai/sources/jpcert-at260033/index.md): JPCERT/CC (Japan)
@@ -556,11 +574,15 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP2Shell, allarme CSIRT Italia: l’81,9% dei servizi PHP risulta vulnerabile - Matrice Digitale](https://php.oct.2026.newsroom.sgit.ai/sources/matricedigitale-2026-10-25-php2shell-italia-csirt-serviz/index.md): Matrice Digitale
 - [BSSN Peringatkan Celah PHP2Shell, Jutaan Website Berisiko Diserang](https://php.oct.2026.newsroom.sgit.ai/sources/medcom-teknologi-news-teknologi-en442w3n-bssn-p/index.md): Medcom.id
 - [Celah Keamanan PHP Ditemukan AI, Pemerintah dan Situs Global Lakukan Pemadaman](https://php.oct.2026.newsroom.sgit.ai/sources/mediaindonesia-teknologi-947268-celah-keamanan-php-dite/index.md): Media Indonesia
+- [「直す」か「畳む」か PHP2Shellが可視化したライブサービスゲームの技術的負債 | ニュース | IT×エンタメの最前線を届ける | MEDIAMIXI](https://php.oct.2026.newsroom.sgit.ai/sources/mediamixi-news-17350/index.md): mediamixi
 - [What are the two PHP vulnerabilities behind a global rush to update](https://php.oct.2026.newsroom.sgit.ai/sources/medianama-2026-10-223-php-vulnerabilities-global-rush-update/index.md): MediaNama
+- [.NET October 2026 Out-of-Band Security Updates - .NET Blog](https://php.oct.2026.newsroom.sgit.ai/sources/microsoft-dotnet-october-2026-oob-security-updates/index.md): Microsoft
 - [Astra Security launches free tools to help organisations identify PHP2Shell vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/miltonkeynes-must-read-astra-security-launches-free-t/index.md): Milton Keynes Citizen
+- [Mitel Product Security Advisory MISA-2026-0008 | Mitel](https://php.oct.2026.newsroom.sgit.ai/sources/mitel-misa-2026-0008/index.md): Mitel
 - [La IA descubre la vulnerabilidad PHP2Shell: el fallo crítico de PHP que expone al 70% de la web mundial](https://php.oct.2026.newsroom.sgit.ai/sources/moncloa-2026-10-22-vulnerabilidad-php2shell-fall/index.md): MONCLOA.COM
 - [PHP-Sicherheitslücke und Hacker-Angriffe: Viele Websites wieder online](https://php.oct.2026.newsroom.sgit.ai/sources/morgenpost-politik-article413475223-weltweite-siche/index.md): Berliner Morgenpost
 - [Morocco’s DGSSI Warns of Critical ‘PHP2Shell’ Vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/moroccoworldnews-2026-10-343335-moroccos-dgssi-warns-of-critical-php2shell-vu/index.md): Morocco World News
+- [Moxa’s Response Regarding CVE-2026-109618 and CVE-2026-109619 in PHP | Moxa](https://php.oct.2026.newsroom.sgit.ai/sources/moxa-mpsa-260001/index.md): Moxa
 - [PHP 취약점 노린 북한 해킹 모의 정황…핵심 타깃은 한·미·일 - 머니투데이](https://php.oct.2026.newsroom.sgit.ai/sources/mt-tech-2026-10-24-2026102414170377166/index.md): 머니투데이
 - [PHP2Shell: el fallo de PHP que ha puesto en jaque a Internet](https://php.oct.2026.newsroom.sgit.ai/sources/muycomputer-2026-10-21-php2shell-el-fallo-de-php-que/index.md): MuyComputer
 - [PHP güvenlik açığı alarmı! İki kritik açık bulundu: PHP nedir, ne işe yarar? - TREND](https://php.oct.2026.newsroom.sgit.ai/sources/mynet-php-guvenlik-acigi-alarmi-iki-kritik-aci/index.md): Mynet
@@ -572,10 +594,12 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Home | NCSC](https://php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-site/index.md): ncsc.nl
 - [UPDATED: CVE-2026-109618 and CVE-2026-109619 affecting PHP](https://php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/index.md): NCSC New Zealand
 - [Alerts listing](https://php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alerts/index.md): NCSC New Zealand
+- [NETGEAR Security Advisory for PHP2Shell Vulnerabilities - NETGEAR Support](https://php.oct.2026.newsroom.sgit.ai/sources/netgear-000070960/index.md): NETGEAR
 - [PHP-Sicherheitslücken: Wir stehen auf den Schultern vieler kleiner Giganten - netzpolitik.org](https://php.oct.2026.newsroom.sgit.ai/sources/netzpolitik-2026-wir-stehen-auf-den-schultern-vieler/index.md): Netzpolitik.org
 - [Coinbase y Bitgo niegan impacto por vulnerabilidad de PHP; CZ alerta - Bitcoin News](https://php.oct.2026.newsroom.sgit.ai/sources/news-bitcoin-es-security-coinbase-y-bitgo-niegan-impa/index.md): Bitcoin News
 - [PHP2Shell Could Put Millions of Websites at Risk: NSA Urges Immediate Patching - ClearanceJobs](https://php.oct.2026.newsroom.sgit.ai/sources/news-clearancejobs-2026-10-23-php2shell-could-put-millions/index.md): ClearanceJobs News
 - [เตือนภัยช่องโหว่ความปลอดภัย PHP เสี่ยงถูกรันโค้ดระยะไกลโดยไม่ต้องยืนยันตัวตน : 테크/과학 : JKN](https://php.oct.2026.newsroom.sgit.ai/sources/news-jkn-editions-thai-post-1040742/index.md): 재경일보
+- [PHPの脆弱性「PHP2Shell」、無償支援が相次ぐ　診断からパッチ適用まで | TECH+（テックプラス）](https://php.oct.2026.newsroom.sgit.ai/sources/news-mynavi-techplus-article-20261026-5196687/index.md): マイナビニュース
 - [PHP2Shell 高危漏洞补丁紧急发布，我在流量设备里发现了什么？_腾讯新闻](https://php.oct.2026.newsroom.sgit.ai/sources/news-qq-rain-a-20261021a0eq4p00/index.md): 腾讯网
 - ["PHP 취약점 공개 나흘 전부터 공격 포착…악용 시도 수백만건" - 경제 | 기사 - 더팩트](https://php.oct.2026.newsroom.sgit.ai/sources/news-tf-read-economy-2380063-htm/index.md): 더팩트
 - [【図解】重大な脆弱性が見つかった「PHP」とは？（Yahoo!ニュース オリジナル THE PAGE）](https://php.oct.2026.newsroom.sgit.ai/sources/news-yahoo-articles-d953e2a13109253ae974bf2a64ebe94/index.md): Yahoo!ニュース
@@ -593,6 +617,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP2Shell 波及数百万台服务器，所用 PHP 版本无官方修复补丁 - Notebookcheck-cn.com News](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-cn-php2shell-php-1433819-0-html/index.md): notebookcheck-cn
 - [PHP2Shell deixa milhões de servidores em versões do PHP sem correção oficial - NotebookCheck.info News](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-info-php2shell-deixa-milhoes-de-servidores-em/index.md): notebookcheck
 - [PHP2Shell: Co powinni sprawdzić użytkownicy QNAP, Nextcloud i OPNsense - Notebookcheck.pl](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-php2shell-co-powinni-sprawdzic-uzytkowni/index.md): notebookcheck
+- [PHP2Shell deja a millones de servidores con versiones de PHP sin un parche oficial - NotebookCheck.org News](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-php2shell-deja-a-millones-de-servidores/index.md): Notebookcheck
 - [PHP2Shell im Homelab: QNAP, Nextcloud und OPNsense jetzt prüfen - Notebookcheck News](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-php2shell-im-homelab-qnap-nextcloud-und/index.md): Notebookcheck
 - [PHP2Shell: Kritieke PHP-kwetsbaarheden treffen mod_php-servers het hardst - Notebookcheck.nl Nieuws](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-php2shell-kritieke-php-kwetsbaarheden-tr/index.md): notebookcheck
 - [PHP2Shell laisse des millions de serveurs sous des versions de PHP sans correctif officiel - NotebookCheck.biz News](https://php.oct.2026.newsroom.sgit.ai/sources/notebookcheck-php2shell-laisse-des-millions-de-serveur/index.md): Notebookcheck
@@ -609,7 +634,9 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [NVD - CVE-2026-109618](https://php.oct.2026.newsroom.sgit.ai/sources/nvd-cve-2026-109618/index.md): NIST National Vulnerability Database
 - [NVD - CVE-2026-109619](https://php.oct.2026.newsroom.sgit.ai/sources/nvd-cve-2026-109619/index.md): NIST National Vulnerability Database
 - [Gravierende Sicherheitslücke bei PHP: Viele Webseiten aus OWL wieder online | nw.de](https://php.oct.2026.newsroom.sgit.ai/sources/nw-nachrichten-zwischen-weser-und-rhein-244/index.md): Neue Westfälische
+- [PHP Security Alert: Critical PHP Vulnerabilities and Your October CMS Sites - October CMS](https://php.oct.2026.newsroom.sgit.ai/sources/october-cms-php-security-alert/index.md): October CMS
 - [ثغرتان خطيرتان في «PHP» تهددان ملايين المواقع على الإنترنت - أخبار السعودية | صحيفة عكاظ](https://php.oct.2026.newsroom.sgit.ai/sources/okaz-technology-na-2272170/index.md): عكاظ
+- [PHP Runtime Vulnerabilities Affecting Okta Access Gateway CVE-2026-109618 / CVE-2026-109619 - Oct 22, 2026](https://php.oct.2026.newsroom.sgit.ai/sources/okta-access-gateway-php/index.md): Okta
 - [NCSC issues warning over critical PHP remote code execution vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/openaccessgovernment-ncsc-issues-warning-over-critical-php-re/index.md): Open Access Government
 - [Patch the Planet: global response coordination as agents uncover critical vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/openai-blog-coordinated-disclosure/index.md): OpenAI
 - [OpenAI models help researchers uncover critical PHP security flaws](https://php.oct.2026.newsroom.sgit.ai/sources/openai-community-php-flaws/index.md): OpenAI Developer Community (user 'sps', Leader)
@@ -665,12 +692,15 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Global Websites Offline Amid PHP Security Flaws: Finance Sector Impact](https://php.oct.2026.newsroom.sgit.ai/sources/reuters-factbox-websites-offline/index.md): Reuters factbox, via Global Banking and Finance
 - [NCSC: Ernstige kwetsbaarheden in PHP | Rijksoverheid.nl](https://php.oct.2026.newsroom.sgit.ai/sources/rijksoverheid-ncsc-php-news/index.md): Rijksoverheid (Dutch government) / NCSC-NL
 - [PHP2Shell(CVE-2026-109618／CVE-2026-109619)のPoCがGitHubで急増、27件を確認 Amazonは公表4日前からサイバー攻撃の試行を観測|セキュリティとITのニュース-セキュリティ対策Lab](https://php.oct.2026.newsroom.sgit.ai/sources/rocket-boys-security-measures-lab-php2shell-poc-expl/index.md): 合同会社ロケットボーイズ
+- [SD1802 | Security Advisory | Rockwell Automation | US](https://php.oct.2026.newsroom.sgit.ai/sources/rockwell-automation-rockwell-sd1802/index.md): Rockwell Automation
 - [Útok na PHP2Shell začal už čtyři dny před zveřejněním zranitelností, tvrdí Amazon - Root.cz](https://php.oct.2026.newsroom.sgit.ai/sources/root-zpravicky-utok-na-php2shell-zacal-uz-cty/index.md): Root.cz
 - [Websites go dark as AI exposes critical security flaws](https://php.oct.2026.newsroom.sgit.ai/sources/rte-reuters-websites-go-dark/index.md): rte.ie
 - [PHP-Lücke: BSI warnt vor Cyber-Gefahr – Firmen oft unwissend](https://php.oct.2026.newsroom.sgit.ai/sources/rtl-leben-digitales-php-luecke-bsi-warnt-vor-cyber-gefahr-fi/index.md): RTL.de
 - [Alerta por fallos críticos en PHP: riesgo en servidores web](https://php.oct.2026.newsroom.sgit.ai/sources/rtve-noticias-20261022-fallos-criticos-php2shell-vulnerabili/index.md): RTVE.es
+- [20261023 | Security Bulletins | Ruckus Wireless Support](https://php.oct.2026.newsroom.sgit.ai/sources/ruckus-bulletin-339/index.md): Ruckus Networks
 - [PHP2Shell: How Hard Is It to Exploit, and What PHP Is Changing | Safeguard Blog](https://php.oct.2026.newsroom.sgit.ai/sources/safeguard-how-hard-to-exploit/index.md): Safeguard (vendor blog)
 - [PHP2Shell WAF rules: what they block and where they fall short | Safeguard Blog](https://php.oct.2026.newsroom.sgit.ai/sources/safeguard-waf-rules-limits/index.md): Safeguard (vendor blog)
+- [Trust Status](https://php.oct.2026.newsroom.sgit.ai/sources/salesforce-general-message-20000267/index.md): Salesforce
 - ["Massive Sache": Folgen der PHP-Sicherheitslücke für heimische Wirtschaft noch unklar - Salzburg24.at](https://php.oct.2026.newsroom.sgit.ai/sources/salzburg24-news-oesterreich-massive-sache-folgen-der-php-sic/index.md): salzburg24
 - [エンタメサイトDMMがサービス停止、外部システムの脆弱性への対応　「情報漏洩は無し」 - 産経ニュース](https://php.oct.2026.newsroom.sgit.ai/sources/sankei-dmm-service-halt/index.md): 産経ニュース
 - [PHP重大脆弱性「PHP2Shell」に対応。ALION、他社開発のWordPress・PHPシステムを10万円からスポット支援 - 産経ニュース](https://php.oct.2026.newsroom.sgit.ai/sources/sankei-pressrelease-prtimes-ec2547367bpozjzxed6/index.md): 産経ニュース
@@ -697,6 +727,8 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP2Shell Exploited 4 Days Before Disclosure [2026]](https://php.oct.2026.newsroom.sgit.ai/sources/shattered-php2shell-attacks-began-4-days-before-di/index.md): shattered.io
 - [PHP 취약점 발견, 전세계 해킹 '비상'…사이버위기 '주의'로 상향 < 정책 < 산업 < 기사본문 - 신아일보](https://php.oct.2026.newsroom.sgit.ai/sources/shinailbo-news-articleview-html/index.md): 신아일보
 - [เว็บไซต์ปิดตัวทั่วโลก หลังพบช่องโหว่ PHP แพลตฟอร์มคริปโทฯ เสี่ยงได้รับผลกระทบ](https://php.oct.2026.newsroom.sgit.ai/sources/siamblockchain-2026-10-22-crypto-exchange-hack-alert-ph/index.md): Siam Blockchain
+- [SSA-566435](https://php.oct.2026.newsroom.sgit.ai/sources/siemens-ssa-566435/index.md): Siemens ProductCERT
+- [SSA-566512](https://php.oct.2026.newsroom.sgit.ai/sources/siemens-ssa-566512/index.md): Siemens ProductCERT
 - [PHP2Shell : les correctifs arrivent, mais pas au même rythme](https://php.oct.2026.newsroom.sgit.ai/sources/silicon-cybersecurite-1371-php2shell-vulnerabili/index.md): Silicon.fr
 - [PHP2Shell attacks began four days before patches, Amazon says, as attempts hit millions - SiliconANGLE](https://php.oct.2026.newsroom.sgit.ai/sources/siliconangle-2026-10-22-php2shell-attacks-began-four/index.md): SiliconANGLE
 - [StealMyBitcoin compromis en 19 heures grâce à l’exploit PHP2Shell](https://php.oct.2026.newsroom.sgit.ai/sources/sixactualites-securite-stealmybitcoin-compromis-en-19/index.md): Sixactualités
@@ -707,7 +739,9 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [360安全云发布PHP2Shell应急防护方案，助力政企网站抢修窗口期-互联网专区](https://php.oct.2026.newsroom.sgit.ai/sources/software-it168-a2026-1022-6954-000006954576-shtml/index.md): IT168 软件·学院
 - [php2shell 漏洞刷屏，集运公司要不要连夜打补丁？先看系统用什么写的_影响_客户_代码执行](https://php.oct.2026.newsroom.sgit.ai/sources/sohu-a-1091246810-122998307/index.md): 搜狐
 - [PHP2Shell : derrière l’urgence des correctifs, les fragilités de la maintenance du Web](https://php.oct.2026.newsroom.sgit.ai/sources/solutions-numeriques-php2shell-derriere-lurgence-des-correcti/index.md): Solutions Numériques
+- [Product Notice: SonicWall Products and PHP Vulnerabilities CVE-2026-109618 and CVE-2026-109619](https://php.oct.2026.newsroom.sgit.ai/sources/sonicwall-php-product-notice/index.md): SonicWall
 - [PHP2Shell: falha crítica no PHP exige correção imediata](https://php.oct.2026.newsroom.sgit.ai/sources/spacemoney-tecnologia-php2shell-falha-critica-php/index.md): SpaceMoney
+- [SVD-2026-1013 | Splunk Vulnerability Disclosure](https://php.oct.2026.newsroom.sgit.ai/sources/splunk-svd-2026-1013/index.md): Splunk
 - [Synology: Sicherheitsupdates für PHP gegen PHP2Shell-Lücken](https://php.oct.2026.newsroom.sgit.ai/sources/stadt-bremerhaven-synology-sicherheitsupdates-fuer-php-geg/index.md): stadt bremerhaven
 - [Cloudflare's CEO Says Worse Bugs Than PHP2Shell Are Already Being Patched - Startup Fortune](https://php.oct.2026.newsroom.sgit.ai/sources/startupfortune-cloudflares-ceo-says-worse-bugs-than-php/index.md): Startup Fortune
 - [PHP2Shell: Παγκόσμιος συναγερμός και «ένεση» 220 εκατ. λιρών από τη Βρετανία για AI Safety - STARTUPPER](https://php.oct.2026.newsroom.sgit.ai/sources/startupper-ai-282619-antepithesi-220-ekat-liron-apo/index.md): startupper
@@ -719,6 +753,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [PHP Sicherheitslücke: Weltweiter Cyberalarm – Auch Schweizer Webseiten offline | Südostschweiz](https://php.oct.2026.newsroom.sgit.ai/sources/suedostschweiz-panorama-php-sicherheitsluecke-weltweite/index.md): Südostschweiz
 - [Astra Security launches free tools to help organisations identify PHP2Shell vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/sunderlandecho-must-read-astra-security-launches-free-t/index.md): Sunderland Echo
 - [Astra Security launches free tools to help organisations identify PHP2Shell vulnerabilities](https://php.oct.2026.newsroom.sgit.ai/sources/sussexexpress-must-read-astra-security-launches-free-t/index.md): SussexWorld
+- [Synology_SA_26_14 | Synology Inc.](https://php.oct.2026.newsroom.sgit.ai/sources/synology-sa-26-14/index.md): Synology
 - [PHP-Sicherheitslücke: Millionen Hackerangriffe weltweit](https://php.oct.2026.newsroom.sgit.ai/sources/tagesanzeiger-php-sicherheitsluecke-millionen-hackeran/index.md): Tages-Anzeiger
 - [Webseiten in Gefahr: PHP-Sicherheitslücken zwingen Hoteliers und Gastronomen zum Handeln: Tageskarte](https://php.oct.2026.newsroom.sgit.ai/sources/tageskarte-technologie-detail-webseiten-in-gefahr-p/index.md): www.tageskarte.io
 - [PHP-Bedrohung: Was über die Sicherheitslücke bekannt ist | tagesschau.de](https://php.oct.2026.newsroom.sgit.ai/sources/tagesschau-wirtschaft-digitales-php-panne-100-html/index.md): tagesschau.de
@@ -746,6 +781,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [php2shell (CVE-2026-109618, CVE-2026-109619): Critical PHP RCE FAQ | Tenable®](https://php.oct.2026.newsroom.sgit.ai/sources/tenable-php2shell-faq/index.md): Tenable
 - [PHP2Shell alarmı: Şifre bile gerekmiyor! Milyonlarca liralık kayıp riski | TGRT Haber](https://php.oct.2026.newsroom.sgit.ai/sources/tgrthaber-ekonomi-php2shell-alarmi-sifre-bile-gere/index.md): TGRT Haber
 - [“ภราดร” สั่ง สกมช.รับมือด่วน ช่องโหว่ไซเบอร์วิกฤต “PHP2Shell”](https://php.oct.2026.newsroom.sgit.ai/sources/thansettakij-economy-672045/index.md): ฐานเศรษฐกิจ
+- [CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution](https://php.oct.2026.newsroom.sgit.ai/sources/the-hacker-news-cisa-confirms-php2shell-exploitation/index.md): The Hacker News
 - [Millions of PHP2Shell attempts so far, but officials see no break-in](https://php.oct.2026.newsroom.sgit.ai/sources/the-next-web-php2shell-no-confirmed-breaches/index.md): The Next Web
 - [Hackers pile on PHP2Shell as AWS reveals attacks began before disclosure](https://php.oct.2026.newsroom.sgit.ai/sources/the-register-hackers-pile-on-php2shell/index.md): The Register
 - [Everything we know so far about the PHP2Shell vulnerability | The Verge](https://php.oct.2026.newsroom.sgit.ai/sources/the-verge-php2shell-websites-down/index.md): The Verge
@@ -781,6 +817,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [South Korea urges action over critical PHP security vulnerabilities - UPI.com](https://php.oct.2026.newsroom.sgit.ai/sources/upi-top-news-world-news-2026-10-26-cybersecu/index.md): upi
 - [Latest on PHP vulnerability as patch gets released, NSA issues warning](https://php.oct.2026.newsroom.sgit.ai/sources/usa-today-php2shell-live/index.md): USA Today
 - [Celah PHP2Shell Ancam 33 Juta Situs, Serangan Siber Melonjak](https://php.oct.2026.newsroom.sgit.ai/sources/uzone-celah-php2shell-ancam-33-juta-situs-sera/index.md): Uzone
+- [KB4953: PHP2Shell Vulnerability (CVE-2026-109618/CVE-2026-109619)](https://php.oct.2026.newsroom.sgit.ai/sources/veeam-kb4953/index.md): Veeam
 - [Elég volt két apró hiba, hogy világszerte leálljanak a weboldalak: a héten megtapasztalhattuk, mennyire könnyen sebezhető az internet - Világgazdaság](https://php.oct.2026.newsroom.sgit.ai/sources/vg-nemzetkozi-gazdasag-2026-10-internet-php/index.md): Világgazdaság
 - [Website toàn cầu hứng chịu hàng triệu đợt tấn công, khai thác lỗ hổng PHP](https://php.oct.2026.newsroom.sgit.ai/sources/vietnamnet-website-toan-cau-hung-chiu-hang-trieu-do/index.md): Báo VietNamNet
 - [Cảnh báo từ sàn giao dịch crypto: Lỗ hổng PHP nghiêm trọng đe dọa các trang thanh toán](https://php.oct.2026.newsroom.sgit.ai/sources/vn-beincrypto-crypto-exchange-hack-alert-php2shell-ris/index.md): BeInCrypto Việt Nam
@@ -788,6 +825,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [RainForestが明らかにしたPHP2Shell脆弱性に関連する3つのIPアドレスの活動履歴 - VOIX](https://php.oct.2026.newsroom.sgit.ai/sources/voix-business-cards-rainforest-ip-activity-an/index.md): voix
 - [Kritische PHP-Sicherheitslücke: Millionen Webseiten potenziell gefährdet - VOL.AT](https://php.oct.2026.newsroom.sgit.ai/sources/vol-sicherheitsalarm-im-internet-diese-gefah/index.md): VOL.AT
 - [Cảnh báo lỗ hổng PHP, website Việt Nam cần cập nhật bản vá](https://php.oct.2026.newsroom.sgit.ai/sources/vtv-canh-bao-lo-hong-php-website-viet-nam-ca/index.md): VTV.vn
+- [Usage Statistics and Market Share of PHP for Websites, October 2026](https://php.oct.2026.newsroom.sgit.ai/sources/w3techs-php-usage/index.md): W3Techs (Q-Success)
 - [IMPORTANT Vulnerabilitatea PHP2Shell: ce recomandă experții în tehnologie și unde e expunerea cea mai mare](https://php.oct.2026.newsroom.sgit.ai/sources/wall-street-articol-it-and-c-important-vulnerabilita/index.md): Wall-Street.ro
 - [Celah Keamanan PHP Picu Penutupan Situs Pemerintah di Sejumlah Negara](https://php.oct.2026.newsroom.sgit.ai/sources/wartaekonomi-read642977-celah-keamanan-php-picu-penut/index.md): Warta Ekonomi
 - [watchtowr.com](https://php.oct.2026.newsroom.sgit.ai/sources/watchtowr-php2shell/index.md): watchTowr
@@ -797,6 +835,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Recent wiki downtime (PHP2Shell mitigation) | Weird Gloop](https://php.oct.2026.newsroom.sgit.ai/sources/weirdgloop-blog-php2shell/index.md): Weird Gloop (cookmeplox)
 - [PHP2Shell: What to know about two critical PHP flaws](https://php.oct.2026.newsroom.sgit.ai/sources/welivesecurity-en-videos-php2shell-what-know-two-critic/index.md): WeLiveSecurity
 - [PHP2Shell Shows the Risk of Legacy Web Infrastructure](https://php.oct.2026.newsroom.sgit.ai/sources/wersm-php2shell-legacy-infrastructure-web-risk/index.md): wersm
+- [Wibu Product Alerts and Compatibility Notices - Wibu-Systems](https://php.oct.2026.newsroom.sgit.ai/sources/wibu-systems-wibu-product-alerts/index.md): Wibu-Systems
 - [Wikimedia Status](https://php.oct.2026.newsroom.sgit.ai/sources/wikimediastatus-page/index.md): wikimediastatus.net
 - [Dan Kaminsky - Wikipedia](https://php.oct.2026.newsroom.sgit.ai/sources/wikipedia-dan-kaminsky/index.md): Wikipedia (English)
 - [Wikipedia, the free encyclopedia](https://php.oct.2026.newsroom.sgit.ai/sources/wikipedia-en-mainpage/index.md): en.wikipedia.org
@@ -812,6 +851,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched | WIRED](https://php.oct.2026.newsroom.sgit.ai/sources/wired-exploited-days-before-patched/index.md): WIRED
 - [PHP-Lücke: Viele Webseiten sind nach Sicherheitsupdate wieder erreichbar](https://php.oct.2026.newsroom.sgit.ai/sources/wiwo-unternehmen-it-php2shell-viele-webseiten/index.md): WirtschaftsWoche
 - [PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet](https://php.oct.2026.newsroom.sgit.ai/sources/wiz-blog-php2shell/index.md): Wiz (Wiz Research)
+- [Critical PHP Security Release – WordPress News](https://php.oct.2026.newsroom.sgit.ai/sources/wordpress-critical-php-security-release/index.md): WordPress.org
 - [Discovery of security vulnerabilities in PHP programming language triggers global internet shutdowns - World Socialist Web Site](https://php.oct.2026.newsroom.sgit.ai/sources/wsws-en-articles-2026-10-23-rfdk-o23-html/index.md): World Socialist Web Site
 - [PHP2Shell: Was hinter der Sicherheitslücke steckt](https://php.oct.2026.newsroom.sgit.ai/sources/www1-wdr-gravierende-fehler-in-skript-sprache-php/index.md): WDR
 - [PHP2Shell: qué le puede pasar a tu web si no actualizas PHP, aunque WordPress, los plugins y el login estén al día](https://php.oct.2026.newsroom.sgit.ai/sources/wwwhatsnew-2026-10-21-php2shell-que-pasa-si-no-actu/index.md): WWWhat's new
@@ -821,11 +861,19 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [OpenAI on X: OpenAI models helped researchers ... discover critical security flaws in PHP](https://php.oct.2026.newsroom.sgit.ai/sources/x-openai-php2shell/index.md): OpenAI (@OpenAI)
 - [Wiz on X: BREAKING ... #PHP2SHELL ... impacting 70% of the Internet](https://php.oct.2026.newsroom.sgit.ai/sources/x-wiz-io-php2shell/index.md): Wiz (@wiz_io)
 - [PHP2Shell es una vulnerabilidad crítica para tu web: cómo comprobar que tu sitio es seguro](https://php.oct.2026.newsroom.sgit.ai/sources/xataka-seguridad-php2shell-vulnerabilidad-criti/index.md): Xataka
+- [Internet: Cloudflare erklärt kritische PHP-Sicherheitslücke](https://php.oct.2026.newsroom.sgit.ai/sources/xboxdynasty-news-internet-cloudflare-erklaert-kritis/index.md): XboxDynasty
+- [NASに重大な脆弱性「PHP2Shell」、QNAPなど一部メーカーは修正パッチ未提供 | XenoSpectrum](https://php.oct.2026.newsroom.sgit.ai/sources/xenospectrum-php2shell-nas-qnap-synology-patch-gap/index.md): xenospectrum
 - [GMO「悪用確認されず」から一転　FX口座ログイン情報、流出の可能性　不正操作報告も（J-CASTニュース） - Yahoo!ニュース](https://php.oct.2026.newsroom.sgit.ai/sources/yahoo-jp-gmo-fx-login-leak/index.md): Yahoo! News Japan (J-CAST)
 - [PHP vulnerability: Which websites and services are affected?](https://php.oct.2026.newsroom.sgit.ai/sources/yahoo-mashable-affected-list/index.md): tech.yahoo.com
 - [Finland temporarily shuts down government websites as a precaution for critical vulnerabilities | Yle News | Yle](https://php.oct.2026.newsroom.sgit.ai/sources/yle-finland-government-sites-shut/index.md): Yle (Finnish public broadcaster)
+- [개보위 "PHP 보안 취약점 주의…보안 업데이트·접근통제 필요" | 연합뉴스](https://php.oct.2026.newsroom.sgit.ai/sources/yna-view-akr20261022157000530/index.md): 연합뉴스
 - [AI Helps Uncover PHP2Shell Flaws That Put Websites Worldwide at Risk » YugaTech | Philippines Tech News & Reviews](https://php.oct.2026.newsroom.sgit.ai/sources/yugatech-news-ai-helps-uncover-php2shell-flaws-th/index.md): YugaTech
 - [PHP2Shell : deux failles critiques menacent les serveurs web – ZATAZ.COM](https://php.oct.2026.newsroom.sgit.ai/sources/zataz-php2shell-deux-failles-critiques-menacen/index.md): ZATAZ
+- [PHP2Shell: Haven't patched yet? Take these steps now to mitigate - ZDNET](https://php.oct.2026.newsroom.sgit.ai/sources/zdnet-tech-php2shell-php-patch-mitigation-crit/index.md): ZDNET
+- ["PHP 취약점 공개 이후 많은 공격 시도 관측" - ZDNet korea](https://php.oct.2026.newsroom.sgit.ai/sources/zdnet-view/index.md): 지디넷코리아
+- [로그프레소, PHP 원격 코드 실행 취약점 진단 ‘PHP2Shell 스캐너’ 무료 공개](https://php.oct.2026.newsroom.sgit.ai/sources/ziksir-news-articleview-html/index.md): 직썰
+- [Alertă DNSC: Două vulnerabilități critice în PHP pun în pericol milioane de site-uri. Hackerii pot prelua controlul serverelor – Ziua Veche](https://php.oct.2026.newsroom.sgit.ai/sources/ziuaveche-stiinta-it-it-alerta-dnsc-doua-vulnerabi/index.md): Ziua Veche
+- [PHP2Shell: Fallas Críticas En PHP Ponen En Alerta A Empresas](https://php.oct.2026.newsroom.sgit.ai/sources/zoomtecnologico-2026-10-26-php-php2shell-chile/index.md): Zoom Tecnológico
 
 ## Facts, one page each, with a timeline and every version
 - [Two critical vulnerabilities, CVE-2026-109618 and CVE-2026-109619, each CVSS v4.0 9.2, fixed in PHP ](https://php.oct.2026.newsroom.sgit.ai/facts/two-cves-9.2/index.md): confirmed
@@ -862,7 +910,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [The flaws were disclosed on 22 October 2026](https://php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/index.md): contradicted
 - [The fixes were scheduled for 14:00 UTC on 21 October and were published between 13:31 and 13:35 UTC](https://php.oct.2026.newsroom.sgit.ai/facts/release-time/index.md): confirmed
 - [The pre-announcement was published at 19:30 UTC on 20 October](https://php.oct.2026.newsroom.sgit.ai/facts/preannounce-time/index.md): disputed
-- [There is no evidence yet that hackers have exploited the flaw](https://php.oct.2026.newsroom.sgit.ai/facts/no-exploitation/index.md): reported
+- [There is no evidence yet that hackers have exploited the flaw](https://php.oct.2026.newsroom.sgit.ai/facts/no-exploitation/index.md): disputed
 - [As of its alert of 21 October and KEV catalog version 2026.10.21 (fetched 2026-10-22T08:15Z), CISA h](https://php.oct.2026.newsroom.sgit.ai/facts/cisa-none/index.md): confirmed
 - [Reports of active exploitation exist](https://php.oct.2026.newsroom.sgit.ai/facts/nz-active/index.md): reported
 - [An exploit attempt hit an Amazon honeypot on 17 October from an anonymisation network; proof-of-conc](https://php.oct.2026.newsroom.sgit.ai/facts/amazon-honeypot/index.md): reported
@@ -873,7 +921,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [If an immediate update is not feasible, take the system offline until it can be fully mitigated](https://php.oct.2026.newsroom.sgit.ai/facts/offline-nsa/index.md): confirmed
 - [Organisations that cannot update immediately, or that run PHP 8.1 or older, should take PHP-based sy](https://php.oct.2026.newsroom.sgit.ai/facts/offline-cisa/index.md): confirmed
 - ['Where immediate remediation is not feasible, organisations should consider taking the system offlin](https://php.oct.2026.newsroom.sgit.ai/facts/offline-ncsc/index.md): disputed
-- [The UK's NCSC, the NSA and their counterparts in the EU and Australia advise taking systems offline ](https://php.oct.2026.newsroom.sgit.ai/facts/offline-allies/index.md): contradicted
+- [The UK's NCSC, the NSA and their counterparts in the EU and Australia advise taking systems offline ](https://php.oct.2026.newsroom.sgit.ai/facts/offline-allies/index.md): disputed
 - [Parts of Wikipedia, Edinburgh council, French government sites, the University of Geneva, online sho](https://php.oct.2026.newsroom.sgit.ai/facts/affected-sites/index.md): reported
 - [Latvia restricted access from abroad to several state digital resources, possibly until 26 October; ](https://php.oct.2026.newsroom.sgit.ai/facts/latvia-offline/index.md): confirmed
 - [The risks require immediate patching across United States Government departments and agencies](https://php.oct.2026.newsroom.sgit.ai/facts/gov-patch-required/index.md): reported
@@ -881,7 +929,7 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [No traffic matching the php2shell exploit patterns was seen during Imperva's pre-disclosure monitori](https://php.oct.2026.newsroom.sgit.ai/facts/imperva-none/index.md): reported
 - [No exploitation observed on Huntress partner systems as of 20:30 UTC on 21 October; no public exploi](https://php.oct.2026.newsroom.sgit.ai/facts/huntress-none/index.md): reported
 - [watchTowr sees active exploitation attempts and lists the flaws as exploited in the wild](https://php.oct.2026.newsroom.sgit.ai/facts/watchtowr-itw/index.md): unverified
-- [As of 09:43 UTC on 27 October, no named organisation has said it was compromised through php2shell. ](https://php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/index.md): reported
+- [As of 19:13 UTC on 27 October, no named organisation has said it was compromised through php2shell. ](https://php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/index.md): reported
 - [None of the public proof-of-concept exploits reviewed by VulnCheck has the correct mechanism; a lab ](https://php.oct.2026.newsroom.sgit.ai/facts/pocs-wrong/index.md): reported
 - [Triggering the bug is much easier than turning it into code execution; the CVSS vector says attack c](https://php.oct.2026.newsroom.sgit.ai/facts/ac-high/index.md): confirmed
 - [The fix was authored on 18 October at 15:26 UTC and entered the public branches at 14:06 UTC on 21 O](https://php.oct.2026.newsroom.sgit.ai/facts/fix-authored/index.md): confirmed
@@ -903,45 +951,45 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [The two flaws](https://php.oct.2026.newsroom.sgit.ai/versions/page-flaws/index.md): 2 versions
 - [Timeline](https://php.oct.2026.newsroom.sgit.ai/versions/page-timeline/index.md): 5 versions
 - [Who found it](https://php.oct.2026.newsroom.sgit.ai/versions/page-discovery/index.md): 5 versions
-- [How disclosure broke](https://php.oct.2026.newsroom.sgit.ai/versions/page-leak/index.md): 7 versions
-- [Exploitation signals](https://php.oct.2026.newsroom.sgit.ai/versions/page-exploitation/index.md): 6 versions
+- [How disclosure broke](https://php.oct.2026.newsroom.sgit.ai/versions/page-leak/index.md): 8 versions
+- [Exploitation signals](https://php.oct.2026.newsroom.sgit.ai/versions/page-exploitation/index.md): 7 versions
 - [If you run PHP](https://php.oct.2026.newsroom.sgit.ai/versions/page-playbook/index.md): 3 versions
-- [Every claim](https://php.oct.2026.newsroom.sgit.ai/versions/page-claims/index.md): 19 versions
-- [The numbers](https://php.oct.2026.newsroom.sgit.ai/versions/page-numbers/index.md): 6 versions
-- [The agencies](https://php.oct.2026.newsroom.sgit.ai/versions/page-agencies/index.md): 4 versions
+- [Every claim](https://php.oct.2026.newsroom.sgit.ai/versions/page-claims/index.md): 20 versions
+- [The numbers](https://php.oct.2026.newsroom.sgit.ai/versions/page-numbers/index.md): 7 versions
+- [The agencies](https://php.oct.2026.newsroom.sgit.ai/versions/page-agencies/index.md): 5 versions
 - [Affected systems](https://php.oct.2026.newsroom.sgit.ai/versions/page-affected/index.md): 2 versions
-- [The method](https://php.oct.2026.newsroom.sgit.ai/versions/page-method/index.md): 15 versions
-- [Briefing: Board member or executive](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-board/index.md): 23 versions
-- [Briefing: Security lead](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-security/index.md): 13 versions
+- [The method](https://php.oct.2026.newsroom.sgit.ai/versions/page-method/index.md): 16 versions
+- [Briefing: Board member or executive](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-board/index.md): 24 versions
+- [Briefing: Security lead](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-security/index.md): 14 versions
 - [Briefing: PHP or platform engineer](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-engineer/index.md): 11 versions
-- [Briefing: Journalist](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-journalist/index.md): 11 versions
+- [Briefing: Journalist](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-journalist/index.md): 12 versions
 - [Briefing: Security researcher](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-researcher/index.md): 10 versions
-- [Briefing: Analyst or advisor](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-analyst/index.md): 15 versions
+- [Briefing: Analyst or advisor](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-analyst/index.md): 16 versions
 - [The code](https://php.oct.2026.newsroom.sgit.ai/versions/page-code/index.md): 3 versions
-- [Impact: offline vs compromised](https://php.oct.2026.newsroom.sgit.ai/versions/page-impact/index.md): 17 versions
+- [Impact: offline vs compromised](https://php.oct.2026.newsroom.sgit.ai/versions/page-impact/index.md): 18 versions
 - [Detection and defence](https://php.oct.2026.newsroom.sgit.ai/versions/page-defence/index.md): 3 versions
 - [In context: 2008 to 2026](https://php.oct.2026.newsroom.sgit.ai/versions/page-context/index.md): 6 versions
-- [Who says what](https://php.oct.2026.newsroom.sgit.ai/versions/page-actors/index.md): 3 versions
-- [Briefing: CISO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-ciso/index.md): 21 versions
-- [Briefing: CTO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-cto/index.md): 10 versions
-- [Briefing: CFO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-cfo/index.md): 23 versions
-- [Briefing: Head of AppSec](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-appsec/index.md): 13 versions
+- [Who says what](https://php.oct.2026.newsroom.sgit.ai/versions/page-actors/index.md): 4 versions
+- [Briefing: CISO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-ciso/index.md): 22 versions
+- [Briefing: CTO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-cto/index.md): 11 versions
+- [Briefing: CFO](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-cfo/index.md): 24 versions
+- [Briefing: Head of AppSec](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-appsec/index.md): 14 versions
 - [Briefing: Developer](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-developer/index.md): 8 versions
-- [Briefing: Media and communications team](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-comms/index.md): 18 versions
+- [Briefing: Media and communications team](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-comms/index.md): 19 versions
 - [Explained from the start](https://php.oct.2026.newsroom.sgit.ai/versions/page-explained/index.md): 2 versions
 - [Glossary: every term, in plain English](https://php.oct.2026.newsroom.sgit.ai/versions/page-glossary/index.md): 2 versions
-- [Briefing: Curious reader](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-everyone/index.md): 21 versions
-- [Briefing: Website owner](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-site-owner/index.md): 11 versions
-- [Briefing: Project or programme manager](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-pm/index.md): 17 versions
-- [The specialist summary](https://php.oct.2026.newsroom.sgit.ai/versions/page-summary/index.md): 18 versions
-- [Front page: right now](https://php.oct.2026.newsroom.sgit.ai/versions/front-now/index.md): 9 versions
+- [Briefing: Curious reader](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-everyone/index.md): 22 versions
+- [Briefing: Website owner](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-site-owner/index.md): 12 versions
+- [Briefing: Project or programme manager](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-pm/index.md): 18 versions
+- [The specialist summary](https://php.oct.2026.newsroom.sgit.ai/versions/page-summary/index.md): 19 versions
+- [Front page: right now](https://php.oct.2026.newsroom.sgit.ai/versions/front-now/index.md): 10 versions
 - [Front page: at a glance](https://php.oct.2026.newsroom.sgit.ai/versions/front-glance/index.md): 11 versions
-- [Front page: the core facts](https://php.oct.2026.newsroom.sgit.ai/versions/front-facts/index.md): 8 versions
+- [Front page: the core facts](https://php.oct.2026.newsroom.sgit.ai/versions/front-facts/index.md): 9 versions
 - [Front page: what nobody knows yet](https://php.oct.2026.newsroom.sgit.ai/versions/front-unknown/index.md): 3 versions
-- [Front page: latest](https://php.oct.2026.newsroom.sgit.ai/versions/front-latest/index.md): 6 versions
+- [Front page: latest](https://php.oct.2026.newsroom.sgit.ai/versions/front-latest/index.md): 7 versions
 - [Interview: the editor](https://php.oct.2026.newsroom.sgit.ai/versions/page-interview/index.md): 1 versions
-- [Briefing: Data protection officer](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-dpo/index.md): 15 versions
-- [The state of affairs, now](https://php.oct.2026.newsroom.sgit.ai/versions/page-views-state/index.md): 4 versions
+- [Briefing: Data protection officer](https://php.oct.2026.newsroom.sgit.ai/versions/briefing-dpo/index.md): 16 versions
+- [The state of affairs, now](https://php.oct.2026.newsroom.sgit.ai/versions/page-views-state/index.md): 5 versions
 
 ## The team, one page per member
 - [How the team talks: three vaults and one run](https://php.oct.2026.newsroom.sgit.ai/team/channels/index.md): the conductor, issues and mail vaults, the run, the rules
@@ -1031,14 +1079,16 @@ Site v0.22.45. Data as of 2026-10-27T09:43Z (the latest capture in the evidence 
 - [The state of affairs, v2: The state of affairs at the end of 23 October: still no named victim, and the advice turns from patching to looking for break-ins](https://php.oct.2026.newsroom.sgit.ai/views/state/v2/index.md): Sixty-eight more sources, read by the curator, change none of the measures that matter most: no organisation has confirmed a compromise through php2shell, and neither CVE is in CISA's exploited list at this desk's last check. What moved is the advice. Singapore and Luxembourg now tell operators to check whether they were already broken into, and the first national count of servers still affected after the fix is in: about 3.5% in Switzerland.
 - [The state of affairs, v3: The state of affairs on 24 October: a vendor withdraws the first claim of a break-in, banks report none, and the exploited list still does not have it](https://php.oct.2026.newsroom.sgit.ai/views/state/v3/index.md): Three days after the release, still no organisation has said it was compromised through php2shell. The one security vendor that had claimed a successful compromise, Sophos, withdrew it: its data showed scanning and a few failed attempts. US banks and the large crypto platforms report none, the Netherlands joins the authorities that have seen no attack succeed, and neither CVE was in CISA's exploited list at 05:53 UTC today.
 - [The state of affairs, v4: The state of affairs on 27 October: CISA lists both flaws as exploited, and still no named victim](https://php.oct.2026.newsroom.sgit.ai/views/state/v4/index.md): On 26 October CISA added both php2shell CVEs to its Known Exploited Vulnerabilities catalog, the measure this desk has watched since the first day: it holds evidence the flaws are exploited. The listing names no victim, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 00:45 UTC on 27 October. Exploited and compromised are now two different answers.
+- [The state of affairs, v5: The state of affairs on 27 October, evening: both vendor claims of a break-in withdrawn, and still no named victim](https://php.oct.2026.newsroom.sgit.ai/views/state/v5/index.md): Both security vendors that said php2shell had been used in a successful attack have withdrawn it, Sophos on 22 October and Palo Alto Networks' Unit 42 on 25 October. A fourth named incident without a stated cause, Square Enix, is now counted as open. CISA's listing stands, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 19:13 UTC on 27 October.
 - [The state of affairs: what changed between v0 and v1](https://php.oct.2026.newsroom.sgit.ai/views/state/v0-v1/index.md): The measures and the text of the state of affairs, v0 against v1.
 - [The state of affairs: what changed between v1 and v2](https://php.oct.2026.newsroom.sgit.ai/views/state/v1-v2/index.md): The measures and the text of the state of affairs, v1 against v2.
 - [The state of affairs: what changed between v2 and v3](https://php.oct.2026.newsroom.sgit.ai/views/state/v2-v3/index.md): The measures and the text of the state of affairs, v2 against v3.
 - [The state of affairs: what changed between v3 and v4](https://php.oct.2026.newsroom.sgit.ai/views/state/v3-v4/index.md): The measures and the text of the state of affairs, v3 against v4.
-- [The state of affairs: every version](https://php.oct.2026.newsroom.sgit.ai/views/state/history/index.md): 5 versions of the journalist's state of affairs, newest first, each with what changed from the one before.
-- [The state of affairs: The state of affairs on 27 October: CISA lists both flaws as exploited, and still no named victim](https://php.oct.2026.newsroom.sgit.ai/views/state/index.md): On 26 October CISA added both php2shell CVEs to its Known Exploited Vulnerabilities catalog, the measure this desk has watched since the first day: it holds evidence the flaws are exploited. The listing names no victim, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 00:45 UTC on 27 October. Exploited and compromised are now two different answers.
+- [The state of affairs: what changed between v4 and v5](https://php.oct.2026.newsroom.sgit.ai/views/state/v4-v5/index.md): The measures and the text of the state of affairs, v4 against v5.
+- [The state of affairs: every version](https://php.oct.2026.newsroom.sgit.ai/views/state/history/index.md): 6 versions of the journalist's state of affairs, newest first, each with what changed from the one before.
+- [The state of affairs: The state of affairs on 27 October, evening: both vendor claims of a break-in withdrawn, and still no named victim](https://php.oct.2026.newsroom.sgit.ai/views/state/index.md): Both security vendors that said php2shell had been used in a successful attack have withdrawn it, Sophos on 22 October and Palo Alto Networks' Unit 42 on 25 October. A fourth named incident without a stated cause, Square Enix, is now counted as open. CISA's listing stands, and no organisation has said it was compromised through php2shell at the evidence vault's latest capture, 19:13 UTC on 27 October.
 - [Views: the state of affairs and the journalist's analyses](https://php.oct.2026.newsroom.sgit.ai/views/index.md): The journalist's living state of affairs, versioned with every change visible, and the dated analyses behind it.
-- [The journalist's desk: keeping the site current](https://php.oct.2026.newsroom.sgit.ai/views/desk/index.md): The cycle every evidence export goes through, the journalist's full pass over the site and where it stands, and what is still older than the latest capture: 38 dated phrases on 16 pages, 17 files, 0 claims.
+- [The journalist's desk: keeping the site current](https://php.oct.2026.newsroom.sgit.ai/views/desk/index.md): The cycle every evidence export goes through, the journalist's full pass over the site and where it stands, and what is still older than the latest capture: 35 dated phrases on 12 pages, 18 files, 0 claims.
 - [Every loop: from the researcher to the correspondent](https://php.oct.2026.newsroom.sgit.ai/views/loops/index.md): The pipeline that keeps this site current, loop by loop: 4 loops, the last full one at 24 Oct 23:21 UTC, the next one due, and what the record cannot see.
 
 ## The fact-check desk's investigations: one question chased down to its measurements (factcheck@php.newsroom)
@@ -1308,18 +1358,18 @@ Licence: content CC BY 4.0, code Apache-2.0.
 - [The front page, for everyone, unfiltered](https://php.oct.2026.newsroom.sgit.ai/as/everything/index.md): Every part, in the usual order. About 9 minutes.
 - [The agencies, for an Executive](https://php.oct.2026.newsroom.sgit.ai/agencies/as/executive/index.md): All 16 say update. Two, both US, say take it offline if you can’t: decide who makes that call.
 - [The agencies, for a general reader](https://php.oct.2026.newsroom.sgit.ai/agencies/as/general/index.md): Every government agency says the same first thing: install the fix.
-- [The agencies, for Security](https://php.oct.2026.newsroom.sgit.ai/agencies/as/security/index.md): If you can’t patch: 2 say take offline, 3 isolate, 1 restrict, 2 consider, 6 say nothing.
+- [The agencies, for Security](https://php.oct.2026.newsroom.sgit.ai/agencies/as/security/index.md): If you can’t patch: 2 say take offline, 3 isolate, 1 restrict, 3 consider, 5 say nothing.
 - [The agencies, for an Engineer](https://php.oct.2026.newsroom.sgit.ai/agencies/as/engineer/index.md): 16 agencies. All say update. They split on what to do if you can’t.
 - [The agencies, for a Journalist](https://php.oct.2026.newsroom.sgit.ai/agencies/as/journalist/index.md): Only 2 of 16 say take sites offline, both American. Don’t write “agencies say take sites offline”.
 - [The agencies, for a Researcher](https://php.oct.2026.newsroom.sgit.ai/agencies/as/researcher/index.md): 16 agencies. All say update. They split on what to do if you can’t.
 - [The agencies, for everyone, unfiltered](https://php.oct.2026.newsroom.sgit.ai/agencies/as/everything/index.md): 16 agencies. All say update. They split on what to do if you can’t.
 - [The numbers, for an Executive](https://php.oct.2026.newsroom.sgit.ai/numbers/as/executive/index.md): Don't repeat “70% of the Internet”. The 9.2 severity holds.
-- [The numbers, for a general reader](https://php.oct.2026.newsroom.sgit.ai/numbers/as/general/index.md): 70 facts: 20 confirmed, 36 reported, 7 disputed, 3 contradicted, 4 unverified.
-- [The numbers, for Security](https://php.oct.2026.newsroom.sgit.ai/numbers/as/security/index.md): 70 facts: 20 confirmed, 36 reported, 7 disputed, 3 contradicted, 4 unverified.
-- [The numbers, for an Engineer](https://php.oct.2026.newsroom.sgit.ai/numbers/as/engineer/index.md): 70 facts: 20 confirmed, 36 reported, 7 disputed, 3 contradicted, 4 unverified.
+- [The numbers, for a general reader](https://php.oct.2026.newsroom.sgit.ai/numbers/as/general/index.md): 70 facts: 20 confirmed, 35 reported, 9 disputed, 2 contradicted, 4 unverified.
+- [The numbers, for Security](https://php.oct.2026.newsroom.sgit.ai/numbers/as/security/index.md): 70 facts: 20 confirmed, 35 reported, 9 disputed, 2 contradicted, 4 unverified.
+- [The numbers, for an Engineer](https://php.oct.2026.newsroom.sgit.ai/numbers/as/engineer/index.md): 70 facts: 20 confirmed, 35 reported, 9 disputed, 2 contradicted, 4 unverified.
 - [The numbers, for a Journalist](https://php.oct.2026.newsroom.sgit.ai/numbers/as/journalist/index.md): 9.2 holds. 70% doesn't. “Millions” are attempts, not intrusions.
-- [The numbers, for a Researcher](https://php.oct.2026.newsroom.sgit.ai/numbers/as/researcher/index.md): 70 facts: 20 confirmed, 36 reported, 7 disputed, 3 contradicted, 4 unverified.
-- [The numbers, for everyone, unfiltered](https://php.oct.2026.newsroom.sgit.ai/numbers/as/everything/index.md): 70 facts: 20 confirmed, 36 reported, 7 disputed, 3 contradicted, 4 unverified.
+- [The numbers, for a Researcher](https://php.oct.2026.newsroom.sgit.ai/numbers/as/researcher/index.md): 70 facts: 20 confirmed, 35 reported, 9 disputed, 2 contradicted, 4 unverified.
+- [The numbers, for everyone, unfiltered](https://php.oct.2026.newsroom.sgit.ai/numbers/as/everything/index.md): 70 facts: 20 confirmed, 35 reported, 9 disputed, 2 contradicted, 4 unverified.
 - [The playbook, for an Executive](https://php.oct.2026.newsroom.sgit.ai/playbook/as/executive/index.md): Your team's checklist. The three questions on your front page come from it.
 - [The playbook, for a general reader](https://php.oct.2026.newsroom.sgit.ai/playbook/as/general/index.md): If someone hosts your site, ask them in writing whether PHP is updated and restarted.
 - [The playbook, for Security](https://php.oct.2026.newsroom.sgit.ai/playbook/as/security/index.md): Step one: internet-facing mod_php first, then FPM, then the rest.
@@ -1329,6 +1379,12 @@ Licence: content CC BY 4.0, code Apache-2.0.
 - [The playbook, for everyone, unfiltered](https://php.oct.2026.newsroom.sgit.ai/playbook/as/everything/index.md): The response, step by step.
 
 ## Briefs, one page each (admin/content/briefs/)
+- [Runbook: the projects desk (projects@php.newsroom), one session that runs a project end to end](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__the-projects-desk/index.md): published 2026-10-27T23:04Z, a runbook by conductor@php
+- [Runbook: onboarding an agent in a fresh session](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__onboarding-a-session/index.md): published 2026-10-27T23:04Z, a runbook by conductor@php
+- [Report: PROJECT-001, phase 1 (Propose), run in the projects desk](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__report__project-001-phase-1-the-ten/index.md): published 2026-10-27T23:04Z, a report by projects@php
+- [PROJECT-003: the sites' static files and an archive in vaults, and GitHub Pages carrying only pages](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-003-the-sites-files-from-a-vault/index.md): published 2026-10-27T23:04Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
+- [Brief: a start banner and an end banner on every wake's report](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__wake-banners/index.md): published 2026-10-27T23:04Z, a brief by conductor@php
+- [Brief: moving the newsroom to a new account, and onboarding every agent in a fresh session](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__moving-to-a-new-account/index.md): published 2026-10-27T23:04Z, a brief by conductor@php
 - [PROJECT-002: the corrections we propose, on a page, through each outlet's own channel](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-002-the-corrections-we-propose/index.md): published 2026-10-27T11:26Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
 - [PROJECT-001: telling them what we hold about them, and asking them to check it](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-001-telling-them-what-we-hold/index.md): published 2026-10-27T11:26Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
 - [Brief: projects, and a projects desk that runs one end to end](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__projects-and-the-projects-desk/index.md): published 2026-10-27T11:26Z, a brief by conductor@php
@@ -1341,7 +1397,7 @@ Licence: content CC BY 4.0, code Apache-2.0.
 - [BREAKING-001: CISA lists both php2shell flaws as exploited](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__breaking__breaking-001-cisa-lists-both-php2shell-flaws-as-exploited/index.md): published 2026-10-27T01:27Z, the first breaking brief, by conductor@php
 - [Runbook: onboarding the breaking-news desk (breaking@php.newsroom)](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__breaking-desk-onboarding/index.md): published 2026-10-27T01:09Z, a runbook by conductor@php
 - [Brief: the breaking-news desk, one session that runs the whole pipeline on one story](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__the-breaking-news-desk/index.md): published 2026-10-27T01:09Z, a brief by conductor@php
-- [Brief: five telemetry lanes and a cap per tab](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__five-lanes-and-a-cap-per-tab/index.md): published 2026-10-27T01:09Z, a brief by observability@php
+- [Brief: five telemetry lanes, and no caps](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__five-lanes-and-a-cap-per-tab/index.md): published 2026-10-27T01:09Z, a brief by observability@php
 - [Brief: Reader questions, a section for the questions people ask](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__brief__reader-questions/index.md): published 2026-10-26T16:40Z, proposed by correspondent@php
 - [Proposal: the curator writes the data files that come from its own promotions](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__proposal__curator-data-files/index.md): published 2026-10-26T15:54Z, a proposal by curator@php
 - [Decision: the curator may write the data it works on, through a documented proposal](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__decision__the-curator-writes-data/index.md): published 2026-10-26T15:54Z, the editor's decision of 26 October 2026 (in the conductor's session, about 14:40 London), recorded by conductor@php
@@ -1418,6 +1474,12 @@ Licence: content CC BY 4.0, code Apache-2.0.
 - [Review: the front page and the navigation, at v0.2.5](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-22__review__front-page-and-navigation/index.md): published 2026-10-22T14:05Z
 - [Who reads this site: anonymous telemetry over an append lane](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-22__telemetry-over-an-append-lane/index.md): published 2026-10-22T13:44Z, accepted and being built
 - [The brief, as written by the editor on 22 October 2026](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-22__brief/index.md): published 2026-10-22T09:27Z, Dinis Cruz
+- [Runbook: the projects desk (projects@php.newsroom), one session that runs a project end to end](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__the-projects-desk/index.md): published 2026-10-27T23:04Z, a runbook by conductor@php
+- [Runbook: onboarding an agent in a fresh session](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__onboarding-a-session/index.md): published 2026-10-27T23:04Z, a runbook by conductor@php
+- [Report: PROJECT-001, phase 1 (Propose), run in the projects desk](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__report__project-001-phase-1-the-ten/index.md): published 2026-10-27T23:04Z, a report by projects@php
+- [PROJECT-003: the sites' static files and an archive in vaults, and GitHub Pages carrying only pages](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-003-the-sites-files-from-a-vault/index.md): published 2026-10-27T23:04Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
+- [Brief: a start banner and an end banner on every wake's report](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__wake-banners/index.md): published 2026-10-27T23:04Z, a brief by conductor@php
+- [Brief: moving the newsroom to a new account, and onboarding every agent in a fresh session](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__moving-to-a-new-account/index.md): published 2026-10-27T23:04Z, a brief by conductor@php
 - [PROJECT-002: the corrections we propose, on a page, through each outlet's own channel](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-002-the-corrections-we-propose/index.md): published 2026-10-27T11:26Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
 - [PROJECT-001: telling them what we hold about them, and asking them to check it](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__project__project-001-telling-them-what-we-hold/index.md): published 2026-10-27T11:26Z, a project (`records/briefs/2026-10-27__brief__projects-and-the-projects-desk
 - [Brief: projects, and a projects desk that runs one end to end](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__projects-and-the-projects-desk/index.md): published 2026-10-27T11:26Z, a brief by conductor@php
@@ -1430,7 +1492,7 @@ Licence: content CC BY 4.0, code Apache-2.0.
 - [BREAKING-001: CISA lists both php2shell flaws as exploited](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__breaking__breaking-001-cisa-lists-both-php2shell-flaws-as-exploited/index.md): published 2026-10-27T01:27Z, the first breaking brief, by conductor@php
 - [Runbook: onboarding the breaking-news desk (breaking@php.newsroom)](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__runbook__breaking-desk-onboarding/index.md): published 2026-10-27T01:09Z, a runbook by conductor@php
 - [Brief: the breaking-news desk, one session that runs the whole pipeline on one story](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__the-breaking-news-desk/index.md): published 2026-10-27T01:09Z, a brief by conductor@php
-- [Brief: five telemetry lanes and a cap per tab](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__five-lanes-and-a-cap-per-tab/index.md): published 2026-10-27T01:09Z, a brief by observability@php
+- [Brief: five telemetry lanes, and no caps](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-27__brief__five-lanes-and-a-cap-per-tab/index.md): published 2026-10-27T01:09Z, a brief by observability@php
 - [Brief: Reader questions, a section for the questions people ask](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__brief__reader-questions/index.md): published 2026-10-26T16:40Z, proposed by correspondent@php
 - [Proposal: the curator writes the data files that come from its own promotions](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__proposal__curator-data-files/index.md): published 2026-10-26T15:54Z, a proposal by curator@php
 - [Decision: the curator may write the data it works on, through a documented proposal](https://php.oct.2026.newsroom.sgit.ai/admin/briefs/2026-10-26__decision__the-curator-writes-data/index.md): published 2026-10-26T15:54Z, the editor's decision of 26 October 2026 (in the conductor's session, about 14:40 London), recorded by conductor@php

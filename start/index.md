@@ -51,7 +51,7 @@ I want to understand it · ******Plain English
 
 The answer in thirty seconds
 
-Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. On 26 October the US cyber agency CISA listed both flaws as known to be exploited, so update now if you run a site. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
+Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. On 26 October the US cyber agency CISA listed both flaws as known to be exploited, so update now if you run a site. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
 
 #### Reading path
 - [Your briefing](../briefings/everyone/index.html) 4 min
@@ -127,16 +127,16 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. On 26 October CISA added both flaws to its Known Exploited Vulnerabilities catalog: it holds evidence of exploitation, and names no victim. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread and a researcher's decoy servers were broken into. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
+A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. On 26 October CISA added both flaws to its Known Exploited Vulnerabilities catalog: it holds evidence of exploitation, and names no victim. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread and a researcher's decoy servers were broken into. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
 
 #### Reading path
 - [Your briefing](../briefings/board/index.html) 4 min
 - [Explained from the start](../explained/index.html) 6 min
 - [Impact: offline vs compromised](../impact/index.html) 2 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 - [If you run PHP](../playbook/index.html) 3 min
 
-About 18 minutes in all. Choose *read as Jordan* and the bar under the menu keeps your place on every page.
+About 19 minutes in all. Choose *read as Jordan* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -179,7 +179,7 @@ About 16 minutes in all. Choose *read as Taylor* and the bar under the menu keep
 
 #### Words they will meet
 
-[PHP](../glossary/index.html#php)[Patch](../glossary/index.html#patch)[Primary source](../glossary/index.html#primary)[NSA](../glossary/index.html#nsa)[CISA](../glossary/index.html#cisa)[NCSC](../glossary/index.html#ncsc)[Web server](../glossary/index.html#web-server)[php2shell](../glossary/index.html#php2shell)[CVE](../glossary/index.html#cve)[Exploit, exploitation](../glossary/index.html#exploit)
+[PHP](../glossary/index.html#php)[Patch](../glossary/index.html#patch)[Primary source](../glossary/index.html#primary)[NSA](../glossary/index.html#nsa)[CISA](../glossary/index.html#cisa)[NCSC](../glossary/index.html#ncsc)[php2shell](../glossary/index.html#php2shell)[Web server](../glossary/index.html#web-server)[CVE](../glossary/index.html#cve)[Exploit, exploitation](../glossary/index.html#exploit)
 
 [Read as Taylor →](../briefings/pm/index.html)
 
@@ -203,7 +203,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. CISA listed both flaws as known exploited on 26 October, which raises the bar for 'we had not patched'. As of 07:15 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
+The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. CISA listed both flaws as known exploited on 26 October, which raises the bar for 'we had not patched'. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
 
 #### Reading path
 - [Your briefing](../briefings/cfo/index.html) 4 min
@@ -286,10 +286,10 @@ The flaw is in the PHP runtime, so exposure is every internet-facing system runn
 - [Impact: offline vs compromised](../impact/index.html) 2 min
 - [Exploitation signals](../exploitation/index.html) 2 min
 - [Detection and defence](../defence/index.html) 3 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 - [If you run PHP](../playbook/index.html) 3 min
 
-About 17 minutes in all. Choose *read as Robin* and the bar under the menu keeps your place on every page.
+About 18 minutes in all. Choose *read as Robin* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -362,9 +362,9 @@ The 70% figure is a share of websites that use PHP, restated as a share of the I
 - [Every claim](../claims/index.html) 1 min
 - [Who found it](../discovery/index.html) 2 min
 - [How disclosure broke](../leak/index.html) 1 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 
-About 13 minutes in all. Choose *read as Rowan* and the bar under the menu keeps your place on every page.
+About 14 minutes in all. Choose *read as Rowan* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -400,9 +400,9 @@ Safe to say: two critical flaws in PHP were fixed on 21 October; we updated or i
 - [Explained from the start](../explained/index.html) 6 min
 - [The numbers](../numbers/index.html) 2 min
 - [Impact: offline vs compromised](../impact/index.html) 2 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 
-About 17 minutes in all. Choose *read as Riley* and the bar under the menu keeps your place on every page.
+About 18 minutes in all. Choose *read as Riley* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -437,9 +437,9 @@ Internet-facing mod_php first, then FPM, then everything else. Where patching sl
 - [If you run PHP](../playbook/index.html) 3 min
 - [Exploitation signals](../exploitation/index.html) 2 min
 - [Detection and defence](../defence/index.html) 3 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 
-About 14 minutes in all. Choose *read as Sam* and the bar under the menu keeps your place on every page.
+About 15 minutes in all. Choose *read as Sam* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -623,10 +623,10 @@ A bug class seen and shelved in 2024 was turned into working exploits by three A
 - [Who found it](../discovery/index.html) 2 min
 - [How disclosure broke](../leak/index.html) 1 min
 - [In context: 2008 to 2026](../context/index.html) 3 min
-- [The agencies](../agencies/index.html) 3 min
+- [The agencies](../agencies/index.html) 4 min
 - [The numbers](../numbers/index.html) 2 min
 
-About 15 minutes in all. Choose *read as Blake* and the bar under the menu keeps your place on every page.
+About 16 minutes in all. Choose *read as Blake* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.45 · data as of 2026-10-27T09:43Z · vault commit 55b47c4d6af1 · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.46 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/start/index.html
