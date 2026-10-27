@@ -2,13 +2,13 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-68 dated events in the php2shell story, from the 2024 audit through discovery, coordinated disclosure, the leak, the release and the response, every one tied to a captured source.
+69 dated events in the php2shell story, from the 2024 audit through discovery, coordinated disclosure, the leak, the release and the response, every one tied to a captured source.
 
 # The timeline
 
 In plain English Everything that happened, in order, from a 2024 audit to this morning, each line tied to the page that says so.
 
-68 events from the 2024 audit to the latest capture, each dated as its source states it. Times are UTC; where this site converted from a local time, or inferred a date from a phrase such as *two days ago*, the row says so. A row that lists several sources is one that at least two accounts carry; a row with one source is that party's account.
+69 events from the 2024 audit to the latest capture, each dated as its source states it. Times are UTC; where this site converted from a local time, or inferred a date from a phrase such as *two days ago*, the row says so. A row that lists several sources is one that at least two accounts carry; a row with one source is that party's account.
 
 - stated the source states this date or time
 - inferred this site worked it out, and the note says how
@@ -98,6 +98,7 @@ In plain English Everything that happened, in order, from a 2024 audit to this m
 | 2026-10-21 20:15 UTC | NCSC New Zealand: 'aware of reports of active exploitation' (09:15 NZDT 22 October; updated 21:20Z).Converted from NZDT. | stated | [NCSC New Zealand](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/) |
 | 2026-10-22 00:43:58 UTC | NSA Cybersecurity posts 'UPDATE: Specific mitigation guidance ... is now available', linking the press release. | stated | [NSA Cyber on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-x-2113068811058622971/) [NSA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/nsa-press-php-4630238/) |
 | 2026-10-22 05:20 UTC | JVN publishes its note (14:20 JST); JPCERT/CC alert JPCERT-AT-2026-0033 is dated 22 October. | stated | [JPCERT/CC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/jpcert-home/) [JPCERT/CC](https://refs.php.oct.2026.newsroom.sgit.ai/sources/jpcert-at260033/) |
+| 2026-10-26 22:24:24 UTC | CISA releases KEV catalog version 2026.10.26 (1,758 entries), adding CVE-2026-109618 and CVE-2026-109619: date added 26 October, due date 29 October for US federal civilian agencies, known ransomware use "Unknown". Its alert of the same day names no victim. | stated | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-catalog/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-kev-20261026/) |
 
 ## Aftermath, 21 to 22 October
 
@@ -126,4 +127,4 @@ The sequence as a graph of who said what first is on [Who found it](../discovery
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/timeline/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/timeline/index.html

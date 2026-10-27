@@ -154,7 +154,7 @@ A honeypot looks like a real, vulnerable server and exists only to be attacked, 
 
 ### KEV
 
-CISA's public list of flaws with reliable evidence of exploitation in the wild. Neither php2shell CVE was on it at the latest capture.
+CISA's public list of flaws with reliable evidence of exploitation in the wild. Both php2shell CVEs were added to it on 26 October 2026, with no victim named.
 
 The Known Exploited Vulnerabilities catalog is maintained by the US agency CISA. A flaw goes on it when CISA has reliable evidence attackers are using it. It is the closest thing to an official, dated record of 'this was exploited', which is why this site checks it.
 
@@ -368,4 +368,4 @@ The Zend engine is the part of PHP that reads PHP code and executes it, manages 
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/glossary/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/glossary/index.html

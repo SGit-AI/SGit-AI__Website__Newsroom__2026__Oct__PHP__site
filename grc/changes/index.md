@@ -8,15 +8,15 @@ The php2shell risk graph compared between any two releases: nodes and edges adde
 
 # What changed in the risk graph, release by release
 
-The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 182 releases carry a graph; 9 of them changed it. Pick any two below; the default is the latest change.
+The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 183 releases carry a graph; 10 of them changed it. Pick any two below; the default is the latest change.
 
-## v0.22.33 → v0.22.34
+## v0.22.42 → v0.22.43
 
-| Measure | v0.22.33 | v0.22.34 | Change |
+| Measure | v0.22.42 | v0.22.43 | Change |
 |---|---|---|---|
-| Nodes | 728 | 730 | +2 |
-| Edges | 1,358 | 1,360 | +2 |
-| Edges known as source | 256 | 258 | +2 |
+| Nodes | 730 | 732 | +2 |
+| Edges | 1,360 | 1,366 | +6 |
+| Edges known as source | 258 | 264 | +6 |
 | Edges known as code | 287 | 287 | same |
 | Edges known as inferred | 815 | 815 | same |
 | Gap: Controls joined to no code or test that implements them | 95 | 95 | same |
@@ -31,19 +31,24 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 ### Nodes added: 2
 
 2 source
-- [Bitpage.de](../../grc/explore/index.html#focus=source:bitpage-php2shell-php-sicherheitsluecke-webseite) source
-- [TechGaming.it](../../grc/explore/index.html#focus=source:techgaming-internet-sotto-attacco-php2shell-vulnera) source
+- [US Cybersecurity and Infrastructure Security Agency (CISA)](../../grc/explore/index.html#focus=source:cisa-alert-kev-20261026) source
+- [CISA](../../grc/explore/index.html#focus=source:cisa-kev-catalog) source
 
-### Edges added: 2
+### Edges added: 6
 
-2 *cites*
-- As of 14:42 UTC on 26 October, no named organisation has sai *cites* Bitpage.de source
-- As of 14:42 UTC on 26 October, no named organisation has sai *cites* TechGaming.it source
+6 *cites*
+- As of its alert of 21 October and KEV catalog version 2026.1 *cites* US Cybersecurity and Infrastructure Security Agency (CISA) source
+- As of its alert of 21 October and KEV catalog version 2026.1 *cites* CISA source
+- The last PHP core RCE, CVE-2024-4577, was exploited in the w *cites* US Cybersecurity and Infrastructure Security Agency (CISA) source
+- The last PHP core RCE, CVE-2024-4577, was exploited in the w *cites* CISA source
+- As of 00:45 UTC on 27 October, no named organisation has sai *cites* US Cybersecurity and Infrastructure Security Agency (CISA) source
+- As of 00:45 UTC on 27 October, no named organisation has sai *cites* CISA source
 
 ## Every release that changed the graph
 
 | Release | Against | Nodes | Edges | Bases | Gaps | Nodes / edges after |
 |---|---|---|---|---|---|---|
+| [v0.22.43](#from=0.22.42&to=0.22.43) 2026-10-27 | v0.22.42 | +2 −0 | +6 −0 | 0 | +0 −0 | 732 / 1,366 |
 | [v0.22.34](#from=0.22.33&to=0.22.34) 2026-10-26 | v0.22.33 | +2 −0 | +2 −0 | 0 | +0 −0 | 730 / 1,360 |
 | [v0.22.25](#from=0.22.24&to=0.22.25) 2026-10-26 | v0.22.24 | +1 −0 | +1 −0 | 0 | +0 −0 | 728 / 1,358 |
 | [v0.19.3](#from=0.19.2&to=0.19.3) 2026-10-25 | v0.19.2 | +1 −0 | +1 −0 | 0 | +0 −0 | 727 / 1,357 |
@@ -58,4 +63,4 @@ How it is made: every release commits the graph the build wrote ([data/grc-graph
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html

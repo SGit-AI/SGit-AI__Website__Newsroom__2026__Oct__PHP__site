@@ -41,7 +41,7 @@ One risk, assigned to every stakeholder that carries part of it, with the part e
 |---|---|---|---|
 | [674 products in the NCSC-NL inventory: 206 vulnerable, 46 fixed, 418 under investigation, 3 not vulnerable](https://refs.php.oct.2026.newsroom.sgit.ai/facts/scale-ncsc-nl/) | confirmed | **A1** Weak signal●○○○○○ | [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/) |
 | [watchTowr sees active exploitation attempts and lists the flaws as exploited in the wild](https://refs.php.oct.2026.newsroom.sgit.ai/facts/watchtowr-itw/) | unverified | **A6** Established●●●●●● | [watchTowr](https://refs.php.oct.2026.newsroom.sgit.ai/sources/watchtowr-php2shell/) [watchTowr](https://refs.php.oct.2026.newsroom.sgit.ai/sources/watchtowr-php2shell-faq/) |
-| [CISA has not observed exploitation; neither CVE is in the Known Exploited Vulnerabilities catalog](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cisa-none/) | confirmed | **A6** Established●●●●●● | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) |
+| [As of its alert of 21 October and KEV catalog version 2026.10.21 (fetched 2026-10-22T08:15Z), CISA had not observed exploitation and neither CVE was in the Known Exploited Vulnerabilities catalog. Superseded on 26 October: CISA added both CVEs to KEV (catalog version 2026.10.26, released 22:24 UTC; brk1-kev-listed-20261026)](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cisa-none/) | confirmed | **A6** Established●●●●●● | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-kev-20261026/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-catalog/) |
 
 ## Treatments
 
@@ -65,4 +65,4 @@ On this site: [The NCSC-NL inventory: 674 products](../../../affected/software.h
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r06-3/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r06-3/index.html

@@ -6,7 +6,7 @@ Two ledgers for php2shell: every system reported taken offline with who said so,
 
 # Impact: what was taken offline, and what was compromised
 
-In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 09:35 UTC on 25 October).
+In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 00:45 UTC on 27 October).
 
 Two ledgers, because they measure different things. Taking a system offline is a decision an operator makes and can confirm, and the first table is full. Being compromised is a fact only evidence establishes, and the second table has, as of the latest capture, no confirmed entry. That gap is the most important finding on this site: the reported cost of php2shell so far is the cost of precaution.
 
@@ -73,4 +73,4 @@ What a compromise of one system would reach is on [the blast-radius section](../
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/impact/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/impact/index.html

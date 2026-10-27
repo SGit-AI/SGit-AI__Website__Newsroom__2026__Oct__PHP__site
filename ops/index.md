@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 26 October 2026, 17:09 UTC
+Operations · data as of 27 October 2026, 00:45 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,13 +37,27 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      storyv0.22.34 · 2026-10-26
-### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
-storyv0.22.34 · 2026-10-26
+      storyv0.22.43 · 2026-10-27
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
-factreportedv0.22.34 · 2026-10-26
-### [As of 14:42 UTC on 26 October, no named organisation has said it was compromised through php2shell. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Pa](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
-CISACISAHuntressAmazonfrontv0.22.31 · 2026-10-26
+questionv0.22.43 · 2026-10-27
+### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
+frontv0.22.43 · 2026-10-27
+### [Front page: right now](../index.html#now)
+frontv0.22.43 · 2026-10-27
+### [Front page: latest](../index.html#latest)
+frontv0.22.43 · 2026-10-27
+### [Front page: the core facts](../index.html#facts)
+factreportedv0.22.43 · 2026-10-27
+### [As of 00:45 UTC on 27 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+CISACISAHuntressAmazonfactreportedv0.22.43 · 2026-10-27
+### [The last PHP core RCE, CVE-2024-4577, was exploited in the wild one day after disclosure and in KEV three days after; php2shell was not in KEV one day after disclosure (catalog version 2026.10.21) and](https://refs.php.oct.2026.newsroom.sgit.ai/facts/kev-precedent/)
+CISACVE recordAkamai Security ResearchCISAfactconfirmedv0.22.43 · 2026-10-27
+### [As of its alert of 21 October and KEV catalog version 2026.10.21 (fetched 2026-10-22T08:15Z), CISA had not observed exploitation and neither CVE was in the Known Exploited Vulnerabilities catalog. Sup](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cisa-none/)
+CISACISACVE recordCISAeventv0.22.43 · 2026-10-26T22:24Z
+### [CISA releases KEV catalog version 2026.10.26 (1,758 entries), adding CVE-2026-109618 and CVE-2026-109619: date added 26 ](../timeline/index.html)
+storyv0.22.34 · 2026-10-26
+### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
+frontv0.22.31 · 2026-10-26
 ### [Stories: written here](../index.html#stories)
 frontv0.22.30 · 2026-10-26
 ### [Front page: at a glance](../index.html#glance)
@@ -51,20 +65,6 @@ factconfirmedv0.22.29 · 2026-10-26
 ### [The fixes were scheduled for 14:00 UTC on 21 October and were published between 13:31 and 13:35 UTC](https://refs.php.oct.2026.newsroom.sgit.ai/facts/release-time/)
 oss-securityDauboisCERT-FRCERT-EUstoryv0.21.0 · 2026-10-25
 ### [What Wikipedia knows about being right: the principles, workflows and review habits this newsroom's agents should adopt](../articles/what-wikipedia-knows-about-being-right/index.html)
-questionv0.19.2 · 2026-10-25
-### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
-frontv0.19.2 · 2026-10-25
-### [Front page: right now](../index.html#now)
-frontv0.19.2 · 2026-10-25
-### [Front page: the core facts](../index.html#facts)
-frontv0.17.0 · 2026-10-24
-### [Front page: what nobody knows yet](../index.html#unknown)
-frontv0.17.0 · 2026-10-24
-### [Front page: latest](../index.html#latest)
-questionv0.14.8 · 2026-10-24
-### [Is PHP really the software behind most websites?](../questions/most-websites/index.html)
-storyv0.14.24 · 2026-10-24
-### [The risk graph, before and after: what changed from one reader's five ideas](../articles/the-risk-graph-before-and-after/index.html)
 
 Mark an item read with its circle: it fades, and leaves when you choose to hide read items. It comes back only if what it says changes.
 
@@ -78,7 +78,7 @@ Mark an item read with its circle: it fades, and leaves when you choose to hide 
 [The fact-check](../factcheck/index.html)
 
 ### Events per day, October
-12171819202122
+1217181920212226
 Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 ### Exploitation signals
@@ -95,4 +95,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

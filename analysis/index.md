@@ -4,14 +4,14 @@
 
 The home for people who weigh the evidence: every fact by status and topic, the numbers in the news with how far each holds, where governments disagree, and what is still contested, each linked to its saved sources.
 
-Analysis · data as of 26 October 2026, 17:09 UTC
+Analysis · data as of 27 October 2026, 00:45 UTC
 
 # 70 facts. 20 confirmed. 14 still contested.
 
 Every fact on this site carries one of five words for how far it can be trusted, and links to the saved pages it rests on. This is the view for weighing them: the numbers and what each measures, where governments disagree, and what is contested.
 
   RYour answer in thirty secondsfor Rowan, journalist
-The 70% figure is a share of websites that use PHP, restated as a share of the Internet. The release was 21 October, not 22. Three parties claim the discovery; their dates do not conflict, their framing does. No agency has confirmed a successful compromise, and CISA has not listed either flaw as exploited.
+The 70% figure is a share of websites that use PHP, restated as a share of the Internet. The release was 21 October, not 22. Three parties claim the discovery; their dates do not conflict, their framing does. No agency has confirmed a successful compromise. CISA listed both flaws as known exploited on 26 October, naming no victim: exploited is not the same as a confirmed compromise.
 
 ## How sure are we?
 - 20 confirmed
@@ -56,7 +56,7 @@ Every party quoted, with the claims each one makes.
 
 ### Every source
 
-561 pages, saved and fingerprinted at the minute they were read.
+562 pages, saved and fingerprinted at the minute they were read.
 
 ### Stories
 
@@ -64,4 +64,4 @@ Signed and dated analysis, written here and kept as written.
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html

@@ -31,9 +31,9 @@ The editor's four families: what each would show, what it shows now, and what wo
 
 *Who is trying, at what scale, and does anything land?*
 
-**Now.** Attempts at scale from the parties positioned to see them; one honeypot hit four days before release; no confirmed compromise; not in CISA's Known Exploited Vulnerabilities catalog. [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/)
+**Now.** Attempts at scale from the parties positioned to see them; one honeypot hit four days before release; both CVEs in CISA's Known Exploited Vulnerabilities catalog since 26 October, with no victim named; no confirmed compromise. [Matthew Prince, Cloudflare CEO on…](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-eastdakota-php2shell-stats/) [Amazon](https://refs.php.oct.2026.newsroom.sgit.ai/sources/aws-security-blog-madpot/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-kev-20261026/)
 
-**What would change it.** The KEV listing; a named victim; a gap between the date a site was compromised and the date it says so.
+**What would change it.** A named victim; what CISA's updated PHP alert says of its evidence; a gap between the date a site was compromised and the date it says so.
 
 [Where this site tracks it →](../exploitation/index.html)
 
@@ -90,4 +90,4 @@ This page is the site's analysis, marked as research because every row rests on 
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/signals/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/signals/index.html

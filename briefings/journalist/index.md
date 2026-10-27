@@ -11,7 +11,7 @@ Briefing for Rowan, journalist · ******Some technical · from the same 70 claim
 R
 The answer in thirty seconds
 
-The 70% figure is a share of websites that use PHP, restated as a share of the Internet. The release was 21 October, not 22. Three parties claim the discovery; their dates do not conflict, their framing does. No agency has confirmed a successful compromise, and CISA has not listed either flaw as exploited.
+The 70% figure is a share of websites that use PHP, restated as a share of the Internet. The release was 21 October, not 22. Three parties claim the discovery; their dates do not conflict, their framing does. No agency has confirmed a successful compromise. CISA listed both flaws as known exploited on 26 October, naming no victim: exploited is not the same as a confirmed compromise.
 
 [Read the site as Rowan →](../../numbers/index.html)
 
@@ -25,14 +25,14 @@ Which numbers hold up, who said what first, which quotes are on the page they ar
 - Three parties claim discovery; their own dates do not conflict, their framing does. The Foundation says Calif and OpenAI reported the same root cause on the same day.
 
 ## Your reading path
-- [Your briefing](../../briefings/journalist/index.html) 3 min
+- [Your briefing](../../briefings/journalist/index.html) 4 min
 - [The numbers](../../numbers/index.html) 2 min
 - [Every claim](../../claims/index.html) 1 min
 - [Who found it](../../discovery/index.html) 2 min
 - [How disclosure broke](../../leak/index.html) 1 min
 - [The agencies](../../agencies/index.html) 3 min
 
-About 12 minutes in all. Choose *read as Rowan* and the bar under the menu keeps your place on every page.
+About 13 minutes in all. Choose *read as Rowan* and the bar under the menu keeps your place on every page.
 
 ### What this briefing covers
 - which numbers hold up
@@ -96,7 +96,7 @@ Each is underlined where it first appears; hover or tap for a one-line definitio
 ## What is still open
 - Who first leaked the CVE IDs on 20 October, and where. The PHP Foundation does not say; a PHP security team member points to an anonymous Hacker News post, and Notebookcheck and Nguoi Quan Sat repeat that account. No copy of the post is in the vault.
 - Whether the deleted Calif video is the one now embedded on Calif's own write-up. Calif's page does not mention the leak.
-- Whether any site was actually compromised before it was patched or taken offline. Every claim of exploitation so far is of attempts, probes or honeypot hits, and the named cases do not state php2shell as the cause. Authorities in Singapore and Luxembourg now ask operators to look for traces; the answer will come from those searches, if it comes.
+- Whether any site was actually compromised before it was patched or taken offline. Every claim of exploitation so far is of attempts, probes or honeypot hits, or, in CISA's Known Exploited Vulnerabilities listing of 26 October, of exploitation with no victim named; the named cases do not state php2shell as the cause. Authorities in Singapore and Luxembourg now ask operators to look for traces; the answer will come from those searches, if it comes.
 - Which sites were really taken offline, and why. The list now draws on more captured reports (Germany's hospitals and hosts, Morocco, Romania, Japan), but most are press accounts; few come from the organisations themselves (the Dutch government, Latvia's agency, Weird Gloop, the Charité's spokesman as quoted). A community tracker counts 51 listed and 50 back.
 - Whether the 8.5.12 fix is complete. A Fediverse report of a third bug or incomplete fix reached oss-security on 21 October; PHP reportedly told Canonical it is unrelated. On 23 October PHP published an informational advisory for a separate flaw, CVE-2026-115560, in the session upload progress feature, reported by Cloudflare, SOCRadar and The Hacker News: it affects fully patched releases including 8.5.12, needs a rare session setting, will be fixed in the next regular release, and has session.upload_progress.enabled=0 as the mitigation; SOCRadar reports no exploitation and no severity score. PHP's advisory is not in the evidence vault, and whether this is the bug the Fediverse report described is not stated.
 
@@ -104,4 +104,4 @@ The full set of claims is on [every claim](../../claims/index.html); the ordered
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/briefings/journalist/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/briefings/journalist/index.html

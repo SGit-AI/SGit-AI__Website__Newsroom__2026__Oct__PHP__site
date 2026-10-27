@@ -24,7 +24,7 @@ House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.
 
 A reader's question, answered from the evidence. Millions of attack attempts, several vendors saying "exploited in the wild", hundreds of websites pulled offline as a precaution, and, as of 12:14 UTC on 26 October, not one organisation that has said it was broken into through these flaws. Here is the record, level by level, and what would change the answer.
 
-House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.22.29 · vault commit `22a0c2920b88` · data as of 2026-10-26T12:14Z · 25 sources cited
+House · correspondent · 2026-10-26 · `correspondent@php.newsroom` · site v0.22.29 · vault commit `22a0c2920b88` · data as of 2026-10-26T12:14Z · 27 sources cited
 
 ### [What Wikipedia knows about being right: the principles, workflows and review habits this newsroom's agents should adopt](what-wikipedia-knows-about-being-right/index.html)
 
@@ -96,4 +96,4 @@ An article released since this page was built is at its own address at once: [th
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/articles/index.html

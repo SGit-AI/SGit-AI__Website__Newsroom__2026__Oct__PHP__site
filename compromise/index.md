@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-26 14:42 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-27 00:45 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-26 14:42 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-27 00:45 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-543The evidence vault: sourceshead 2fc7e432584b; the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+562The evidence vault: sourceshead 24f0b0e22666 (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -19,7 +19,7 @@ Not to scale. Each layer is a different kind of statement, and a statement in on
 
 ## The evidence, by kind
 
-47 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
+48 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
 
 Each dot is one statement on this page, placed at the time the source gives (noon where it gives only a date). Hover a dot for who said it.
 
@@ -102,7 +102,7 @@ This kind of statement can show that a claim was made. It cannot show who, or th
 |---|---|---|---|
 | 2026-10-21 | **An anonymous startup owner (via Fortune)** | Alleges hackers stole source code, exposed cookie data and leaked legal documents. Unnamed; not attributed to php2shell; not verified. | [Fortune](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fortune-ai-tools-php-vulnerability/) source watch: `raw/us/news/fortune/ai-tools-php-vulnerability/` |
 
-## Official exploited signals (3)
+## Official exploited signals (4)
 
 This kind of statement can show what the official lists record. It cannot show anything they have not yet recorded.
 
@@ -111,11 +111,12 @@ This kind of statement can show what the official lists record. It cannot show a
 | 2026-10-21 14:34 UTC | **CISA's assessment on the CVE records (SSVC)** | Exploitation: none. Automatable: no. Technical impact: total. | [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109619/) |
 | 2026-10-22 17:51 UTC | **EPSS (FIRST)** | 0.053 and 0.058: the modelled probability of exploitation activity in the next 30 days. | source watch: `series/epss/` |
 | 2026-10-23 08:03 UTC | **CISA Known Exploited Vulnerabilities catalog** | Version 2026.10.21, 1,754 entries; neither CVE listed. The source watch re-read it at 08:03 UTC on 23 October, unchanged since its capture at 18:16 UTC on 22 October. | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) source watch: `series/kev-listed/` |
+| 2026-10-26 22:24 UTC | **CISA Known Exploited Vulnerabilities catalog, and CISA's alert of 26 October** | Both CVEs added to the catalog on 26 October 2026 (version 2026.10.26, released at 22:24 UTC, 1,758 entries): CISA "has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog", and an addition must have "evidence of exploitation". Due date for US federal civilian agencies: 29 October. Known ransomware use: "Unknown". The alert and the two entries name no victim, no compromised organisation and no threat actor. | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-kev-20261026/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-catalog/) |
 
 ## What would change the statement
 - A named organisation saying it was compromised through php2shell, in its own notice, filing or statement.
 - GMO, ČVUT or DMM stating a cause.
-- A KEV listing for either CVE, with CISA's evidence.
+- CISA naming a victim, in its catalog, its updated PHP alert or elsewhere. Its KEV listing of 26 October (both CVEs) holds evidence of exploitation and names none, so it did not change this statement.
 - A regulator's breach notice (for example under GDPR or Australia's Notifiable Data Breaches scheme) naming the flaw.
 - A security vendor naming a victim, with the victim's consent.
 
@@ -131,4 +132,4 @@ Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.a
 
 
 ---
-site v0.22.42 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
