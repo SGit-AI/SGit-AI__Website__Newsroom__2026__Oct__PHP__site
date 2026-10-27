@@ -49,8 +49,8 @@ Listed for the collectors, in the order they should be captured. None is cited o
 - [Elastic Security Labs on detection](https://www.elastic.co/security-labs/threat-command/php2shell-php-rce-detection) later: for the detection and defence page
 - [A blog post with the fixed-version list](https://blog.authon.dev/php2shell-cve-2026-109618-patch-check-php-version) later: secondary, the vault holds the primary
 
-The comparison rows are [data/readings.json](https://data.php.oct.2026.newsroom.sgit.ai/v/0.1.51/readings.json), in the derived layer; the other models' text is in the authored layer ([evidence, derived, authored](../layers/index.html)). The gate checks every source and claim a row cites.
+The comparison rows are [data/readings.json](https://data.php.oct.2026.newsroom.sgit.ai/latest/readings.json), in the derived layer; the other models' text is in the authored layer ([evidence, derived, authored](../layers/index.html)). The gate checks every source and claim a row cites.
 
 
 ---
-site v0.22.38 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/readings/index.html
+site v0.22.39 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/readings/index.html

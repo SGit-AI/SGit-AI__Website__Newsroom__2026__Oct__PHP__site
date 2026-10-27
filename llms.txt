@@ -2,7 +2,7 @@
 
 > PHP news for October 2026, led by the month's big story: two critical security flaws in PHP (CVE-2026-109618 and CVE-2026-109619, nicknamed php2shell). The current situation in plain words, the core facts with their evidence, what to do, and a briefing for every kind of reader.
 
-Site v0.22.38. Data as of 2026-10-26T17:09Z (the latest capture in the evidence vault, commit 1dceaa1dfa7f). Every page below has a markdown twin at the same path with .md; the data behind every page is in data/*.json. The evidence vault is private; its manifest with every hash is data/sources.json.
+Site v0.22.39. Data as of 2026-10-26T17:09Z (the latest capture in the evidence vault, commit 1dceaa1dfa7f). Every page below has a markdown twin at the same path with .md; the data behind every page is in data/*.json. The evidence vault is private; its manifest with every hash is data/sources.json.
 
 ## Updates
 - [Every update, newest first](https://php.oct.2026.newsroom.sgit.ai/updates/index.md): Dated briefings on what was added to this site, what is new in the php2shell story, what the team did and what is waiting on the editor: hourly, daily and flash.
@@ -1061,6 +1061,8 @@ Site v0.22.38. Data as of 2026-10-26T17:09Z (the latest capture in the evidence 
 - [CI-003: comments, questions and ideas from the same collaborator as CI-001 and CI-002](https://php.oct.2026.newsroom.sgit.ai/sherpa/ideas/ci-003/index.md): His review of the new design, the telemetry article and the risk graph after CI-002 shipped. Designs A to D as complementary experiences, not alternatives (which is what shipped in v0.14.0); a simple first step for newcomers before asking who they are; measure whether the redesign moves readers from the front page into briefings, guidance and evidence; a review workflow where people confirm or reject the graph's inferred links, with evidence and history; and before-and-after for the graph itself between releases. The editor's direction: align it with power users' keys recognised by the site, so feedback like this, and reviews, come through the site signed.
 - [Feedback from collaborators](https://php.oct.2026.newsroom.sgit.ai/feedback/index.md): Every piece of feedback from power users and collaborators, kept whole and answered point by point beside it, with the numbers and the briefs it turned into.
 - [The briefs: what the feedback asks of each team](https://php.oct.2026.newsroom.sgit.ai/feedback/briefs/index.md): The brief to the conductor from every open friction, by owner and severity, and the requirements for teams outside the newsroom (pki.sgit.ai).
+- [Tell us what you think, with your own assistant](https://php.oct.2026.newsroom.sgit.ai/sherpa/for-your-claude/index.md): A brief to give your own assistant, such as Claude: it interviews you by text or voice about how this site should look and work, and writes one file you send to the editor.
+- [The brief for your assistant](https://php.oct.2026.newsroom.sgit.ai/sherpa/for-your-claude/brief/index.md): The text to give your own assistant so that it interviews you and writes one file of feedback on this site.
 - [The Sherpa: I'm here to help you find your way](https://php.oct.2026.newsroom.sgit.ai/sherpa/index.md): The Sherpa, the agent that walks with the reader: how to find your path on this site, every message readers have sent answered point by point, and the friction log of what gets in readers' way, with who can fix it.
 
 ## Synthetic readers: each reader, every run, and what they said page by page

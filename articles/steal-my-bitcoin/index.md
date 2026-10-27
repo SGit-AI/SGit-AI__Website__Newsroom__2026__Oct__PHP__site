@@ -20,7 +20,7 @@ A researcher won a public "steal my bitcoin" bounty by breaking into a deliberat
 
 ## The three things people are mixing up
 
-![Three columns: the flaw itself (real and confirmed), the challenge (a game, won), a real-world breach (still none named)](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.55/assets/articles/steal-my-bitcoin/three-things.png)
+![Three columns: the flaw itself (real and confirmed), the challenge (a game, won), a real-world breach (still none named)](https://press.php.oct.2026.newsroom.sgit.ai/latest/assets/articles/steal-my-bitcoin/three-things.png)
 
 A won bounty proves the bug works; it is not proof that a real organisation was a victim.
 
@@ -40,7 +40,7 @@ Yes. The published write-up targets **PHP 8.4.26**, one version below the 8.4.27
 
 Our own [flaws page](../../flaws/index.html) already explains the mechanism; here it is as four plain moves. This is to *understand* what happened, not to repeat it: there are no addresses, offsets or payloads here or on the site.
 
-![Four boxes: a crafted upload, memory is leaked, memory is corrupted, a command runs](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.55/assets/articles/steal-my-bitcoin/chain.png)
+![Four boxes: a crafted upload, memory is leaked, memory is corrupted, a command runs](https://press.php.oct.2026.newsroom.sgit.ai/latest/assets/articles/steal-my-bitcoin/chain.png)
 
 The php2shell chain in four moves, at the level the PHP advisory itself describes.
 
@@ -54,7 +54,7 @@ Not a new *vulnerability*, but there is one genuinely interesting wrinkle for de
 
 This is where the honest answer diverges from the scary one. The vulnerability *class* travels: any unpatched, reachable PHP server is at risk in principle. But the *working exploit* in the write-up is bespoke to that one challenge box.
 
-![Four rows: pinned to one PHP build; an unusual server mode; a race, not a certainty; re-tuned per target](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.55/assets/articles/steal-my-bitcoin/replicable.png)
+![Four rows: pinned to one PHP build; an unusual server mode; a race, not a certainty; re-tuned per target](https://press.php.oct.2026.newsroom.sgit.ai/latest/assets/articles/steal-my-bitcoin/replicable.png)
 
 Why a working lab exploit is not a drop-in weapon against arbitrary websites.
 
@@ -64,7 +64,7 @@ Memory-corruption exploits are tuned to the exact compiled build; the author not
 
 No, and that distinction is the whole point of this site. A *real-world* compromise means an attacker reaches a system that someone was defending, without permission, and takes something that matters. *Steal My Bitcoin* is the opposite in every way: the target was built to fall, the owner invited the attack, the "loss" was a prize deliberately offered, and (the author notes) the key recovered did not even match the advertised wallet. It is a research exercise and a bounty, and a genuinely impressive one. It belongs on the level of our [ladder of evidence](../../articles/has-anyone-been-hacked/index.html) that says *"a working exploit has been demonstrated"*, which was already lit by watchTowr's reproduction and the public proof-of-concept code. It does not reach the level that says *"a named organisation was breached,"* which remains empty.
 
-![Funnel: runs PHP, exposed and unpatched, a working exploit exists, weaponised at scale, a named organisation breached](https://press.php.oct.2026.newsroom.sgit.ai/v/1.0.55/assets/articles/steal-my-bitcoin/funnel.png)
+![Funnel: runs PHP, exposed and unpatched, a working exploit exists, weaponised at scale, a named organisation breached](https://press.php.oct.2026.newsroom.sgit.ai/latest/assets/articles/steal-my-bitcoin/funnel.png)
 
 Where php2shell actually sits. The challenge proves the middle level; the bottom two are still not met.
 
@@ -104,4 +104,4 @@ Source file: `admin/content/articles/2026-10-26__correspondent__steal-my-bitcoin
 
 
 ---
-site v0.22.38 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html
+site v0.22.39 · data as of 2026-10-26T17:09Z · vault commit 1dceaa1dfa7f · https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html
