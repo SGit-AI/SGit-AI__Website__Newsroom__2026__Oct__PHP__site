@@ -124,24 +124,10 @@ An article a reader has seen is listed here until a collector captures it into t
 ### The evidence
 - [Every source: 562 pages, 626 captures, 3651 hashes](https://refs.php.oct.2026.newsroom.sgit.ai/sources/): The manifest of the php2shell evidence vault: every captured source with its publisher, kind, publication time, capture times, HTTP status and the SHA-256 of every captured file.
 - [The NCSC-NL inventory: 674 products](../affected/software.html): Every row of the NCSC-NL php2shell software inventory at commit cca173c64ec5, with its status per CVE.
-- [The evidence vault, opened](https://team.php.oct.2026.newsroom.sgit.ai/admin/vault/): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
 - [Evidence, derived, authored](../layers/index.html):
 - [The fact pipeline: from a web page to a reader](../pipeline/index.html): How a source becomes a fact and a fact reaches a reader on this site: found, saved, read, cited, given a status, built into versioned sections and selected per reader, with counts at every stage and the facts by status in every release.
 - [How the story changed, release by release](https://updates.php.oct.2026.newsroom.sgit.ai/versions/): Every section of the site, every reader's briefing and every fact, versioned across every release: what changed, when, and in which release.
-- [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/): Every vault this site is built from: the evidence vault and the source watch, both public with their read keys, and the private telemetry vault with its write-only lane; what each holds, who writes to it and how to open it.
-- [The evidence vault, opened](https://team.php.oct.2026.newsroom.sgit.ai/admin/vault/): The read key to the evidence vault behind this site, the link that opens it in the browser, and what is in it.
 - [The source watch: every outside source on php2shell, watched and snapshotted](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/): The source-watch vault: 1286 pages from 946 publishers in 61 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
-- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Subscribe: what changed, sent to you](../subscribe/index.html): Follow the PHP flaws story by email: everything or one part of the site, as it changes or as a digest; the address encrypted in your browser and confirmed before anything is sent.
-- [The vaults behind this site](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/#coverage):
-- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#conductor):
-- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#issues):
-- [How the team talks: three vaults and one run](https://team.php.oct.2026.newsroom.sgit.ai/team/channels/#mail):
-- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
-- [Power users: start here](https://team.php.oct.2026.newsroom.sgit.ai/collaborators/): Where a power user of PHP October 2026 starts: the first fifteen minutes, the latest ask (what is new, what to do, the questions), the messages for the email list and the WhatsApp group, a form to join and a form for feedback, both encrypted in your browser.
-- [Schedule: every agent that runs on its own](https://team.php.oct.2026.newsroom.sgit.ai/team/schedule/): Every scheduled agent on one day, its objective, its instructions, every run and the messages between agents, built from the repository.
 
 ### GRC
 - [GRC: risks, owners, standards](../grc/index.html):
@@ -193,7 +179,7 @@ An article a reader has seen is listed here until a collector captures it into t
 - [The board](https://team.php.oct.2026.newsroom.sgit.ai/admin/board/): The work on this site and its vault, as rows: what is open, who owns it, what shipped it.
 - [Roles and responsibilities](https://team.php.oct.2026.newsroom.sgit.ai/admin/roles/): The roles on this site and its vault, who fills each, what it owns and the rules it enforces; how a new agent joins.
 - [Application security](https://team.php.oct.2026.newsroom.sgit.ai/admin/appsec/): The newsroom's application security: its threat model and data flows, every vulnerability found and fixed as an advisory with its root cause, who can do what, the incident runbooks, the bug bounty and the outside reviews.
-- [Briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/): Every build brief for this site, 84 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
+- [Briefs](https://team.php.oct.2026.newsroom.sgit.ai/admin/briefs/): Every build brief for this site, 86 of them, published in full before the work: the title, the date and who wrote it, each on its own page.
 - [Pack mode, measured on the source watch](https://team.php.oct.2026.newsroom.sgit.ai/admin/pack-mode/): One vault as a normal sgit vault and as a pack vault: a fresh clone in 95 s against 13 min 47 s, the whole history pushed in 96 s, and why the normal vault has hit a wall.
 - [Who reads this site: anonymous telemetry over an append lane](https://team.php.oct.2026.newsroom.sgit.ai/admin/telemetry/): What every page sends to the telemetry lane, the published write-only credential, the key it is encrypted to, the counts, and what they are worth.
 - [Synthetic readers: six test readers who read the live site](https://team.php.oct.2026.newsroom.sgit.ai/admin/synthetic/): A board member, a CTO, a project manager, a security lead, a developer and a designer read the live site in a real browser and say what works, what does not and what to change; every review is published here and every run is kept in that reader's own vault.
@@ -211,4 +197,4 @@ Answer a question with a page, not a paragraph. If no page answers it, the answe
 
 
 ---
-site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html
+site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html

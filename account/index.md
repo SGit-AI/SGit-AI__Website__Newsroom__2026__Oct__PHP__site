@@ -12,4 +12,4 @@ How the meter works, and why it works this way, is on [the billing model](../bil
 
 
 ---
-site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/account/index.html
+site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/account/index.html

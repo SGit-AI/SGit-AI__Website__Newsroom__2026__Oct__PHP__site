@@ -1,7 +1,7 @@
 {
  "from": {
-  "commit": "b2180f62a08133c0b72e5f2b5640be07f211b42e",
-  "site_version": "0.22.43"
+  "commit": "0354d385cf84e25ef8980362713da3fec116928e",
+  "site_version": "0.22.44"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
@@ -14,12 +14,7 @@
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
- "kept": [
-  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md",
-  "content/data/glossary.json",
-  "content/data/plain.json",
-  "content/data/questions.json"
- ],
+ "kept": [],
  "files": {
   "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
   "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",

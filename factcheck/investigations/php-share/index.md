@@ -358,4 +358,4 @@ The full table
 
 
 ---
-site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/php-share/index.html
+site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/factcheck/investigations/php-share/index.html

@@ -10,7 +10,7 @@ This site mixes kinds of material, and a reader should always be able to tell wh
 
 **10** evidence · **33** derived · **15** authored · **40** site
 
-- **Evidence** answers *what was captured?* The pages that show it are [every source](https://refs.php.oct.2026.newsroom.sgit.ai/sources/), [the software inventory](../affected/software.html) and [the vault, opened](https://team.php.oct.2026.newsroom.sgit.ai/admin/vault/).
+- **Evidence** answers *what was captured?* The pages that show it are [every source](https://refs.php.oct.2026.newsroom.sgit.ai/sources/), and [the software inventory](../affected/software.html).
 
 - **Derived** answers *what does the evidence say?* The story pages and the analysis ([claims](../claims/index.html), [numbers](../numbers/index.html), [agencies](../agencies/index.html)) are built from it, and change when it changes.
 
@@ -146,4 +146,4 @@ The classification is [data/layers.json](https://data.php.oct.2026.newsroom.sgit
 
 
 ---
-site v0.22.43 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/layers/index.html
+site v0.22.44 · data as of 2026-10-27T00:45Z · vault commit 24f0b0e22666 · https://php.oct.2026.newsroom.sgit.ai/layers/index.html
