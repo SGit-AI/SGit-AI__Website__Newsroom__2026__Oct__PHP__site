@@ -11,15 +11,16 @@ never force-push, never push to `main`.
 
 This repository holds its own sources: the articles, the external pieces and the reviews (`content/articles/`, `content/external/`, `content/reviews/`: v1's `admin/content/` of the same names). Write them here, as your policy says, and release with
 `tools/pages_release.sh`. What is written here wins: `tools/pages_sync.py import` (v1 to here) never overwrites a change
-made here, and `tools/pages_sync.py export` carries it into the chain's build box (since step B, 26 October, a clone of
-v1 as frozen that is never pushed: nothing depends on v1's repository); dev's chain (`tools/chain.sh` in the press)
-runs both every round, and the page appears here at the next cut. `sources.json` records what the last import wrote.
+made here, and `tools/pages_sync.py export` carries it into the edition's build box (since step B, 26 October, a clone of
+v1 as frozen that is never pushed: nothing depends on v1's repository); the edition, built in
+CI by the press (`.github/workflows/edition.yml` there, every ten minutes, when anyone has released), runs both, and this
+repository's deploy takes it on its schedule: the page appears here within about half an hour, with no one running a round. `sources.json` records what the last import wrote.
 
 **An article is live from its file (27 October 2026).** An article's page is a frame: it draws the article from its file
 in `content/articles/` when it opens (the press's `assets/live/article.js`), so a change you release here (a line, a
 citation, a `correction<n>:` in the front matter) is on its page a minute or two after this site's deploy, with no
 round. A new article is at `/articles/<slug>/` as soon as the deploy has run (the 404 page opens the article view, which
-finds its file in `content/index/articles.json`, written by the deploy); the round gives it a frame of its own and lists
+finds its file in `content/index/articles.json`, written by the deploy); the next edition gives it a frame of its own and lists
 it on the stories page. The figures it shows are the press's, under `assets/articles/<slug>/`.
 
 ## The pages: never edited here
@@ -30,7 +31,7 @@ partition, and the gate refuses it. Change the page at its source in v1, release
 
 ```
 python3 ../sgit-ai__website__newsroom__2026__oct__php__press/tools/partition.py --site site --v1 ../sgit-ai__website__newsroom__2026__oct__php__box \
-    --data ../sgit-ai__website__newsroom__2026__oct__php__data --into .   # dev's chain does this
+    --data ../sgit-ai__website__newsroom__2026__oct__php__data --into .   # the edition does this, in the press's CI
 RELEASE_TRAILER="Agent: <you>" tools/pages_release.sh "what changed and why"
 ```
 
