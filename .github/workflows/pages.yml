@@ -7,7 +7,8 @@
 #            no longer dev's head stands down: the run for the newer head releases it (a run releases only what it gated).
 #            Two releases cannot take one number: one release runs at a time (the concurrency group), and a refused push
 #            deletes its tag and tries again, three times;
-#   package  the served tree, from the release commit (the release commit's tree), read-only;
+#   package  the served tree, from the release commit (the release commit's tree, and the indexes the live views read:
+#            tools/pages_index.py, content/index/articles.json, never committed), read-only;
 #   deploy   publishes only what package built, from the commit release made.
 # The release push uses this run's GITHUB_TOKEN, which starts no new run, so a release is never numbered twice; that is
 # why package and deploy run here, in the same run. Installed by the press; a change goes to security@php.newsroom's
@@ -103,6 +104,7 @@ jobs:
           set -euo pipefail
           git fetch -q --tags --force origin
           mkdir _site && git archive HEAD | tar -x -C _site && rm -rf _site/.github
+          if [ -f tools/pages_index.py ]; then python3 tools/pages_index.py --into _site; fi   # installed by the press's partition
           printf '{"repository": "%s", "version": "%s", "commit": "%s"}\n' "$GITHUB_REPOSITORY" "${VERSION_TAG#v}" "$RELEASE_SHA" > _site/release.json
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa  # v3.0.1
         with:

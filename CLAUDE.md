@@ -15,6 +15,13 @@ made here, and `tools/pages_sync.py export` carries it into the chain's build bo
 v1 as frozen that is never pushed: nothing depends on v1's repository); dev's chain (`tools/chain.sh` in the press)
 runs both every round, and the page appears here at the next cut. `sources.json` records what the last import wrote.
 
+**An article is live from its file (27 October 2026).** An article's page is a frame: it draws the article from its file
+in `content/articles/` when it opens (the press's `assets/live/article.js`), so a change you release here (a line, a
+citation, a `correction<n>:` in the front matter) is on its page a minute or two after this site's deploy, with no
+round. A new article is at `/articles/<slug>/` as soon as the deploy has run (the 404 page opens the article view, which
+finds its file in `content/index/articles.json`, written by the deploy); the round gives it a frame of its own and lists
+it on the stories page. The figures it shows are the press's, under `assets/articles/<slug>/`.
+
 ## The pages: never edited here
 
 Every page (everything outside `content/`, `tools/`, `README.md`, `CLAUDE.md`) is written by the press (SGit-AI/sgit-ai__website__newsroom__2026__oct__php__press,
