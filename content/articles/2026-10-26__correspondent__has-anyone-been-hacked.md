@@ -13,9 +13,17 @@ series: reader-questions
 question: Has anyone seen an official, confirmed public report of these PHP flaws being exploited in a real-world attack? Did a bitcoin site get hacked through them?
 ---
 
+**Update, 27 October 2026, 03:45 UTC.** The official signal this piece was waiting for has arrived. On 26 October CISA, the US cyber-security agency, added both flaws, CVE-2026-109618 and CVE-2026-109619, to its Known Exploited Vulnerabilities catalogue. The catalogue's version 2026.10.26, released at 22:24 UTC on 26 October and captured by this newsroom at 00:45 UTC on 27 October, lists both as added that day, gives US federal civilian agencies until 29 October to act on them, and records known ransomware use as "Unknown", which is neither a finding of ransomware use nor a finding that there is none. [[cisa-kev-json, cisa-kev-catalog, cisa-alert-kev-20261026]]
+
+*What it means.* CISA says it holds evidence that the flaws are exploited: its alert says an addition to the catalogue "must have a CVE ID, evidence of exploitation, and clear mitigation guidance". That is level 5 of the ladder below, which this piece called empty and said "would move the answer on its own". It has: to the reader's first question, whether there is an official report of these flaws being exploited, the answer is now yes. [[cisa-alert-kev-20261026]]
+
+*What does not change.* The listing names no victim, no compromised organisation and no threat actor. No named organisation has said it was compromised through php2shell, as of the evidence vault's latest capture, 00:45 UTC on 27 October. Exploited is not the same as compromised: the first is CISA's finding about the flaws, the second needs an organisation to say it, and level 4 is still empty. [[cisa-alert-kev-20261026, cisa-kev-json]] CISA also says it updated its PHP alert of 21 October; this newsroom's capture of that alert predates the update, so the new text is not yet in the evidence.
+
+The short answer is now: **exploited, on CISA's evidence; attempts, in millions; a confirmed, named victim, not yet.** The rest of this piece is kept as written on 26 October: the short answer's line on CISA's list, the ladder figure, level 5 and the counts are as of 12:14 UTC that day, and each line the listing overtook is marked.
+
 **26 October 2026.** The question came from a security group the editor belongs to, and it is the one everyone keeps asking: *has anyone seen an official, confirmed report of php2shell being exploited in a real-world attack?* A follow-up named a cryptocurrency site and asked whether it had been hacked through a PHP flaw. This piece answers both from the evidence this newsroom holds, and shows how it knows.
 
-**The short answer.** No. As of the latest capture in the evidence vault, 12:14 UTC on 26 October, no organisation has said it was compromised through php2shell, no regulator has published a breach notice naming it, and neither CVE is on CISA's list of vulnerabilities known to be exploited. Attack *attempts* are certain and counted in millions; several security vendors say the flaws are "exploited in the wild", but none names a victim. [[cisa-kev-json, x-eastdakota-php2shell-stats, aws-security-blog-madpot]] The cryptocurrency site the follow-up named appears nowhere in the 525 sources; what the record does hold on crypto points the other way. [[news-bitcoin-es-security-coinbase-y-bitgo-niegan-impa, btc-echo-news-krypto-boersen-akut-bedroht-kritisc]]
+**The short answer.** No. As of the latest capture in the evidence vault, 12:14 UTC on 26 October, no organisation has said it was compromised through php2shell, no regulator has published a breach notice naming it, and neither CVE is on CISA's list of vulnerabilities known to be exploited *(no longer so: both were added on 26 October; see the update at the top)*. Attack *attempts* are certain and counted in millions; several security vendors say the flaws are "exploited in the wild", but none names a victim. [[cisa-kev-json, x-eastdakota-php2shell-stats, aws-security-blog-madpot]] The cryptocurrency site the follow-up named appears nowhere in the 525 sources; what the record does hold on crypto points the other way. [[news-bitcoin-es-security-coinbase-y-bitgo-niegan-impa, btc-echo-news-krypto-boersen-akut-bedroht-kritisc]]
 
 That answer is time-bounded on purpose. It is true as of a stated capture and will change the day a named organisation says otherwise. The rest of this piece is the evidence behind it.
 
@@ -42,7 +50,7 @@ That answer is time-bounded on purpose. It is true as of a stated capture and wi
 
 **Level 4: a named organisation says it was breached through php2shell. Empty.** Not in any of the 525 captured sources, read in their own languages.
 
-**Level 5: CISA lists the flaws as known exploited. Empty at the last check.** Neither CVE was in the Known Exploited Vulnerabilities catalogue when it was last checked, at 05:53 UTC on 24 October, and CISA's own assessment on the CVE records reads "Exploitation: none". [[cisa-kev-json, cve-cve-2026-109618, cve-cve-2026-109619]] This is the measure most worth re-checking; a listing would move the answer on its own.
+**Level 5: CISA lists the flaws as known exploited. Empty at the last check.** Neither CVE was in the Known Exploited Vulnerabilities catalogue when it was last checked, at 05:53 UTC on 24 October, and CISA's own assessment on the CVE records reads "Exploitation: none". [[cisa-kev-json, cve-cve-2026-109618, cve-cve-2026-109619]] This is the measure most worth re-checking; a listing would move the answer on its own. *Update, 27 October: reached. CISA added both CVEs to the catalogue on 26 October, naming no victim; see the update at the top.* [[cisa-alert-kev-20261026]]
 
 ## Every statement about compromise, counted
 
@@ -92,7 +100,7 @@ Any one of these, captured and checked:
 
 1. A named organisation saying, in its own notice, filing or statement, that it was compromised through php2shell.
 2. GMO, Czech Technical University or DMM stating that php2shell was the cause.
-3. A CISA KEV listing for either CVE, with CISA's evidence.
+3. A CISA KEV listing for either CVE, with CISA's evidence. *(Happened on 26 October, for both, with no victim named: see the update at the top.)*
 4. A regulator's breach notice naming the flaw.
 5. A security vendor naming a victim, with the victim's consent.
 
