@@ -80,4 +80,4 @@ Source file: `content/articles/2026-10-22__historian__php2shell-in-perspective.m
 
 
 ---
-site v0.22.49 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/articles/php2shell-in-perspective/index.html
+site v0.22.50 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/articles/php2shell-in-perspective/index.html
