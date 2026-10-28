@@ -8,7 +8,7 @@ The php2shell risk graph compared between any two releases: nodes and edges adde
 
 # What changed in the risk graph, release by release
 
-The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 189 releases carry a graph; 11 of them changed it. Pick any two below; the default is the latest change.
+The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 190 releases carry a graph; 11 of them changed it. Pick any two below; the default is the latest change.
 
 ## v0.22.45 → v0.22.46
 
@@ -43,14 +43,14 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 ### Edges added: 11
 
 11 *cites*
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* Arista Networks source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* Broadcom (Symantec) Security source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* CISA KEV source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* Craft CMS (Pixel & Tonic) source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* NETGEAR source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* Salesforce source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* Splunk source
-- As of 19:13 UTC on 27 October, no named organisation has sai *cites* The Hacker News source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Arista Networks source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Broadcom (Symantec) Security source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* CISA KEV source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Craft CMS (Pixel & Tonic) source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* NETGEAR source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Salesforce source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Splunk source
+- As of 17:15 UTC on 28 October, no named organisation has sai *cites* The Hacker News source
 - The UK's NCSC, the NSA and their counterparts in the EU and *cites* CERT-FR (ANSSI) source
 - The UK's NCSC, the NSA and their counterparts in the EU and *cites* UK National Cyber Security Centre (NCSC) source
 - The UK's NCSC, the NSA and their counterparts in the EU and *cites* US National Security Agency (NSA) source
@@ -79,4 +79,4 @@ How it is made: every release commits the graph the build wrote ([data/grc-graph
 
 
 ---
-site v0.22.50 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
+site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html

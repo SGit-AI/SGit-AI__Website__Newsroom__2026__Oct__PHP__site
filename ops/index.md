@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 27 October 2026, 19:13 UTC
+Operations · data as of 28 October 2026, 17:15 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,34 +37,35 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      storyv0.22.46 · 2026-10-27
-### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
-questionv0.22.46 · 2026-10-27
+      questionv0.22.51 · 2026-10-28
 ### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
-frontv0.22.46 · 2026-10-27
+frontv0.22.51 · 2026-10-28
+### [Stories: written here](../index.html#stories)
+frontv0.22.51 · 2026-10-28
 ### [Front page: right now](../index.html#now)
+frontv0.22.51 · 2026-10-28
+### [Front page: at a glance](../index.html#glance)
+frontv0.22.51 · 2026-10-28
+### [Front page: the core facts](../index.html#facts)
+factreportedv0.22.51 · 2026-10-28
+### [As of 17:15 UTC on 28 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+CISACISAHuntressAmazonstoryv0.22.51 · 2026-10-27
+### [How a push reaches the pages: the six repositories, the edition, and why one push still waits for another](../articles/how-a-push-reaches-the-pages/index.html)
+storyv0.22.46 · 2026-10-27
+### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
 frontv0.22.46 · 2026-10-27
 ### [Front page: latest](../index.html#latest)
-frontv0.22.46 · 2026-10-27
-### [Front page: the core facts](../index.html#facts)
 factdisputedv0.22.46 · 2026-10-27
 ### [The UK's NCSC, the NSA and their counterparts in the EU and Australia advise taking systems offline where patching is not feasible](https://refs.php.oct.2026.newsroom.sgit.ai/facts/offline-allies/)
 ACSCCERT-EUNCSC-NLACN / CSIRT Italiafactdisputedv0.22.46 · 2026-10-27
 ### [There is no evidence yet that hackers have exploited the flaw](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-exploitation/)
-BBC NewsAmazonCISAfactreportedv0.22.46 · 2026-10-27
-### [As of 19:13 UTC on 27 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
-CISACISAHuntressAmazonfactcontradictedv0.22.46 · 2026-10-27
+BBC NewsAmazonCISAfactcontradictedv0.22.46 · 2026-10-27
 ### [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/)
-php.netphp-srcfrontv0.22.45 · 2026-10-27
-### [Front page: at a glance](../index.html#glance)
-storyv0.22.43 · 2026-10-27
+php.netphp-srcstoryv0.22.43 · 2026-10-27
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
 factreportedv0.22.43 · 2026-10-27
 ### [The last PHP core RCE, CVE-2024-4577, was exploited in the wild one day after disclosure and in KEV three days after; php2shell was not in KEV one day after disclosure (catalog version 2026.10.21) and](https://refs.php.oct.2026.newsroom.sgit.ai/facts/kev-precedent/)
-CISACVE recordAkamai Security ResearchCISAfactconfirmedv0.22.43 · 2026-10-27
-### [As of its alert of 21 October and KEV catalog version 2026.10.21 (fetched 2026-10-22T08:15Z), CISA had not observed exploitation and neither CVE was in the Known Exploited Vulnerabilities catalog. Sup](https://refs.php.oct.2026.newsroom.sgit.ai/facts/cisa-none/)
-CISACISACVE recordCISAeventv0.22.43 · 2026-10-26T22:24Z
-### [CISA releases KEV catalog version 2026.10.26 (1,758 entries), adding CVE-2026-109618 and CVE-2026-109619: date added 26 ](../timeline/index.html)
+CISACVE recordAkamai Security ResearchCISA
 
 Mark an item read with its circle: it fades, and leaves when you choose to hide read items. It comes back only if what it says changes.
 
@@ -95,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.50 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

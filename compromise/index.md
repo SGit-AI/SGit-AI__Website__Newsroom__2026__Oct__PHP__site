@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-27 19:13 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-28 17:15 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-27 19:13 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-28 17:15 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-645The evidence vault: sourceshead 6f0d5c50bf12 (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+675The evidence vault: sourceshead 75668aedfb6d (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -149,4 +149,4 @@ Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.a
 
 
 ---
-site v0.22.50 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html

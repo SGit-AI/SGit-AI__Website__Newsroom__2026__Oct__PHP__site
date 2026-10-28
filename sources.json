@@ -1,7 +1,7 @@
 {
  "from": {
-  "commit": "44318db3b45598b2a67151a348950d1b7e202de0",
-  "site_version": "0.22.50"
+  "commit": "13122cbc98bd7ba4c914afeb1efdd7a18bfc3646",
+  "site_version": "0.22.51"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
@@ -14,7 +14,11 @@
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
- "kept": [],
+ "kept": [
+  "content/articles/2026-10-27__dev__how-a-push-reaches-the-pages.md",
+  "content/data/plain.json",
+  "content/data/questions.json"
+ ],
  "files": {
   "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
   "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",
@@ -27,11 +31,12 @@
   "content/articles/2026-10-25__ontologist__what-wikipedia-knows-about-being-right.md": "a850357d34d7a30c5680f552a7663114803c0e4f6e0cd43ae6a9f513c577aabe",
   "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md": "3191d51fa903d6f0ee75ed2894668641175a6e2d7f93af8501e8239726420b4d",
   "content/articles/2026-10-26__correspondent__steal-my-bitcoin.md": "69f31b6d523b9f83aae6cb998e3468381aba672b23a2b5aef2e5c3e8750770c5",
+  "content/articles/2026-10-27__dev__how-a-push-reaches-the-pages.md": "b83506a98f0fe5119473e7391919ea36dd976c97ae41b72116ce76d04770adc8",
   "content/data/billing.json": "d6d3d53ff9f908327c2c5b543fa6e926f3915ae978bce55cf57cd5b530256ae1",
   "content/data/glossary.json": "7a7e47969f7a8e1c75f38e33a9a483220c5c7b42d86072299a4ca732ecf0bfc6",
   "content/data/interview.json": "7de370f93232feef92ce771a3c49813d3d37e1ff04c7f90d91b95d49e965b081",
-  "content/data/plain.json": "14ccec38a8f9d07d2de8e5cd812a452addbc8eb0f78947aaf4d1ce39f0a685dd",
-  "content/data/questions.json": "7768481591ef351ce95a485f6fa3ce5ba6a81fb883bb032ac1639383c79fa713",
+  "content/data/plain.json": "cd619fd70acb501d21c038b70c1f595e72d6039db519877bcef7c76c39078ad9",
+  "content/data/questions.json": "9e0fb5a82355435f7477f44febdaec20f1a53a7a8c19f8d3f32253f4b5d5f89f",
   "content/data/seo.json": "eeb9707fd7504b7ea9ed1739113937f3b9d8e7024f9cca8694025dbd386bdab6",
   "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
   "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"

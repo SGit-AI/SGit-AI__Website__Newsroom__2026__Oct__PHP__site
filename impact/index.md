@@ -6,7 +6,7 @@ Two ledgers for php2shell: every system reported taken offline with who said so,
 
 # Impact: what was taken offline, and what was compromised
 
-In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 19:13 UTC on 27 October).
+In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 17:15 UTC on 28 October).
 
 Two ledgers, because they measure different things. Taking a system offline is a decision an operator makes and can confirm, and the first table is full. Being compromised is a fact only evidence establishes, and the second table has, as of the latest capture, no confirmed entry. That gap is the most important finding on this site: the reported cost of php2shell so far is the cost of precaution.
 
@@ -50,6 +50,8 @@ Two ledgers. The first is systems taken offline, which is a decision an operator
 | **BambooHR, the payroll company (its service in the United States, Canada and Ireland)** US | Shut its service down in the United States, Canada and Ireland as a precaution, as The Hacker News reports it (WWWhat's new, 21 October, 21:17 UTC); Critic Arad, Cyber Kendra, Estrella Digital and Martin Cid also name BambooHR. BambooHR's own notice is not captured | 2026-10-21 | The Hacker News, via WWWhat's new | reported | [WWWhat's new](https://refs.php.oct.2026.newsroom.sgit.ai/sources/wwwhatsnew-2026-10-21-php2shell-que-pasa-si-no-actu/) [Critic Arad](https://refs.php.oct.2026.newsroom.sgit.ai/sources/criticarad-php2shell-cve-2026-109618-ghid-patch/) |
 | **Switzerland: the University of Basel's website** CH | Unreachable on 21 October, among the first Swiss municipalities, authorities, universities and hospitals reported to have switched their offerings off as a precaution; the page names only the University of Basel (Südostschweiz, 21 October, 15:28 UTC). The university's own notice is not captured | 2026-10-21 | Südostschweiz | reported | [Südostschweiz](https://refs.php.oct.2026.newsroom.sgit.ai/sources/suedostschweiz-panorama-php-sicherheitsluecke-weltweite/) |
 | **Brazil: the Army General Secretariat (SGEx) website, which publishes the Army's bulletins** BR | Showed a notice on 26 October that the page was in maintenance because of the PHP vulnerability; the outlet says it saw the notice itself. Precautionary, not evidence of an attack | 2026-10-26 | Revista Sociedade Militar | reported | [Revista Sociedade Militar](https://refs.php.oct.2026.newsroom.sgit.ai/sources/sociedademilitar-2026-10-site-do-exercito-brasileiro-sai/) |
+| **Bangladesh: Bangladesh Bank's website, and the sites of Agrani, Janata and Bengal Commercial banks** BD | The Daily Star reports Bangladesh Bank kept its website down from the Thursday, and Agrani, Janata and Bengal Commercial banks' sites were offline at 5pm the day before the article; IFIC, Standard Islami and SBAC were back after patching. As reported at the time of the article; a precaution, not evidence of an attack | 2026-10-27 | The Daily Star | reported | [The Daily Star](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thedailystar-news-bangladesh-news-php-flaw-trickles-d/) |
+| **Bangladesh: the land ministry's digital land services (land.gov.bd)** BD | Suspended for 36 hours, from midnight on the Thursday to noon on the Saturday, after an urgent alert from BGD e-GOV CIRT dated 22 October; the article says the portal notice was still up after the stated deadline. Precautionary, not evidence of an attack | 2026-10-22 | The Daily Star | reported | [The Daily Star](https://refs.php.oct.2026.newsroom.sgit.ai/sources/thedailystar-news-bangladesh-news-php-flaw-trickles-d/) |
 
 ## Compromised
 
@@ -79,4 +81,4 @@ What a compromise of one system would reach is on [the blast-radius section](../
 
 
 ---
-site v0.22.50 · data as of 2026-10-27T19:13Z · vault commit 6f0d5c50bf12 · https://php.oct.2026.newsroom.sgit.ai/impact/index.html
+site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/impact/index.html

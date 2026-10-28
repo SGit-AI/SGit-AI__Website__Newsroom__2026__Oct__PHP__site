@@ -9,12 +9,12 @@
   "CVE-2026-109619"
  ],
  "status": "developing",
- "version": "0.22.50",
- "data_as_of": "2026-10-27T19:13Z",
- "vault_commit": "6f0d5c50bf12",
+ "version": "0.22.51",
+ "data_as_of": "2026-10-28T17:15Z",
+ "vault_commit": "75668aedfb6d",
  "counts": {
-  "sources": 645,
-  "captures": 711,
+  "sources": 675,
+  "captures": 741,
   "claims": 70,
   "claims_by_status": {
    "confirmed": 20,
@@ -25,7 +25,7 @@
   },
   "events": 69,
   "agencies": 16,
-  "offline_reported": 34,
+  "offline_reported": 36,
   "compromises_confirmed": 0
  },
  "headline_facts": [
@@ -44,7 +44,7 @@
   },
   {
    "id": "no-confirmed-compromise",
-   "text": "As of 19:13 UTC on 27 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known Exploited Vulnerabilities catalog, which takes evidence of exploitation; the listing names no victim, no compromised organisation and no threat actor. Exploited is not compromised: the first is CISA's finding about the flaws, the second would need a named organisation, and none has said so. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
+   "text": "As of 17:15 UTC on 28 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known Exploited Vulnerabilities catalog, which takes evidence of exploitation; the listing names no victim, no compromised organisation and no threat actor. Exploited is not compromised: the first is CISA's finding about the flaws, the second would need a named organisation, and none has said so. Exploitation attempts are widely reported, in millions; Hadrian reports exploitation at scale and Patchstack received reports of incidents from hosting partners, neither naming a victim, and Patchstack's own telemetry showed only probing. Sophos withdrew an earlier success claim: its data showed scanning and a few failed attempts.",
    "status": "reported",
    "url": "https://php.oct.2026.newsroom.sgit.ai/claims/index.html#no-confirmed-compromise",
    "sources": [
@@ -101,9 +101,9 @@
   }
  ],
  "latest_story": {
-  "title": "Someone stole the bitcoin. What that does, and does not, tell us about php2shell",
-  "url": "https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html",
-  "written": "2026-10-26",
+  "title": "How a push reaches the pages: the six repositories, the edition, and why one push still waits for another",
+  "url": "https://php.oct.2026.newsroom.sgit.ai/articles/how-a-push-reaches-the-pages/index.html",
+  "written": "2026-10-27",
   "origin": "house"
  },
  "links": {
