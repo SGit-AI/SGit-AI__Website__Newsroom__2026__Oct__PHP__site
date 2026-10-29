@@ -62,4 +62,4 @@ On this site: [Detection and defence: what blocks php2shell and what shows it](.
 
 
 ---
-site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-4/index.html
+site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r03-4/index.html

@@ -534,4 +534,4 @@ The journalist has reviewed 502 of them: 95 held back, 64 used, 135 agrees, 208 
 
 
 ---
-site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html
+site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/claims/review/index.html

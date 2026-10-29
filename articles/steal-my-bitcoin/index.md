@@ -109,4 +109,4 @@ Source file: `content/articles/2026-10-26__correspondent__steal-my-bitcoin.md` i
 
 
 ---
-site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html
+site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/articles/steal-my-bitcoin/index.html

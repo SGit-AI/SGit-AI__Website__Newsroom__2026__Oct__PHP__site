@@ -85,4 +85,4 @@ Authored: [data/grc.json](https://data.php.oct.2026.newsroom.sgit.ai/latest/grc.
 
 
 ---
-site v0.22.51 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/index.html
+site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/index.html
