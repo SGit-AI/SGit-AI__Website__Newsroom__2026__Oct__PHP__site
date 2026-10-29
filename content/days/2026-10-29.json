@@ -6,13 +6,13 @@
  "closed_by": null,
  "coverage": null,
  "headline": {
-  "_": "So far today: nothing new.",
-  "exec": "Nothing new yet today. CISA's deadline for US agencies is today.",
-  "general": "Nothing new yet today.",
-  "security": "Nothing new yet today.",
-  "engineer": "Nothing new yet today.",
-  "journalist": "Nothing new yet today. Still no organisation confirmed hacked.",
-  "researcher": "Nothing new yet today."
+  "_": "So far today: a vendor reports 25 servers rooted, with no victim named and no evidence shown. Still no organisation confirms a compromise.",
+  "exec": "Still no organisation says it was hit. One vendor reports 25 servers rooted, unverified. CISA's deadline for US agencies is today.",
+  "general": "Nothing changes for you. If someone runs your website, ask them if it is updated.",
+  "security": "Dream Research reports 25 servers rooted (three in an unnamed US government-affiliated environment), no victim, no evidence: a report, not a confirmed compromise. KEV deadline today.",
+  "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
+  "journalist": "A vendor's report of 25 rooted servers names no victim and shows no evidence; one outlet says it is unverified. Keep it apart from \"confirmed hacked\".",
+  "researcher": "685 sources by 07:14 UTC. One vendor report (Dream Research) added to the compromise ledger, not counted as confirmed."
  },
  "state": {
   "fix": "Yes",
@@ -21,5 +21,34 @@
   "offline": "51 listed, 50 back",
   "unpatched": "Italy: 81.9% of services"
  },
- "items": []
+ "items": [
+  {
+   "t": "01:53",
+   "tag": "New",
+   "text": "A vendor, Dream Research, reports that a campaign rooted 25 servers, three of them in an unnamed US government-affiliated environment, on 26 October. It names no victim and publishes no evidence; The Next Web says it has not verified it. The newsroom carries it as a dated, attributed report, not a confirmed compromise.",
+   "before": "2 vendor claims of success, both withdrawn",
+   "after": "3: 2 withdrawn, 1 reported and not confirmed",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Dream Research via The Hacker News, The Next Web; the journalist (state v6), the correspondent"
+  },
+  {
+   "t": "01:53",
+   "tag": "Still",
+   "text": "\"Has anyone actually been hacked through php2shell?\" gets a dated update: still no organisation confirms a compromise.",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "the correspondent (article update)"
+  }
+ ]
 }
