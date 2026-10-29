@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 28 October 2026, 17:15 UTC
+Operations · data as of 29 October 2026, 00:09 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,19 +37,23 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      questionv0.22.51 · 2026-10-28
+      storyv0.22.53 · 2026-10-29
+### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
+storyv0.22.53 · 2026-10-29
+### [A vendor says a campaign rooted 25 servers, two days before we saw it. What the report says, and what it leaves open](../articles/dream-research-rooted-25-servers/index.html)
+questionv0.22.53 · 2026-10-29
 ### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
-frontv0.22.51 · 2026-10-28
+frontv0.22.53 · 2026-10-29
 ### [Stories: written here](../index.html#stories)
-frontv0.22.51 · 2026-10-28
+frontv0.22.53 · 2026-10-29
 ### [Front page: right now](../index.html#now)
-frontv0.22.51 · 2026-10-28
-### [Front page: at a glance](../index.html#glance)
-frontv0.22.51 · 2026-10-28
+frontv0.22.53 · 2026-10-29
 ### [Front page: the core facts](../index.html#facts)
-factreportedv0.22.51 · 2026-10-28
-### [As of 17:15 UTC on 28 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
-CISACISAHuntressAmazonstoryv0.22.51 · 2026-10-27
+factreportedv0.22.53 · 2026-10-29
+### [As of 00:09 UTC on 29 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+CISACISAHuntressAmazonfrontv0.22.51 · 2026-10-28
+### [Front page: at a glance](../index.html#glance)
+storyv0.22.51 · 2026-10-27
 ### [How a push reaches the pages: the six repositories, the edition, and why one push still waits for another](../articles/how-a-push-reaches-the-pages/index.html)
 storyv0.22.46 · 2026-10-27
 ### [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../articles/steal-my-bitcoin/index.html)
@@ -61,11 +65,7 @@ ACSCCERT-EUNCSC-NLACN / CSIRT Italiafactdisputedv0.22.46 · 2026-10-27
 ### [There is no evidence yet that hackers have exploited the flaw](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-exploitation/)
 BBC NewsAmazonCISAfactcontradictedv0.22.46 · 2026-10-27
 ### [The flaws were disclosed on 22 October 2026](https://refs.php.oct.2026.newsroom.sgit.ai/facts/disclosure-22oct/)
-php.netphp-srcstoryv0.22.43 · 2026-10-27
-### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
-factreportedv0.22.43 · 2026-10-27
-### [The last PHP core RCE, CVE-2024-4577, was exploited in the wild one day after disclosure and in KEV three days after; php2shell was not in KEV one day after disclosure (catalog version 2026.10.21) and](https://refs.php.oct.2026.newsroom.sgit.ai/facts/kev-precedent/)
-CISACVE recordAkamai Security ResearchCISA
+php.netphp-src
 
 Mark an item read with its circle: it fades, and leaves when you choose to hide read items. It comes back only if what it says changes.
 
@@ -96,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

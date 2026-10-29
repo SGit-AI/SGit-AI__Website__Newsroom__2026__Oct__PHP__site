@@ -25,4 +25,4 @@ A PHP application that executes an attacker's code exposes the personal data it 
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/gdpr/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/gdpr/index.html

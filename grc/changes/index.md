@@ -8,15 +8,15 @@ The php2shell risk graph compared between any two releases: nodes and edges adde
 
 # What changed in the risk graph, release by release
 
-The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 191 releases carry a graph; 11 of them changed it. Pick any two below; the default is the latest change.
+The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 192 releases carry a graph; 12 of them changed it. Pick any two below; the default is the latest change.
 
-## v0.22.45 → v0.22.46
+## v0.22.52 → v0.22.53
 
-| Measure | v0.22.45 | v0.22.46 | Change |
+| Measure | v0.22.52 | v0.22.53 | Change |
 |---|---|---|---|
-| Nodes | 732 | 740 | +8 |
-| Edges | 1,366 | 1,375 | +9 |
-| Edges known as source | 264 | 273 | +9 |
+| Nodes | 740 | 744 | +4 |
+| Edges | 1,375 | 1,379 | +4 |
+| Edges known as source | 273 | 277 | +4 |
 | Edges known as code | 287 | 287 | same |
 | Edges known as inferred | 815 | 815 | same |
 | Gap: Controls joined to no code or test that implements them | 95 | 95 | same |
@@ -28,41 +28,27 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 | Gap: Vulnerabilities no test reaches | 0 | 0 | same |
 | Gap: Edges inferred by an agent, not yet checked | 815 | 815 | same |
 
-### Nodes added: 8
+### Nodes added: 4
 
-8 source
-- [Arista Networks](../../grc/explore/index.html#focus=source:arista-security-advisory-0200) source
-- [Broadcom (Symantec) Security](../../grc/explore/index.html#focus=source:broadcom-security-broadcom-php2shell-response) source
-- [CISA KEV](../../grc/explore/index.html#focus=source:cisa-kev-kev-catalog-page) source
-- [Craft CMS (Pixel & Tonic)](../../grc/explore/index.html#focus=source:craft-cms-craft-cloud-and-php2shell) source
-- [NETGEAR](../../grc/explore/index.html#focus=source:netgear-000070960) source
-- [Salesforce](../../grc/explore/index.html#focus=source:salesforce-general-message-20000267) source
-- [Splunk](../../grc/explore/index.html#focus=source:splunk-svd-2026-1013) source
-- [The Hacker News](../../grc/explore/index.html#focus=source:the-hacker-news-cisa-confirms-php2shell-exploitation) source
+4 source
+- [CyPro](../../grc/explore/index.html#focus=source:cypro-php2shell-exploit-roots-firewalls) source
+- [Dream Research](../../grc/explore/index.html#focus=source:dreamgroup-chained-php2shell-roots-25-servers) source
+- [The Hacker News](../../grc/explore/index.html#focus=source:the-hacker-news-thehackernews-php2shell-roots-25-s) source
+- [The Next Web](../../grc/explore/index.html#focus=source:the-next-web-php2shell-cisa-kev-dream-25-servers) source
 
-### Edges added: 11
+### Edges added: 4
 
-11 *cites*
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Arista Networks source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Broadcom (Symantec) Security source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* CISA KEV source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Craft CMS (Pixel & Tonic) source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* NETGEAR source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Salesforce source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* Splunk source
-- As of 17:15 UTC on 28 October, no named organisation has sai *cites* The Hacker News source
-- The UK's NCSC, the NSA and their counterparts in the EU and *cites* CERT-FR (ANSSI) source
-- The UK's NCSC, the NSA and their counterparts in the EU and *cites* UK National Cyber Security Centre (NCSC) source
-- The UK's NCSC, the NSA and their counterparts in the EU and *cites* US National Security Agency (NSA) source
-
-### Edges removed: 2
-- The flaws were disclosed on 22 October 2026 *cites* BBC News
-- The UK's NCSC, the NSA and their counterparts in the EU and *cites* BBC News
+4 *cites*
+- As of 00:09 UTC on 29 October, no named organisation has sai *cites* CyPro source
+- As of 00:09 UTC on 29 October, no named organisation has sai *cites* Dream Research source
+- As of 00:09 UTC on 29 October, no named organisation has sai *cites* The Hacker News source
+- As of 00:09 UTC on 29 October, no named organisation has sai *cites* The Next Web source
 
 ## Every release that changed the graph
 
 | Release | Against | Nodes | Edges | Bases | Gaps | Nodes / edges after |
 |---|---|---|---|---|---|---|
+| [v0.22.53](#from=0.22.52&to=0.22.53) 2026-10-29 | v0.22.52 | +4 −0 | +4 −0 | 0 | +0 −0 | 744 / 1,379 |
 | [v0.22.46](#from=0.22.45&to=0.22.46) 2026-10-27 | v0.22.45 | +8 −0 | +11 −2 | 0 | +0 −0 | 740 / 1,375 |
 | [v0.22.43](#from=0.22.42&to=0.22.43) 2026-10-27 | v0.22.42 | +2 −0 | +6 −0 | 0 | +0 −0 | 732 / 1,366 |
 | [v0.22.34](#from=0.22.33&to=0.22.34) 2026-10-26 | v0.22.33 | +2 −0 | +2 −0 | 0 | +0 −0 | 730 / 1,360 |
@@ -79,4 +65,4 @@ How it is made: every release commits the graph the build wrote ([data/grc-graph
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html

@@ -6,7 +6,7 @@ Two ledgers for php2shell: every system reported taken offline with who said so,
 
 # Impact: what was taken offline, and what was compromised
 
-In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 17:15 UTC on 28 October).
+In plain English Two lists: who took websites offline (many, as a precaution), and who was actually broken into (no named organisation through this flaw, as of 00:09 UTC on 29 October; one security company reports unnamed victims, unconfirmed).
 
 Two ledgers, because they measure different things. Taking a system offline is a decision an operator makes and can confirm, and the first table is full. Being compromised is a fact only evidence establishes, and the second table has, as of the latest capture, no confirmed entry. That gap is the most important finding on this site: the reported cost of php2shell so far is the cost of precaution.
 
@@ -65,6 +65,7 @@ Two ledgers. The first is systems taken offline, which is a decision an operator
 | Chainguard's honeypots trapped IPs from China and Russia; 'several other security vendors' reported exploits in the wild | Dan Lorenc, as reported by The Register; vendors not named, no evidence published | reported, second-hand | [The Register](https://refs.php.oct.2026.newsroom.sgit.ai/sources/theregister-php-blames-chainguard/) |
 | NCSC New Zealand: 'aware of reports of active exploitation' | Unattributed | reported | [NCSC New Zealand](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/) |
 | Weird Gloop: 'extremely likely that a bunch of old PHP fansites and forums have had their databases compromised' | The author's expectation; no case named | unverified an expectation, not a finding | [Weird Gloop](https://refs.php.oct.2026.newsroom.sgit.ai/sources/weirdgloop-blog-php2shell/) |
+| Dream Research: a chained PHP2Shell and Linux kernel exploit rooted 25 servers (24 firewalls and one internal management server), three in a US government-affiliated environment | Dream's own post of 26 October, from artifacts it says it recovered and does not publish; no victim and no firewall vendor named; repeated by The Hacker News, The Next Web (which has not independently verified it) and CyPro (a relay of SecurityWeek, which says two servers where Dream says three) | reported by Dream, not independently confirmed; a report of compromise, no named organisation | [Dream Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/dreamgroup-chained-php2shell-roots-25-servers/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-hacker-news-thehackernews-php2shell-roots-25-s/) [The Next Web](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-next-web-php2shell-cisa-kev-dream-25-servers/) [CyPro](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cypro-php2shell-exploit-roots-firewalls/) |
 | A named organisation confirms it was compromised through php2shell | No captured source carries one | none found | [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) [Huntress](https://refs.php.oct.2026.newsroom.sgit.ai/sources/huntress-php2shell-rapid-response/) [Imperva Threat Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/imperva-blog-php2shell/) |
 
 ## What the two ledgers say together
@@ -81,4 +82,4 @@ What a compromise of one system would reach is on [the blast-radius section](../
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/impact/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/impact/index.html

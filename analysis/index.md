@@ -4,7 +4,7 @@
 
 The home for people who weigh the evidence: every fact by status and topic, the numbers in the news with how far each holds, where governments disagree, and what is still contested, each linked to its saved sources.
 
-Analysis · data as of 28 October 2026, 17:15 UTC
+Analysis · data as of 29 October 2026, 00:09 UTC
 
 # 70 facts. 20 confirmed. 15 still contested.
 
@@ -56,7 +56,7 @@ Every party quoted, with the claims each one makes.
 
 ### Every source
 
-675 pages, saved and fingerprinted at the minute they were read.
+681 pages, saved and fingerprinted at the minute they were read.
 
 ### Stories
 
@@ -64,4 +64,4 @@ Signed and dated analysis, written here and kept as written.
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/analysis/index.html

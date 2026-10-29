@@ -245,13 +245,13 @@ A flaw is not a breach. An unpatched, internet-facing PHP application holding pe
 
 #### Reading path
 - [Your briefing](../briefings/dpo/index.html) 5 min
-- [No named compromise: the evidence](../compromise/index.html) 3 min
+- [No named compromise: the evidence](../compromise/index.html) 4 min
 - [Impact: offline vs compromised](../impact/index.html) 2 min
 - [grc/risks/r06-1/index.html](../grc/risks/r06-1/index.html) 1 min
 - [grc/frameworks/gdpr/index.html](../grc/frameworks/gdpr/index.html) 1 min
 - [If you run PHP](../playbook/index.html) 3 min
 
-About 15 minutes in all. Choose *read as Morgan* and the bar under the menu keeps your place on every page.
+About 16 minutes in all. Choose *read as Morgan* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -508,13 +508,13 @@ The answer in thirty seconds
 Target 8.5.12, 8.4.27, 8.3.36 or 8.2.35; restart every worker and rebuild images. Until then: session.upload_progress.enabled=0 in php.ini or the pool, low post_max_size, fatal_error_backtraces=0 on 8.5, pm.max_requests=1 on FPM. Verify with php -v inside the running container. Keep session.upload_progress.enabled=0 after the update as well: CVE-2026-115560, published by PHP on 23 October (as Cloudflare and SOCRadar report), affects the fixed releases under a rare session setting and is fixed only in the next regular release.
 
 #### Reading path
-- [Your briefing](../briefings/engineer/index.html) 3 min
+- [Your briefing](../briefings/engineer/index.html) 4 min
 - [The two flaws](../flaws/index.html) 4 min
 - [If you run PHP](../playbook/index.html) 3 min
 - [Affected systems](../affected/index.html) 1 min
 - [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 
-About 18 minutes in all. Choose *read as Drew* and the bar under the menu keeps your place on every page.
+About 19 minutes in all. Choose *read as Drew* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -581,13 +581,13 @@ The answer in thirty seconds
 Two classes: an out-of-memory longjmp leaving request memory uninitialised, and worker global state pointing at freed request memory across requests. mod_php was exploited before application code; FPM for the first flaw is disputed. The fix removes longjmp for OOM. A report of an incomplete fix is open.
 
 #### Reading path
-- [Your briefing](../briefings/researcher/index.html) 3 min
+- [Your briefing](../briefings/researcher/index.html) 4 min
 - [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 - [The two flaws](../flaws/index.html) 4 min
 - [Who found it](../discovery/index.html) 2 min
 - [In context: 2008 to 2026](../context/index.html) 3 min
 
-About 19 minutes in all. Choose *read as Ash* and the bar under the menu keeps your place on every page.
+About 20 minutes in all. Choose *read as Ash* and the bar under the menu keeps your place on every page.
 
 #### Words they will meet
 
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/start/index.html

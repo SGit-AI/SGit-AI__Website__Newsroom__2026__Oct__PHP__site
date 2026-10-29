@@ -25,13 +25,13 @@ Bug classes, what was demonstrated against what, credits, and the open technical
 - The fix changes the engine: soft OOM at a VM safe point, hard OOM via _exit(). Expect behavioural differences under memory pressure.
 
 ## Your reading path
-- [Your briefing](../../briefings/researcher/index.html) 3 min
+- [Your briefing](../../briefings/researcher/index.html) 4 min
 - [The code](https://refs.php.oct.2026.newsroom.sgit.ai/code/) 7 min
 - [The two flaws](../../flaws/index.html) 4 min
 - [Who found it](../../discovery/index.html) 2 min
 - [In context: 2008 to 2026](../../context/index.html) 3 min
 
-About 19 minutes in all. Choose *read as Ash* and the bar under the menu keeps your place on every page.
+About 20 minutes in all. Choose *read as Ash* and the bar under the menu keeps your place on every page.
 
 ### What this briefing covers
 - the two bug classes
@@ -93,7 +93,7 @@ Each is underlined where it first appears; hover or tap for a one-line definitio
 ## What is still open
 - Who first leaked the CVE IDs on 20 October, and where. The PHP Foundation does not say; a PHP security team member points to an anonymous Hacker News post, and Notebookcheck and Nguoi Quan Sat repeat that account. No copy of the post is in the vault.
 - Whether the deleted Calif video is the one now embedded on Calif's own write-up. Calif's page does not mention the leak.
-- Whether any site was actually compromised before it was patched or taken offline. Every claim of exploitation so far is of attempts, probes or honeypot hits, or, in CISA's Known Exploited Vulnerabilities listing of 26 October, of exploitation with no victim named; the named cases do not state php2shell as the cause. Authorities in Singapore and Luxembourg now ask operators to look for traces; the answer will come from those searches, if it comes.
+- Whether any site was actually compromised before it was patched or taken offline. Every claim of exploitation so far is of attempts, probes or honeypot hits, or, in CISA's Known Exploited Vulnerabilities listing of 26 October, of exploitation with no victim named; or, in Dream Research's report of 26 October, of 25 rooted servers with no victim or vendor named and no confirmation (one source, repeated by three outlets); the named cases do not state php2shell as the cause. Authorities in Singapore and Luxembourg now ask operators to look for traces; the answer will come from those searches, if it comes.
 - Which sites were really taken offline, and why. The list now draws on more captured reports (Germany's hospitals and hosts, Morocco, Romania, Japan), but most are press accounts; few come from the organisations themselves (the Dutch government, Latvia's agency, Weird Gloop, the Charité's spokesman as quoted). A community tracker counts 51 listed and 50 back.
 - Whether the 8.5.12 fix is complete. A Fediverse report of a third bug or incomplete fix reached oss-security on 21 October; PHP reportedly told Canonical it is unrelated. On 23 October PHP published an informational advisory for a separate flaw, CVE-2026-115560, in the session upload progress feature, reported by Cloudflare, SOCRadar and The Hacker News: it affects fully patched releases including 8.5.12, needs a rare session setting, will be fixed in the next regular release, and has session.upload_progress.enabled=0 as the mitigation; SOCRadar reports no exploitation and no severity score. PHP's advisory is not in the evidence vault, and whether this is the bug the Fediverse report described is not stated.
 
@@ -101,4 +101,4 @@ The full set of claims is on [every claim](../../claims/index.html); the ordered
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/briefings/researcher/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/briefings/researcher/index.html

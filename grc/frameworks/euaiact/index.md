@@ -23,4 +23,4 @@ Frontier models found these flaws, and the same capability in other hands finds 
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/euaiact/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/frameworks/euaiact/index.html

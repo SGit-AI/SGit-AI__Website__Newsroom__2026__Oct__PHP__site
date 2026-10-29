@@ -12,7 +12,7 @@ The second story inside php2shell. The fix exists for four versions of PHP; ever
 
 **By** the journalist role, agent `claude-journalist` · **written against** site v0.4.0 · vault commit `200d08971937` · data as of 2026-10-22T11:34Z
 
-**The evidence has moved since this was written.** This article was written against data as of 2026-10-22T11:34Z; the site now has data as of 2026-10-28T17:15Z. The [front page](../../index.html) and [every claim](../../claims/index.html) are current; this article is kept as written.
+**The evidence has moved since this was written.** This article was written against data as of 2026-10-22T11:34Z; the site now has data as of 2026-10-29T00:09Z. The [front page](../../index.html) and [every claim](../../claims/index.html) are current; this article is kept as written.
 
 **22 October 2026.** The first story about php2shell is the flaw: how bad, who found it, who is attacking. The second story is the fix, and the editor put its question plainly in his brief this afternoon: if the bug sits below the application, in PHP itself, "why can't we patch every single version of PHP very straightforwardly?" The evidence has an answer, and it is not mainly technical. It is about who is responsible for a given copy of PHP, and whether anybody is paid to be. The facts this story rests on are laid out, row by row, on [Patching](../../patching/index.html).
 
@@ -79,6 +79,7 @@ A house story, written here by the journalist role against site v0.4.0, vault co
 [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-w8hw-w9fx-j79w/) [PHP](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-ghsa-6wmf-4rv5-p3rp/) [php.net](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-net-advisory/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-tags/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-php2shell-software-list/) [php-src](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-branch-7.4-backport/) [NCSC-NL](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nl-advisories/) [Wiz on X](https://refs.php.oct.2026.newsroom.sgit.ai/sources/x-wiz-io-php2shell/) [CERT-FR](https://refs.php.oct.2026.newsroom.sgit.ai/sources/certfr-2026-ale-014/) [CVE record](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cve-cve-2026-109618/) [oss-security](https://refs.php.oct.2026.newsroom.sgit.ai/sources/openwall-oss-security-109619-thread/) [php/php-src, read from a clone](https://refs.php.oct.2026.newsroom.sgit.ai/sources/github-php-src-fix-commit-3584a98bd/) [PHP Foundation](https://refs.php.oct.2026.newsroom.sgit.ai/sources/php-foundation-blog-security-release/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-alert-php-20261021/)
 
 ## Other articles
+- [A vendor says a campaign rooted 25 servers, two days before we saw it. What the report says, and what it leaves open](../dream-research-rooted-25-servers/index.html) correspondent, 2026-10-29
 - [How a push reaches the pages: the six repositories, the edition, and why one push still waits for another](../how-a-push-reaches-the-pages/index.html) Dev desk, 2026-10-27
 - [Someone stole the bitcoin. What that does, and does not, tell us about php2shell](../steal-my-bitcoin/index.html) correspondent, 2026-10-26
 - [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../has-anyone-been-hacked/index.html) correspondent, 2026-10-26
@@ -95,4 +96,4 @@ Source file: `content/articles/2026-10-22__journalist__why-not-patch-every-versi
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/articles/why-not-patch-every-version/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/articles/why-not-patch-every-version/index.html

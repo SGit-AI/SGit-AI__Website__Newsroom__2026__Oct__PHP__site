@@ -2,16 +2,16 @@
 
 > Research: collected from outside sources and what this site derives from them; every fact links to a saved copy of its source.
 
-The evidence behind one statement, as of 2026-10-28 17:15 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
+The evidence behind one statement, as of 2026-10-29 00:09 UTC: attempts, vendor reports, statements that no success is known, named organisations, allegations and official lists, each with its source.
 
 # No named organisation has said it was compromised through php2shell.
 
-This page holds the evidence behind one statement, as of **2026-10-28 17:15 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
+This page holds the evidence behind one statement, as of **2026-10-29 00:09 UTC**: every statement found about attacks on, or compromises of, real systems through php2shell, sorted by what kind of evidence it is, with the words of the party that made it and where its capture is held. It makes no assessment of risk. The statement's status is **reported**: A time-bounded absence, not a confirmed fact. It is true only as of the last check, and one statement from one organisation would end it. A vendor's report of unnamed victims (Dream Research, 26 October; row below) names no organisation or victim, and no victim, vendor, CISA or PHP-team statement confirms it, so it does not end the statement; it is carried as a report. It is [claim no-confirmed-compromise](../claims/index.html#no-confirmed-compromise).
 
 ## What was searched
 
 Where the statement was checked. A statement that something does not exist is only as good as the search behind it.
-675The evidence vault: sourceshead 75668aedfb6d (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
+681The evidence vault: sourceshead 6c07e190d81e (vault nnd3i8iw, the evidence vault since 27 October); the site is built from all of it913The source watch: pages watched597 publishers, head 20afaa62129d (the old watch, oq9gflln; the watch continues in pack vault 7r83qic5)339Read in their own language: non-English pages28 languages; 568 new items with verbatim quotes; as counted on 22 October3,444Discovery feeds: news items scannedGoogle News and Bing News, 85 editions, from 1,621 publishers; as counted on 22 October295Named sites probed: sitesevery site somebody named as taken offline, probed every 30 minutes; as counted on 22 October
 
 ## From attempts to a named compromise
 
@@ -19,7 +19,7 @@ Not to scale. Each layer is a different kind of statement, and a statement in on
 
 ## The evidence, by kind
 
-65 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
+66 statements on this page, by what kind of evidence they are. A count of statements, not of events: one party can report millions of attempts in one statement.
 
 Each dot is one statement on this page, placed at the time the source gives (noon where it gives only a date). Hover a dot for who said it.
 
@@ -45,7 +45,7 @@ This kind of statement can show that someone tried. It cannot show that anyone s
 | 2026-10-26 | **Delft Threat Intelligence Lab, as Suzu Labs' Denis Calderone gives it to SC Media** | Honeypots and a network telescope recorded more than 50,000 PHP2Shell exploitation requests from more than 600 addresses in 70 countries as of the morning of 26 October; the busiest hour so far brought more than 5,100 requests; 171 of the addresses had moved past probing to sending code or droppers. | [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) |
 | 2026-10-27 | **Zscaler ThreatLabz (via Fortune India, 27 October; Zscaler's own post is not in the vault)** | Its global decoy network observed 1,156 exploitation attempts from 156 unique attacker IP addresses targeting 70 organisations in the first 48 hours after the 21 October disclosure, including scanning and possible exploitation with several tools and code-execution payloads. | [Fortune India](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fortuneindia-technology-php2shell-shows-how-ai-is-shr/) |
 
-## Exploitation reported, no victim named (7)
+## Exploitation reported, no victim named (8)
 
 This kind of statement can show that a party says exploitation happened. It cannot show who was hit, or whether it was confirmed by the victim.
 
@@ -57,6 +57,7 @@ This kind of statement can show that a party says exploitation happened. It cann
 | 2026-10-21 07:34 UTC | **Patchstack (via Recorded Future)** | "Received reports of multiple active exploitation incidents from hosting partners." No victim named. | [Recorded Future](https://refs.php.oct.2026.newsroom.sgit.ai/sources/recordedfuture-php2shell/) |
 | 2026-10-21 20:15 UTC | **NCSC New Zealand** | "The NCSC is aware of reports of active exploitation." Whose reports is not said. | [NCSC New Zealand](https://refs.php.oct.2026.newsroom.sgit.ai/sources/ncsc-nz-alert-php/) |
 | 2026-10-26 | **Adel Karimi (Perplexity), with honeypots; Marcus Hutchins (Expel) on it (via ENTER.CO, citing BleepingComputer)** | Honeypots recorded a successful remote code execution against Apache with mod_php and PHP 8.4.26: the attacker obtained server memory and then ran a command. Hutchins called it the best-quality confirmation of exploitation he had seen. | [ENTER.CO](https://refs.php.oct.2026.newsroom.sgit.ai/sources/enter-chips-bits-fallas-criticas-php2shell-exp/) [europe-infos](https://refs.php.oct.2026.newsroom.sgit.ai/sources/europe-infos-actualites-11979-php2shell-decryptage-d/) [SC Media](https://refs.php.oct.2026.newsroom.sgit.ai/sources/scworld-news-php2shell-exploitation-confirmed-bu/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-hacker-news-cisa-confirms-php2shell-exploitation/) |
+| 2026-10-26 | **Dream Research (dreamgroup.com, a security vendor that sells the tooling it says it used), in its post of 26 October; repeated on 28 October by The Hacker News, The Next Web and CyPro (which credits SecurityWeek)** | Dream says a campaign chaining CVE-2026-109618 and CVE-2026-109619 with a Linux kernel flaw (CVE-2026-46300) rooted 25 servers in the United States, Japan, Taiwan and South Korea: 24 firewalls of a large vendor it does not name, plus one internal firewall-management server, with three servers in one US government-affiliated environment. It says it found the artifacts on 25 October, notified the vendor, and cannot tell whether later steps (a password spray, backdoor accounts, signing-key extraction) worked. It names no actor and gives Chinese-nexus indicators only. The Next Web: "TNW has not independently verified Dream's findings." CyPro: other sources "do not independently verify Dream's specific victim details"; it also says SecurityWeek reported two servers at the organisation where Dream says three, a discrepancy it calls unresolved. | [Dream Research](https://refs.php.oct.2026.newsroom.sgit.ai/sources/dreamgroup-chained-php2shell-roots-25-servers/) [THN](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-hacker-news-thehackernews-php2shell-roots-25-s/) [The Next Web](https://refs.php.oct.2026.newsroom.sgit.ai/sources/the-next-web-php2shell-cisa-kev-dream-25-servers/) [CyPro](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cypro-php2shell-exploit-roots-firewalls/) [CISA](https://refs.php.oct.2026.newsroom.sgit.ai/sources/cisa-kev-json/) |
 | 2026-10-27 | **CNET France, 27 October (the developer of StealMyBitcoin.com; Sixactualités 26 October gives 19.28 hours)** | A developer left a PHP server deliberately unpatched at StealMyBitcoin.com with more than 2,000 dollars in bitcoin as the prize; about 20 hours after the challenge launched a participant exploited the flaws and took it. | [fr.cnet](https://refs.php.oct.2026.newsroom.sgit.ai/sources/fr-cnet-cybersecurite-6121-php2shell-une-premier/) [Sixactualités](https://refs.php.oct.2026.newsroom.sgit.ai/sources/sixactualites-securite-stealmybitcoin-compromis-en-19/) |
 
 ## No successful exploitation known (30)
@@ -136,6 +137,7 @@ This kind of statement can show what the official lists record. It cannot show a
 - CISA naming a victim, in its catalog, its updated PHP alert or elsewhere. Its KEV listing of 26 October (both CVEs) holds evidence of exploitation and names none, so it did not change this statement.
 - A regulator's breach notice (for example under GDPR or Australia's Notifiable Data Breaches scheme) naming the flaw.
 - A security vendor naming a victim, with the victim's consent.
+- A named victim, the firewall's vendor, CISA or the US government-affiliated organisation confirming Dream Research's account of 26 October. Dream names no victim and no vendor, and The Next Web says it has not independently verified the findings: the report did not change this statement.
 
 The source watch checks the official lists and the named organisations' pages every 30 minutes; this page is rebuilt from data/compromise.json when the evidence changes.
 
@@ -149,4 +151,4 @@ Every row is in [data/compromise.json](https://data.php.oct.2026.newsroom.sgit.a
 
 
 ---
-site v0.22.52 · data as of 2026-10-28T17:15Z · vault commit 75668aedfb6d · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
+site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/compromise/index.html
