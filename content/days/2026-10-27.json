@@ -1,19 +1,23 @@
 {
  "date": "2026-10-27",
  "n": 7,
- "label": "Today",
- "closed": false,
- "closed_by": null,
- "coverage": null,
+ "label": "No victim named",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 20,
  "headline": {
-  "_": "So far today: the newsroom carries CISA's listing through every page that said \"not exploited\", and keeps \"no confirmed break-in\" as its own line.",
-  "exec": "Nothing new since last night's listing. The deadline to ask your team: 29 October.",
-  "journalist": "Our pages that said \"not on CISA's list\" are corrected, each with the date it changed; \"Has anyone been hacked?\" gets a dated update."
+  "_": "CISA's listing runs through every page. A honeypot shows the flaws work; no organisation says it was breached.",
+  "exec": "Nothing new for you. Still no organisation says it was hit. The deadline to ask your team: 29 October.",
+  "general": "Nothing changes for you today. Websites that were patched stay safe; no company has said it was broken into.",
+  "security": "A researcher's honeypot (PHP 8.4.26, unpatched) was taken over: a decoy, not a victim. Unit 42's attack claim withdrawn. A fourth incident, Square Enix's, joins the open list; none is tied to php2shell.",
+  "engineer": "Nothing new to install. The honeypot ran an unpatched 8.4.26: confirm your build is the fixed one, after the restart.",
+  "journalist": "\"Exploited\" (CISA) is not \"hacked\". Two vendor claims of successful attacks are now withdrawn (Sophos, Unit 42); the honeypot is a lab. Four incidents stay open, none tied to php2shell.",
+  "researcher": "645 sources by 19:13 UTC. Compromise ledger: the honeypot, Unit 42's retraction, Zscaler's decoy counts, CERT.LV's no-success line; four open candidates, none tied to php2shell."
  },
  "state": {
   "fix": "Yes",
   "exploited": "2 of 2, from 26 Oct",
-  "hacked": "None (3 candidates)",
+  "hacked": "None (4 candidates)",
   "offline": "51 listed, 50 back",
   "unpatched": "Italy: 81.9% of services"
  },
@@ -28,6 +32,19 @@
     "everything"
    ],
    "src": "the newsroom"
+  },
+  {
+   "t": "02:28",
+   "tag": "New",
+   "text": "A researcher's honeypot is taken over through the flaws: a decoy running an unpatched PHP 8.4.26, in a setup built to be easy; not an organisation, not a victim. The newsroom had it at 08:41 UTC, and later read it as 35 working shells in a favourable setup.",
+   "roles": [
+    "security",
+    "engineer",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Codebook (02:28 UTC), WinFuture (07:46); the journalist"
   },
   {
    "t": "03:31",
@@ -55,6 +72,47 @@
     "everything"
    ],
    "src": "the correspondent (article update)"
+  },
+  {
+   "t": "09:43",
+   "tag": "Changed",
+   "text": "Palo Alto Networks' Unit 42 retracted on 25 October its claim that an attack on a European government agency came through PHP2Shell: it could not confirm the way in. The newsroom had it at 11:12 UTC.",
+   "before": "1 vendor claim of success withdrawn (Sophos)",
+   "after": "2 withdrawn (Sophos, Unit 42)",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "SC Media (26 October), via the journalist"
+  },
+  {
+   "t": "14:41",
+   "tag": "Still",
+   "text": "Attempts, not break-ins: Zscaler's decoys saw 1,156 attempts from 156 addresses in the first 48 hours; CERT.LV says no successful attack has been recorded in Latvia.",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "Fortune India (Zscaler, second-hand); Jauns.lv, LETA (CERT.LV); the journalist"
+  },
+  {
+   "t": "19:13",
+   "tag": "Changed",
+   "text": "Square Enix joins the open candidates: TechGaming.it, citing Kotaku, says it confirmed unauthorised access, without saying how. No source ties it to php2shell.",
+   "before": "3 open, 1 ruled out",
+   "after": "4 open, 1 ruled out",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "TechGaming.it, Bitpage; the journalist (state v5)"
   }
  ]
 }

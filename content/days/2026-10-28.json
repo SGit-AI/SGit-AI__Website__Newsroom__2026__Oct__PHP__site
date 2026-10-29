@@ -1,0 +1,63 @@
+{
+ "date": "2026-10-28",
+ "n": 8,
+ "label": "Quiet",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 8,
+ "headline": {
+  "_": "A quiet day. No new fact moves the story; Romania notified 17,416 public bodies.",
+  "exec": "Nothing new for you. Still no organisation says it was hit; the fix is out and CISA's deadline is tomorrow, 29 October.",
+  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
+  "security": "Nothing moved the measures. Two Bangladesh shutdowns joined the precaution list; Romania's DNSC notified 17,416 public bodies. No organisation is tied to php2shell.",
+  "engineer": "Nothing new to install. Exploited stays official (CISA); confirm the fixed version is what is running.",
+  "journalist": "Still no organisation confirmed hacked, as of 17:15 UTC. Coverage today is CISA's listing reported in new languages, not new facts.",
+  "researcher": "675 sources by 17:15 UTC; 8 published today. No new compromise row; two offline rows (Bangladesh)."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (4 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": [
+  {
+   "t": "08:40",
+   "tag": "New",
+   "text": "Two precautionary shutdowns join the offline list: Bangladesh Bank and three banks' websites, and the land ministry's digital land services. The events were 22 to 24 October; the newsroom had them on 28 October. Precautions, not evidence of an attack.",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "The Daily Star; the journalist (08:40 wake)"
+  },
+  {
+   "t": "13:44",
+   "tag": "New",
+   "text": "Romania's national cybersecurity directorate, DNSC, is reported to have notified 17,416 public-sector bodies about the flaws: a count of bodies told, not of bodies vulnerable or hit. The page lists hospitals, transport, energy, utilities and local administration; the journalist checked its capture at 13:44 UTC.",
+   "roles": [
+    "exec",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "Știrile PRO TV (citing News.ro and DNSC), checked by the journalist"
+  },
+  {
+   "t": "17:15",
+   "tag": "Still",
+   "text": "No organisation is named as compromised through php2shell. The journalist re-read every new capture on each wake and nothing changed that.",
+   "roles": [
+    "exec",
+    "general",
+    "security",
+    "journalist",
+    "everything"
+   ],
+   "src": "the journalist (state as of 17:15 UTC)"
+  }
+ ]
+}

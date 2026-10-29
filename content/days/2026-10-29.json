@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-29",
+ "n": 9,
+ "label": "Today",
+ "closed": false,
+ "closed_by": null,
+ "coverage": null,
+ "headline": {
+  "_": "So far today: nothing new.",
+  "exec": "Nothing new yet today. CISA's deadline for US agencies is today.",
+  "general": "Nothing new yet today.",
+  "security": "Nothing new yet today.",
+  "engineer": "Nothing new yet today.",
+  "journalist": "Nothing new yet today. Still no organisation confirmed hacked.",
+  "researcher": "Nothing new yet today."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (4 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": []
+}
