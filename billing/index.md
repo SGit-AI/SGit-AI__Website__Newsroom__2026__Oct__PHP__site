@@ -61,14 +61,14 @@ A model of what this story cost to assemble, in units counted from the vault and
 
 | Unit | Count | Assumed price | £ | Why that unit |
 |---|---|---|---|---|
-| sources captured | 681 | 5p | 34.05 | one headless-browser capture with six files and their hashes |
-| captures (dated page states) | 747 | 5p | 37.35 | the same page captured again is a new unit, because the series is the record |
-| source notes written | 640 | 20p | 128.00 | an agent reading a page and writing what it says, who says it and what is odd |
+| sources captured | 703 | 5p | 35.15 | one headless-browser capture with six files and their hashes |
+| captures (dated page states) | 769 | 5p | 38.45 | the same page captured again is a new unit, because the series is the record |
+| source notes written | 662 | 20p | 132.40 | an agent reading a page and writing what it says, who says it and what is odd |
 | claims traced | 70 | 10p | 7.00 | one claim, its status and its sources |
 | timeline events dated | 69 | 5p | 3.45 | one event, its time, its source and whether the time was stated or converted |
 | pages built | 147 | 0p | 0.00 | the build is deterministic and costs nothing to run again |
 
-Total at those assumptions: **£209.85**. The counts are from the data files named; the prices are the site's assumptions and a reader is invited to substitute their own. What the model leaves out is the editor's time and the model inference behind each agent run, neither of which is counted anywhere yet; the honest column on this is *not measured*.
+Total at those assumptions: **£216.45**. The counts are from the data files named; the prices are the site's assumptions and a reader is invited to substitute their own. What the model leaves out is the editor's time and the model inference behind each agent run, neither of which is counted anywhere yet; the honest column on this is *not measured*.
 
 ## The prices, as data
 
@@ -76,4 +76,4 @@ Total at those assumptions: **£209.85**. The counts are from the data files nam
 
 
 ---
-site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/billing/index.html
+site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/billing/index.html

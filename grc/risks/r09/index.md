@@ -64,4 +64,4 @@ On this site: [If you run PHP: the steps, in order, with their sources](../../..
 
 
 ---
-site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r09/index.html
+site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r09/index.html

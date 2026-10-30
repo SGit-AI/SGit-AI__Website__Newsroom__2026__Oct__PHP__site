@@ -8,7 +8,7 @@ The php2shell risk graph compared between any two releases: nodes and edges adde
 
 # What changed in the risk graph, release by release
 
-The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 192 releases carry a graph; 12 of them changed it. Pick any two below; the default is the latest change.
+The graph is rebuilt at every release. This page compares two releases of it: the nodes and edges added and removed, the edges whose basis changed (from inferred to confirmed, say), and the gaps that opened or closed. 193 releases carry a graph; 12 of them changed it. Pick any two below; the default is the latest change.
 
 ## v0.22.52 → v0.22.53
 
@@ -39,10 +39,10 @@ The graph is rebuilt at every release. This page compares two releases of it: th
 ### Edges added: 4
 
 4 *cites*
-- As of 00:09 UTC on 29 October, no named organisation has sai *cites* CyPro source
-- As of 00:09 UTC on 29 October, no named organisation has sai *cites* Dream Research source
-- As of 00:09 UTC on 29 October, no named organisation has sai *cites* The Hacker News source
-- As of 00:09 UTC on 29 October, no named organisation has sai *cites* The Next Web source
+- As of 17:13 UTC on 29 October, no named organisation has sai *cites* CyPro source
+- As of 17:13 UTC on 29 October, no named organisation has sai *cites* Dream Research source
+- As of 17:13 UTC on 29 October, no named organisation has sai *cites* The Hacker News source
+- As of 17:13 UTC on 29 October, no named organisation has sai *cites* The Next Web source
 
 ## Every release that changed the graph
 
@@ -65,4 +65,4 @@ How it is made: every release commits the graph the build wrote ([data/grc-graph
 
 
 ---
-site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html
+site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/grc/changes/index.html

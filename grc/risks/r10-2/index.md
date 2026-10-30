@@ -58,4 +58,4 @@ On this site: [The vaults behind this site](https://refs.php.oct.2026.newsroom.s
 
 
 ---
-site v0.22.53 · data as of 2026-10-29T00:09Z · vault commit 6c07e190d81e · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-2/index.html
+site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/grc/risks/r10-2/index.html

@@ -1,7 +1,7 @@
 {
  "from": {
-  "commit": "158617cf22e481c5a5a7f953f1b1156be526c125",
-  "site_version": "0.22.53"
+  "commit": "7f9f9d1ea478efd8721cd09e4d56d6dc6b314223",
+  "site_version": "0.22.54"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
@@ -15,8 +15,6 @@
   "content/reviews/": "admin/content/reviews/"
  },
  "kept": [
-  "content/articles/2026-10-26__correspondent__has-anyone-been-hacked.md",
-  "content/articles/2026-10-29__correspondent__dream-research-rooted-25-servers.md",
   "content/data/plain.json",
   "content/data/questions.json"
  ],
@@ -37,8 +35,8 @@
   "content/data/billing.json": "d6d3d53ff9f908327c2c5b543fa6e926f3915ae978bce55cf57cd5b530256ae1",
   "content/data/glossary.json": "7a7e47969f7a8e1c75f38e33a9a483220c5c7b42d86072299a4ca732ecf0bfc6",
   "content/data/interview.json": "7de370f93232feef92ce771a3c49813d3d37e1ff04c7f90d91b95d49e965b081",
-  "content/data/plain.json": "27c9f695e37122f0c9bbee6ebc7ba53379a33f93c9278599b055f32e1459419e",
-  "content/data/questions.json": "be4b78c0ff64a56a509753621a26a0e0c269087ad5fd5116da932cb4cfba1684",
+  "content/data/plain.json": "e936f8585322be2191a0f81f887776b3871531328786a550bdaf995c4aade470",
+  "content/data/questions.json": "8285591d7fa50758d5a56189582ba17fd5908e3ee8d782ff6459a276feb72698",
   "content/data/seo.json": "eeb9707fd7504b7ea9ed1739113937f3b9d8e7024f9cca8694025dbd386bdab6",
   "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
   "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"
