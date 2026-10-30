@@ -1,18 +1,18 @@
 {
  "date": "2026-10-29",
  "n": 9,
- "label": "Today",
- "closed": false,
- "closed_by": null,
- "coverage": null,
+ "label": "Unverified",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 3,
  "headline": {
-  "_": "So far today: a vendor reports 25 servers rooted, with no victim named and no evidence shown. Still no organisation confirms a compromise.",
-  "exec": "Still no organisation says it was hit. One vendor reports 25 servers rooted, unverified. CISA's deadline for US agencies is today.",
-  "general": "Nothing changes for you. If someone runs your website, ask them if it is updated.",
-  "security": "Dream Research reports 25 servers rooted (three in an unnamed US government-affiliated environment), no victim, no evidence: a report, not a confirmed compromise. KEV deadline today.",
+  "_": "One vendor reports 25 servers rooted, with no victim named and no evidence shown. Still no organisation confirms a compromise.",
+  "exec": "Nothing new that needs a decision. Still no organisation says it was hit. CISA's deadline for US agencies was today.",
+  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
+  "security": "Dream Research's 25 rooted servers (three in an unnamed US government-affiliated environment): a report, no victim, no evidence, not counted as confirmed. KEV deadline reached.",
   "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
-  "journalist": "A vendor's report of 25 rooted servers names no victim and shows no evidence; one outlet says it is unverified. Keep it apart from \"confirmed hacked\".",
-  "researcher": "685 sources by 07:14 UTC. One vendor report (Dream Research) added to the compromise ledger, not counted as confirmed."
+  "journalist": "A vendor's report is not a victim: keep Dream Research's 25 servers apart from \"confirmed hacked\". Still no organisation confirmed, as of 17:13 UTC.",
+  "researcher": "703 sources by the 18:12 UTC export; 3 published today. One report (Dream Research) on the compromise ledger, unconfirmed; the compromise line's as-of moved to 17:13 UTC."
  },
  "state": {
   "fix": "Yes",
