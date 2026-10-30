@@ -6,13 +6,13 @@
  "closed_by": null,
  "coverage": null,
  "headline": {
-  "_": "So far today: nothing new.",
+  "_": "So far today: a relayed claim that Unit 42 verified Dream Research's 25 rooted servers, with no primary statement captured. Still no organisation confirms a compromise.",
   "exec": "Nothing new yet today. Still no organisation says it was hit.",
   "general": "Nothing new yet today.",
-  "security": "Nothing new yet today.",
+  "security": "Innovatopia relays that Unit 42 verified Dream's 25 rooted servers and names PAN-OS: no Unit 42 or Palo Alto primary is in the evidence, so it stays unconfirmed. Patch PAN-OS per the vendor's advisory.",
   "engineer": "Nothing new yet today.",
-  "journalist": "Nothing new yet today. Still no organisation confirmed hacked.",
-  "researcher": "Nothing new yet today."
+  "journalist": "A Japanese outlet's relay of a Unit 42 verification is not a Unit 42 statement. Hold Dream's report as reported, not confirmed, until a primary is captured.",
+  "researcher": "712 sources by 14:58 UTC; 3 published today. Open: capture Unit 42's brief of 29 October and any Palo Alto advisory update."
  },
  "state": {
   "fix": "Yes",
@@ -21,5 +21,18 @@
   "offline": "51 listed, 50 back",
   "unpatched": "Italy: 81.9% of services"
  },
- "items": []
+ "items": [
+  {
+   "t": "14:26",
+   "tag": "Still",
+   "text": "A Japanese outlet (Innovatopia) relays that Palo Alto's Unit 42 independently verified Dream Research's report of 25 rooted servers and that the firewall involved was PAN-OS. No Unit 42 or Palo Alto statement is in the evidence, so the newsroom keeps the report as reported, not confirmed, and does not name the vendor. Still no named organisation says it was compromised.",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Innovatopia (30 October), read by the correspondent at 14:26 UTC; the journalist"
+  }
+ ]
 }
