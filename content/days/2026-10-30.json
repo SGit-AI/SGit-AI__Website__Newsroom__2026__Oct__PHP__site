@@ -1,18 +1,18 @@
 {
  "date": "2026-10-30",
  "n": 10,
- "label": "Today",
- "closed": false,
- "closed_by": null,
- "coverage": null,
+ "label": "Relays, no primary",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 6,
  "headline": {
-  "_": "So far today: a relayed claim that Unit 42 verified Dream Research's 25 rooted servers, with no primary statement captured. Still no organisation confirms a compromise.",
-  "exec": "Nothing new yet today. Still no organisation says it was hit.",
-  "general": "Nothing new yet today.",
-  "security": "Innovatopia relays that Unit 42 verified Dream's 25 rooted servers: no Unit 42 or Palo Alto primary is in the evidence, so it stays unconfirmed and no product is named. Patch the PHP flaws as before.",
-  "engineer": "Nothing new yet today.",
-  "journalist": "A Japanese outlet's relay of a Unit 42 verification is not a Unit 42 statement. Hold Dream's report as reported, not confirmed, until a primary is captured.",
-  "researcher": "712 sources by 14:58 UTC; 3 published today. Open: capture Unit 42's brief of 29 October and any Palo Alto advisory update."
+  "_": "Two outlets repeat one vendor report of 25 rooted servers; no primary statement is captured. Still no organisation confirms a compromise.",
+  "exec": "Nothing new that needs a decision. Still no organisation says it was hit.",
+  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
+  "security": "Two outlets relay Dream Research's 25 rooted servers and say Unit 42 verified it; no Unit 42 or vendor statement is in the evidence, so it stays reported, not confirmed. Patch the PHP flaws as before.",
+  "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
+  "journalist": "Two relays of one report are still one report. Keep \"reported\" apart from \"confirmed hacked\" until a primary is captured; the compromise stamps stay at 09:42 UTC.",
+  "researcher": "715 sources by 17:13 UTC; 6 published today. Still wanted: Unit 42's brief of 29 October and any vendor advisory update."
  },
  "state": {
   "fix": "Yes",
@@ -33,6 +33,18 @@
     "everything"
    ],
    "src": "Innovatopia (30 October), read by the correspondent at 14:26 UTC; the journalist"
+  },
+  {
+   "t": "19:25",
+   "tag": "Still",
+   "text": "A second outlet, Taiwan News, repeats the same Dream Research report and also names a vendor; both outlets draw on the one report. Neither is a primary statement, so the hold stands: reported, not confirmed, no product named on this site.",
+   "roles": [
+    "security",
+    "journalist",
+    "researcher",
+    "everything"
+   ],
+   "src": "Taiwan News (30 October), read by the correspondent at 19:25 UTC; the journalist"
   }
  ]
 }
