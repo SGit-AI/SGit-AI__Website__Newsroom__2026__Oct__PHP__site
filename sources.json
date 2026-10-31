@@ -1,7 +1,7 @@
 {
  "from": {
-  "commit": "7f9f9d1ea478efd8721cd09e4d56d6dc6b314223",
-  "site_version": "0.22.54"
+  "commit": "55e770c4c2c747cf132875529aee640ef90adc8f",
+  "site_version": "0.22.55"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
@@ -35,8 +35,8 @@
   "content/data/billing.json": "d6d3d53ff9f908327c2c5b543fa6e926f3915ae978bce55cf57cd5b530256ae1",
   "content/data/glossary.json": "7a7e47969f7a8e1c75f38e33a9a483220c5c7b42d86072299a4ca732ecf0bfc6",
   "content/data/interview.json": "7de370f93232feef92ce771a3c49813d3d37e1ff04c7f90d91b95d49e965b081",
-  "content/data/plain.json": "e936f8585322be2191a0f81f887776b3871531328786a550bdaf995c4aade470",
-  "content/data/questions.json": "8285591d7fa50758d5a56189582ba17fd5908e3ee8d782ff6459a276feb72698",
+  "content/data/plain.json": "e3d30ff357db0e31f65eef9b3b5b91060f28dab9c3e5e70f19dee4fda8772f22",
+  "content/data/questions.json": "9907f4eb3e4cdc6f4db941d2357b5a938ff161444092aad1acbd21bc9590f260",
   "content/data/seo.json": "eeb9707fd7504b7ea9ed1739113937f3b9d8e7024f9cca8694025dbd386bdab6",
   "content/external/2026-10-22__perplexity__php2shell-intelligence-notes.md": "04b8fcb70a5c83a1fa9cd6a178d1bf81a70d82e3d0a1020cc4548b3bcc70f7ad",
   "content/reviews/2026-10-22__coverage-review.md": "b39745d77a102a6845160c3695d2b1c61fbc7ed56b9e5059a0f491c390fcbf7c"

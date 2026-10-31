@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 29 October 2026, 17:13 UTC
+Operations · data as of 30 October 2026, 17:13 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -37,14 +37,14 @@ Alert on a PHP worker spawning a shell or a downloader. A clean access log prove
 
 ## What changed, newest first
 Release by release
-      questionv0.22.54 · 2026-10-30
+      questionv0.22.55 · 2026-10-31
 ### [Has anyone actually been hacked?](../questions/been-hacked/index.html)
-frontv0.22.54 · 2026-10-30
+frontv0.22.55 · 2026-10-31
 ### [Front page: right now](../index.html#now)
-frontv0.22.54 · 2026-10-30
+frontv0.22.55 · 2026-10-31
 ### [Front page: the core facts](../index.html#facts)
-factreportedv0.22.54 · 2026-10-30
-### [As of 17:13 UTC on 29 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
+factreportedv0.22.55 · 2026-10-31
+### [As of 09:42 UTC on 30 October, no named organisation has said it was compromised through php2shell. That the flaws are exploited is now CISA's position: on 26 October it added both CVEs to its Known E](https://refs.php.oct.2026.newsroom.sgit.ai/facts/no-confirmed-compromise/)
 CISACISAHuntressAmazonstoryv0.22.53 · 2026-10-29
 ### [Has anyone actually been hacked through php2shell? What 525 sources say, five days on](../articles/has-anyone-been-hacked/index.html)
 storyv0.22.53 · 2026-10-29
@@ -96,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.55 · data as of 2026-10-30T17:13Z · vault commit 2f80607e87ad · https://php.oct.2026.newsroom.sgit.ai/ops/index.html

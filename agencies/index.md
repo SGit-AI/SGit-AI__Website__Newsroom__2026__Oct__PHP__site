@@ -142,4 +142,4 @@ Each agency's full text is in its capture; the sentences here are the ones the c
 
 
 ---
-site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/agencies/index.html
+site v0.22.55 · data as of 2026-10-30T17:13Z · vault commit 2f80607e87ad · https://php.oct.2026.newsroom.sgit.ai/agencies/index.html

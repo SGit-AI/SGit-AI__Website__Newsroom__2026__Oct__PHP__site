@@ -51,7 +51,7 @@ I want to understand it · ******Plain English
 
 The answer in thirty seconds
 
-Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. On 26 October the US cyber agency CISA listed both flaws as known to be exploited, so update now if you run a site. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
+Two serious holes were found in PHP, software that runs on the servers behind a large share of websites. They were fixed on 21 October 2026. Your phone and laptop are not the target: websites are, and it is the job of whoever runs them to update. Some sites were taken offline as a precaution. On 26 October the US cyber agency CISA listed both flaws as known to be exploited, so update now if you run a site. As of 09:42 UTC on 30 October, the latest capture in the evidence vault, no named organisation has said it was compromised through php2shell.
 
 #### Reading path
 - [Your briefing](../briefings/everyone/index.html) 4 min
@@ -127,7 +127,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. On 26 October CISA added both flaws to its Known Exploited Vulnerabilities catalog: it holds evidence of exploitation, and names no victim. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread and a researcher's decoy servers were broken into. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
+A critical flaw in software that runs many websites, fixed on 21 October. Every agency says update first; some say take systems offline if you cannot. On 26 October CISA added both flaws to its Known Exploited Vulnerabilities catalog: it holds evidence of exploitation, and names no victim. As of 09:42 UTC on 30 October, the latest capture in the evidence vault, no named organisation has said it was broken into through this flaw, though attempts are widespread and a researcher's decoy servers were broken into. Your questions are: do we know every system running PHP, are they updated and restarted, and who can pull a system offline and how fast.
 
 #### Reading path
 - [Your briefing](../briefings/board/index.html) 4 min
@@ -203,7 +203,7 @@ I make the decisions · ******Plain English
 
 The answer in thirty seconds
 
-The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. CISA listed both flaws as known exploited on 26 October, which raises the bar for 'we had not patched'. As of 09:43 UTC on 27 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
+The documented cost so far is precaution, not breach: hours to a day of downtime for organisations that pulled sites, and engineering time to update. CISA listed both flaws as known exploited on 26 October, which raises the bar for 'we had not patched'. As of 09:42 UTC on 30 October, the latest capture in the evidence vault, no named organisation has said it was compromised through this flaw. Ask your broker now, in writing, whether a precautionary shutdown with no breach is covered. Do not use 70% of the Internet in any forecast.
 
 #### Reading path
 - [Your briefing](../briefings/cfo/index.html) 4 min
@@ -640,4 +640,4 @@ The first version of this site opened with a sentence that was accurate and unre
 
 
 ---
-site v0.22.54 · data as of 2026-10-29T17:13Z · vault commit cd9375f1aefd · https://php.oct.2026.newsroom.sgit.ai/start/index.html
+site v0.22.55 · data as of 2026-10-30T17:13Z · vault commit 2f80607e87ad · https://php.oct.2026.newsroom.sgit.ai/start/index.html
