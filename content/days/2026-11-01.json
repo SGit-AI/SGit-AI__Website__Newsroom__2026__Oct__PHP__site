@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-01",
+ "n": 12,
+ "label": "Sunday",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 0,
+ "headline": {
+  "_": "A quiet day. Nothing new moves the story; still no organisation confirms a compromise.",
+  "exec": "Nothing new for you. Still no organisation says it was hit; the fix is out.",
+  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
+  "security": "Nothing moved the measures. Dream Research's report stays reported, not confirmed: no primary statement is captured.",
+  "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
+  "journalist": "Nothing new. The compromise stamps stay at 09:42 UTC on 30 October; no primary on Dream's report.",
+  "researcher": "No source published on the day; the pipeline's wakes did not run on 1 November (the correspondent's catch-up note). Nothing added to the ledger."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (4 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": []
+}
