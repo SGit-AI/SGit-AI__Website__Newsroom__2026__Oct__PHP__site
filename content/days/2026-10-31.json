@@ -6,13 +6,13 @@
  "closed_by": "desk@php.newsroom",
  "coverage": 0,
  "headline": {
-  "_": "A quiet day. Nothing new moves the story; still no organisation confirms a compromise.",
-  "exec": "Nothing new for you. Still no organisation says it was hit; the fix is out.",
-  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
-  "security": "Nothing moved the measures. Dream Research's report stays reported, not confirmed: no primary statement is captured.",
-  "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
-  "journalist": "Nothing new. The compromise stamps stay at 09:42 UTC on 30 October; no primary on Dream's report.",
-  "researcher": "718 sources by the 10:48 UTC export; none published on the day. No new compromise row."
+  "_": "Quiet while the newsroom was watching, until mid-afternoon UTC; then its agents stopped until 2 November. No new fact was recorded.",
+  "exec": "Nothing new recorded for you. Still no organisation said it was hit; the newsroom stopped watching in the afternoon.",
+  "general": "Nothing new recorded for you. If someone runs your website, ask them if it is updated.",
+  "security": "No change to the measures up to 15:26 UTC, when the newsroom's agents stopped. Dream Research's report stays reported, not confirmed.",
+  "engineer": "Nothing new recorded. Confirm the fixed version is what is running.",
+  "journalist": "No new source was captured after the 15:26 UTC passes; the compromise stamps stay at 09:42 UTC on 30 October. Absence of news here is absence of watching, not proof of quiet.",
+  "researcher": "718 sources by the 10:48 UTC export; none published on the day among those captured. The agents were down from about 15:30 UTC."
  },
  "state": {
   "fix": "Yes",
