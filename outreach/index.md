@@ -275,4 +275,4 @@ The desk is `liaison@php.newsroom`; its rules, the runbook and the message it pr
 
 
 ---
-site v0.22.55 · data as of 2026-10-30T17:13Z · vault commit 2f80607e87ad · https://php.oct.2026.newsroom.sgit.ai/outreach/index.html
+site v0.22.56 · data as of 2026-10-31T09:42Z · vault commit b79970cfb056 · https://php.oct.2026.newsroom.sgit.ai/outreach/index.html

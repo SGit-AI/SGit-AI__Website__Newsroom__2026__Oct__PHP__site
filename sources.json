@@ -1,7 +1,7 @@
 {
  "from": {
-  "commit": "55e770c4c2c747cf132875529aee640ef90adc8f",
-  "site_version": "0.22.55"
+  "commit": "b07f2ba034da449203452aa6d2aeb6ad521150da",
+  "site_version": "0.22.56"
  },
  "sources": {
   "content/articles/": "admin/content/articles/",
@@ -14,10 +14,7 @@
   "content/external/": "admin/content/external/",
   "content/reviews/": "admin/content/reviews/"
  },
- "kept": [
-  "content/data/plain.json",
-  "content/data/questions.json"
- ],
+ "kept": [],
  "files": {
   "content/articles/2026-10-22__cyber__patch-at-the-speed-of-metasploit.md": "625aa902ca113ce4949dd7e2244783ffdecc36e8936a15614d1d7e7332f3813d",
   "content/articles/2026-10-22__historian__php2shell-in-perspective.md": "c9830924c28d3f16f84e0d1d0e703bf2acd0381782371d58eae8ff9877553985",
