@@ -98,14 +98,14 @@ An article a reader has seen is listed here until a collector captures it into t
 
 ### The analysis
 - [Every claim, with its status and sources](../claims/index.html): 70 claims about php2shell, each with who makes it, a status (confirmed, reported, disputed, contradicted or unverified) and the captured sources behind it.
-- [Claims waiting for review](../claims/review/index.html): 644 claims from the evidence vault that are not in the site claim table yet, each with the agent that recorded it, its sources, and the journalist's verdict or "not yet reviewed".
+- [Claims waiting for review](../claims/review/index.html): 671 claims from the evidence vault that are not in the site claim table yet, each with the agent that recorded it, its sources, and the journalist's verdict or "not yet reviewed".
 - [Fact-check: how sure we are](../factcheck/index.html):
 - [Corrections we have asked for](../outreach/index.html):
 - [The numbers: 70%, 30 million, 2.6 million, 6,000, 674](../numbers/index.html): Every scale figure in circulation about php2shell, with what it measures, who said it, whether anyone checked it, and why they differ by four orders of magnitude.
 - [What sixteen agencies actually advise](../agencies/index.html): The NSA, CISA, the UK NCSC, CERT-EU, ENISA, CERT-FR, Canada, Australia, New Zealand, the Netherlands, Italy, Switzerland, Latvia, Japan, Spain and Portugal on php2shell: who says take it offline, who says isolate, who says patch and nothing more, and who has seen exploitation.
 - [Affected systems: versions, deployments, applications, inventory](../affected/index.html): Which PHP versions and SAPIs php2shell affects, which applications had RCE demonstrated, and the NCSC-NL inventory of 674 products counted by status.
 - [Who says what: every party and its claims](https://refs.php.oct.2026.newsroom.sgit.ai/actors/): 27 parties in the php2shell story, each with the claims this site attributes to it and the sources behind them.
-- [The story as a graph: who states what, who relays it, and what it rests on](https://refs.php.oct.2026.newsroom.sgit.ai/graph/): 2265 nodes and 2408 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
+- [The story as a graph: who states what, who relays it, and what it rests on](https://refs.php.oct.2026.newsroom.sgit.ai/graph/): 2283 nodes and 2417 typed edges: every claim, number, event, signal, advice, party, source and capture on the PHP flaws story, walkable, with the independent origins of each claim.
 - [Every party on the story: who states, who relays, who publishes](https://refs.php.oct.2026.newsroom.sgit.ai/graph/parties/): 556 parties resolved from 887 spellings, with the claims each one states and passes on.
 - [Wikipedia, as a graph](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/): Each Wikipedia article this site watches, read as a fractal semantic graph: statements classed as facts, attributions and quotes, references joined to the captures this site holds, and every edit as what it changed.
 - [Wikipedia’s PHP2Shell article, as a graph](https://refs.php.oct.2026.newsroom.sgit.ai/wikipedia/php2shell/): The English Wikipedia article on PHP2Shell read as a fractal semantic graph: 40 statements classed as facts, attributions and quotes, 45 references and which are captured here, 402 revisions, and where it meets this site’s claims.
@@ -122,12 +122,12 @@ An article a reader has seen is listed here until a collector captures it into t
 - [Perplexity's notes, in full](../readings/perplexity-2026-10-22/index.html):
 
 ### The evidence
-- [Every source: 718 pages, 784 captures, 4580 hashes](https://refs.php.oct.2026.newsroom.sgit.ai/sources/): The manifest of the php2shell evidence vault: every captured source with its publisher, kind, publication time, capture times, HTTP status and the SHA-256 of every captured file.
+- [Every source: 727 pages, 793 captures, 4634 hashes](https://refs.php.oct.2026.newsroom.sgit.ai/sources/): The manifest of the php2shell evidence vault: every captured source with its publisher, kind, publication time, capture times, HTTP status and the SHA-256 of every captured file.
 - [The NCSC-NL inventory: 674 products](../affected/software.html): Every row of the NCSC-NL php2shell software inventory at commit cca173c64ec5, with its status per CVE.
 - [Evidence, derived, authored](../layers/index.html):
 - [The fact pipeline: from a web page to a reader](../pipeline/index.html): How a source becomes a fact and a fact reaches a reader on this site: found, saved, read, cited, given a status, built into versioned sections and selected per reader, with counts at every stage and the facts by status in every release.
 - [How the story changed, release by release](https://updates.php.oct.2026.newsroom.sgit.ai/versions/): Every section of the site, every reader's briefing and every fact, versioned across every release: what changed, when, and in which release.
-- [The source watch: every outside source on php2shell, watched and snapshotted](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/): The source-watch vault: 1538 pages from 1161 publishers in 62 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
+- [The source watch: every outside source on php2shell, watched and snapshotted](https://refs.php.oct.2026.newsroom.sgit.ai/vaults/source-watch/): The source-watch vault: 1556 pages from 1179 publishers in 62 countries, re-read on a schedule, a snapshot kept on every change and every snapshot a graph. What is in it, and how it is watched.
 
 ### GRC
 - [GRC: risks, owners, standards](../grc/index.html):
@@ -199,4 +199,4 @@ Answer a question with a page, not a paragraph. If no page answers it, the answe
 
 
 ---
-site v0.22.56 · data as of 2026-10-31T09:42Z · vault commit b79970cfb056 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html
+site v0.22.57 · data as of 2026-11-02T15:57Z · vault commit e4bbd16da443 · https://php.oct.2026.newsroom.sgit.ai/questions/index.html

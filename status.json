@@ -9,12 +9,12 @@
   "CVE-2026-109619"
  ],
  "status": "developing",
- "version": "0.22.56",
- "data_as_of": "2026-10-31T09:42Z",
- "vault_commit": "b79970cfb056",
+ "version": "0.22.57",
+ "data_as_of": "2026-11-02T15:57Z",
+ "vault_commit": "e4bbd16da443",
  "counts": {
-  "sources": 718,
-  "captures": 784,
+  "sources": 727,
+  "captures": 793,
   "claims": 70,
   "claims_by_status": {
    "confirmed": 20,
