@@ -15,7 +15,7 @@ Your reading path
 
     If you run PHPstepsCheck your stackPatching: who gets a fixThe two flawsExploitation signalsDetection and defenceThe agencies16Every claim70The code
 
-Operations · data as of 2 November 2026, 15:57 UTC
+Operations · data as of 3 November 2026, 12:16 UTC
 
 # What changed, what to do next, and how sure we are
 
@@ -96,4 +96,4 @@ Red: from the leak on 20 October. [The timeline](../timeline/index.html)
 
 
 ---
-site v0.22.57 · data as of 2026-11-02T15:57Z · vault commit e4bbd16da443 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
+site v0.22.58 · data as of 2026-11-03T12:16Z · vault commit a8e4e3dc5490 · https://php.oct.2026.newsroom.sgit.ai/ops/index.html
