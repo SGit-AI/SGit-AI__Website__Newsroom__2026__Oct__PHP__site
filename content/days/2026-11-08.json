@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-08",
+ "n": 19,
+ "label": "Not watched",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 0,
+ "headline": {
+  "_": "The newsroom was not watching on this day. Nothing is recorded; whatever happened is added to the day it was learned.",
+  "exec": "Nothing recorded for you, because nothing was watched.",
+  "general": "Nothing recorded for you. If someone runs your website, ask them if it is updated.",
+  "security": "No evidence was captured on this day. The measures are as at 30 October; do not read this as a quiet day.",
+  "engineer": "Nothing recorded. Confirm the fixed version is what is running.",
+  "journalist": "No captures, no reviews: a gap in the record, not a quiet day. The compromise stamps stay at 09:42 UTC on 30 October.",
+  "researcher": "No watch, no capture, no export on this day."
+ },
+ "state": {
+  "fix": "Yes",
+  "exploited": "2 of 2, from 26 Oct",
+  "hacked": "None (4 candidates)",
+  "offline": "51 listed, 50 back",
+  "unpatched": "Italy: 81.9% of services"
+ },
+ "items": []
+}
