@@ -1,18 +1,18 @@
 {
  "date": "2026-11-10",
  "n": 21,
- "label": "Today",
- "closed": false,
- "closed_by": null,
- "coverage": null,
+ "label": "Quiet",
+ "closed": true,
+ "closed_by": "desk@php.newsroom",
+ "coverage": 0,
  "headline": {
-  "_": "So far today: nothing new.",
-  "exec": "Nothing new yet today. Still no organisation says it was hit.",
-  "general": "Nothing new yet today.",
-  "security": "Nothing new yet today.",
-  "engineer": "Nothing new yet today.",
-  "journalist": "Nothing new yet today. Still no organisation confirmed hacked.",
-  "researcher": "Nothing new yet today."
+  "_": "A quiet day. The journalist's passes found nothing new; the rest of the newsroom is stopped. Still no organisation confirms a compromise.",
+  "exec": "Nothing new for you. Still no organisation says it was hit; the fix is out.",
+  "general": "Nothing new for you. If someone runs your website, ask them if it is updated.",
+  "security": "Nothing moved the measures. Dream Research's report stays reported, not confirmed; nothing is captured because the researcher is stopped.",
+  "engineer": "Nothing new to install. Confirm the fixed version is what is running.",
+  "journalist": "Five passes, nothing new; the compromise stamps stay at 09:42 UTC on 30 October.",
+  "researcher": "No capture on the day: the researcher and curator are stopped."
  },
  "state": {
   "fix": "Yes",
